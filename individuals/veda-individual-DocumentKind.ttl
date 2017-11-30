@@ -1768,3 +1768,10 @@ d:ze6ghob5hg98m05rk7hs7ryb
   rdfs:label "Ведомость объемов работ"^^xsd:string;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
+d:hlm1q1uw5hm0sj5gu5llxqma
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Акт несоответствия"^^xsd:string;
+  rdfs:label "Акт несоответствия"^^xsd:string;
+  v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
+.
