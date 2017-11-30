@@ -13,8 +13,8 @@
   v-s:loadPriority 10 ;
 .
 
-# Для автоматической раскраски статусов в шаблонах можно использовать следующие значения свойства
-# v-s:tag = default | primary | success | info | warning | danger
+# Для автоматической раскраски статусов в шаблонах можно использовать следующие значения свойства v-s:tag
+# default = серый | primary = синий | success = зеленый | info = голубой | warning = оранжевый | danger = красный
 
 v-s:StatusDraft
   rdf:type v-s:Status ;
