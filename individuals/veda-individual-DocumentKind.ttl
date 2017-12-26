@@ -1154,6 +1154,20 @@ d:a68iimapjlsr0m7d7uoernuww
   rdfs:label "Справка о премировании"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:a1jg010jy473r5k9t8y2zx51
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Приложение"^^xsd:string;
+  rdfs:label "Приложение"^^xsd:string;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
+d:fl4fzamgqfnhgu8a2xnljiii
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "План производства работ"^^xsd:string;
+  rdfs:label "План производства работ"^^xsd:string;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
 #-----------------------------------------------------
 d:c3b38c81e1594593932b9872a3257948
   a v-s:DocumentKind;

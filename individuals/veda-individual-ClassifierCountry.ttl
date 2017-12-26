@@ -846,7 +846,16 @@ d:Country_MNE
   v-s:description "Черногория"@ru ;
   v-s:registrationNumber "499" ;
 .
-
+d:Country_NLD
+  a v-s:ClassifierCountry;
+  v-s:title "NLD" ;
+  v-s:shortLabel "NL" ;
+  rdfs:label "Netherlands"@en ;
+  rdfs:label "Нидерланды"@ru ;
+  v-s:description "Kingdom of the Netherlands"@en ;
+  v-s:description "Королевство Нидерландов"@ru ;
+  v-s:registrationNumber "528" ;
+.
 d:Country_NZL
   a v-s:ClassifierCountry;
   v-s:title "NZL" ;
@@ -1250,7 +1259,7 @@ d:Country_ABH
 d:Country_OST
   a v-s:ClassifierCountry;
   v-s:title "OST" ;
-  v-s:shortLabel "OST" ;
+  v-s:shortLabel "OS" ;
   rdfs:label "South Ossetia"@en ;
   rdfs:label "Южная Осетия"@ru ;
   v-s:description "Republic of South Ossetia"@en ;

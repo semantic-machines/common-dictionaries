@@ -13,219 +13,264 @@
   v-s:loadPriority 10 ;
 .
 
+# Для автоматической раскраски статусов в шаблонах можно использовать следующие значения свойства v-s:tag
+# default = серый | primary = синий | success = зеленый | info = голубой | warning = оранжевый | danger = красный
+
 v-s:StatusDraft
   rdf:type v-s:Status ;
   rdfs:label "Not sent"@en ;
   rdfs:label "Не отправлено"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusImplementation
   rdf:type v-s:Status ;
   rdfs:label "Implementation"@en ;
   rdfs:label "Реализация"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusPreparationAnswer
   rdf:type v-s:Status ;
   rdfs:label "Preparation of the answer"@en ;
   rdfs:label "Подготовка ответа"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusPreparationRegistrationForm
   rdf:type v-s:Status ;
   rdfs:label "Preparation of the registration form"@en ;
   rdfs:label "Подготовка учетной формы"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusPreparationTechnicalOpinion
   rdf:type v-s:Status ;
   rdfs:label "Preparation of technical opinion"@en ;
   rdfs:label "Подготовка технического заключения"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusPreparationLegalOpinion
   rdf:type v-s:Status ;
   rdfs:label "Preparation of a legal opinion"@en ;
   rdfs:label "Подготовка юридического заключения"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusFulfillmentConditions
   rdf:type v-s:Status ;
   rdfs:label "Fulfillment of conditions"@en ;
   rdfs:label "Выполнение условий"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusPreparation
   rdf:type v-s:Status ;
   rdfs:label "Preparation"@en ;
   rdfs:label "Подготовка"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusReview
   rdf:type v-s:Status ;
   rdfs:label "Review"@en ;
   rdfs:label "Рассмотрение"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusCalculationEffect
   rdf:type v-s:Status ;
   rdfs:label "Calculation effect"@en ;
   rdfs:label "Расчет эффекта"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusAgreed
   rdf:type v-s:Status ;
   rdfs:label "Agreed"@en ;
   rdfs:label "Согласовано"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusAgreement
   rdf:type v-s:Status ;
   rdfs:label "Agreement"@en ;
   rdfs:label "Согласование"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusApproval
   rdf:type v-s:Status ;
   rdfs:label "Approval"@en ;
   rdfs:label "Утверждение"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusApproved
   rdf:type v-s:Status ;
   rdfs:label "Approved"@en ;
   rdfs:label "Утверждено"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusIntroduced
   rdf:type v-s:Status ;
   rdfs:label "Introduced"@en ;
   rdfs:label "Введено"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusImplemented
   rdf:type v-s:Status ;
   rdfs:label "Implemented"@en ;
   rdfs:label "Реализовано"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusImplementedPartially
   rdf:type v-s:Status ;
   rdfs:label "Implemented partially"@en ;
   rdfs:label "Реализовано частично"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusCheckedEffect
   rdf:type v-s:Status ;
   rdfs:label "Checked effect"@en ;
   rdfs:label "Подтверждение эффекта"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusPaymentPending
   rdf:type v-s:Status ;
   rdfs:label "Payment pending"@en ;
   rdfs:label "Ожидает оплаты"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusMoreInformationPending
   rdf:type v-s:Status ;
   rdfs:label "More information pending"@en ;
   rdfs:label "Ожидание дополнительной информации"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusPaid
   rdf:type v-s:Status ;
   rdfs:label "Paid"@en ;
   rdfs:label "Оплачено"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusArchived
   rdf:type v-s:Status ;
   rdfs:label "Archived"@en ;
   rdfs:label "В архиве"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusPostponed
   rdf:type v-s:Status ;
   rdfs:label "Postponed"@en ;
   rdfs:label "Отложено"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusRejected
   rdf:type v-s:Status ;
   rdfs:label "Rejected"@en ;
   rdfs:label "Отклонено"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusRejectedRiskAccepted
   rdf:type v-s:Status ;
   rdfs:label "Rejected. Risk accepted"@en ;
   rdfs:label "Отклонено. Риски приняты"@ru ;
+  v-s:tag "default" ;
 .
-
 v-s:StatusInvestigationCompleted
   rdf:type v-s:Status ;
   rdfs:label "Investigation completed"@en ;
   rdfs:label "Расследование завершено"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusInvestigationInitiation
   rdf:type v-s:Status ;
   rdfs:label "Initiation of Investigation"@en ;
   rdfs:label "Инициирование расследования"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusInvestigationInitiated
   rdf:type v-s:Status ;
   rdfs:label "Investigation Initiated"@en ;
   rdfs:label "Расследование иницировано"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusInvestigation
   rdf:type v-s:Status ;
   rdfs:label "Investigation"@en ;
   rdfs:label "Расследование"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusExecution
   rdf:type v-s:Status ;
   rdfs:label "Execution"@en ;
   rdfs:label "Исполнение"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusExecuted
   rdf:type v-s:Status ;
   rdfs:label "Executed"@en ;
   rdfs:label "Исполнено"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusAcceptedOnBalance
   rdf:type v-s:Status ;
   rdfs:label "Accepted on balance"@en ;
   rdfs:label "Введен в ОС"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusRemovedFromBalancee
   rdf:type v-s:Status ;
   rdfs:label "Removed from the balance"@en ;
   rdfs:label "Снято с балланса"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusDecisionExpected
   rdf:type v-s:Status ;
   rdfs:label "Decision expected"@en ;
   rdfs:label "Ожидает решения по реализации"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusConfirmed
   rdf:type v-s:Status ;
   rdfs:label "Status confirmed"@en ;
   rdfs:label "Подтверждено"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusNotConfirmed
   rdf:type v-s:Status ;
   rdfs:label "Status not confirmed"@en ;
   rdfs:label "Не подтверждено"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusAccepted
   rdf:type v-s:Status ;
   rdfs:label "Accepted"@en ;
   rdfs:label "Принято"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusAcceptedPartially
   rdf:type v-s:Status ;
   rdfs:label "Accepted partially"@en ;
   rdfs:label "Принято частично"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusChangedOfTermes
   rdf:type v-s:Status ;
   rdfs:label "Changed of termes"@en ;
   rdfs:label "Изменены сроки"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusRegistration
   rdf:type v-s:Status ;
   rdfs:label "Registration"@en ;
   rdfs:label "Регистрация"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusClosing
   rdf:type v-s:Status ;
   rdfs:label "Closing"@en ;
   rdfs:label "Закрытие"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusCanceled
   rdf:type v-s:Status ;
   rdfs:label "Canceled"@en ;
   rdfs:label "Отменено"@ru ;
+  v-s:tag "default" ;
 .
 v-s:StatusElimination
   rdf:type v-s:Status ;
   rdfs:label "Eliminating"@en ;
   rdfs:label "Устранение"@ru ;
+  v-s:tag "default" ;
 .
