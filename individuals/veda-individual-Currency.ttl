@@ -8,8 +8,8 @@
 
 <http://semantic-machines.com/veda/veda-individual-Currency>
   rdf:type owl:Ontology ;
-  rdfs:label "Veda ontology. individual - Currency"@en ;
   rdfs:label "Онтология Veda. Записи справочника Валюта"@ru ;
+  rdfs:label "Veda ontology. individual - Currency"@en ;
   v-s:loadPriority 10 ;
 .
 

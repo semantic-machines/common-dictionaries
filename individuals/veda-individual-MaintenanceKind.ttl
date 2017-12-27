@@ -8,8 +8,8 @@
 
 <http://semantic-machines.com/veda/veda-individual-MaintenanceKind>
   rdf:type owl:Ontology ;
-  rdfs:label "Veda ontology. Dictionary - MaintenanceKind"@en ;
   rdfs:label "Онтология Veda. Справочник Вид обслуживания"@ru ;
+  rdfs:label "Veda ontology. Dictionary - MaintenanceKind"@en ;
   v-s:loadPriority 10 ;
 .
 

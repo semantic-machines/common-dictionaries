@@ -8,8 +8,8 @@
 
 <http://semantic-machines.com/veda/veda-individual-NormativeDocumentRequirement>
   rdf:type owl:Ontology ;
-  rdfs:label "Veda ontology. individual - NormativeDocumentRequirement"@en ;
   rdfs:label "Онтология Veda. Записи Требования нормативного документа"@ru ;
+  rdfs:label "Veda ontology. individual - NormativeDocumentRequirement"@en ;
   v-s:loadPriority 10 ;
 .
 

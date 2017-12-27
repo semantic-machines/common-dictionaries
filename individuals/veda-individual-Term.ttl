@@ -8,8 +8,8 @@
 
 <http://semantic-machines.com/veda/veda-individual-Term>
   rdf:type owl:Ontology ;
-  rdfs:label "Veda ontology. Dictionary - Term"@en ;
   rdfs:label "Онтология Veda. Справочник Срок"@ru ;
+  rdfs:label "Veda ontology. Dictionary - Term"@en ;
   v-s:loadPriority 10 ;
 .
 

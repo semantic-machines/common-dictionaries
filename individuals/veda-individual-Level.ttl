@@ -8,33 +8,33 @@
 
 <http://semantic-machines.com/veda/veda-individual-Level>
   rdf:type owl:Ontology ;
-  rdfs:label "Veda ontology. individual - Level"@en ;
   rdfs:label "Онтология Veda. Записи справочника Уровень"@ru ;
+  rdfs:label "Veda ontology. individual - Level"@en ;
   v-s:loadPriority 10 ;
 .
 
 d:13545e8b279170bf558caf04382077d3
   rdf:type v-s:Level ;
-  rdfs:label "High"@en ;
   rdfs:label "Высокий"@ru ;
+  rdfs:label "High"@en ;
 .
 d:15e1d21a6bf8fdc94b693fadd960f71e
   rdf:type v-s:Level ;
-  rdfs:label "Moderate"@en ;
   rdfs:label "Средний"@ru ;
+  rdfs:label "Moderate"@en ;
 .
 d:9a4ac66ccae37aac073c7674f7ab1ec8
   rdf:type v-s:Level ;
-  rdfs:label "Low"@en ;
   rdfs:label "Низкий"@ru ;
+  rdfs:label "Low"@en ;
 .
 d:913b746aded06653b193ab11d9ce531c
   rdf:type v-s:Level ;
-  rdfs:label "Undefined"@en ;
   rdfs:label "Отсутствует"@ru ;
+  rdfs:label "Undefined"@en ;
 .
 d:25341f858eaa42ecbd1b6dd7656f9745
   rdf:type v-s:Level ;
-  rdfs:label "Fatal"@en ;
   rdfs:label "Фатальный"@ru ;
+  rdfs:label "Fatal"@en ;
 .

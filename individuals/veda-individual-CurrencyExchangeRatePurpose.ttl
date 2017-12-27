@@ -8,13 +8,13 @@
 
 <http://semantic-machines.com/veda/veda-individual-CurrencyExchangeRatePurpose>
   rdf:type owl:Ontology ;
-  rdfs:label "Veda ontology. individual - CurrencyExchangeRatePurpose"@en ;
   rdfs:label "Онтология Veda. Записи справочника Назначение курса обмена валюты"@ru ;
+  rdfs:label "Veda ontology. individual - CurrencyExchangeRatePurpose"@en ;
   v-s:loadPriority 10 ;
 .
 
 v-s:CER_Purpose_current
   rdf:type v-s:CurrencyExchangeRatePurpose ;
-  rdfs:label "Current rate"@en ;
   rdfs:label "Текущий курс"@ru ;
+  rdfs:label "Current rate"@en ;
 .

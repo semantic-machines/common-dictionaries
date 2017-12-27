@@ -8,8 +8,8 @@
 
 <http://semantic-machines.com/veda/veda-individual-UnitOfMeasure>
   rdf:type owl:Ontology ;
-  rdfs:label "Veda ontology. individual - UnitOfMeasure"@en ;
   rdfs:label "Онтология Veda. Записи справочника Единицы измерения"@ru ;
+  rdfs:label "Veda ontology. individual - UnitOfMeasure"@en ;
   v-s:loadPriority 10 ;
 .
 

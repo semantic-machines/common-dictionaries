@@ -8,8 +8,8 @@
 
 <http://semantic-machines.com/veda/veda-individual-DeliveryMethod>
   rdf:type owl:Ontology ;
-  rdfs:label "Veda ontology. Delivery Method"@en ;
   rdfs:label "Онтология Veda. Способ доставки"@ru ;
+  rdfs:label "Veda ontology. Delivery Method"@en ;
   v-s:loadPriority 10 ;
 .
 

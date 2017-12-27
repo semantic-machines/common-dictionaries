@@ -8,38 +8,38 @@
 
 <http://semantic-machines.com/veda/veda-individual-ProjectStage>
   rdf:type owl:Ontology ;
-  rdfs:label "Veda ontology. individual - ProjectStage"@en ;
   rdfs:label "Онтология Veda. Записи справочника Стадия проекта"@ru ;
+  rdfs:label "Veda ontology. individual - ProjectStage"@en ;
   v-s:loadPriority 10 ;
 .
 
 d:ProjectStage1
   rdf:type v-s:ProjectStage ;
-  rdfs:label "1.Idea"@en ;
   rdfs:label "1.Идея"@ru ;
+  rdfs:label "1.Idea"@en ;
 .
 d:ProjectStage2
   rdf:type v-s:ProjectStage ;
-  rdfs:label "2.Justification"@en ;
   rdfs:label "2.Обоснование"@ru ;
+  rdfs:label "2.Justification"@en ;
 .
 d:ProjectStage3
   rdf:type v-s:ProjectStage ;
-  rdfs:label "3.Technical analysis"@en ;
   rdfs:label "3.Технический анализ"@ru ;
+  rdfs:label "3.Technical analysis"@en ;
 .
 d:ProjectStage4
   rdf:type v-s:ProjectStage ;
-  rdfs:label "4.Execution analysis"@en ;
   rdfs:label "4.Исполнительный анализ"@ru ;
+  rdfs:label "4.Execution analysis"@en ;
 .
 d:ProjectStage5
   rdf:type v-s:ProjectStage ;
-  rdfs:label "5.Execution"@en ;
   rdfs:label "5.Исполнение"@ru ;
+  rdfs:label "5.Execution"@en ;
 .
 d:ProjectStage6
   rdf:type v-s:ProjectStage ;
-  rdfs:label "6.Check/Evaluate"@en ;
   rdfs:label "6.Проверка"@ru ;
+  rdfs:label "6.Check/Evaluate"@en ;
 .
