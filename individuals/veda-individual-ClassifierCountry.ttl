@@ -21,8 +21,8 @@ d:Country_RUS
   v-s:shortLabel "RU" ;
   rdfs:label "Россия"@ru ;
   rdfs:label "Russia"@en ;
-  v-s:description "Russian Fedaration"@en ;
   v-s:description "Российская Федерация"@ru ;
+  v-s:description "Russian Fedaration"@en ;
   v-s:registrationNumber "643" ;
 .
 d:Country_AFG
@@ -31,8 +31,8 @@ d:Country_AFG
   v-s:shortLabel "AF" ;
   rdfs:label "АФГАНИСТАН"@ru ;
   rdfs:label "Afghanistan"@en ;
-  v-s:description "Transitional Islamic State of Afghanistan"@en ;
   v-s:description "Переходное Исламское Государство Афганистан"@ru ;
+  v-s:description "Transitional Islamic State of Afghanistan"@en ;
   v-s:registrationNumber "004" ;
 .
 d:Country_ALB
@@ -41,8 +41,8 @@ d:Country_ALB
   v-s:shortLabel "AL" ;
   rdfs:label "АЛБАНИЯ"@ru ;
   rdfs:label "Albania"@en ;
-  v-s:description "The Republic of Albania"@en ;
   v-s:description "Республика Албания"@ru ;
+  v-s:description "The Republic of Albania"@en ;
   v-s:registrationNumber "008" ;
 .
 d:Country_DZA
@@ -51,8 +51,8 @@ d:Country_DZA
   v-s:shortLabel "DZ" ;
   rdfs:label "АЛЖИР"@ru ;
   rdfs:label "Algeria"@en ;
-  v-s:description "Algerian People's Democratic Republic"@en ;
   v-s:description "Алжирская Народная Демократическая Республика"@ru ;
+  v-s:description "Algerian People's Democratic Republic"@en ;
   v-s:registrationNumber "012" ;
 .
 d:Country_AND
@@ -61,8 +61,8 @@ d:Country_AND
   v-s:shortLabel "AD" ;
   rdfs:label "АНДОРРА"@ru ;
   rdfs:label "Andorra"@en ;
-  v-s:description "The Principality of Andorra"@en ;
   v-s:description "Княжество Андорра"@ru ;
+  v-s:description "The Principality of Andorra"@en ;
   v-s:registrationNumber "020" ;
 .
 d:Country_AGO
@@ -71,8 +71,8 @@ d:Country_AGO
   v-s:shortLabel "AO" ;
   rdfs:label "АНГОЛА"@ru ;
   rdfs:label "Angola"@en ;
-  v-s:description "Republic of Angola"@en ;
   v-s:description "Республика Ангола"@ru ;
+  v-s:description "Republic of Angola"@en ;
   v-s:registrationNumber "024" ;
 .
 d:Country_AZE
@@ -81,8 +81,8 @@ d:Country_AZE
   v-s:shortLabel "AZ" ;
   rdfs:label "АЗЕРБАЙДЖАН"@ru ;
   rdfs:label "Azerbaijan"@en ;
-  v-s:description "The Republic of Azerbaijan"@en ;
   v-s:description "Республика Азербайджан"@ru ;
+  v-s:description "The Republic of Azerbaijan"@en ;
   v-s:registrationNumber "031" ;
 .
 d:Country_ARG
@@ -91,8 +91,8 @@ d:Country_ARG
   v-s:shortLabel "AR" ;
   rdfs:label "АРГЕНТИНА"@ru ;
   rdfs:label "Argentina"@en ;
-  v-s:description "The Argentine Republic"@en ;
   v-s:description "Аргентинская Республика"@ru ;
+  v-s:description "The Argentine Republic"@en ;
   v-s:registrationNumber "032" ;
 .
 d:Country_AUS
@@ -101,8 +101,8 @@ d:Country_AUS
   v-s:shortLabel "AU" ;
   rdfs:label "АВСТРАЛИЯ"@ru ;
   rdfs:label "Australia"@en ;
-  v-s:description "Australia"@en ;
   v-s:description "АВСТРАЛИЯ"@ru ;
+  v-s:description "Australia"@en ;
   v-s:registrationNumber "036" ;
 .
 d:Country_AUT
@@ -111,8 +111,8 @@ d:Country_AUT
   v-s:shortLabel "AT" ;
   rdfs:label "АВСТРИЯ"@ru ;
   rdfs:label "Austria"@en ;
-  v-s:description "Republic of Austria"@en ;
   v-s:description "Австрийская Республика"@ru ;
+  v-s:description "Republic of Austria"@en ;
   v-s:registrationNumber "040" ;
 .
 d:Country_BHS
@@ -121,8 +121,8 @@ d:Country_BHS
   v-s:shortLabel "BS" ;
   rdfs:label "БАГАМЫ"@ru ;
   rdfs:label "Bahamas"@en ;
-  v-s:description "Commonwealth of the Bahamas"@en ;
   v-s:description "Содружество Багамы"@ru ;
+  v-s:description "Commonwealth of the Bahamas"@en ;
   v-s:registrationNumber "044" ;
 .
 d:Country_ARM
@@ -131,8 +131,8 @@ d:Country_ARM
   v-s:shortLabel "AM" ;
   rdfs:label "АРМЕНИЯ"@ru ;
   rdfs:label "Armenia"@en ;
-  v-s:description "Republic of Armenia"@en ;
   v-s:description "Республика Армения"@ru ;
+  v-s:description "Republic of Armenia"@en ;
   v-s:registrationNumber "051" ;
 .
 d:Country_BGD
@@ -141,8 +141,8 @@ d:Country_BGD
   v-s:shortLabel "BD" ;
   rdfs:label "Бангладеш"@ru ;
   rdfs:label "Bangladesh"@en ;
-  v-s:description "People's Republic of Bangladesh"@en ;
   v-s:description "Народная Республика Бангладеш"@ru ;
+  v-s:description "People's Republic of Bangladesh"@en ;
   v-s:registrationNumber "050" ;
 .
 d:Country_BEL
@@ -151,8 +151,8 @@ d:Country_BEL
   v-s:shortLabel "BE" ;
   rdfs:label "Бельгия"@ru ;
   rdfs:label "Belgium"@en ;
-  v-s:description "Kingdom of Belgium"@en ;
   v-s:description "Королевство Бельгии"@ru ;
+  v-s:description "Kingdom of Belgium"@en ;
   v-s:registrationNumber "056" ;
 .
 d:Country_BOL
@@ -161,8 +161,8 @@ d:Country_BOL
   v-s:shortLabel "BO" ;
   rdfs:label "Боливия"@ru ;
   rdfs:label "Bolivia"@en ;
-  v-s:description "Plurinational State of Bolivia"@en ;
   v-s:description "Многонациональное Государство Боливия"@ru ;
+  v-s:description "Plurinational State of Bolivia"@en ;
   v-s:registrationNumber "068" ;
 .
 d:Country_BRA
@@ -171,8 +171,8 @@ d:Country_BRA
   v-s:shortLabel "BR" ;
   rdfs:label "БРАЗИЛИЯ"@ru ;
   rdfs:label "Brazil"@en ;
-  v-s:description "Federative Republic of Brazil"@en ;
   v-s:description "Федеративная Республика Бразилия"@ru ;
+  v-s:description "Federative Republic of Brazil"@en ;
   v-s:registrationNumber "076" ;
 .
 d:Country_BGR
@@ -181,8 +181,8 @@ d:Country_BGR
   v-s:shortLabel "BG" ;
   rdfs:label "Болгария"@ru ;
   rdfs:label "Bulgaria"@en ;
-  v-s:description "Republic of Bulgaria"@en ;
   v-s:description "Республика Болгария"@ru ;
+  v-s:description "Republic of Bulgaria"@en ;
   v-s:registrationNumber "100" ;
 .
 d:Country_BLR
@@ -191,8 +191,8 @@ d:Country_BLR
   v-s:shortLabel "BY" ;
   rdfs:label "БЕЛАРУСЬ"@ru ;
   rdfs:label "Belarus"@en ;
-  v-s:description "Republic of Belarus"@en ;
   v-s:description "Республика Беларусь"@ru ;
+  v-s:description "Republic of Belarus"@en ;
   v-s:registrationNumber "112" ;
 .
 d:Country_KHM
@@ -201,8 +201,8 @@ d:Country_KHM
   v-s:shortLabel "KH" ;
   rdfs:label "КАМБОДЖА"@ru ;
   rdfs:label "Cambodia"@en ;
-  v-s:description "The Kingdom of Cambodia"@en ;
   v-s:description "Королевство Камбоджа"@ru ;
+  v-s:description "The Kingdom of Cambodia"@en ;
   v-s:registrationNumber "116" ;
 .
 d:Country_CMR
@@ -211,8 +211,8 @@ d:Country_CMR
   v-s:shortLabel "CM" ;
   rdfs:label "КАМЕРУН"@ru ;
   rdfs:label "Cameroon"@en ;
-  v-s:description "Republic of Cameroon"@en ;
   v-s:description "Республика Камерун"@ru ;
+  v-s:description "Republic of Cameroon"@en ;
   v-s:registrationNumber "120" ;
 .
 d:Country_CAN
@@ -221,8 +221,8 @@ d:Country_CAN
   v-s:shortLabel "CA" ;
   rdfs:label "КАНАДА"@ru ;
   rdfs:label "Canada"@en ;
-  v-s:description "Canada"@en ;
   v-s:description "КАНАДА"@ru ;
+  v-s:description "Canada"@en ;
   v-s:registrationNumber "124" ;
 .
 d:Country_LKA
@@ -231,8 +231,8 @@ d:Country_LKA
   v-s:shortLabel "LK" ;
   rdfs:label "ШРИ-ЛАНКА"@ru ;
   rdfs:label "Sri Lanka"@en ;
-  v-s:description "Democratic Socialist Republic of Sri Lanka"@en ;
   v-s:description "Демократическая Социалистическая Республика Шри-Ланка"@ru ;
+  v-s:description "Democratic Socialist Republic of Sri Lanka"@en ;
   v-s:registrationNumber "144" ;
 .
 d:Country_TCD
@@ -241,8 +241,8 @@ d:Country_TCD
   v-s:shortLabel "TD" ;
   rdfs:label "ЧАД"@ru ;
   rdfs:label "Chad"@en ;
-  v-s:description "Republic of Chad"@en ;
   v-s:description "Республика Чад"@ru ;
+  v-s:description "Republic of Chad"@en ;
   v-s:registrationNumber "148" ;
 .
 d:Country_CHL
@@ -251,8 +251,8 @@ d:Country_CHL
   v-s:shortLabel "CL" ;
   rdfs:label "Чили"@ru ;
   rdfs:label "Chile"@en ;
-  v-s:description "Republic of Chile"@en ;
   v-s:description "Республика Чили"@ru ;
+  v-s:description "Republic of Chile"@en ;
   v-s:registrationNumber "152" ;
 .
 d:Country_CHN
@@ -261,8 +261,8 @@ d:Country_CHN
   v-s:shortLabel "CN" ;
   rdfs:label "Китай"@ru ;
   rdfs:label "China"@en ;
-  v-s:description "Chinese People's Republic"@en ;
   v-s:description "Китайская Народная Республика"@ru ;
+  v-s:description "Chinese People's Republic"@en ;
   v-s:registrationNumber "156" ;
 .
 d:Country_TWN
@@ -271,8 +271,8 @@ d:Country_TWN
   v-s:shortLabel "TW" ;
   rdfs:label "ТАЙВАНЬ (КИТАЙ)"@ru ;
   rdfs:label "TAIWAN (CHINA)"@en ;
-  v-s:description "TAIWAN (CHINA)"@en ;
   v-s:description "ТАЙВАНЬ (КИТАЙ)"@ru ;
+  v-s:description "TAIWAN (CHINA)"@en ;
   v-s:registrationNumber "158" ;
 .
 d:Country_COL
@@ -281,8 +281,8 @@ d:Country_COL
   v-s:shortLabel "CO" ;
   rdfs:label "Колумбия"@ru ;
   rdfs:label "Colombia"@en ;
-  v-s:description "The Republic of Colombia"@en ;
   v-s:description "Республика Колумбия"@ru ;
+  v-s:description "The Republic of Colombia"@en ;
   v-s:registrationNumber "170" ;
 .
 d:Country_COG
@@ -291,8 +291,8 @@ d:Country_COG
   v-s:shortLabel "CG" ;
   rdfs:label "Конго"@ru ;
   rdfs:label "Congo"@en ;
-  v-s:description "Republic of the Congo"@en ;
   v-s:description "Республика Конго"@ru ;
+  v-s:description "Republic of the Congo"@en ;
   v-s:registrationNumber "178" ;
 .
 d:Country_COD
@@ -301,8 +301,8 @@ d:Country_COD
   v-s:shortLabel "CD" ;
   rdfs:label "Конго,Демократическая Республика"@ru ;
   rdfs:label "Congo,Democratic Republic"@en ;
-  v-s:description "Democratic Republic of the Congo"@en ;
   v-s:description "Демократическая Республика Конго"@ru ;
+  v-s:description "Democratic Republic of the Congo"@en ;
   v-s:registrationNumber "180" ;
 .
 d:Country_CRI
@@ -311,8 +311,8 @@ d:Country_CRI
   v-s:shortLabel "CR" ;
   rdfs:label "Коста-Рика"@ru ;
   rdfs:label "Costa Rica"@en ;
-  v-s:description "The Republic of Costa Rica"@en ;
   v-s:description "Республика Коста-Рика"@ru ;
+  v-s:description "The Republic of Costa Rica"@en ;
   v-s:registrationNumber "188" ;
 .
 d:Country_HRV
@@ -321,8 +321,8 @@ d:Country_HRV
   v-s:shortLabel "HR" ;
   rdfs:label "Хорватия"@ru ;
   rdfs:label "Croatia"@en ;
-  v-s:description "The Republic of Croatia"@en ;
   v-s:description "Республика Хорватия"@ru ;
+  v-s:description "The Republic of Croatia"@en ;
   v-s:registrationNumber "191" ;
 .
 d:Country_CUB
@@ -331,8 +331,8 @@ d:Country_CUB
   v-s:shortLabel "CU" ;
   rdfs:label "Куба"@ru ;
   rdfs:label "Cuba"@en ;
-  v-s:description "The Republic of Cuba"@en ;
   v-s:description "Республика Куба"@ru ;
+  v-s:description "The Republic of Cuba"@en ;
   v-s:registrationNumber "192" ;
 .
 d:Country_CYP
@@ -341,8 +341,8 @@ d:Country_CYP
   v-s:shortLabel "CY" ;
   rdfs:label "Кипр"@ru ;
   rdfs:label "Cyprus"@en ;
-  v-s:description "Republic of Cyprus"@en ;
   v-s:description "Республика Кипр"@ru ;
+  v-s:description "Republic of Cyprus"@en ;
   v-s:registrationNumber "196" ;
 .
 d:Country_CZE
@@ -351,8 +351,8 @@ d:Country_CZE
   v-s:shortLabel "CZ" ;
   rdfs:label "ЧЕХИЯ"@ru ;
   rdfs:label "CZECH"@en ;
-  v-s:description "CZECH REPUBLIC"@en ;
   v-s:description "ЧЕШСКАЯ РЕСПУБЛИКА"@ru ;
+  v-s:description "CZECH REPUBLIC"@en ;
   v-s:registrationNumber "203" ;
 .
 d:Country_DNK
@@ -361,8 +361,8 @@ d:Country_DNK
   v-s:shortLabel "DK" ;
   rdfs:label "Дания"@ru ;
   rdfs:label "Denmark"@en ;
-  v-s:description "Kingdom of Denmark"@en ;
   v-s:description "Королевство Дания"@ru ;
+  v-s:description "Kingdom of Denmark"@en ;
   v-s:registrationNumber "208" ;
 .
 d:Country_DOM
@@ -371,8 +371,8 @@ d:Country_DOM
   v-s:shortLabel "DO" ;
   rdfs:label "ДОМИНИКАНСКАЯ РЕСПУБЛИКА"@ru ;
   rdfs:label "DOMINICAN REPUBLIC"@en ;
-  v-s:description "DOMINICAN REPUBLIC"@en ;
   v-s:description "ДОМИНИКАНСКАЯ РЕСПУБЛИКА"@ru ;
+  v-s:description "DOMINICAN REPUBLIC"@en ;
   v-s:registrationNumber "214" ;
 .
 d:Country_ECU
@@ -381,8 +381,8 @@ d:Country_ECU
   v-s:shortLabel "EC" ;
   rdfs:label "Эквадор"@ru ;
   rdfs:label "Ecuador"@en ;
-  v-s:description "The Republic of Ecuador"@en ;
   v-s:description "Республика Эквадор"@ru ;
+  v-s:description "The Republic of Ecuador"@en ;
   v-s:registrationNumber "218" ;
 .
 d:Country_ETH
@@ -391,8 +391,8 @@ d:Country_ETH
   v-s:shortLabel "ET" ;
   rdfs:label "Эфиопия"@ru ;
   rdfs:label "Ethiopia"@en ;
-  v-s:description "Federal Democratic Republic of Ethiopia"@en ;
   v-s:description "Федеративная Демократическая Республика Эфиопия"@ru ;
+  v-s:description "Federal Democratic Republic of Ethiopia"@en ;
   v-s:registrationNumber "231" ;
 .
 d:Country_EST
@@ -401,8 +401,8 @@ d:Country_EST
   v-s:shortLabel "EЕ" ;
   rdfs:label "Эстония"@ru ;
   rdfs:label "Estonia"@en ;
-  v-s:description "The Republic of Estonia"@en ;
   v-s:description "Эстонская Республика"@ru ;
+  v-s:description "The Republic of Estonia"@en ;
   v-s:registrationNumber "233" ;
 .
 d:Country_FJI
@@ -411,8 +411,8 @@ d:Country_FJI
   v-s:shortLabel "FJ" ;
   rdfs:label "Фиджи"@ru ;
   rdfs:label "Fiji"@en ;
-  v-s:description "fj"@en ;
   v-s:description "Республика Фиджи"@ru ;
+  v-s:description "fj"@en ;
   v-s:registrationNumber "242" ;
 .
 d:Country_FIN
@@ -421,8 +421,8 @@ d:Country_FIN
   v-s:shortLabel "FI" ;
   rdfs:label "Финляндия"@ru ;
   rdfs:label "Finland"@en ;
-  v-s:description "Republic of Finland"@en ;
   v-s:description "Финляндская Республика"@ru ;
+  v-s:description "Republic of Finland"@en ;
   v-s:registrationNumber "246" ;
 .
 d:Country_FRA
@@ -431,8 +431,8 @@ d:Country_FRA
   v-s:shortLabel "FR" ;
   rdfs:label "Франция"@ru ;
   rdfs:label "France"@en ;
-  v-s:description "French Republic"@en ;
   v-s:description "Французская Республика"@ru ;
+  v-s:description "French Republic"@en ;
   v-s:registrationNumber "250" ;
 .
 d:Country_GEO
@@ -441,8 +441,8 @@ d:Country_GEO
   v-s:shortLabel "GE" ;
   rdfs:label "Грузия"@ru ;
   rdfs:label "Georgia"@en ;
-  v-s:description "Georgia"@en ;
   v-s:description "Грузия"@ru ;
+  v-s:description "Georgia"@en ;
   v-s:registrationNumber "268" ;
 .
 d:Country_GMB
@@ -451,8 +451,8 @@ d:Country_GMB
   v-s:shortLabel "GM" ;
   rdfs:label "Гамбия"@ru ;
   rdfs:label "Gambia"@en ;
-  v-s:description "The Republic of The Gambia"@en ;
   v-s:description "Республика Гамбия"@ru ;
+  v-s:description "The Republic of The Gambia"@en ;
   v-s:registrationNumber "270" ;
 .
 d:Country_PSE
@@ -461,8 +461,8 @@ d:Country_PSE
   v-s:shortLabel "PS" ;
   rdfs:label "Палестина"@ru ;
   rdfs:label "Palestine"@en ;
-  v-s:description "State of Palestine"@en ;
   v-s:description "Государство Палестина"@ru ;
+  v-s:description "State of Palestine"@en ;
   v-s:registrationNumber "275" ;
 .
 d:Country_DEU
@@ -471,8 +471,8 @@ d:Country_DEU
   v-s:shortLabel "DE" ;
   rdfs:label "Германия"@ru ;
   rdfs:label "Germany"@en ;
-  v-s:description "The Federal Republic of Germany"@en ;
   v-s:description "Федеративная Республика Германия"@ru ;
+  v-s:description "The Federal Republic of Germany"@en ;
   v-s:registrationNumber "276" ;
 .
 d:Country_GRC
@@ -481,8 +481,8 @@ d:Country_GRC
   v-s:shortLabel "GR" ;
   rdfs:label "Греция"@ru ;
   rdfs:label "Greece"@en ;
-  v-s:description "Hellenic Republic"@en ;
   v-s:description "Греческая Республика"@ru ;
+  v-s:description "Hellenic Republic"@en ;
   v-s:registrationNumber "300" ;
 .
 
@@ -492,8 +492,8 @@ d:Country_GRL
   v-s:shortLabel "GL" ;
   rdfs:label "ГРЕНЛАНДИЯ"@ru ;
   rdfs:label "GREENLAND"@en ;
-  v-s:description "GREENLAND"@en ;
   v-s:description "ГРЕНЛАНДИЯ"@ru ;
+  v-s:description "GREENLAND"@en ;
   v-s:registrationNumber "304" ;
 .
 d:Country_GRD
@@ -502,8 +502,8 @@ d:Country_GRD
   v-s:shortLabel "GD" ;
   rdfs:label "ГРЕНАДА"@ru ;
   rdfs:label "GRENADA"@en ;
-  v-s:description "GRENADA"@en ;
   v-s:description "ГРЕНАДА"@ru ;
+  v-s:description "GRENADA"@en ;
   v-s:registrationNumber "308" ;
 .
 d:Country_HND
@@ -512,8 +512,8 @@ d:Country_HND
   v-s:shortLabel "HN" ;
   rdfs:label "Гондурас"@ru ;
   rdfs:label "Honduras"@en ;
-  v-s:description "Republic of Honduras"@en ;
   v-s:description "Республика Гондурас"@ru ;
+  v-s:description "Republic of Honduras"@en ;
   v-s:registrationNumber "340" ;
 .
 d:Country_HKG
@@ -522,8 +522,8 @@ d:Country_HKG
   v-s:shortLabel "HK" ;
   rdfs:label "Гонконг"@ru ;
   rdfs:label "Hong Kong"@en ;
-  v-s:description "China Hong Kong Special Administrative Region"@en ;
   v-s:description "Специальный административный регион Китая Гонконг"@ru ;
+  v-s:description "China Hong Kong Special Administrative Region"@en ;
   v-s:registrationNumber "344" ;
 .
 d:Country_HUN
@@ -532,8 +532,8 @@ d:Country_HUN
   v-s:shortLabel "HU" ;
   rdfs:label "Венгрия"@ru ;
   rdfs:label "Hungary"@en ;
-  v-s:description "Hungary"@en ;
   v-s:description "Венгрия"@ru ;
+  v-s:description "Hungary"@en ;
   v-s:registrationNumber "348" ;
 .
 d:Country_ISL
@@ -542,8 +542,8 @@ d:Country_ISL
   v-s:shortLabel "IS" ;
   rdfs:label "Исландия"@ru ;
   rdfs:label "Iceland"@en ;
-  v-s:description "The Republic of Iceland"@en ;
   v-s:description "Республика Исландия"@ru ;
+  v-s:description "The Republic of Iceland"@en ;
   v-s:registrationNumber "352" ;
 .
 d:Country_IND
@@ -552,8 +552,8 @@ d:Country_IND
   v-s:shortLabel "IN" ;
   rdfs:label "Индия"@ru ;
   rdfs:label "India"@en ;
-  v-s:description "The Republic of India"@en ;
   v-s:description "Республика Индия"@ru ;
+  v-s:description "The Republic of India"@en ;
   v-s:registrationNumber "356" ;
 .
 d:Country_IDN
@@ -562,8 +562,8 @@ d:Country_IDN
   v-s:shortLabel "ID" ;
   rdfs:label "Индонезия"@ru ;
   rdfs:label "Indonesia"@en ;
-  v-s:description "The Republic of Indonesia"@en ;
   v-s:description "Республика Индонезия"@ru ;
+  v-s:description "The Republic of Indonesia"@en ;
   v-s:registrationNumber "360" ;
 .
 d:Country_IRN
@@ -572,8 +572,8 @@ d:Country_IRN
   v-s:shortLabel "IR" ;
   rdfs:label "Иран"@ru ;
   rdfs:label "Iran"@en ;
-  v-s:description "Islamic Republic of Iran"@en ;
   v-s:description "Исламская Республика Иран"@ru ;
+  v-s:description "Islamic Republic of Iran"@en ;
   v-s:registrationNumber "364" ;
 .
 d:Country_IRQ
@@ -582,8 +582,8 @@ d:Country_IRQ
   v-s:shortLabel "IQ" ;
   rdfs:label "Ирак"@ru ;
   rdfs:label "Iraq"@en ;
-  v-s:description "The Republic of Iraq"@en ;
   v-s:description "Республика Ирак"@ru ;
+  v-s:description "The Republic of Iraq"@en ;
   v-s:registrationNumber "368" ;
 .
 d:Country_ISR
@@ -592,8 +592,8 @@ d:Country_ISR
   v-s:shortLabel "IL" ;
   rdfs:label "Израиль"@ru ;
   rdfs:label "Israel"@en ;
-  v-s:description "The State of Israel"@en ;
   v-s:description "Государство Израиль"@ru ;
+  v-s:description "The State of Israel"@en ;
   v-s:registrationNumber "376" ;
 .
 d:Country_IRL
@@ -602,8 +602,8 @@ d:Country_IRL
   v-s:shortLabel "IE" ;
   rdfs:label "ИРЛАНДИЯ"@ru ;
   rdfs:label "IRELAND"@en ;
-  v-s:description "IRELAND"@en ;
   v-s:description "ИРЛАНДИЯ"@ru ;
+  v-s:description "IRELAND"@en ;
   v-s:registrationNumber "372" ;
 .
 d:Country_ITA
@@ -612,8 +612,8 @@ d:Country_ITA
   v-s:shortLabel "IT" ;
   rdfs:label "Италия"@ru ;
   rdfs:label "Italy"@en ;
-  v-s:description "Italian Republic"@en ;
   v-s:description "Итальянская Республика"@ru ;
+  v-s:description "Italian Republic"@en ;
   v-s:registrationNumber "380" ;
 .
 d:Country_JPN
@@ -622,8 +622,8 @@ d:Country_JPN
   v-s:shortLabel "JP" ;
   rdfs:label "ЯПОНИЯ"@ru ;
   rdfs:label "JAPAN"@en ;
-  v-s:description "JAPAN"@en ;
   v-s:description "ЯПОНИЯ"@ru ;
+  v-s:description "JAPAN"@en ;
   v-s:registrationNumber "392" ;
 .
 d:Country_KAZ
@@ -632,8 +632,8 @@ d:Country_KAZ
   v-s:shortLabel "KZ" ;
   rdfs:label "Казахстан"@ru ;
   rdfs:label "Kazakhstan"@en ;
-  v-s:description "The Republic of Kazakhstan"@en ;
   v-s:description "Республика Казахстан"@ru ;
+  v-s:description "The Republic of Kazakhstan"@en ;
   v-s:registrationNumber "398" ;
 .
 d:Country_KEN
@@ -642,8 +642,8 @@ d:Country_KEN
   v-s:shortLabel "KE" ;
   rdfs:label "Кения"@ru ;
   rdfs:label "Kenya"@en ;
-  v-s:description "The Republic of Kenya"@en ;
   v-s:description "Республика Кения"@ru ;
+  v-s:description "The Republic of Kenya"@en ;
   v-s:registrationNumber "404" ;
 .
 d:Country_PRK
@@ -652,8 +652,8 @@ d:Country_PRK
   v-s:shortLabel "КР" ;
   rdfs:label "КНДР"@ru ;
   rdfs:label "North Korea"@en ;
-  v-s:description "Korea, Democratic People's Republic of"@en ;
   v-s:description "Корейская Народно-Демократическая Республика"@ru ;
+  v-s:description "Korea, Democratic People's Republic of"@en ;
   v-s:registrationNumber "408" ;
 .
 d:Country_IDN
@@ -662,8 +662,8 @@ d:Country_IDN
   v-s:shortLabel "ID" ;
   rdfs:label "ЮЖНАЯ КОРЕЯ"@ru ;
   rdfs:label "SOUTH KOREA"@en ;
-  v-s:description "The Republic of Korea"@en ;
   v-s:description "Республика Корея"@ru ;
+  v-s:description "The Republic of Korea"@en ;
   v-s:registrationNumber "410" ;
 .
 d:Country_KWT
@@ -672,8 +672,8 @@ d:Country_KWT
   v-s:shortLabel "KW" ;
   rdfs:label "Кувейт"@ru ;
   rdfs:label "Kuwait"@en ;
-  v-s:description "State of Kuwait"@en ;
   v-s:description "Государство Кувейт"@ru ;
+  v-s:description "State of Kuwait"@en ;
   v-s:registrationNumber "414" ;
 .
 d:Country_KGZ
@@ -682,8 +682,8 @@ d:Country_KGZ
   v-s:shortLabel "KG" ;
   rdfs:label "Киргизия"@ru ;
   rdfs:label "Kyrgyzstan"@en ;
-  v-s:description "Kyrgyz Republic"@en ;
   v-s:description "Киргизская Республика"@ru ;
+  v-s:description "Kyrgyz Republic"@en ;
   v-s:registrationNumber "417" ;
 .
 d:Country_LAO
@@ -692,8 +692,8 @@ d:Country_LAO
   v-s:shortLabel "LA" ;
   rdfs:label "Лаос"@ru ;
   rdfs:label "Laos"@en ;
-  v-s:description "Lao People's Democratic Republic"@en ;
   v-s:description "ЛАОССКАЯ НАРОДНО-ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА"@ru ;
+  v-s:description "Lao People's Democratic Republic"@en ;
   v-s:registrationNumber "418" ;
 .
 d:Country_LBN
@@ -702,8 +702,8 @@ d:Country_LBN
   v-s:shortLabel "LB" ;
   rdfs:label "Ливан"@ru ;
   rdfs:label "Lebanon"@en ;
-  v-s:description "Lebanese Republic"@en ;
   v-s:description "Ливанская Республика"@ru ;
+  v-s:description "Lebanese Republic"@en ;
   v-s:registrationNumber "422" ;
 .
 d:Country_LVA
@@ -712,8 +712,8 @@ d:Country_LVA
   v-s:shortLabel "LV" ;
   rdfs:label "Латвия"@ru ;
   rdfs:label "Latvia"@en ;
-  v-s:description "Latvian republic"@en ;
   v-s:description "Латвийская Республика"@ru ;
+  v-s:description "Latvian republic"@en ;
   v-s:registrationNumber "428" ;
 .
 d:Country_LBR
@@ -722,8 +722,8 @@ d:Country_LBR
   v-s:shortLabel "LR" ;
   rdfs:label "Либерия"@ru ;
   rdfs:label "Liberia"@en ;
-  v-s:description "Republic of Liberia"@en ;
   v-s:description "Республика Либерия"@ru ;
+  v-s:description "Republic of Liberia"@en ;
   v-s:registrationNumber "430" ;
 .
 d:Country_LBY
@@ -732,8 +732,8 @@ d:Country_LBY
   v-s:shortLabel "LY" ;
   rdfs:label "Ливия"@ru ;
   rdfs:label "Libya"@en ;
-  v-s:description "Libyan Arab Jamahiriya"@en ;
   v-s:description "Ливия"@ru ;
+  v-s:description "Libyan Arab Jamahiriya"@en ;
   v-s:registrationNumber "434" ;
 .
 d:Country_LTU
@@ -742,8 +742,8 @@ d:Country_LTU
   v-s:shortLabel "LT" ;
   rdfs:label "Литва"@ru ;
   rdfs:label "Lithuania"@en ;
-  v-s:description "Republic of Lithuania"@en ;
   v-s:description "Литовская Республика"@ru ;
+  v-s:description "Republic of Lithuania"@en ;
   v-s:registrationNumber "440" ;
 .
 d:Country_LUX
@@ -752,8 +752,8 @@ d:Country_LUX
   v-s:shortLabel "LU" ;
   rdfs:label "Люксембург"@ru ;
   rdfs:label "Luxembourg"@en ;
-  v-s:description "Grand Duchy of Luxembourg"@en ;
   v-s:description "Великое Герцогство Люксембург"@ru ;
+  v-s:description "Grand Duchy of Luxembourg"@en ;
   v-s:registrationNumber "442" ;
 .
 d:Country_MYS
@@ -762,8 +762,8 @@ d:Country_MYS
   v-s:shortLabel "MY" ;
   rdfs:label "Малайзия"@ru ;
   rdfs:label "Malaysia"@en ;
-  v-s:description "Malaysia"@en ;
   v-s:description "Малайзия"@ru ;
+  v-s:description "Malaysia"@en ;
   v-s:registrationNumber "458" ;
 .
 d:Country_MDV
@@ -772,8 +772,8 @@ d:Country_MDV
   v-s:shortLabel "MV" ;
   rdfs:label "Мальдивские острова"@ru ;
   rdfs:label "Maldives"@en ;
-  v-s:description "Maldives"@en ;
   v-s:description "Мальдивская Республика"@ru ;
+  v-s:description "Maldives"@en ;
   v-s:registrationNumber "462" ;
 .
 d:Country_MLI
@@ -782,8 +782,8 @@ d:Country_MLI
   v-s:shortLabel "ML" ;
   rdfs:label "Мали"@ru ;
   rdfs:label "Mali"@en ;
-  v-s:description "The Republic of Mali"@en ;
   v-s:description "Республика Мали"@ru ;
+  v-s:description "The Republic of Mali"@en ;
   v-s:registrationNumber "466" ;
 .
 d:Country_MLT
@@ -792,8 +792,8 @@ d:Country_MLT
   v-s:shortLabel "MT" ;
   rdfs:label "Мальта"@ru ;
   rdfs:label "Malta"@en ;
-  v-s:description "Republic of Malta"@en ;
   v-s:description "Республика Мальта"@ru ;
+  v-s:description "Republic of Malta"@en ;
   v-s:registrationNumber "470" ;
 .
 d:Country_MEX
@@ -802,8 +802,8 @@ d:Country_MEX
   v-s:shortLabel "MX" ;
   rdfs:label "Мексика"@ru ;
   rdfs:label "Mexico"@en ;
-  v-s:description "United Mexican States"@en ;
   v-s:description "Мексиканские Соединенные Штаты"@ru ;
+  v-s:description "United Mexican States"@en ;
   v-s:registrationNumber "484" ;
 .
 d:Country_MCO
@@ -812,8 +812,8 @@ d:Country_MCO
   v-s:shortLabel "MC" ;
   rdfs:label "Монако"@ru ;
   rdfs:label "Monaco"@en ;
-  v-s:description "The Principality of Monaco"@en ;
   v-s:description "Княжество Монако"@ru ;
+  v-s:description "The Principality of Monaco"@en ;
   v-s:registrationNumber "492" ;
 .
 d:Country_MNG
@@ -822,8 +822,8 @@ d:Country_MNG
   v-s:shortLabel "MN" ;
   rdfs:label "Монголия"@ru ;
   rdfs:label "Mongolia"@en ;
-  v-s:description "Mongolia"@en ;
   v-s:description "Монголия"@ru ;
+  v-s:description "Mongolia"@en ;
   v-s:registrationNumber "496" ;
 .
 d:Country_MDA
@@ -832,8 +832,8 @@ d:Country_MDA
   v-s:shortLabel "MD" ;
   rdfs:label "Молдова"@ru ;
   rdfs:label "Moldova, Republic of"@en ;
-  v-s:description "The Republic of Moldova"@en ;
   v-s:description "Республика Молдова"@ru ;
+  v-s:description "The Republic of Moldova"@en ;
   v-s:registrationNumber "498" ;
 .
 d:Country_MNE
@@ -842,8 +842,8 @@ d:Country_MNE
   v-s:shortLabel "MN" ;
   rdfs:label "Черногория"@ru ;
   rdfs:label "Montenegro"@en ;
-  v-s:description "Montenegro"@en ;
   v-s:description "Черногория"@ru ;
+  v-s:description "Montenegro"@en ;
   v-s:registrationNumber "499" ;
 .
 d:Country_NLD
@@ -852,8 +852,8 @@ d:Country_NLD
   v-s:shortLabel "NL" ;
   rdfs:label "Нидерланды"@ru ;
   rdfs:label "Netherlands"@en ;
-  v-s:description "Kingdom of the Netherlands"@en ;
   v-s:description "Королевство Нидерландов"@ru ;
+  v-s:description "Kingdom of the Netherlands"@en ;
   v-s:registrationNumber "528" ;
 .
 d:Country_NZL
@@ -862,8 +862,8 @@ d:Country_NZL
   v-s:shortLabel "NZ" ;
   rdfs:label "Новая Зеландия"@ru ;
   rdfs:label "New Zealand"@en ;
-  v-s:description "New Zealand"@en ;
   v-s:description "Новая Зеландия"@ru ;
+  v-s:description "New Zealand"@en ;
   v-s:registrationNumber "554" ;
 .
 d:Country_NIC
@@ -872,8 +872,8 @@ d:Country_NIC
   v-s:shortLabel "NI" ;
   rdfs:label "Никарагуа"@ru ;
   rdfs:label "Nicaragua"@en ;
-  v-s:description "The Republic of Nicaragua"@en ;
   v-s:description "Республика Никарагуа"@ru ;
+  v-s:description "The Republic of Nicaragua"@en ;
   v-s:registrationNumber "558" ;
 .
 d:Country_NGA
@@ -882,8 +882,8 @@ d:Country_NGA
   v-s:shortLabel "NG" ;
   rdfs:label "Нигерия"@ru ;
   rdfs:label "Nigeria"@en ;
-  v-s:description "Federal Republic of Nigeria"@en ;
   v-s:description "Федеративная Республика Нигерия"@ru ;
+  v-s:description "Federal Republic of Nigeria"@en ;
   v-s:registrationNumber "566" ;
 .
 d:Country_NOR
@@ -892,8 +892,8 @@ d:Country_NOR
   v-s:shortLabel "NOR" ;
   rdfs:label "Норвегия"@ru ;
   rdfs:label "Norway"@en ;
-  v-s:description "Kingdom of Norway"@en ;
   v-s:description "Королевство Норвегия"@ru ;
+  v-s:description "Kingdom of Norway"@en ;
   v-s:registrationNumber "578" ;
 .
 d:Country_PAK
@@ -902,8 +902,8 @@ d:Country_PAK
   v-s:shortLabel "PK" ;
   rdfs:label "Пакистан"@ru ;
   rdfs:label "Pakistan"@en ;
-  v-s:description "Islamic Republic of Pakistan"@en ;
   v-s:description "Исламская Республика Пакистан"@ru ;
+  v-s:description "Islamic Republic of Pakistan"@en ;
   v-s:registrationNumber "586" ;
 .
 d:Country_PAN
@@ -912,8 +912,8 @@ d:Country_PAN
   v-s:shortLabel "PA" ;
   rdfs:label "Панама"@ru ;
   rdfs:label "Panama"@en ;
-  v-s:description "The Republic of Panama"@en ;
   v-s:description "Республика Панама"@ru ;
+  v-s:description "The Republic of Panama"@en ;
   v-s:registrationNumber "591" ;
 .
 d:Country_PRY
@@ -922,8 +922,8 @@ d:Country_PRY
   v-s:shortLabel "PY" ;
   rdfs:label "Парагвай"@ru ;
   rdfs:label "Paraguay"@en ;
-  v-s:description "The Republic of Paraguay"@en ;
   v-s:description "Республика Парагвай"@ru ;
+  v-s:description "The Republic of Paraguay"@en ;
   v-s:registrationNumber "600" ;
 .
 d:Country_PER
@@ -932,8 +932,8 @@ d:Country_PER
   v-s:shortLabel "PE" ;
   rdfs:label "Перу"@ru ;
   rdfs:label "Peru"@en ;
-  v-s:description "Republic of Peru"@en ;
   v-s:description "Республика Перу"@ru ;
+  v-s:description "Republic of Peru"@en ;
   v-s:registrationNumber "604" ;
 .
 d:Country_PHL
@@ -942,8 +942,8 @@ d:Country_PHL
   v-s:shortLabel "PH" ;
   rdfs:label "Филиппины"@ru ;
   rdfs:label "Philippines"@en ;
-  v-s:description "Republic of the Philippines"@en ;
   v-s:description "Республика Филиппины"@ru ;
+  v-s:description "Republic of the Philippines"@en ;
   v-s:registrationNumber "608" ;
 .
 d:Country_POL
@@ -952,8 +952,8 @@ d:Country_POL
   v-s:shortLabel "PL" ;
   rdfs:label "Польша"@ru ;
   rdfs:label "Poland"@en ;
-  v-s:description "The Republic of Poland"@en ;
   v-s:description "Республика Польша"@ru ;
+  v-s:description "The Republic of Poland"@en ;
   v-s:registrationNumber "616" ;
 .
 d:Country_PRT
@@ -962,8 +962,8 @@ d:Country_PRT
   v-s:shortLabel "PT" ;
   rdfs:label "Португалия"@ru ;
   rdfs:label "Portugal"@en ;
-  v-s:description "Portuguese Republic"@en ;
   v-s:description "Португальская Республика"@ru ;
+  v-s:description "Portuguese Republic"@en ;
   v-s:registrationNumber "620" ;
 .
 d:Country_GNB
@@ -972,8 +972,8 @@ d:Country_GNB
   v-s:shortLabel "GW" ;
   rdfs:label "Гвинея-Бисау"@ru ;
   rdfs:label "Guinea-Bissau"@en ;
-  v-s:description "The Republic of Guinea-Bissau"@en ;
   v-s:description "Республика Гвинея-Бисау"@ru ;
+  v-s:description "The Republic of Guinea-Bissau"@en ;
   v-s:registrationNumber "624" ;
 .
 d:Country_QAT
@@ -982,8 +982,8 @@ d:Country_QAT
   v-s:shortLabel "QA" ;
   rdfs:label "Катар"@ru ;
   rdfs:label "Qatar"@en ;
-  v-s:description "The State of Qatar"@en ;
   v-s:description "Государство Катар"@ru ;
+  v-s:description "The State of Qatar"@en ;
   v-s:registrationNumber "634" ;
 .
 d:Country_ROM
@@ -992,8 +992,8 @@ d:Country_ROM
   v-s:shortLabel "RO" ;
   rdfs:label "Румыния"@ru ;
   rdfs:label "Romania"@en ;
-  v-s:description "Romania"@en ;
   v-s:description "Румыния"@ru ;
+  v-s:description "Romania"@en ;
   v-s:registrationNumber "642" ;
 .
 d:Country_RWA
@@ -1002,8 +1002,8 @@ d:Country_RWA
   v-s:shortLabel "RW" ;
   rdfs:label "Руанда"@ru ;
   rdfs:label "Rwanda"@en ;
-  v-s:description "Rwandese Republic"@en ;
   v-s:description "Руандийская Республика"@ru ;
+  v-s:description "Rwandese Republic"@en ;
   v-s:registrationNumber "646" ;
 .
 d:Country_SAU
@@ -1012,8 +1012,8 @@ d:Country_SAU
   v-s:shortLabel "SA" ;
   rdfs:label "Саудовская Аравия"@ru ;
   rdfs:label "Saudi Arabia"@en ;
-  v-s:description "Kingdom of Saudi Arabia"@en ;
   v-s:description "Королевство Саудовская Аравия"@ru ;
+  v-s:description "Kingdom of Saudi Arabia"@en ;
   v-s:registrationNumber "682" ;
 .
 d:Country_SEN
@@ -1022,8 +1022,8 @@ d:Country_SEN
   v-s:shortLabel "SN" ;
   rdfs:label "Сенегал"@ru ;
   rdfs:label "Senegal"@en ;
-  v-s:description "The Republic of Senegal"@en ;
   v-s:description "Республика Сенегал"@ru ;
+  v-s:description "The Republic of Senegal"@en ;
   v-s:registrationNumber "686" ;
 .
 d:Country_SRB
@@ -1032,8 +1032,8 @@ d:Country_SRB
   v-s:shortLabel "RS" ;
   rdfs:label "Сербия"@ru ;
   rdfs:label "Serbia"@en ;
-  v-s:description "The Republic of Serbia"@en ;
   v-s:description "Республика Сербия"@ru ;
+  v-s:description "The Republic of Serbia"@en ;
   v-s:registrationNumber "688" ;
 .
 d:Country_SGP
@@ -1042,8 +1042,8 @@ d:Country_SGP
   v-s:shortLabel "SG" ;
   rdfs:label "Сингапур"@ru ;
   rdfs:label "Singapore"@en ;
-  v-s:description "Republic of Singapore"@en ;
   v-s:description "Республика Сингапур"@ru ;
+  v-s:description "Republic of Singapore"@en ;
   v-s:registrationNumber "702" ;
 .
 d:Country_SVK
@@ -1052,8 +1052,8 @@ d:Country_SVK
   v-s:shortLabel "SK" ;
   rdfs:label "Словакия"@ru ;
   rdfs:label "Slovakia"@en ;
-  v-s:description "The Slovak Republic"@en ;
   v-s:description "Словацкая Республика"@ru ;
+  v-s:description "The Slovak Republic"@en ;
   v-s:registrationNumber "703" ;
 .
 d:Country_VNM
@@ -1062,8 +1062,8 @@ d:Country_VNM
   v-s:shortLabel "VN" ;
   rdfs:label "Вьетнам"@ru ;
   rdfs:label "Vietnam"@en ;
-  v-s:description "The Socialist Republic of Vietnam"@en ;
   v-s:description "Социалистическая Республика Вьетнам"@ru ;
+  v-s:description "The Socialist Republic of Vietnam"@en ;
   v-s:registrationNumber "704" ;
 .
 d:Country_SVN
@@ -1072,8 +1072,8 @@ d:Country_SVN
   v-s:shortLabel "SI" ;
   rdfs:label "Словения"@ru ;
   rdfs:label "Slovenia"@en ;
-  v-s:description "The Republic of Slovenia"@en ;
   v-s:description "Республика Словения"@ru ;
+  v-s:description "The Republic of Slovenia"@en ;
   v-s:registrationNumber "705" ;
 .
 d:Country_ZAF
@@ -1082,8 +1082,8 @@ d:Country_ZAF
   v-s:shortLabel "ZA" ;
   rdfs:label "ЮАР"@ru ;
   rdfs:label "South Africa"@en ;
-  v-s:description "South Africa"@en ;
   v-s:description "Южно-Африканская Республика"@ru ;
+  v-s:description "South Africa"@en ;
   v-s:registrationNumber "710" ;
 .
 d:Country_ESP
@@ -1092,8 +1092,8 @@ d:Country_ESP
   v-s:shortLabel "ES" ;
   rdfs:label "Испания"@ru ;
   rdfs:label "Spain"@en ;
-  v-s:description "The Kingdom of Spain"@en ;
   v-s:description "Королевство Испания"@ru ;
+  v-s:description "The Kingdom of Spain"@en ;
   v-s:registrationNumber "724" ;
 .
 d:Country_SDN
@@ -1102,8 +1102,8 @@ d:Country_SDN
   v-s:shortLabel "SD" ;
   rdfs:label "Судан"@ru ;
   rdfs:label "Sudan"@en ;
-  v-s:description "Republic of the Sudan"@en ;
   v-s:description "Республика Судан"@ru ;
+  v-s:description "Republic of the Sudan"@en ;
   v-s:registrationNumber "729" ;
 .
 d:Country_SWE
@@ -1112,8 +1112,8 @@ d:Country_SWE
   v-s:shortLabel "SE" ;
   rdfs:label "Швеция"@ru ;
   rdfs:label "Sweden"@en ;
-  v-s:description "Kingdom of Sweden"@en ;
   v-s:description "Королевство Швеция"@ru ;
+  v-s:description "Kingdom of Sweden"@en ;
   v-s:registrationNumber "752" ;
 .
 d:Country_CHE
@@ -1122,8 +1122,8 @@ d:Country_CHE
   v-s:shortLabel "CH" ;
   rdfs:label "Швейцария"@ru ;
   rdfs:label "Switzerland"@en ;
-  v-s:description "The Swiss Confederation"@en ;
   v-s:description "Швейцарская Конфедерация"@ru ;
+  v-s:description "The Swiss Confederation"@en ;
   v-s:registrationNumber "756" ;
 .
 d:Country_SYR
@@ -1132,8 +1132,8 @@ d:Country_SYR
   v-s:shortLabel "SY" ;
   rdfs:label "Сирия"@ru ;
   rdfs:label "Syria"@en ;
-  v-s:description "Syrian Arab Republic"@en ;
   v-s:description "СИРИЙСКАЯ АРАБСКАЯ РЕСПУБЛИКА"@ru ;
+  v-s:description "Syrian Arab Republic"@en ;
   v-s:registrationNumber "760" ;
 .
 d:Country_TJK
@@ -1142,8 +1142,8 @@ d:Country_TJK
   v-s:shortLabel "TJ" ;
   rdfs:label "Таджикистан"@ru ;
   rdfs:label "Tajikistan"@en ;
-  v-s:description "The Republic of Tajikistan"@en ;
   v-s:description "Республика Таджикистан"@ru ;
+  v-s:description "The Republic of Tajikistan"@en ;
   v-s:registrationNumber "762" ;
 .
 d:Country_THA
@@ -1152,8 +1152,8 @@ d:Country_THA
   v-s:shortLabel "TH" ;
   rdfs:label "Таиланд"@ru ;
   rdfs:label "Thailand"@en ;
-  v-s:description "Kingdom of Thailand"@en ;
   v-s:description "Королевство Таиланд"@ru ;
+  v-s:description "Kingdom of Thailand"@en ;
   v-s:registrationNumber "764" ;
 .
 d:Country_ARE
@@ -1162,8 +1162,8 @@ d:Country_ARE
   v-s:shortLabel "AE" ;
   rdfs:label "ОАЕ"@ru ;
   rdfs:label "United Arab Emirates"@en ;
-  v-s:description "United Arab Emirates"@en ;
   v-s:description "ОБЪЕДИНЕННЫЕ АРАБСКИЕ ЭМИРАТЫ"@ru ;
+  v-s:description "United Arab Emirates"@en ;
   v-s:registrationNumber "784" ;
 .
 d:Country_TUN
@@ -1172,8 +1172,8 @@ d:Country_TUN
   v-s:shortLabel "TN" ;
   rdfs:label "Тунис"@ru ;
   rdfs:label "Tunisia"@en ;
-  v-s:description "Republic of Tunisia"@en ;
   v-s:description "Тунисская Республика"@ru ;
+  v-s:description "Republic of Tunisia"@en ;
   v-s:registrationNumber "788" ;
 .
 d:Country_TUR
@@ -1182,8 +1182,8 @@ d:Country_TUR
   v-s:shortLabel "TR" ;
   rdfs:label "Турция"@ru ;
   rdfs:label "Turkey"@en ;
-  v-s:description "Turkish Republic"@en ;
   v-s:description "Турецкая Республика"@ru ;
+  v-s:description "Turkish Republic"@en ;
   v-s:registrationNumber "792" ;
 .
 d:Country_TKM
@@ -1192,8 +1192,8 @@ d:Country_TKM
   v-s:shortLabel "TM" ;
   rdfs:label "Туркмения"@ru ;
   rdfs:label "Turkmenistan"@en ;
-  v-s:description "Turkmenistan"@en ;
   v-s:description "Туркменистан"@ru ;
+  v-s:description "Turkmenistan"@en ;
   v-s:registrationNumber "795" ;
 .
 d:Country_UKR
@@ -1202,8 +1202,8 @@ d:Country_UKR
   v-s:shortLabel "UА" ;
   rdfs:label "Украина"@ru ;
   rdfs:label "Ukraine"@en ;
-  v-s:description "Ukraine"@en ;
   v-s:description "Украина"@ru ;
+  v-s:description "Ukraine"@en ;
   v-s:registrationNumber "704" ;
 .
 d:Country_EGY
@@ -1212,8 +1212,8 @@ d:Country_EGY
   v-s:shortLabel "EG" ;
   rdfs:label "Египет"@ru ;
   rdfs:label "Egypt"@en ;
-  v-s:description "Arab Republic of Egypt"@en ;
   v-s:description "Арабская Республика Египет"@ru ;
+  v-s:description "Arab Republic of Egypt"@en ;
   v-s:registrationNumber "818" ;
 .
 d:Country_GBR
@@ -1222,8 +1222,8 @@ d:Country_GBR
   v-s:shortLabel "GB" ;
   rdfs:label "Великобритания"@ru ;
   rdfs:label "Great Britain"@en ;
-  v-s:description "United Kingdom"@en ;
   v-s:description "Соединенное Королевство Великобритании и Северной Ирландии"@ru ;
+  v-s:description "United Kingdom"@en ;
   v-s:registrationNumber "826" ;
 .
 d:Country_USA
@@ -1232,8 +1232,8 @@ d:Country_USA
   v-s:shortLabel "US" ;
   rdfs:label "США"@ru ;
   rdfs:label "USA"@en ;
-  v-s:description "United States of America"@en ;
   v-s:description "Соединенные Штаты Америки"@ru ;
+  v-s:description "United States of America"@en ;
   v-s:registrationNumber "840" ;
 .
 d:Country_UZB
@@ -1242,8 +1242,8 @@ d:Country_UZB
   v-s:shortLabel "UZ" ;
   rdfs:label "Узбекистан"@ru ;
   rdfs:label "Uzbekistan"@en ;
-  v-s:description "The Republic of Uzbekistan"@en ;
   v-s:description "Республика Узбекистан"@ru ;
+  v-s:description "The Republic of Uzbekistan"@en ;
   v-s:registrationNumber "860" ;
 .
 d:Country_ABH
@@ -1252,8 +1252,8 @@ d:Country_ABH
   v-s:shortLabel "AB" ;
   rdfs:label "Абхазия"@ru ;
   rdfs:label "Abkhazia"@en ;
-  v-s:description "The Republic of Abkhazia"@en ;
   v-s:description "Республика Абхазия"@ru ;
+  v-s:description "The Republic of Abkhazia"@en ;
   v-s:registrationNumber "895" ;
 .
 d:Country_OST
@@ -1262,8 +1262,8 @@ d:Country_OST
   v-s:shortLabel "OS" ;
   rdfs:label "Южная Осетия"@ru ;
   rdfs:label "South Ossetia"@en ;
-  v-s:description "Republic of South Ossetia"@en ;
   v-s:description "Республика Южная Осетия"@ru ;
+  v-s:description "Republic of South Ossetia"@en ;
   v-s:registrationNumber "896" ;
 .
 
