@@ -78,6 +78,8 @@ d:2b249ab1d1644f528e50ff72977fa9c8
   v-s:shortLabel "Акт"^^xsd:string;
   rdfs:label "Акт"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg;
+  v-s:hasParentLink d:j1fscemown2iv45412nun98x;
 .
 d:5a343b4bd5f74935982025cec2582cac
   v-s:registrationNumber "0"^^xsd:string;
@@ -776,6 +778,7 @@ d:2fb47ad2cca5420686f5722cbadaee51
   v-s:shortLabel "Проект"^^xsd:string;
   rdfs:label "Проект"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:hasParentLink d:j1fscemown2iv45412nun98x;
 .
 d:6e62298f12f24734b1bc18c7feca3b14
   a v-s:DocumentKind;
@@ -982,6 +985,7 @@ d:332c11a413bb4e1b9e5ffaed12bc5ea7
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
+  v-s:hasParentLink d:j1fscemown2iv45412nun98x;
 .
 d:05ff2a46f67f458f9a74d3386b63ecb9
   a v-s:DocumentKind;
@@ -1942,13 +1946,7 @@ d:mqzlxqrejhhbod4ra42nq8cf
   rdfs:label "Чертеж"^^xsd:string;
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg;
 .
-d:nwlw1hvatf6ve0y0rpmz5o8d
-  a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Акт"^^xsd:string;
-  rdfs:label "Акт"^^xsd:string;
-  v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg;
-.
+
 #-----------------------------------------------
 d:fqtq6vjbcq3nkdspwvrhdgn3
   a v-s:DocumentKind;
@@ -2026,4 +2024,32 @@ d:hlm1q1uw5hm0sj5gu5llxqma
   v-s:shortLabel "Акт несоответствия"^^xsd:string;
   rdfs:label "Акт несоответствия"^^xsd:string;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
+.
+#-----------------------------------------------
+d:j1fscemown2iv45412nun98x
+  a v-s:DocumentKind;
+  v-s:shortLabel "Исполнительная документация"^^xsd:string;
+  rdfs:label "Исполнительная документация"^^xsd:string;
+  v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+.
+#-----------------------------------------------
+d:n4nj7nyj8prliu2bkgwdlgai
+  a v-s:DocumentKind;
+  v-s:shortLabel "Предпроектная документация"^^xsd:string;
+  rdfs:label "Предпроектная документация"^^xsd:string;
+  v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+.
+#-----------------------------------------------
+d:in6sbni64f41euzkalz7tcky
+  a v-s:DocumentKind;
+  v-s:shortLabel "Рабоче-конструкторская документация"^^xsd:string;
+  rdfs:label "Рабоче-конструкторская документация"^^xsd:string;
+  v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+.
+#-----------------------------------------------
+d:a26wryne43dijbzw781c5fcy4
+  a v-s:DocumentKind;
+  v-s:shortLabel "Разрешительная документация"^^xsd:string;
+  rdfs:label "Разрешительная документация"^^xsd:string;
+  v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
 .
