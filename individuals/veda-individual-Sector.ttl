@@ -106,6 +106,7 @@ d:de2ef98f99814cbbb3ed11b2b1b75ffb
   a v-s:Sector;
   v-s:hasParentLink d:950b366f25dc475599fb4350255bd913, d:0ed33c0939024c8991c60ac3acbdd287;
   v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Финансы"^^xsd:string;
   v-s:registrationNumber "080.000.000"^^xsd:string;
 .
@@ -127,6 +128,7 @@ d:54f6dc232f4b4599a34dbd7cef80c11f
 d:bdc10cafd79a4ad8b1d914b0202893a3
   a v-s:Sector;
   v-s:hasParentLink d:9982f4e237614694a29a3c7c791725aa;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Медицинская документация"^^xsd:string;
   v-s:registrationNumber "140.010.080"^^xsd:string;
 .
@@ -148,6 +150,7 @@ d:2ec5519a1f524cf7afd323d8b8e40029
 d:8311facb1eed455286b8caefd9f14355
   a v-s:Sector;
   v-s:hasParentLink d:950b366f25dc475599fb4350255bd913;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Безопасность и охрана правопорядка"^^xsd:string;
   v-s:registrationNumber "160.000.000"^^xsd:string;
 .
@@ -155,6 +158,7 @@ d:8311facb1eed455286b8caefd9f14355
 d:f5d5d6bc34844825b56b58f77ea43efc
   a v-s:Sector;
   v-s:hasParentLink d:0cd629ca8c4c4f8b8ed3277a1ad7168a;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Недвижимость"^^xsd:string;
   v-s:registrationNumber "030.050.040"^^xsd:string;
 .
@@ -163,6 +167,7 @@ d:66f31c625dbd4b49afec313119d731f4
   v-s:responsible d:mondi_appointment_00044583_71012089;
   a v-s:Sector;
   v-s:hasParentLink d:a1ff805754004cdea5782e286d9754ac, d:0ed33c0939024c8991c60ac3acbdd287;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Техническое обслуживание и ремонт электрического оборудования"^^xsd:string;
   v-s:registrationNumber "090.010.050.002"^^xsd:string;
 .
@@ -170,6 +175,7 @@ d:66f31c625dbd4b49afec313119d731f4
 d:1e49e40b5d144075b97e2a2882a81d5f
   a v-s:Sector;
   v-s:hasParentLink d:d35283762e8c4c3989d047171f6c6ed1;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Связь"^^xsd:string;
   v-s:registrationNumber "090.080.000"^^xsd:string;
 .
@@ -206,6 +212,7 @@ d:550f04867ba247c49b9b7590d82fd32b
 d:a2e0db683447419f9539cf17b9d8289c
   a v-s:Sector;
   v-s:hasParentLink d:1e49e40b5d144075b97e2a2882a81d5f;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Электрическая связь"^^xsd:string;
   v-s:registrationNumber "090.080.040"^^xsd:string;
 .
@@ -227,6 +234,7 @@ d:d0da52b81d8a4cd3b0a28c15a32fd247
 d:d330376dcb14460c8581408b2dc4d730
   a v-s:Sector;
   v-s:hasParentLink d:8070484e44754a46aeeee3b01ca314ec;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Нежилые помещения.  Административные  здания"^^xsd:string;
   v-s:registrationNumber "050.060.000"^^xsd:string;
 .
@@ -264,6 +272,7 @@ d:73fce783c33f44cf98b42b6f45469dc5
 d:14dbb766c71347889d8f7cdb156f47e0
   a v-s:Sector;
   v-s:hasParentLink d:39501c43e13747d5ba00c35488c3b498;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Железнодорожный транспорт"^^xsd:string;
   v-s:registrationNumber "090.070.030"^^xsd:string;
 .
@@ -285,6 +294,7 @@ d:8070484e44754a46aeeee3b01ca314ec
 d:3f4a2dd6a8604b579c65857de9e39568
   a v-s:Sector;
   v-s:hasParentLink d:d35283762e8c4c3989d047171f6c6ed1;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Промышленность"^^xsd:string;
   v-s:registrationNumber "090.010.000"^^xsd:string;
 .
@@ -388,6 +398,7 @@ d:c4a31aa373224470b247798c82cd4e96
 d:698a3a5cda374a46894334f6329f7cc0
   a v-s:Sector;
   v-s:hasParentLink d:f9b8f8d87286486994021bd35fe659e5;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Принятие в эксплуатацию завершенных объектов"^^xsd:string;
   v-s:registrationNumber "090.040.060"^^xsd:string;
 .
@@ -521,6 +532,7 @@ d:45bb1de686d547098a58ca8b58a8dc5d
   v-s:responsible d:mondi_appointment_00018871_71013780;
   a v-s:Sector;
   v-s:hasParentLink d:a1ff805754004cdea5782e286d9754ac, d:0ed33c0939024c8991c60ac3acbdd287;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Техническое обслуживание и ремонт механического оборудования"^^xsd:string;
   v-s:registrationNumber "090.010.050.003"^^xsd:string;
   v-s:shortLabel 'M' ;
@@ -705,6 +717,7 @@ d:a1ff805754004cdea5782e286d9754ac
   a v-s:Sector;
   v-s:hasParentLink d:3f4a2dd6a8604b579c65857de9e39568;
   v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Техническое обслуживание и ремонт промышленного оборудования, машин и приборов"^^xsd:string;
   v-s:registrationNumber "090.010.050"^^xsd:string;
 .
@@ -967,6 +980,7 @@ d:e2d6246984a14a98a62e3f60f1994990
   a v-s:Sector;
   v-s:hasParentLink d:506614f30cdd4494976d190a83fccb4e;
   v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Пожарная безопасность"^^xsd:string;
   v-s:registrationNumber "160.040.050"^^xsd:string;
 .
@@ -1172,6 +1186,7 @@ d:4dacf3ac77964b2abe9c3938069a77ba
 d:4775f24d50774505bc8279314557b19a
   a v-s:Sector;
   v-s:hasParentLink d:f9b8f8d87286486994021bd35fe659e5;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Проектирование капитального строительства"^^xsd:string;
   v-s:registrationNumber "090.040.040"^^xsd:string;
 .
@@ -1193,6 +1208,7 @@ d:af878b6705744559a972784ee2d50a4a
 d:8891ff04dafc4ad8813b4cb1ad25a8f8
   a v-s:Sector;
   v-s:hasParentLink d:3f4a2dd6a8604b579c65857de9e39568;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Отходы промышленности. Вторичное сырье"^^xsd:string;
   v-s:registrationNumber "090.010.060"^^xsd:string;
 .
@@ -1280,6 +1296,7 @@ d:ba1a7913d52e4a47967645767b6f2604
   v-s:responsible d:mondi_appointment_00025753_71000234;
   a v-s:Sector;
   v-s:hasParentLink d:a1ff805754004cdea5782e286d9754ac, d:0ed33c0939024c8991c60ac3acbdd287;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Техническое обслуживание и ремонт оборудования КИП и А"^^xsd:string;
   v-s:registrationNumber "090.010.050.001"^^xsd:string;
   v-s:shortLabel 'A' ;
@@ -1462,6 +1479,7 @@ d:446e220001e145428bcf3ab471edb0c2
   a v-s:Sector;
   v-s:hasParentLink d:506614f30cdd4494976d190a83fccb4e, d:3f4a2dd6a8604b579c65857de9e39568;
   v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Промышленная безопасность"^^xsd:string;
   v-s:registrationNumber "160.040.060  090.010.030"^^xsd:string;
 .
@@ -1508,6 +1526,7 @@ d:65981cf313bc49a4a5fe2f9578cf8d70
 d:43c2c5ea89614d30b468a4aa31e64027
   a v-s:Sector;
   v-s:hasParentLink d:3f4a2dd6a8604b579c65857de9e39568;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Эстетика в промышленности. Дизайн"^^xsd:string;
   v-s:registrationNumber "090.010.040"^^xsd:string;
 .
@@ -1515,6 +1534,7 @@ d:43c2c5ea89614d30b468a4aa31e64027
 d:705f0950877447119bb5f414e00e6795
   a v-s:Sector;
   v-s:hasParentLink d:d35283762e8c4c3989d047171f6c6ed1;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Геология. Геодезия и картография"^^xsd:string;
   v-s:registrationNumber "090.020.000"^^xsd:string;
 .
@@ -1536,6 +1556,7 @@ d:5d1dab74ab5e42abba4f3421491d3fba
 d:cddb49e593b44f29af5dfe4a31629681
   a v-s:Sector;
   v-s:hasParentLink d:f9b8f8d87286486994021bd35fe659e5;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Незавершенное строительство. Консервация"^^xsd:string;
   v-s:registrationNumber "090.040.070"^^xsd:string;
 .
@@ -1550,6 +1571,7 @@ d:0f41705071c041a0b961dbd7470cc688
 d:12f12ac6cb6e4624a73762f43e6097b3
   a v-s:Sector;
   v-s:hasParentLink d:a24713500352467d9b39cb1572530133;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Использование и охрана земель"^^xsd:string;
   v-s:registrationNumber "110.020.000"^^xsd:string;
 .
@@ -1578,6 +1600,7 @@ d:37fca6a101a1410cb92712c22ad83cad
   a v-s:Sector;
   v-s:hasParentLink d:653df79bb7ae44c7a8768e2ec18c16ca, d:0ed33c0939024c8991c60ac3acbdd287;
   v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Охрана труда"^^xsd:string;
   v-s:registrationNumber "060.020.140"^^xsd:string;
 .
@@ -1609,6 +1632,7 @@ d:39501c43e13747d5ba00c35488c3b498
   v-s:responsible d:mondi_appointment_00067460_71021882;
   a v-s:Sector;
   v-s:hasParentLink d:d35283762e8c4c3989d047171f6c6ed1, d:0ed33c0939024c8991c60ac3acbdd287;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Транспорт"^^xsd:string;
   v-s:registrationNumber "090.070.000"^^xsd:string;
 .
@@ -1631,6 +1655,7 @@ d:52690a3f0dbd4d3baf937220a7035ae0
   a v-s:Sector;
   v-s:hasParentLink d:506614f30cdd4494976d190a83fccb4e;
   v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Экологическая безопасность"^^xsd:string;
   v-s:registrationNumber "160.040.090"^^xsd:string;
   v-s:shortLabel 'E' ;
@@ -1660,6 +1685,7 @@ d:bfbad134e7bd4a75bca24d35f3ab3190
 d:530bcde120bf4a7989529f300f7fd6f0
   a v-s:Sector;
   v-s:hasParentLink d:88e66a7d24944ba1ae15bef62a71effe;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Экологический контроль"^^xsd:string;
   v-s:registrationNumber "110.010.090"^^xsd:string;
 .
@@ -1687,6 +1713,7 @@ d:febdcf2fffa943deabadd57de6bf22e5
 d:8779ce5e4ac6438a9b284748c97736a5
   a v-s:Sector;
   v-s:hasParentLink d:653df79bb7ae44c7a8768e2ec18c16ca;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Нормы труда и сдельные расценки"^^xsd:string;
   v-s:registrationNumber "060.020.100"^^xsd:string;
 .
@@ -1701,6 +1728,7 @@ d:a15670ab89f3467b93437449000b85f6
 d:d651f1cbbdd24e36b290fd3038caae19
   a v-s:Sector;
   v-s:hasParentLink d:be6914f2ce1049ab860cd014fe0ba9b5;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Метрология. Пробирное дело"^^xsd:string;
   v-s:registrationNumber "020.030.080"^^xsd:string;
 .
@@ -1751,6 +1779,7 @@ d:acb9f3cb0d9745baa569cfbad532a073
 d:e8519cdeb5194009a0afefae8275a171
   a v-s:Sector;
   v-s:hasParentLink d:3f4a2dd6a8604b579c65857de9e39568;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Электронная и   электротехническая   промышленность. Бытовые приборы"^^xsd:string;
   v-s:registrationNumber "090.010.160"^^xsd:string;
 .
@@ -1865,6 +1894,7 @@ d:ae5e2e05b8bc48e2a10df25dfe18f1cb
   a v-s:Sector;
   v-s:hasParentLink d:3f4a2dd6a8604b579c65857de9e39568, d:0ed33c0939024c8991c60ac3acbdd287;
   v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
+  v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Энергетика"^^xsd:string;
   v-s:registrationNumber "090.010.070"^^xsd:string;
   v-s:shortLabel 'E' ;
@@ -2024,5 +2054,11 @@ d:e094f6c7e96849688e9aea5b73e2a121
 d:678d0d1e89f04f5f9f5d975e79c86d77
   a v-s:Sector;
   rdfs:label "Классификатор ЛНД"^^xsd:string;
+  v-s:registrationNumber "000.000.000.400"^^xsd:string;
+.
+
+d:a0krjx43essi7o5cqyvggniqz
+  a v-s:Sector;
+  rdfs:label "Классификатор ТД"^^xsd:string;
   v-s:registrationNumber "000.000.000.400"^^xsd:string;
 .
