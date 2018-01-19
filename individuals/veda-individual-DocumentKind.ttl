@@ -1525,7 +1525,13 @@ d:70fdb1875257475a839210333d793377
   rdfs:label "Железнодорожная накладная"^^xsd:string;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
-
+d:eqdjxkit5ok02412q0qcy5k3
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "УПД"^^xsd:string;
+  rdfs:label "Универсальный передаточный документ"^^xsd:string;
+  v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
+.
 
 #-----------------------------------------------------
 d:8a7dde743f844ae0bf773fd3c245c5f7
