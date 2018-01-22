@@ -53,7 +53,7 @@ d:2d21e7eaab284fafa112caade001d482
   v-s:hasNormativeDocumentRequirement d:bf854beeeca747edbc4b46dcdcbec539;
   v-s:hasNormativeDocumentRequirement d:9e99430ba1a1491099af7ffb17eae65b;
   v-s:hasNormativeDocumentRequirement d:e75590ca4c884079a9a1612c4a072cd6;
-  v-s:hasNormativeDocumentRequirement d:cf91a07922264ee5ae34cd01aa3d495b;  
+  v-s:hasNormativeDocumentRequirement d:cf91a07922264ee5ae34cd01aa3d495b;
   v-s:hasNormativeDocumentRequirement d:906ceff01ab1490594af30e2b9bd1b48;
   v-s:hasNormativeDocumentRequirement d:fae7683aa6d14b66b55bd395d6ed54f9;
   v-s:hasNormativeDocumentRequirement d:fd03031e97b745d9ba06e04d89d5dd74;
@@ -119,7 +119,7 @@ d:4aec74ad30f34d86b52c3669f4fa56b4
   v-s:hasNormativeDocumentRequirement d:egz7ubr0hv3kare9gvozauxm ;
   v-s:hasNormativeDocumentRequirement d:qv2bmkk1vpxph9aqemim4x7v ;
   v-s:hasNormativeDocumentRequirement d:rmmo0niksamyozad16846jr9 ;
-  v-s:hasNormativeDocumentRequirement d:uwy2igvbbkxfhpim9revri8y ;  
+  v-s:hasNormativeDocumentRequirement d:uwy2igvbbkxfhpim9revri8y ;
 .
 d:nqh6ldmj9g0357w87x51bkme
   a v-s:NormativeDocument;
@@ -1994,4 +1994,66 @@ d:6f58ef6c11724bf6916801d4c439aee6
   rdfs:label "фото"^^xsd:string;
   v-s:attachment d:b1ffb8ac-c8b5-4fc1-8447-2cd33a8b4e68;
   v-s:shortLabel "фото 1"^^xsd:string;
+.
+
+d:jo8v9zf61jirf5v7yyvhqjl3
+  a v-s:NormativeDocument;
+  rdfs:label "Система проектной документации для строительства (СПДС)"^^xsd:string;
+  v-s:shortLabel "ГОСТ Р 21.1101-2013"^^xsd:string;
+.
+d:bfdvo4ke1453retm5ogl4mak
+  a v-s:NormativeDocument;
+  rdfs:label "О составе разделов проектной документации ПОСТАНОВЛЕНИЕ от 16 февраля 2008 года N 87"^^xsd:string;
+  v-s:shortLabel "ПОСТАНОВЛЕНИЕ от 16 февраля 2008 года N 87"^^xsd:string;
+.
+d:kkz2u8le5rytied1ujt515ka
+  a v-s:NormativeDocument;
+  rdfs:label "Система проектной документации для строительства (СПДС). Правила выполнения рабочей документации автоматизации технологических процессов"^^xsd:string;
+  v-s:shortLabel "ГОСТ 21.408-2013"^^xsd:string;
+.
+
+d:f05hv1j8330q0q0spqgl5pl8
+  a v-s:NormativeDocument;
+  rdfs:label "Единая система конструкторской документации (ЕСКД). Виды и комплектность конструкторских документов"^^xsd:string;
+  v-s:shortLabel "ГОСТ 2.102-2013"^^xsd:string;
+.
+d:ukwi09sf2eatfmm7aypufrr2
+  a v-s:NormativeDocument;
+  rdfs:label "Единая система конструкторской документации (ЕСКД). Эксплуатационные документы"^^xsd:string;
+  v-s:shortLabel "ГОСТ 2.601-2013"^^xsd:string;
+.
+d:s55lzdjnbgqinpdrz2goru3p
+  a v-s:NormativeDocument;
+  rdfs:label "Единая система конструкторской документации (ЕСКД). Ремонтные документы"^^xsd:string;
+  v-s:shortLabel "ГОСТ 2.602-2013"^^xsd:string;
+.
+d:gyj2ulgg9xfe8uh9nztf3sjb
+  a v-s:NormativeDocument;
+  rdfs:label "Единая система программной документации (ЕСПД). Виды программ и программных документов"^^xsd:string;
+  v-s:shortLabel "ГОСТ 19.101-77"^^xsd:string;
+.
+d:zf1ndqva5rdvev3lu7bu0le5
+  a v-s:NormativeDocument;
+  rdfs:label "Информационная технология (ИТ). Комплекс стандартов на автоматизированные системы. Виды, комплектность и обозначение документов"^^xsd:string;
+  v-s:shortLabel "ГОСТ 34.201-89"^^xsd:string;
+.
+d:kr4xokecchfpvo0m5xflzjoa
+  a v-s:NormativeDocument;
+  rdfs:label "Единая система технологической документации (ЕСТД). Стадии разработки и виды документов"^^xsd:string;
+  v-s:shortLabel "ГОСТ 3.1102-2011"^^xsd:string;
+.
+d:n6geyip94lfhcm8l9eeb3nqj
+  a v-s:NormativeDocument;
+  rdfs:label "Об утверждении и введении в действие Требований к составу и порядку ведения исполнительной документации при строительстве, реконструкции, капитальном ремонте объектов капитального строительства и требований"^^xsd:string;
+  v-s:shortLabel "ПРИКАЗ от 26 декабря 2006 года N 1128"^^xsd:string;
+.
+d:c4ekq4e7zt4kyp3plcshhr62
+  a v-s:NormativeDocument;
+  rdfs:label "Документация исполнительная геодезическая. Правила выполнения"^^xsd:string;
+  v-s:shortLabel "ГОСТ Р 51872-2002"^^xsd:string;
+.
+ d:hy0f0bpdnsm3eseznbxrkgfi
+  a v-s:NormativeDocument;
+  rdfs:label "Исполнительная документация в строительстве. Справочное пособие"^^xsd:string;
+  v-s:shortLabel "1"^^xsd:string;
 .
