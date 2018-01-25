@@ -18,7 +18,7 @@
 
 d:9eb9e3ee7b06641bbe895d94093f09d3
   rdf:type v-s:MaintenanceKind ;
-  rdfs:label "Капитальный ремонт"@ru ;
+  rdfs:label "Ежегодный останов"@ru ;
 .
 d:a8d25a725-84df-e2f1-ab8e-934931c4955e
   rdf:type v-s:MaintenanceKind ;
@@ -27,4 +27,12 @@ d:a8d25a725-84df-e2f1-ab8e-934931c4955e
 d:a3524ead5-f22d-6ad9-b63d-a56a443f0b40
   rdf:type v-s:MaintenanceKind ;
   rdfs:label "Текущая эксплуатация"@ru ;
+.
+d:a15vrs46hmt3c9uk6mv6ypqg3fg
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Капитальный ремонт"@ru ;
+.
+d:xsmdu4nif3459g2z75a9v7i82j
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Аварийные работы"@ru ;
 .
