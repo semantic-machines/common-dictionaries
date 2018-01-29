@@ -185,6 +185,7 @@ d:6634a914828748b5b5be6d569c77ccfa
   rdfs:label "Декларация"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
+  v-s:hasParentLink d:a26wryne43dijbzw781c5fcy4;
 .
 d:4fa2c9f9958b4eda83ef162e4856d98d
   a v-s:DocumentKind;
@@ -942,6 +943,7 @@ d:14add314e3684e2b863eb9fb8f31fcba
   v-s:shortLabel "Сертификат"^^xsd:string;
   rdfs:label "Сертификат"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:hasParentLink d:a26wryne43dijbzw781c5fcy4;
 .
 d:a6cbfff5b2e84cc0ad0eec98aaedf6b3
   a v-s:DocumentKind;
@@ -2529,9 +2531,37 @@ d:j1fscemown2iv45412nun98x
 #-----------------------------------------------
 d:a26wryne43dijbzw781c5fcy4
   a v-s:DocumentKind;
-  v-s:shortLabel "Разрешительная документация"^^xsd:string;
-  rdfs:label "Разрешительная документация"^^xsd:string;
+  v-s:shortLabel "Разрешительные документы"^^xsd:string;
+  rdfs:label "Разрешительные документы"^^xsd:string;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+.
+d:qghjme06zp2ielddfdctpjvtuw
+  a v-s:DocumentKind;
+  v-s:shortLabel "Свидетельство о государственной регистрации"^^xsd:string;
+  rdfs:label "Свидетельство о государственной регистрации"^^xsd:string;
+  v-s:hasParentLink d:a27993f6be1340b6beb1b4e8d049d812;
+  v-s:hasParentLink d:a26wryne43dijbzw781c5fcy4;
+.
+
+d:db3zjipxdgztjnrrgjr7hg2sug
+  a v-s:DocumentKind;
+  v-s:shortLabel "Сертификат пожарной безопасности"^^xsd:string;
+  rdfs:label "Сертификат пожарной безопасности"^^xsd:string;
+  v-s:hasParentLink d:14add314e3684e2b863eb9fb8f31fcba;
+.
+d:hoklhank71pa09uzylukp7oomf
+  a v-s:DocumentKind;
+  v-s:shortLabel "Отказное письмо"^^xsd:string;
+  rdfs:label "Отказное письмо"^^xsd:string;
+  v-s:hasParentLink d:cb9cf2f497654f1cb9b2e84e77b54213;
+  v-s:hasParentLink d:a26wryne43dijbzw781c5fcy4;
+.
+d:k623cu0cih8u0fgsgkmbelou3h
+  a v-s:DocumentKind;
+  v-s:shortLabel "Разрешение на применение"^^xsd:string;
+  rdfs:label "Разрешение на применение"^^xsd:string;
+  v-s:hasParentLink d:bdc120ddc9914bc2a88e520b552637dd;
+  v-s:hasParentLink d:a26wryne43dijbzw781c5fcy4;
 .
 
 #-----------------------------------------------
