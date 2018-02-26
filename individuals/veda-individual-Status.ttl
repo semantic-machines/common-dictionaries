@@ -286,7 +286,7 @@ v-s:StatusNotEvaluated
   rdfs:label "Not evaluated"@en ;
   v-s:tag "default" ;
 .
-v-s:StatusNotEvaluated
+v-s:StatusPartiallyEvaluated
   rdf:type v-s:Status ;
   rdfs:label "Оценено частично"@ru ;
   rdfs:label "Partially evaluated"@en ;
