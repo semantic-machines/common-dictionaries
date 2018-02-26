@@ -274,3 +274,21 @@ v-s:StatusElimination
   rdfs:label "Eliminating"@en ;
   v-s:tag "default" ;
 .
+v-s:StatusEvaluated
+  rdf:type v-s:Status ;
+  rdfs:label "Оценено"@ru ;
+  rdfs:label "Evaluated"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusNotEvaluated
+  rdf:type v-s:Status ;
+  rdfs:label "Не оценено"@ru ;
+  rdfs:label "Not evaluated"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusNotEvaluated
+  rdf:type v-s:Status ;
+  rdfs:label "Оценено частично"@ru ;
+  rdfs:label "Partially evaluated"@en ;
+  v-s:tag "default" ;
+.
