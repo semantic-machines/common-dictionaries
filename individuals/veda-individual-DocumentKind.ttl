@@ -582,6 +582,7 @@ d:c531a1ef7211452291b9cf0687d74842
   rdfs:label "Отчет"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
+  v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:9f4f0922af464a10a21f746a940d2c5c
   a v-s:DocumentKind;
@@ -1324,6 +1325,7 @@ d:3e65a31d4d9340dc8861a452be25e04e
 .
 d:b70adfacd3144644b17f930745e32c16
   a v-s:DocumentKind;
+  v-s:deleted "true"^^xsd:boolean;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Отчет"^^xsd:string;
   rdfs:label "Отчет"^^xsd:string;
@@ -2144,6 +2146,18 @@ d:in6sbni64f41euzkalz7tcky
   v-s:hasNormativeDocument d:f05hv1j8330q0q0spqgl5pl8 ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
 .
+d:uqocbblmycyot69lvvv44m9c28
+  a v-s:DocumentKind;
+  v-s:shortLabel "Комплект рабочих чертежей"^^xsd:string;
+  rdfs:label "Комплект рабочих чертежей"^^xsd:string;
+  v-s:hasParentLink d:in6sbni64f41euzkalz7tcky;
+.
+d:kqyyu62f90hy89wh188664bxwl
+  a v-s:DocumentKind;
+  v-s:shortLabel "Раздел проектной документации"^^xsd:string;
+  rdfs:label "Раздел проектной документации"^^xsd:string;
+  v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+.
 
 #-----------------------------------------------
 d:sr5gdnqd0b6w59hjzxkl02gg
@@ -2571,3 +2585,5 @@ d:zn8jlec6ma6x28fsgp6lyw49zo
   rdfs:label "Инженерные изыскания"^^xsd:string;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
 .
+
+#-----------------------------------------------
