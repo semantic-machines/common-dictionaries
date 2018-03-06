@@ -1316,6 +1316,13 @@ d:oqb5kf6uqkwpt00x7ge0htcl
   rdfs:label "Расчет арендной платы"^^xsd:string;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
+d:fshcwiesmrjt3friq9s7y4h8ve
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Акт по консервации/расконсервации ОС"^^xsd:string;
+  rdfs:label "Акт по консервации/расконсервации ОС"^^xsd:string;
+  v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
+.
 #-----------------------------------------------------
 d:3e65a31d4d9340dc8861a452be25e04e
   a v-s:DocumentKind;
