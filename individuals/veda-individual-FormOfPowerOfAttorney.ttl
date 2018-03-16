@@ -1,0 +1,25 @@
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+@prefix : <http://semantic-machines.com/veda/veda-individual-FormOfPowerOfAttorney/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantic-machines.com/veda/veda-individual-FormOfPowerOfAttorney>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Справочник Форма доверенности"@ru ;
+  rdfs:label "Veda ontology. Dictionary - FormOfPowerOfAttorney"@en ;
+  v-s:loadPriority 10 ;
+.
+
+#-----------------------------------------------------
+d:a2shywgnwnx2agbk2sj86whxpdw
+  a v-s:FormOfPowerOfAttorney;
+  rdfs:label "Нотариально заверенная"^^xsd:string;
+.
+
+d:a2279cyw3wx16idkt4k2pj3xac
+  a v-s:FormOfPowerOfAttorney;
+  rdfs:label "Простая письменная"^^xsd:string;
+.
