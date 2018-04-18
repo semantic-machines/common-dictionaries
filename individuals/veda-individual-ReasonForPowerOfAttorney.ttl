@@ -1,0 +1,83 @@
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+@prefix : <http://semantic-machines.com/veda/veda-individual-ReasonForPowerOfAttorney/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantic-machines.com/veda/veda-individual-ReasonForPowerOfAttorney>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Справочник Причина оформления доверенности"@ru ;
+  rdfs:label "Veda ontology. Dictionary - Reason for power of attorney"@en ;
+  v-s:loadPriority 10 ;
+.
+
+d:r8jdc0mrsyxsm7phi2693cfykw
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Представлять интересы в госорганах, вкл. общ.орг-ции, суды и правоохран.органы"^^xsd:string;
+.
+d:ejd74ye0l969saimi8zikq7oa
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Представлять интересы в коммерческих организациях"^^xsd:string;
+.
+d:iyggaatn7iplvgh92svenfe09
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Подписывать договоры, дополнительные соглашения"^^xsd:string;
+.
+d:4mcxa1aazj7pva58rds70xq45
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Подписывать заказы/спецификации"^^xsd:string;
+.
+d:mw9cm16fga8iwm4ljg30lbkkf
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Подписывать акты (выполненных работ/оказанных услуг, о списании, пр.)"^^xsd:string;
+.
+d:kcj9tak6jfqcqnwshardt4gkn
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Подписывать счета-фактуры, УПД, накладные (ТОРГ-12, ТН, ТТН и пр.)"^^xsd:string;
+.
+d:ziegkcddl7rgakkirh184dzb6
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Подписывать претензии, ответы на претензии"^^xsd:string;
+.
+d:7ngiq54lf3p7aqvebnxjekzee
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Подписывать иные документы"^^xsd:string;
+.
+d:r29jodp9q7m9p3szbufw3jc3p
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Представлять документы"^^xsd:string;
+.
+d:vp8iijb44tsytidfco2shpo84
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Получать документы"^^xsd:string;
+.
+d:ds030e4dtdsovpc23hbuuzs9r
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Получать ТМЦ"^^xsd:string;
+.
+d:7dj10xfiiwi9rkr87fb5e2pbc
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Получать ЭЦП"^^xsd:string;
+.
+d:ot2x5co166b12li6e5pe50by8
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Участвовать в проверках надзорных (контрольных) органов"^^xsd:string;
+.
+d:ihvgxesrvhppjox9y67juywcp
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Управлять транспортным средством"^^xsd:string;
+.
+d:8b62326jy35ayc7pnfblptjz9
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Заверять подлинность копий документов"^^xsd:string;
+.
+d:59qe570ynr8t27b3rzewrf1zc
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Оформление визы (подавать и подписывать документы, получать паспорт)"^^xsd:string;
+.
+d:r25yz73h74x27lr23yrstoh2n
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Иные полномочия"^^xsd:string;
+.

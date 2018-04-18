@@ -14,31 +14,6 @@
 .
 
 #------------------------------------------------------------------------------------
-d:a66rvva2ub9wfe94dhnjt6rd9mb
-  a v-s:LifecycleStage;
-  rdfs:label "Разработка проектной КД"^^xsd:string;
-.
-d:a1qrhs20liwsoyo1418u3m0sj72
-  a v-s:LifecycleStage;
-  rdfs:label "Разработка технического предложения"^^xsd:string;
-  v-s:hasParentLink d:a66rvva2ub9wfe94dhnjt6rd9mb;
-.
-d:pd6ytsrt4p94siaty810d98za6
-  a v-s:LifecycleStage;
-  rdfs:label "Разработка эскизного проекта"^^xsd:string;
-  v-s:hasParentLink d:a66rvva2ub9wfe94dhnjt6rd9mb;
-.
-d:ydbgpojvw7g4n6lrrpxj9q2ku9
-  a v-s:LifecycleStage;
-  rdfs:label "Разработка технического проекта"^^xsd:string;
-  v-s:hasParentLink d:a66rvva2ub9wfe94dhnjt6rd9mb;
-.
-#------------------------------------------------------------------------------------
-d:so6syetv7dx679ji3yhnhs2j4t
-  a v-s:LifecycleStage;
-  rdfs:label "Разработка рабочей КД"^^xsd:string;
-.
-#------------------------------------------------------------------------------------
 d:lq47gp7z6dg6e7xeuv2p6l1rvj
   a v-s:LifecycleStage;
   rdfs:label "Предпроектные работы"^^xsd:string;
