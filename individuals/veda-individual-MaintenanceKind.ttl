@@ -13,7 +13,6 @@
   v-s:loadPriority 10 ;
 .
 
-
 # -- вид обслуживания (останова обрудования) --
 
 d:9eb9e3ee7b06641bbe895d94093f09d3
@@ -35,4 +34,8 @@ d:a15vrs46hmt3c9uk6mv6ypqg3fg
 d:xsmdu4nif3459g2z75a9v7i82j
   rdf:type v-s:MaintenanceKind ;
   rdfs:label "Аварийные работы"@ru ;
+.
+d:8f4df97c49fd99ff23fe6bd9d491ca2e
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Ежемесячный"@ru ;
 .
