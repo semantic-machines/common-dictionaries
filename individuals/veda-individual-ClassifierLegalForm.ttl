@@ -555,12 +555,12 @@ d:OKOPF_40002
   v-s:registrationNumber "40002" ;
   v-s:hasParentLink d:OKOPF_40000
 .
-#d:OKOPF_50000
-#  a v-s:ClassifierLegalForm;
-#  rdfs:label "Организационно-правовые формы для деятельности граждан (физических лиц)" ;
-#  v-s:title "Организационно-правовые формы для деятельности граждан (физических лиц)" ;
-#  v-s:registrationNumber "50000" ;
-#.
+d:OKOPF_50000
+  a v-s:ClassifierLegalForm;
+  rdfs:label "Организационно-правовые формы для деятельности граждан (физических лиц)" ;
+  v-s:title "Организационно-правовые формы для деятельности граждан (физических лиц)" ;
+  v-s:registrationNumber "50000" ;
+.
 d:OKOPF_50100
   a v-s:ClassifierLegalForm;
   rdfs:label "Организационно-правовые формы для коммерческой деятельности граждан" ;
