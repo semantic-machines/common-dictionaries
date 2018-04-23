@@ -12,29 +12,36 @@
   rdfs:label "Veda ontology. individual - Level"@en ;
   v-s:loadPriority 10 ;
 .
+# Для автоматической раскраски в шаблонах можно использовать следующие значения свойства v-s:tag
+# default = серый | primary = синий | success = зеленый | info = голубой | warning = оранжевый | danger = красный
 
 d:13545e8b279170bf558caf04382077d3
   rdf:type v-s:Level ;
   rdfs:label "Высокий"@ru ;
   rdfs:label "High"@en ;
+  v-s:tag "warning" ;
 .
 d:15e1d21a6bf8fdc94b693fadd960f71e
   rdf:type v-s:Level ;
   rdfs:label "Средний"@ru ;
   rdfs:label "Moderate"@en ;
+  v-s:tag "primary" ;  
 .
 d:9a4ac66ccae37aac073c7674f7ab1ec8
   rdf:type v-s:Level ;
   rdfs:label "Низкий"@ru ;
   rdfs:label "Low"@en ;
+  v-s:tag "success" ;  
 .
 d:913b746aded06653b193ab11d9ce531c
   rdf:type v-s:Level ;
   rdfs:label "Отсутствует"@ru ;
   rdfs:label "Undefined"@en ;
+  v-s:tag "default" ;  
 .
 d:25341f858eaa42ecbd1b6dd7656f9745
   rdf:type v-s:Level ;
   rdfs:label "Фатальный"@ru ;
   rdfs:label "Fatal"@en ;
+  v-s:tag "danger" ;  
 .
