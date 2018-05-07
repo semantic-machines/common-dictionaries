@@ -170,6 +170,7 @@ d:66f31c625dbd4b49afec313119d731f4
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Техническое обслуживание и ремонт электрического оборудования"^^xsd:string;
   v-s:registrationNumber "090.010.050.002"^^xsd:string;
+  v-s:shortLabel "Э"^^xsd:string;
 .
 
 d:1e49e40b5d144075b97e2a2882a81d5f
@@ -1989,6 +1990,7 @@ d:a7441b96b-5bd5-38cf-649b-0c3880d57840
 d:9b9354e19fb24d74a71ab476100bf3e9
   a v-s:Sector;
   rdfs:label "Технологическое обслуживание оборудования"^^xsd:string;
+  v-s:shortLabel "Т"^^xsd:string;
 .
 d:2ae4749b19b14d6fb136c14ffe09f61a
   a v-s:Sector;
