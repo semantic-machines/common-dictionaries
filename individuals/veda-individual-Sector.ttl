@@ -2048,9 +2048,6 @@ d:e094f6c7e96849688e9aea5b73e2a121
   v-s:registrationNumber "120.030.080"^^xsd:string;
 .
 
-
-
-
 d:678d0d1e89f04f5f9f5d975e79c86d77
   a v-s:Sector;
   rdfs:label "Классификатор ЛНД"^^xsd:string;
