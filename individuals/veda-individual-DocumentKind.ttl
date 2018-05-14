@@ -1,10 +1,9 @@
-@prefix d: <http://semantic-machines.com/veda/veda-data/> .
-@prefix : <http://semantic-machines.com/veda/veda-individual-DocumentKind/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
 
 <http://semantic-machines.com/veda/veda-individual-DocumentKind>
   rdf:type owl:Ontology ;
@@ -13,7 +12,18 @@
   v-s:loadPriority 10 ;
 .
 
-#-----------------------------------------------------
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:DocumentKind
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:subClassOf v-s:NormativeDocument ;
+  rdfs:label "Вид документа"@ru ;
+  rdfs:label "Document kind"@en ;
+.
+# --- В связи с вводом класса возникает предикат v-s:hasDocumentKind. Он описан в классе v-s:Thing
+
+
+# ------------------------------------------------------------ ИНДИВИДЫ --
 d:97a6c9fbbc15418f8309490b2b6d3d6e
   a v-s:DocumentKind;
   v-s:shortLabel "Формы договорных документов"^^xsd:string;

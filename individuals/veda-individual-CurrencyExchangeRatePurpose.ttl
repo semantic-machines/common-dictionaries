@@ -13,6 +13,18 @@
   v-s:loadPriority 10 ;
 .
 
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:CurrencyExchangeRatePurpose
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Назначение курса обмена валюты"@ru ;
+  rdfs:label "Currency exchange rate purpose"@en ;
+.
+# --- В связи с вводом класса возникает предикат v-s:hasCurrencyExchangeRatePurpose. Он описан в классе v-s:CurrencyExchangeRate
+
+
+# ------------------------------------------------------------ ИНДИВИДЫ --
+
 v-s:CER_Purpose_current
   rdf:type v-s:CurrencyExchangeRatePurpose ;
   rdfs:label "Текущий курс"@ru ;

@@ -1,10 +1,9 @@
-@prefix d: <http://semantic-machines.com/veda/veda-data/> .
-@prefix : <http://semantic-machines.com/veda/veda-individual-DeliveryMethod/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
 
 <http://semantic-machines.com/veda/veda-individual-DeliveryMethod>
   rdf:type owl:Ontology ;
@@ -13,28 +12,17 @@
   v-s:loadPriority 10 ;
 .
 
-# ОТПРАВКА --------------------
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:DeliveryMethod
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Метод доставки"@ru ;
+  rdfs:label "Delivery method"@en ;
+.
+# --- В связи с вводом класса возникает предикат v-s:deliverBy. Он описан в классе v-s:Deliverable2
 
-#d:635
-#  a v-s:DeliveryMethod;
-#  rdfs:label "Факс"@ru;
-#  rdfs:label "Fax"@en;
-#.
 
-#d:644
-#  a v-s:DeliveryMethod;
-#  rdfs:label "Письмо"@ru;
-#  rdfs:label "Letter"@en;
-#.
-
-#d:653
-#  a v-s:DeliveryMethod;
-#  rdfs:label "Письмо и факс"@ru;
-#  rdfs:label "Letter & Fax"@en;
-#.
-
-# ПРИЁМ ----------------------
-
+# ------------------------------------------------------------ ИНДИВИДЫ --
 d:244a40584c814020a7430b2e6005e387
   a v-s:DeliveryMethod;
   rdfs:label "Посылка"@ru;
