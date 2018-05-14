@@ -250,7 +250,44 @@ d:l5hhxl1iqyiyn9qa14b30f5q
   v-s:hasNormativeDocumentRequirement d:b4owaujh1gu7viyqsmkejpe1 ;
   v-s:hasNormativeDocumentRequirement d:f6phrok8sww17p58jjshuh2d ;
   v-s:hasNormativeDocumentRequirement d:pyhj300cp7fxl84ngd3bpi4y ;
-
+.
+d:c1yab05uv5kf5b8vl2ebmtr0zr
+  a v-s:NormativeDocument;
+  rdfs:label "GMP"^^xsd:string;
+  v-s:hasNormativeDocumentRequirement d:t51k1r4h6r8wh2aet4oauupkha ;
+  v-s:hasNormativeDocumentRequirement d:yfs9aezwr6eoweggdd6nh0a1nr ;
+  v-s:hasNormativeDocumentRequirement d:ljiebhatughah9rotnt5qzvkrk ;
+  v-s:hasNormativeDocumentRequirement d:jpijkajf4e4aeohf2hhdinqa39 ;
+  v-s:hasNormativeDocumentRequirement d:o1z8yaihyx3xuvcrjzahtzcqmb ;
+  v-s:hasNormativeDocumentRequirement d:gg21sskpd87rpocq49lzfpsd0r ;
+  v-s:hasNormativeDocumentRequirement d:qh0b1qr4xs5gaf1mizdqip1tyw ;
+  v-s:hasNormativeDocumentRequirement d:rui2wjjo002uvaqmdwiuidi473; 
+  v-s:hasNormativeDocumentRequirement d:hlrl30t8ttp7zkck80rvmr3m2c;
+  v-s:hasNormativeDocumentRequirement d:a34a5xpme74ucf7ro2ws4neo5ni;
+  v-s:hasNormativeDocumentRequirement d:fp3d87ej6puazrp5nj1w5cbz02;
+  v-s:hasNormativeDocumentRequirement d:a0npf16gi9cke3x4ltpzno61qc0;
+  v-s:hasNormativeDocumentRequirement d:g45cdsrnz6xngj5dcgi7t7njqb; 
+  v-s:hasNormativeDocumentRequirement d:a6p7uwzkll11lz4vhtxb6umaqjy;
+  v-s:hasNormativeDocumentRequirement d:bcgflezduvzldtx31tth8anr82;
+  v-s:hasNormativeDocumentRequirement d:a9ne37x5lvas8n28qsdq4li7f21;
+  v-s:hasNormativeDocumentRequirement d:uqcsb8htrrhorm81ht2ar44ktq;
+  v-s:hasNormativeDocumentRequirement d:a0twif9m5zbup0axhdocpl1vl89;
+  v-s:hasNormativeDocumentRequirement d:a1vwoenbeenpxl4rzntbvdoocua;
+  v-s:hasNormativeDocumentRequirement d:w9viki2yswfbzvf69zhiadnyw9;
+  v-s:hasNormativeDocumentRequirement d:a9pin9ou4nro2kdu2sz3p7ne9lh;
+  v-s:hasNormativeDocumentRequirement d:p1rabaxb05qxf3n0ru6hq4lou7;
+  v-s:hasNormativeDocumentRequirement d:f7vbjrib0m3juqs6n8s809ffjq;
+  v-s:hasNormativeDocumentRequirement d:a0sk7n2wxq7n2n4cj202vdfv16x;
+  v-s:hasNormativeDocumentRequirement d:a154wbc7ll58ol8ka5a68tc1czx;
+  v-s:hasNormativeDocumentRequirement d:ei3mtmp7acuuj1423551g3ehfk;
+  v-s:hasNormativeDocumentRequirement d:q91eg5f0jku5suxfs64p4anke7;
+  v-s:hasNormativeDocumentRequirement d:hd6dlu8ja1jath6lblip9tqu60;
+  v-s:hasNormativeDocumentRequirement d:x5q5bubkwhm5iceo8m0ooj7z2e;
+  v-s:hasNormativeDocumentRequirement d:e39h3m6byjqqmaxkm6jx1vanxs;
+  v-s:hasNormativeDocumentRequirement d:a0p71tw33j2euagq6o5herkf4ee;
+  v-s:hasNormativeDocumentRequirement d:u08fvyibn0v8ca9kkm0rscxq9a;
+  v-s:hasNormativeDocumentRequirement d:bxlddm26t1q1jv2zebbgwr5klh;
+  v-s:hasNormativeDocumentRequirement d:a7dobfz50d0boc7cliu8o7dccbp;
 .
 d:c4edc01cf20a4500ba6378ad2ea06a8f
   a v-s:NormativeDocument;
