@@ -1714,3 +1714,209 @@ d:klxlxctpop1w4xnbkyr5uhzh
   v-s:hasNormativeDocument d:l5hhxl1iqyiyn9qa14b30f5q;
   v-s:requirementGroupNumber 78;
 .
+
+#--------------------GMP-------------------
+d:t51k1r4h6r8wh2aet4oauupkha
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4 Система менеджмента гигиены"^^xsd:string;
+  v-s:parent d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:yfs9aezwr6eoweggdd6nh0a1nr
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4.1 Ответственность руководства"^^xsd:string;
+  v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:ljiebhatughah9rotnt5qzvkrk
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4.2 Управление документами"^^xsd:string;
+  v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:jpijkajf4e4aeohf2hhdinqa39
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4.3 Спецификации"^^xsd:string;
+  v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:o1z8yaihyx3xuvcrjzahtzcqmb
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4.4 Управление несоответствиями и инцидентами"^^xsd:string;
+  v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:gg21sskpd87rpocq49lzfpsd0r
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4.5 Проележиваемость"^^xsd:string;
+  v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:qh0b1qr4xs5gaf1mizdqip1tyw
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4.6 Внутренние аудиты"^^xsd:string;
+  v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:rui2wjjo002uvaqmdwiuidi473
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4.7 Менеджмент рекламаций"^^xsd:string;
+  v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:hlrl30t8ttp7zkck80rvmr3m2c
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4.8 Одобрение и мониторинг поставщиков"^^xsd:string;
+  v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:a34a5xpme74ucf7ro2ws4neo5ni
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4.9 Аутсорсинг"^^xsd:string;
+  v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:fp3d87ej6puazrp5nj1w5cbz02
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4.10 Мониторинг и измерение продукции"^^xsd:string;
+  v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:a0npf16gi9cke3x4ltpzno61qc0
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "4.11 Человеческие ресурсы"^^xsd:string;
+  v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:g45cdsrnz6xngj5dcgi7t7njqb
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "5 Анализ опасностей и оценка рисков"^^xsd:string;
+  v-s:parent d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:a6p7uwzkll11lz4vhtxb6umaqjy
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "6 Источники загрязнения"^^xsd:string;
+  v-s:parent d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:bcgflezduvzldtx31tth8anr82
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "6.1 Физические загрязнения"^^xsd:string;
+  v-s:parent d:a6p7uwzkll11lz4vhtxb6umaqjy;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:a9ne37x5lvas8n28qsdq4li7f21
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "6.2 Химические загрязнения"^^xsd:string;
+  v-s:parent d:a6p7uwzkll11lz4vhtxb6umaqjy;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:uqcsb8htrrhorm81ht2ar44ktq
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "6.3 Биологические загрязнения"^^xsd:string;
+  v-s:parent d:a6p7uwzkll11lz4vhtxb6umaqjy;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:a0twif9m5zbup0axhdocpl1vl89
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "6.4 Хранение и рассылка"^^xsd:string;
+  v-s:parent d:a6p7uwzkll11lz4vhtxb6umaqjy;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:a1vwoenbeenpxl4rzntbvdoocua
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "6.5 Уборка"^^xsd:string;
+  v-s:parent d:a6p7uwzkll11lz4vhtxb6umaqjy;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:w9viki2yswfbzvf69zhiadnyw9
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "6.6 Техобслуживание"^^xsd:string;
+  v-s:parent d:a6p7uwzkll11lz4vhtxb6umaqjy;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:a9pin9ou4nro2kdu2sz3p7ne9lh
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "6.7 Обращение с отходами и мусором"^^xsd:string;
+  v-s:parent d:a6p7uwzkll11lz4vhtxb6umaqjy;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:p1rabaxb05qxf3n0ru6hq4lou7
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "7 Производственные требования"^^xsd:string;
+  v-s:parent d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:f7vbjrib0m3juqs6n8s809ffjq
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "7.1 Внешние территории"^^xsd:string;
+  v-s:parent d:p1rabaxb05qxf3n0ru6hq4lou7;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:a0sk7n2wxq7n2n4cj202vdfv16x
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "7.2 Здания"^^xsd:string;
+  v-s:parent d:p1rabaxb05qxf3n0ru6hq4lou7;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:a154wbc7ll58ol8ka5a68tc1czx
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "7.3 Оборудование"^^xsd:string;
+  v-s:parent d:p1rabaxb05qxf3n0ru6hq4lou7;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:ei3mtmp7acuuj1423551g3ehfk
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "7.4 Сооружения"^^xsd:string;
+  v-s:parent d:p1rabaxb05qxf3n0ru6hq4lou7;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:q91eg5f0jku5suxfs64p4anke7
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "8 Персонал"^^xsd:string;
+  v-s:parent d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:hd6dlu8ja1jath6lblip9tqu60
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "8.1 Места доступа и конкретные маршруты"^^xsd:string;
+  v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:x5q5bubkwhm5iceo8m0ooj7z2e
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "8.2 Спецодежда"^^xsd:string;
+  v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:e39h3m6byjqqmaxkm6jx1vanxs
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "8.3 Личные вещи"^^xsd:string;
+  v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:a0p71tw33j2euagq6o5herkf4ee
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "8.4 Туалеты и индивидуальные шкафчики"^^xsd:string;
+  v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:u08fvyibn0v8ca9kkm0rscxq9a
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "8.5 Прием пищи, напитков и использование табака и медикаментов"^^xsd:string;
+  v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:bxlddm26t1q1jv2zebbgwr5klh
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "8.6 Травмы и заболевания"^^xsd:string;
+  v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
+d:a7dobfz50d0boc7cliu8o7dccbp
+  a v-s:NormativeDocumentRequirement;
+  rdfs:label "8.7 Посетители"^^xsd:string;
+  v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
+  v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+.
