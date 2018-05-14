@@ -1,10 +1,10 @@
-@prefix d: <http://semantic-machines.com/veda/veda-data/> .
-@prefix : <http://semantic-machines.com/veda/veda-individual-KpiGroup/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix v-ui: <http://semantic-machines.com/veda/veda-ui/> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
 
 <http://semantic-machines.com/veda/veda-individual-Status>
   rdf:type owl:Ontology ;
@@ -16,6 +16,33 @@
 # Для автоматической раскраски статусов в шаблонах можно использовать следующие значения свойства v-s:tag
 # default = серый | primary = синий | success = зеленый | info = голубой | warning = оранжевый | danger = красный
 
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:Status
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Статус"@ru ;
+  rdfs:label "Status"@en ;
+  v-ui:hasTemplate v-ui:StatusTemplate;
+.
+# --- В связи с вводом класса возникает предикат hasStatus 
+# --- Он описан в классе v-s:Thing
+
+
+# ------------------------------------------------------------ ШАБЛОНЫ --
+v-ui:StatusTemplate
+  rdf:type v-ui:ClassTemplate ;
+  rdfs:label "Шаблон для класса Статус"@ru ;
+  rdfs:label "Template for Status class"@en ;
+  v-ui:forClass v-s:Status ;
+  v-ui:template """
+  <span class="label margin-xs-h" property="rdfs:label"></span>
+  <script>
+    template.addClass("label-"+individual["v-s:tag"]);
+  </script>
+  """ ;
+.
+
+# ------------------------------------------------------------ ИНДИВИДЫ --
 v-s:StatusDraft
   rdf:type v-s:Status ;
   rdfs:label "Не отправлено"@ru ;

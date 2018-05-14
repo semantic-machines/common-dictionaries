@@ -1,10 +1,9 @@
-@prefix d: <http://semantic-machines.com/veda/veda-data/> .
-@prefix : <http://semantic-machines.com/veda/veda-individual-ProjectKind/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
 
 <http://semantic-machines.com/veda/veda-individual-ProjectKind>
   rdf:type owl:Ontology ;
@@ -12,6 +11,19 @@
   rdfs:label "Veda ontology. individual - ProjectKind"@en ;
   v-s:loadPriority 10 ;
 .
+
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:ProjectKind
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Вид проекта"@ru ;
+  rdfs:label "Project category"@en ;
+.
+# --- В связи с вводом класса возникает предикат v-s:hasProjectKind 
+# --- Он описан в классе v-s:Projectable
+
+
+# ------------------------------------------------------------ ИНДИВИДЫ --
 
 d:d0b5aa936a0025177c0b0ab9b8f9b428a
   rdf:type v-s:ProjectKind ;

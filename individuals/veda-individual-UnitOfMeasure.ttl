@@ -1,10 +1,9 @@
-@prefix d: <http://semantic-machines.com/veda/veda-data/> .
-@prefix : <http://semantic-machines.com/veda/veda-individual-UnitOfMeasure/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
 
 <http://semantic-machines.com/veda/veda-individual-UnitOfMeasure>
   rdf:type owl:Ontology ;
@@ -13,4 +12,17 @@
   v-s:loadPriority 10 ;
 .
 
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:UnitOfMeasure
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:subClassOf v-s:ClassifiedRus ;
+  rdfs:label "Единицы измерения"@ru ;
+  rdfs:label "Unit of measure"@en ;
+.
+# --- В связи с вводом класса возникает предикат v-s:hasUnitOfMeasure
+# --- Он описан в классе v-s:Measurable
+
+
+# ------------------------------------------------------------ ИНДИВИДЫ --
 
