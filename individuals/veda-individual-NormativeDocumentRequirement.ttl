@@ -1732,66 +1732,77 @@ d:ljiebhatughah9rotnt5qzvkrk
   rdfs:label "4.2 Управление документами"^^xsd:string;
   v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 32;
 .
 d:jpijkajf4e4aeohf2hhdinqa39
   a v-s:NormativeDocumentRequirement;
   rdfs:label "4.3 Спецификации"^^xsd:string;
   v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 42;
 .
 d:o1z8yaihyx3xuvcrjzahtzcqmb
   a v-s:NormativeDocumentRequirement;
   rdfs:label "4.4 Управление несоответствиями и инцидентами"^^xsd:string;
   v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 77;
 .
 d:gg21sskpd87rpocq49lzfpsd0r
   a v-s:NormativeDocumentRequirement;
   rdfs:label "4.5 Проележиваемость"^^xsd:string;
   v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 55;
 .
 d:qh0b1qr4xs5gaf1mizdqip1tyw
   a v-s:NormativeDocumentRequirement;
   rdfs:label "4.6 Внутренние аудиты"^^xsd:string;
   v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 69;
 .
 d:rui2wjjo002uvaqmdwiuidi473
   a v-s:NormativeDocumentRequirement;
   rdfs:label "4.7 Менеджмент рекламаций"^^xsd:string;
   v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 38;
 .
 d:hlrl30t8ttp7zkck80rvmr3m2c
   a v-s:NormativeDocumentRequirement;
   rdfs:label "4.8 Одобрение и мониторинг поставщиков"^^xsd:string;
   v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 49;
 .
 d:a34a5xpme74ucf7ro2ws4neo5ni
   a v-s:NormativeDocumentRequirement;
   rdfs:label "4.9 Аутсорсинг"^^xsd:string;
   v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 50;
 .
 d:fp3d87ej6puazrp5nj1w5cbz02
   a v-s:NormativeDocumentRequirement;
   rdfs:label "4.10 Мониторинг и измерение продукции"^^xsd:string;
   v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 62;
 .
 d:a0npf16gi9cke3x4ltpzno61qc0
   a v-s:NormativeDocumentRequirement;
   rdfs:label "4.11 Человеческие ресурсы"^^xsd:string;
   v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 21;
 .
 d:g45cdsrnz6xngj5dcgi7t7njqb
   a v-s:NormativeDocumentRequirement;
   rdfs:label "5 Анализ опасностей и оценка рисков"^^xsd:string;
   v-s:parent d:c1yab05uv5kf5b8vl2ebmtr0zr;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 10;
 .
 d:a6p7uwzkll11lz4vhtxb6umaqjy
   a v-s:NormativeDocumentRequirement;
@@ -1846,76 +1857,89 @@ d:p1rabaxb05qxf3n0ru6hq4lou7
   rdfs:label "7 Производственные требования"^^xsd:string;
   v-s:parent d:c1yab05uv5kf5b8vl2ebmtr0zr;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 19;
 .
 d:f7vbjrib0m3juqs6n8s809ffjq
   a v-s:NormativeDocumentRequirement;
   rdfs:label "7.1 Внешние территории"^^xsd:string;
   v-s:parent d:p1rabaxb05qxf3n0ru6hq4lou7;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 22;
 .
 d:a0sk7n2wxq7n2n4cj202vdfv16x
   a v-s:NormativeDocumentRequirement;
   rdfs:label "7.2 Здания"^^xsd:string;
   v-s:parent d:p1rabaxb05qxf3n0ru6hq4lou7;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 22;
 .
 d:a154wbc7ll58ol8ka5a68tc1czx
   a v-s:NormativeDocumentRequirement;
   rdfs:label "7.3 Оборудование"^^xsd:string;
   v-s:parent d:p1rabaxb05qxf3n0ru6hq4lou7;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 22;
 .
 d:ei3mtmp7acuuj1423551g3ehfk
   a v-s:NormativeDocumentRequirement;
   rdfs:label "7.4 Сооружения"^^xsd:string;
   v-s:parent d:p1rabaxb05qxf3n0ru6hq4lou7;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 22;
 .
 d:q91eg5f0jku5suxfs64p4anke7
   a v-s:NormativeDocumentRequirement;
   rdfs:label "8 Персонал"^^xsd:string;
   v-s:parent d:c1yab05uv5kf5b8vl2ebmtr0zr;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 26;
 .
 d:hd6dlu8ja1jath6lblip9tqu60
   a v-s:NormativeDocumentRequirement;
   rdfs:label "8.1 Места доступа и конкретные маршруты"^^xsd:string;
   v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 79;
 .
 d:x5q5bubkwhm5iceo8m0ooj7z2e
   a v-s:NormativeDocumentRequirement;
   rdfs:label "8.2 Спецодежда"^^xsd:string;
   v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 80;
 .
 d:e39h3m6byjqqmaxkm6jx1vanxs
   a v-s:NormativeDocumentRequirement;
   rdfs:label "8.3 Личные вещи"^^xsd:string;
   v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 81;
 .
 d:a0p71tw33j2euagq6o5herkf4ee
   a v-s:NormativeDocumentRequirement;
   rdfs:label "8.4 Туалеты и индивидуальные шкафчики"^^xsd:string;
   v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 82;
 .
 d:u08fvyibn0v8ca9kkm0rscxq9a
   a v-s:NormativeDocumentRequirement;
   rdfs:label "8.5 Прием пищи, напитков и использование табака и медикаментов"^^xsd:string;
   v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 83;
 .
 d:bxlddm26t1q1jv2zebbgwr5klh
   a v-s:NormativeDocumentRequirement;
   rdfs:label "8.6 Травмы и заболевания"^^xsd:string;
   v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 84;
 .
 d:a7dobfz50d0boc7cliu8o7dccbp
   a v-s:NormativeDocumentRequirement;
   rdfs:label "8.7 Посетители"^^xsd:string;
   v-s:parent d:q91eg5f0jku5suxfs64p4anke7;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
+  v-s:requirementGroupNumber 85;
 .
