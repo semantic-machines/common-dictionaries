@@ -1206,6 +1206,13 @@ d:fl4fzamgqfnhgu8a2xnljiii
   rdfs:label "План (проект) производства работ"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:aqhn9agutrq29fe9yf35wd8lqr
+  a v-s:DocumentKind;
+  v-s:shortLabel "Посылка"^^xsd:string;
+  rdfs:label "Посылка"^^xsd:string;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
+
 #-----------------------------------------------------
 d:c3b38c81e1594593932b9872a3257948
   a v-s:DocumentKind;

@@ -113,6 +113,52 @@ d:736
   rdfs:label "Express mail - UPS"@en;
 .
 
+d:737
+  a v-s:DeliveryMethod;
+  rdfs:label "Курьерская почта - Major"@ru;
+  rdfs:label "Express mail - Major"@en;
+.
+
+d:738
+  a v-s:DeliveryMethod;
+  rdfs:label "Курьерская почта - TNT"@ru;
+  rdfs:label "Express mail - TNT"@en;
+.
+d:739
+  a v-s:DeliveryMethod;
+  rdfs:label "Курьерская почта - Мекус"@ru;
+  rdfs:label "Express mail - Мекус"@en;
+.
+d:740
+  a v-s:DeliveryMethod;
+  rdfs:label "Курьерская почта - FedEx"@ru;
+  rdfs:label "Express mail - FedEx"@en;
+.
+d:741
+  a v-s:DeliveryMethod;
+  rdfs:label "Курьерская почта - Pony Express"@ru;
+  rdfs:label "Express mail - Pony Express"@en;
+.
+d:742
+  a v-s:DeliveryMethod;
+  rdfs:label "Курьерская почта - EMS Экспресс-почта России"@ru;
+  rdfs:label "Express mail - EMS Экспресс-почта России"@en;
+.
+d:743
+  a v-s:DeliveryMethod;
+  rdfs:label "Курьерская почта - City Express"@ru;
+  rdfs:label "Express mail - City Express"@en;
+.
+d:744
+  a v-s:DeliveryMethod;
+  rdfs:label "Курьерская почта - DIMEX"@ru;
+  rdfs:label "Express mail - DIMEX"@en;
+.
+d:745
+  a v-s:DeliveryMethod;
+  rdfs:label "Курьерская почта - СПСР-Экспресс"@ru;
+  rdfs:label "Express mail - СПСР-Экспресс"@en;
+.
 d:727
   a v-s:DeliveryMethod;
   rdfs:label "Лично"@ru;
@@ -141,4 +187,37 @@ d:683
   a v-s:DeliveryMethod;
   rdfs:label "Электронная почта"@ru;
   rdfs:label "E-mail"@en;
+.
+
+d:684
+  a v-s:DeliveryMethod;
+  rdfs:label "Почта России"@ru;
+  rdfs:label "Russianpost"@en;
+.
+
+d:600
+  a v-s:DeliveryMethod;
+  rdfs:label "Курьером организации-получателя"@ru;
+  rdfs:label "Courier"@en;
+.
+d:601
+  a v-s:DeliveryMethod;
+  rdfs:label "Курьером организации-отправителя"@ru;
+  rdfs:label "Courier"@en;
+.
+d:602
+  a v-s:DeliveryMethod;
+  rdfs:label "КурьерСервисЭкспресс"@ru;
+  rdfs:label "Courier"@en;
+.
+
+d:603
+  a v-s:DeliveryMethod;
+  rdfs:label "1 классом"@ru;
+  rdfs:label "Class 1"@en;
+.
+d:604
+  a v-s:DeliveryMethod;
+  rdfs:label "Возвратное"@ru;
+  rdfs:label "Recurrent"@en;
 .
