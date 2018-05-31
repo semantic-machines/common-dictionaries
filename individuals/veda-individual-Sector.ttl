@@ -216,6 +216,21 @@ d:5026ea45f86d49df8d6a1fabc6a3446b
   v-s:registrationNumber "030.120.010"^^xsd:string;
 .
 
+d:8895363c77984d4284df7a5d4c265f7a
+  a v-s:Sector;
+  rdfs:label "Купля"^^xsd:string;
+  v-s:hasParentLink <d:5026ea45f86d49df8d6a1fabc6a3446b>, <d:0ed33c0939024c8991c60ac3acbdd287>, <d:678d0d1e89f04f5f9f5d975e79c86d77>;
+  v-s:registrationNumber "030.120.010.001"^^xsd:string;
+  v-s:responsible <d:mondi_appointment_00061421_71020115>;
+.
+
+d:b59d58f1cd42409498f38a08fea197a7
+  a v-s:Sector;
+  rdfs:label "Продажа"^^xsd:string;
+  v-s:hasParentLink <d:5026ea45f86d49df8d6a1fabc6a3446b>, <d:678d0d1e89f04f5f9f5d975e79c86d77>;
+  v-s:registrationNumber "030.120.010.002"^^xsd:string;
+.
+
 d:550f04867ba247c49b9b7590d82fd32b
   a v-s:Sector;
   v-s:hasParentLink d:653df79bb7ae44c7a8768e2ec18c16ca;
@@ -236,13 +251,6 @@ d:05d201b59f39459db68a2994fc61a3ad
   v-s:hasParentLink d:2ff514dd9aec4326b63d2d4a0544b52a;
   rdfs:label "Контроль за соблюдением законодательства о занятости населения. Ответственность за нарушение законодательства о трудоустройстве и занятости населения"^^xsd:string;
   v-s:registrationNumber "060.010.080"^^xsd:string;
-.
-
-d:d0da52b81d8a4cd3b0a28c15a32fd247
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b;
-  rdfs:label "Купля-продажа. Неликвиды"^^xsd:string;
 .
 
 d:d330376dcb14460c8581408b2dc4d730
@@ -374,25 +382,11 @@ d:a8eb67533600444b8878a198b6774d18
   v-s:registrationNumber "100.090.000"^^xsd:string;
 .
 
-d:f013a07996ab42fcaceb4cf8dd14315b
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b;
-  rdfs:label "Купля-продажа. ТМЦ производственного характера"^^xsd:string;
-.
-
 d:bbb1e7ecc4454b22b98da47983270828
   a v-s:Sector;
   v-s:hasParentLink d:39501c43e13747d5ba00c35488c3b498;
   rdfs:label "Борьба с аварийностью.  Безопасность  движения"^^xsd:string;
   v-s:registrationNumber "090.070.130"^^xsd:string;
-.
-
-d:66c85691d2534197a191b8fdf6ab3fa7
-  a v-s:Sector;
-  v-s:hasParentLink d:1b0d368c502f4e4db36f0e6cf9513b16;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Аренда. Движимое имущество"^^xsd:string;
 .
 
 d:3bef75c2de304025a55fb106ae0c5caf
@@ -424,13 +418,6 @@ d:59e3b2054a9f430cb89e1fccf3ea0ed9
   v-s:registrationNumber "030.060.000"^^xsd:string;
 .
 
-d:61f050ead3944665b39632c78c051fbd
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:acf44ed83484468bab99124d4708ac4f;
-  rdfs:label "Страхование. Имущество"^^xsd:string;
-.
-
 d:4c813c6ff755415eba9e38c9a1b4e5db
   a v-s:Sector;
   v-s:hasParentLink d:5be6c7e6bad3429ca52b2d3df6373956;
@@ -459,13 +446,6 @@ d:713607444a6240038059e3c3e337a7d6
   v-s:registrationNumber "080.100.000"^^xsd:string;
 .
 
-d:d8cf8f89a0694bf9b462deb1bc6d09ab
-  a v-s:Sector;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Купля-продажа. Химикаты"^^xsd:string;
-.
-
 d:f78aba8164604a29810e3f1b7d6f4f79
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
@@ -486,13 +466,6 @@ d:2aa5f86187b343c6b5c6accdccd64157
   v-s:hasParentLink d:8c7df17312d24e78a9b4bff428c8c8a0;
   rdfs:label "Обязательная сертификация лесных ресурсов"^^xsd:string;
   v-s:registrationNumber "110.050.040"^^xsd:string;
-.
-
-d:14588bd792024c268fc431175dec994e
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b;
-  rdfs:label "Купля-продажа. Готовая продукция"^^xsd:string;
 .
 
 d:8f38682a618e4e738d4d601c2dac4f63
@@ -559,18 +532,6 @@ d:5b01cbe55fda45fdb346007a9d82b7b8
   v-s:registrationNumber "090.040.030"^^xsd:string;
 .
 
-d:2d583f2abf8246f3979bee8c5e46c80e
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:8fd1745c380c434f9fe22d8830098317;
-  rdfs:label "Финансовые услуги. Расчеты по аккредитиву"^^xsd:string;
-.
-
-d:d062800fe85a4faa8495763ec436abbf
-  a v-s:Sector;
-  rdfs:label "Купля-продажа"^^xsd:string;
-.
-
 d:b687100bddd94423aa6a70f0ffe8184a
   a v-s:Sector;
   v-s:hasParentLink d:62485b37c57042799797d027efa71045;
@@ -604,14 +565,6 @@ d:4f51999ff1fb493ba2dc823ebebf0cf1
   v-s:hasParentLink d:3f4a2dd6a8604b579c65857de9e39568;
   rdfs:label "Пищевая промышленность"^^xsd:string;
   v-s:registrationNumber "090.010.200"^^xsd:string;
-.
-
-d:42f6cb75f9ef4d4fb1e942d5f7631b45
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:8fd1745c380c434f9fe22d8830098317;
-  rdfs:label "Банковский вклад"^^xsd:string;
-  v-s:registrationNumber "030.120.130"^^xsd:string;
 .
 
 d:532cf3d3dd7f4e5ca694dc69d78f1c52
@@ -763,13 +716,6 @@ d:81c298f37fbd45758c8bdec4e1c0d954
   v-s:registrationNumber "090.070.040"^^xsd:string;
 .
 
-d:9f7bd8eb5f4b4ed4b1c67c2d07ea6144
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
-  rdfs:label "Взаимодействие"^^xsd:string;
-.
-
 d:7575e29848f447248fafa99e73e890a0
   a v-s:Sector;
   v-s:hasParentLink d:be6914f2ce1049ab860cd014fe0ba9b5;
@@ -833,13 +779,6 @@ d:bc52ba2b08084df39e1370b07c5b0df3
   v-s:registrationNumber "060.020.150"^^xsd:string;
 .
 
-d:787afde8c9b74d028e0c6e48ea6e0398
-  a v-s:Sector;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Купля-продажа. Древесное сырье"^^xsd:string;
-.
-
 d:5c1031b0e9074e8cb2199ec466fc527e
   a v-s:Sector;
   v-s:hasParentLink d:653df79bb7ae44c7a8768e2ec18c16ca;
@@ -852,13 +791,6 @@ d:e575d78b2cc5472f811e8083e40d9f8e
   v-s:hasParentLink d:7a8c0e7ed3a248fb93876d664e7b3c2a;
   rdfs:label "Информационные ресурсы. Пользование информационными ресурсами"^^xsd:string;
   v-s:registrationNumber "120.030.000"^^xsd:string;
-.
-
-d:0e473b25aacf4dbbaabbf3125b22be2a
-  a v-s:Sector;
-  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
-  rdfs:label "Банковский счет. Банковский вклад"^^xsd:string;
-  v-s:registrationNumber "030.120.130"^^xsd:string;
 .
 
 d:78debba1583345b09f8af61b693443dc
@@ -880,13 +812,6 @@ d:83415547c2404679b5ad25d27982ba74
   v-s:hasParentLink d:88e66a7d24944ba1ae15bef62a71effe;
   rdfs:label "Экологические права и обязанности граждан и юридических лиц"^^xsd:string;
   v-s:registrationNumber "110.010.030"^^xsd:string;
-.
-
-d:bfb5c6a2639344feb3d93f097e6d1f52
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:acf44ed83484468bab99124d4708ac4f;
-  rdfs:label "Страхование. ДМС"^^xsd:string;
 .
 
 d:38b83b489d3e4765b6a57f87a645ad37
@@ -922,13 +847,6 @@ d:acf44ed83484468bab99124d4708ac4f
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
   rdfs:label "Страхование"^^xsd:string;
   v-s:registrationNumber "030.120.160"^^xsd:string;
-.
-
-d:8fd1745c380c434f9fe22d8830098317
-  a v-s:Sector;
-  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Финансовые услуги"^^xsd:string;
 .
 
 d:831daafd86d9489ebb458450a49998a2
@@ -968,26 +886,11 @@ d:e41adeba8b344d2e97175fc77cb62be2
   v-s:registrationNumber "030.150.020"^^xsd:string;
 .
 
-d:0c3b5b8ed820411b846f2a8563abea14
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:8fd1745c380c434f9fe22d8830098317;
-  rdfs:label "Финансовые услуги. Заем"^^xsd:string;
-  v-s:registrationNumber "030.120.120"^^xsd:string;
-.
-
 d:3291f2621f464e4092747d693a3567fd
   a v-s:Sector;
   v-s:hasParentLink d:a5ef053a2e314244b2ddba069e990c84;
   rdfs:label "Физическая культура и спорт"^^xsd:string;
   v-s:registrationNumber "140.020.000"^^xsd:string;
-.
-
-d:8c72271189e34fd7beb9745f741bf473
-  a v-s:Sector;
-  v-s:hasParentLink d:812b7db9dc974c34aaa02f4a0609032f;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Возмездное оказание услуг. Финансово-консультационные услуги"^^xsd:string;
 .
 
 d:e2d6246984a14a98a62e3f60f1994990
@@ -1112,25 +1015,11 @@ d:6170da44dc8f42bf80931449bc6af107
   v-s:registrationNumber "110.040.000"^^xsd:string;
 .
 
-d:b3e9e60c3ecb4ca98ab31179d162815f
-  a v-s:Sector;
-  v-s:hasParentLink d:812b7db9dc974c34aaa02f4a0609032f;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Возмездное оказание услуг. Услуги, работы непроизводственного характера"^^xsd:string;
-.
-
 d:186fc76521c24831bbb985797805351e
   a v-s:Sector;
   v-s:hasParentLink d:de2ef98f99814cbbb3ed11b2b1b75ffb;
   rdfs:label "Денежная система и денежное обращение"^^xsd:string;
   v-s:registrationNumber "080.030.000"^^xsd:string;
-.
-
-d:5bfb04d3c2f1433c93e671f6d9b15b24
-  a v-s:Sector;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Купля-продажа. Упаковочные материалы"^^xsd:string;
 .
 
 d:e09e85ef4a87443094073ad65a6ead9b
@@ -1246,13 +1135,6 @@ d:7890063339a3439fa8974cb46ebdb04d
   v-s:hasParentLink d:7a8c0e7ed3a248fb93876d664e7b3c2a;
   rdfs:label "Реклама"^^xsd:string;
   v-s:registrationNumber "120.060.000"^^xsd:string;
-.
-
-d:e0de239b29c34ec3afaf25b0554893cb
-  a v-s:Sector;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Купля-продажа. Электроэнергия"^^xsd:string;
 .
 
 d:4152b6ecdb004a6883bcbcafbf40b2be
@@ -1392,11 +1274,6 @@ d:xtwh6kky70mtt2fepi66vg3b
   v-s:registrationNumber "030.090.100"^^xsd:string;
 .
 
-d:f3b52b177a0047b4a0416162d2ee58b8
-  a v-s:Sector;
-  rdfs:label "Строительный подряд (в т.ч строительство под ключ)"^^xsd:string;
-.
-
 d:7f522a4a2d45483b8c20a2242c0e755b
   a v-s:Sector;
   v-s:hasParentLink d:9982f4e237614694a29a3c7c791725aa;
@@ -1409,20 +1286,6 @@ d:d4e3daec542c4febb91f83f4f7e60f58
   v-s:hasParentLink d:950b366f25dc475599fb4350255bd913;
   rdfs:label "Основы государственного управления"^^xsd:string;
   v-s:registrationNumber "020.000.000"^^xsd:string;
-.
-
-d:6aa0a08ef0fc4aeca55e3f283dc2a9fd
-  a v-s:Sector;
-  v-s:hasParentLink d:812b7db9dc974c34aaa02f4a0609032f;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Возмездное оказание услуг. Услуги, работы производственного характера"^^xsd:string;
-.
-
-d:8d7b5828556e4151af4db1c970923ef9
-  a v-s:Sector;
-  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
-  rdfs:label "Выполнение научно-исследовательских, опытно-конструкторских и технологических работ"^^xsd:string;
-  v-s:registrationNumber "030.120.090"^^xsd:string;
 .
 
 d:87198311bed54bd38229ee44e5040b5d
@@ -1461,18 +1324,18 @@ d:b3155bcd4e1e4cf1969ff3a75e746b9b
   v-s:registrationNumber "030.120.120"^^xsd:string;
 .
 
+d:0e473b25aacf4dbbaabbf3125b22be2a
+  a v-s:Sector;
+  rdfs:label "Банковский счет. Банковский вклад"^^xsd:string;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:registrationNumber "030.120.130"^^xsd:string;
+.
+
 d:14eda6f10d524dad92cc26ea730fb105
   a v-s:Sector;
   v-s:hasParentLink d:de2ef98f99814cbbb3ed11b2b1b75ffb;
   rdfs:label "Валютное регулирование и  валютный  контроль"^^xsd:string;
   v-s:registrationNumber "080.130.000"^^xsd:string;
-.
-
-d:4358cf0a3d554799a5b22012e222bbad
-  a v-s:Sector;
-  v-s:hasParentLink d:1b0d368c502f4e4db36f0e6cf9513b16;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Аренда. Недвижимое имущество"^^xsd:string;
 .
 
 d:06b0f6bc11b04acf96242a9d024d27b1
@@ -1503,16 +1366,6 @@ d:18b1aeda51e44647aa709630bd371544
   v-s:hasParentLink d:909875eb5dd749229c403d8a2c7da010;
   rdfs:label "Гражданско-правовое положение иностранных юридических лиц в Российской  Федерации. Предпринимательская деятельность иностранных юридических  лиц в Российской Федерации (инвестиции, совместные предприятия, филиалы и представительства)"^^xsd:string;
   v-s:registrationNumber "030.150.030"^^xsd:string;
-.
-
-d:8895363c77984d4284df7a5d4c265f7a
-  v-s:responsible d:mondi_appointment_00061421_71020115;
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b, d:0ed33c0939024c8991c60ac3acbdd287;
-  v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
-  rdfs:label "Купля"^^xsd:string;
-  v-s:registrationNumber "030.120.010.001"^^xsd:string;
 .
 
 d:ff3f40d79bf1442f8baf6f922c50dc5e
@@ -1597,13 +1450,6 @@ d:aa789e6c85b3496782ad46612aca6dd2
   v-s:registrationNumber "010.000.000"^^xsd:string;
 .
 
-d:c16c7df4217142f68a6338b993723d1f
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:acf44ed83484468bab99124d4708ac4f;
-  rdfs:label "Страхование. ОМС"^^xsd:string;
-.
-
 d:a311ce4fc-59ca-0fcb-63ee-089c768693f2
   a v-s:Sector;
   rdfs:label "Область применения для идеи"^^xsd:string;
@@ -1633,15 +1479,6 @@ d:4503eb1c513e48e685833070bc881f40
   v-s:registrationNumber "030.030.000"^^xsd:string;
 .
 
-d:b59d58f1cd42409498f38a08fea197a7
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b ;
-  v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
-  rdfs:label "Продажа"^^xsd:string;
-  v-s:registrationNumber "030.120.010.002"^^xsd:string;
-.
-
 d:39501c43e13747d5ba00c35488c3b498
   v-s:responsible d:mondi_appointment_00067460_71021882;
   a v-s:Sector;
@@ -1656,13 +1493,6 @@ d:61ec63577be442cdbb4cebf263ee80e2
   v-s:hasParentLink d:39501c43e13747d5ba00c35488c3b498;
   rdfs:label "Дорожное хозяйство"^^xsd:string;
   v-s:registrationNumber "090.070.080"^^xsd:string;
-.
-
-d:0c2031235b5248819f19dbd1cdebb307
-  a v-s:Sector;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Купля-продажа. Основные средства"^^xsd:string;
 .
 
 d:52690a3f0dbd4d3baf937220a7035ae0
@@ -1687,13 +1517,6 @@ d:2542ef9bb425432c9265330d6dce7795
   v-s:hasParentLink d:506614f30cdd4494976d190a83fccb4e;
   rdfs:label "Санитарно-эпидемиологическая безопасность"^^xsd:string;
   v-s:registrationNumber "160.040.080"^^xsd:string;
-.
-
-d:bfbad134e7bd4a75bca24d35f3ab3190
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b;
-  rdfs:label "Купля-продажа. ТМЦ непроизводственного характера"^^xsd:string;
 .
 
 d:530bcde120bf4a7989529f300f7fd6f0
@@ -1868,13 +1691,6 @@ d:44a9df11092347be8cc63caa2fb125f0
   v-s:registrationNumber "090.080.030"^^xsd:string;
 .
 
-d:2aa1764568c549a6a0918283d6ef44d1
-  a v-s:Sector;
-  v-s:deleted "true"^^xsd:boolean ;
-  v-s:hasParentLink d:1b0d368c502f4e4db36f0e6cf9513b16;
-  rdfs:label "Аренда. Лизинг"^^xsd:string;
-.
-
 d:88e66a7d24944ba1ae15bef62a71effe
   a v-s:Sector;
   v-s:hasParentLink d:a24713500352467d9b39cb1572530133;
@@ -1887,13 +1703,6 @@ d:617c39192fc0400a9a73d51f7042c66e
   v-s:hasParentLink d:506614f30cdd4494976d190a83fccb4e;
   rdfs:label "Безопасность дорожного движения"^^xsd:string;
   v-s:registrationNumber "160.040.020"^^xsd:string;
-.
-
-d:ca2c0746e181466da8999722c98d4c0f
-  a v-s:Sector;
-  v-s:hasParentLink d:5026ea45f86d49df8d6a1fabc6a3446b;
-  v-s:deleted "true"^^xsd:boolean ;
-  rdfs:label "Купля-продажа. Металлолом"^^xsd:string;
 .
 
 d:a18be462d84f4271afe7f19cd83a741f
