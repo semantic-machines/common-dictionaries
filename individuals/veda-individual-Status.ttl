@@ -24,7 +24,7 @@ v-s:Status
   rdfs:label "Status"@en ;
   v-ui:hasTemplate v-ui:StatusTemplate;
 .
-# --- В связи с вводом класса возникает предикат hasStatus 
+# --- В связи с вводом класса возникает предикат hasStatus
 # --- Он описан в классе v-s:Thing
 
 
@@ -323,5 +323,11 @@ v-s:StatusCheck
   rdf:type v-s:Status ;
   rdfs:label "Проверка"@ru ;
   rdfs:label "Check"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusFulfillmentOfFinancialPperations
+  rdf:type v-s:Status ;
+  rdfs:label "Выполнение финансовых операций"@ru ;
+  rdfs:label "Fulfillment of financial operations"@en ;
   v-s:tag "default" ;
 .

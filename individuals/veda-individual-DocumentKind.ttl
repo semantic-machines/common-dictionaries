@@ -2619,3 +2619,9 @@ d:zn8jlec6ma6x28fsgp6lyw49zo
 .
 
 #-----------------------------------------------
+d:4497b0977e8f411c9351a6eea04ce0a4
+  a v-s:DocumentKind;
+  v-s:shortLabel "Макет упаковки"^^xsd:string;
+  rdfs:label "Макет упаковки"^^xsd:string;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
