@@ -1,0 +1,47 @@
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cfg: <http://semantic-machines.com/veda/config/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantic-machines.com/veda/veda-individual-DecreeKind>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Справочник Вид распорядительного документа"@ru ;
+  rdfs:label "Veda ontology. Dictionary - DecreeKind"@en ;
+  v-s:loadPriority 10 ;
+.
+
+d:3c5d0a103a484620b90f26cf79310d15
+  rdf:type v-s:DecreeKind ;
+  rdfs:label "Приказ по кадрам"@ru ;
+.
+d:829b11dee3b84304b6b6410c2c239b4b
+  rdf:type v-s:DecreeKind ;
+  rdfs:label "Приказ по кадрам (О командировке)"@ru ;
+  v-s:parentUnit d:3c5d0a103a484620b90f26cf79310d15 ;
+.
+d:e534e5e3572a47799ac45152b83b874f
+  rdf:type v-s:DecreeKind ;
+  rdfs:label "Приказ по кадрам (По личному составу)"@ru ;
+  v-s:parentUnit d:3c5d0a103a484620b90f26cf79310d15 ;
+.
+d:4ec22bbb71c24d93ba89313689b6f4a6
+  rdf:type v-s:DecreeKind ;
+  rdfs:label "Приказ по кадрам (О дисциплинарном взыскании)"@ru ;
+  v-s:parentUnit d:3c5d0a103a484620b90f26cf79310d15 ;
+.
+d:f6df20d07cb649f288b73e7e83a80db8
+  rdf:type v-s:DecreeKind ;
+  rdfs:label "Приказ по кадрам (О назначении ответственных)"@ru ;
+  v-s:parentUnit d:3c5d0a103a484620b90f26cf79310d15 ;
+.
+d:f4b896d9dd5b4e63b044a29f0ee76c25
+  rdf:type v-s:DecreeKind ;
+  rdfs:label "Приказ по основной деятельности"@ru ;
+.
+d:6e2c0d2bad144e04a5ddd8b6ba5d0535
+  rdf:type v-s:DecreeKind ;
+  rdfs:label "Распоряжение"@ru ;
+.
