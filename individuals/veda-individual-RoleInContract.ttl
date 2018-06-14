@@ -1,0 +1,92 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+
+<http://semantic-machines.com/veda/veda-individual-RoleInContract>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Записи справочника RoleInContract"@ru ;
+  rdfs:label "Veda ontology. individual - RoleInContract"@en ;
+  v-s:loadPriority 10 ;
+.
+
+# ------------------------------------------------------------ ИНДИВИДЫ --
+d:dsxyd1uxsxuui6f1t3s4ki3rdp
+  a v-s:RoleInContract;
+  rdfs:label "Закачик"@ru ;
+  rdfs:label "Customer"@en ;
+.
+d:wws2oz313z6xpl1hd4u3laxzfg
+  a v-s:RoleInContract;
+  rdfs:label "Исполнитель"@ru ;
+  rdfs:label "Supplier"@en ;
+.
+#-------
+d:a14fhdnimgodskj2jlmzwausubs
+  a v-s:RoleInContract;
+  rdfs:label "Покупатель"@ru ;
+  rdfs:label "Purchaser"@en ;
+.
+d:jslj1t0dm3o6sg8jas931um4kw
+  a v-s:RoleInContract;
+  rdfs:label "Продавец"@ru ;
+  rdfs:label "Seller"@en ;
+.
+#-------
+d:rdvfeae7ylufawj02z492cxmto
+  a v-s:RoleInContract;
+  rdfs:label "Доверитель"@ru ;
+  rdfs:label "Principal"@en ;
+.
+d:tv2r6lzebfk6p3298jsnwokgxk
+  a v-s:RoleInContract;
+  rdfs:label "Поверенный"@ru ;
+  rdfs:label "Attorney"@en ;
+.
+#-------
+d:a1nzzs06xqqx3fvud0bsjq78cdq
+  a v-s:RoleInContract;
+  rdfs:label "Арендодатель"@ru ;
+  rdfs:label "Landlord"@en ;
+.
+d:ji9b5cqs5ucr1uy8ou7s78989x
+  a v-s:RoleInContract;
+  rdfs:label "Арендатор"@ru ;
+  rdfs:label "Tenant"@en ;
+.
+#-------
+d:wh0t3y7ou4k9o0ec5vw4j5df5c
+  a v-s:RoleInContract;
+  rdfs:label "Страховщик"@ru ;
+  rdfs:label "Assurer"@en ;
+.
+d:xxsa1kfknh7anmo6688y026udp
+  a v-s:RoleInContract;
+  rdfs:label "Страхователь"@ru ;
+  rdfs:label "Insurer"@en ;
+.
+
+#-------
+d:a1268rvzfsml3g4j0wcjxf2skc9
+  a v-s:RoleInContract;
+  rdfs:label "Даритель"@ru ;
+  rdfs:label "Grantor"@en ;
+.
+d:p7xxv9vvwex8f1jfs2lhqjl85v
+  a v-s:RoleInContract;
+  rdfs:label "Одаряемый"@ru ;
+  rdfs:label "Donee"@en ;
+.
+
+
+d:dm44s17tayal8frdutpnb2matk
+  a v-s:RoleInContract;
+  rdfs:label "Заинтересованная сторона"@ru ;
+  rdfs:label "Stakeholder"@en ;
+.
+
+
+
+
