@@ -20,7 +20,7 @@ v-s:Sector
   rdfs:label "Тематика"@ru ;
   rdfs:label "Subjects"@en ;
 .
-# --- В связи с вводом класса возникает предикат v-s:hasSector, v-s:hasObligationKind ... 
+# --- В связи с вводом класса возникает предикат v-s:hasSector, v-s:hasObligationKind ...
 # --- Он описан в классе v-s:Thing
 
 
@@ -1882,4 +1882,10 @@ d:a0krjx43essi7o5cqyvggniqz
   a v-s:Sector;
   rdfs:label "Классификатор ТД"^^xsd:string;
   v-s:registrationNumber "000.000.000.400"^^xsd:string;
+.
+d:glq9eznqolfq58a2irwz6zdfdd
+  a v-s:Sector;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  rdfs:label "Выполнение научно-исследовательских, опытно-конструкторских и технологических работ"^^xsd:string;
+  v-s:registrationNumber "030.120.090"^^xsd:string;
 .
