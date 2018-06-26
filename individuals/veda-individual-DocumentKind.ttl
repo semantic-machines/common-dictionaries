@@ -2121,6 +2121,14 @@ d:1be747f77ef54cfd840aa3220046edb1
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
 .
+d:2re747f77ef54cfd666aa3220046eef0
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel ""^^xsd:string;
+  rdfs:label "Документация технического устройства на ОПО"^^xsd:string;
+  v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
+  v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
+.
 #-----------------------------------------------
 d:zh95m47jqjtl4dtq68h4zsm2
   a v-s:DocumentKind;
