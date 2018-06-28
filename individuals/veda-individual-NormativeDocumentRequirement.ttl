@@ -1750,7 +1750,7 @@ d:o1z8yaihyx3xuvcrjzahtzcqmb
 .
 d:gg21sskpd87rpocq49lzfpsd0r
   a v-s:NormativeDocumentRequirement;
-  rdfs:label "4.5 Проележиваемость"^^xsd:string;
+  rdfs:label "4.5 Прослеживаемость"^^xsd:string;
   v-s:parent d:t51k1r4h6r8wh2aet4oauupkha;
   v-s:hasNormativeDocument d:c1yab05uv5kf5b8vl2ebmtr0zr;
   v-s:requirementGroupNumber 55;
