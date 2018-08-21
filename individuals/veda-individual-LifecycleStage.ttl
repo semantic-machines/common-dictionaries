@@ -51,7 +51,7 @@ d:i5kydruq51ybqqw5wbvgqevtqb
 .
 d:hhuixin23f142q8v9a996bg59i
   a v-s:LifecycleStage;
-  rdfs:label "Эксизное проектирование"^^xsd:string;
+  rdfs:label "Эскизное проектирование"^^xsd:string;
   v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
 .
 d:twejo8o3tb0w00gkfkox62l1bz
