@@ -31,7 +31,7 @@ d:lq47gp7z6dg6e7xeuv2p6l1rvj
 .
 d:gw4yt6tz8cnfgen0iygofrx7ys
   a v-s:LifecycleStage;
-  rdfs:label "Формирование требований"^^xsd:string;
+  rdfs:label "Формирование требований (Требования, Условия)"^^xsd:string;
   v-s:hasParentLink d:lq47gp7z6dg6e7xeuv2p6l1rvj;
 .
 d:fo32h63fv8cybub8kj2nv06ywo
@@ -51,17 +51,17 @@ d:i5kydruq51ybqqw5wbvgqevtqb
 .
 d:hhuixin23f142q8v9a996bg59i
   a v-s:LifecycleStage;
-  rdfs:label "Эскизное проектирование"^^xsd:string;
+  rdfs:label "Эскизное проектирование (Технические решения)"^^xsd:string;
   v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
 .
 d:twejo8o3tb0w00gkfkox62l1bz
   a v-s:LifecycleStage;
-  rdfs:label "Техническое проектирование"^^xsd:string;
+  rdfs:label "Техническое проектирование (Проекты, Разделы проета)"^^xsd:string;
   v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
 .
 d:yzukiatavri0xticlw3xax2qeg
   a v-s:LifecycleStage;
-  rdfs:label "Рабочее проектирование"^^xsd:string;
+  rdfs:label "Рабочее проектирование (Комплекты рабочих чртежей, Чертежи)"^^xsd:string;
   v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
 .
 #------------------------------------------------------------------------------------
