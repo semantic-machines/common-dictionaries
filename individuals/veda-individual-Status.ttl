@@ -237,7 +237,7 @@ v-s:StatusAcceptedOnBalance
 .
 v-s:StatusRemovedFromBalancee
   rdf:type v-s:Status ;
-  rdfs:label "Снято с балланса"@ru ;
+  rdfs:label "Снято с баланса"@ru ;
   rdfs:label "Removed from the balance"@en ;
   v-s:tag "default" ;
 .
