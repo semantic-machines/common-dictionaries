@@ -2027,6 +2027,7 @@ d:008cae75474845fea02f19f446ed0940
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
   rdfs:label "Спецификация"^^xsd:string;
+  rdfs:comment "Документ, точно, полностью и в поддающейся проверке форме определяет требования, устройство, поведение или другие особенности системы, компонента, продукта, результата или услуги, а также процедуры, способные определить, были ли выполнены эти условия."^^xsd:string;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
@@ -2179,11 +2180,30 @@ d:hlm1q1uw5hm0sj5gu5llxqma
   rdfs:label "Акт несоответствия"^^xsd:string;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
-
-
-
-
-
+d:n4bswi8qkktqn2fk863igo6m7p
+  a v-s:DocumentKind;
+  v-s:shortLabel "Проект организации строительства"^^xsd:string;
+  rdfs:label "Проект организации строительства"^^xsd:string;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2;
+.
+d:mwr236feznyw6jg43b8mlbmu9q
+  a v-s:DocumentKind;
+  v-s:shortLabel "Проект организации работ"^^xsd:string;
+  rdfs:label "Проект организации работ"^^xsd:string;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2;
+.
+d:a9ldyzcsvwbn4i62n5k6vz8kee2
+  a v-s:DocumentKind;
+  v-s:shortLabel "Производственная инструкция"^^xsd:string;
+  rdfs:label "Производственная инструкция"^^xsd:string;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2;
+.
+d:xhk5rtbp7b91fs20jjhgoepd5a
+  a v-s:DocumentKind;
+  v-s:shortLabel "Дополнение к ППР"^^xsd:string;
+  rdfs:label "Дополнение к ППР"^^xsd:string;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2;
+.
 
 #-----------------------------------------------
 d:in6sbni64f41euzkalz7tcky
@@ -2371,6 +2391,7 @@ d:k9kr50oh4hp7vpywws6hapoi
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Технологические режимы"^^xsd:string;
   rdfs:label "Технологические режимы"^^xsd:string;
+  rdfs:comment "Технологические режимы"^^xsd:string;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:p2haovg1x2rjcwvsxlxf2uv2
@@ -2378,6 +2399,7 @@ d:p2haovg1x2rjcwvsxlxf2uv2
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Карты технологического контроля"^^xsd:string;
   rdfs:label "Карты технологического контроля"^^xsd:string;
+  rdfs:comment "Карты технологического контроля"^^xsd:string;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:jl99a2aau286kog8ko5jf7ms
@@ -2385,6 +2407,7 @@ d:jl99a2aau286kog8ko5jf7ms
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Карты лабораторного контроля"^^xsd:string;
   rdfs:label "Карты лабораторного контроля"^^xsd:string;
+  rdfs:comment "Карты лабораторного контроля"^^xsd:string;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:cl5emwsuke26ym5oeo74jer6
