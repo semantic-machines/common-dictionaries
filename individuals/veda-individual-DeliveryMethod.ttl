@@ -23,6 +23,7 @@ v-s:DeliveryMethod
 
 
 # ------------------------------------------------------------ ИНДИВИДЫ --
+
 d:244a40584c814020a7430b2e6005e387
   a v-s:DeliveryMethod;
   rdfs:label "Посылка"@ru;
@@ -113,6 +114,7 @@ d:736
   rdfs:label "Express mail - UPS"@en;
 .
 
+#---------------------------- START STG -------------
 d:737
   a v-s:DeliveryMethod;
   rdfs:label "Курьерская почта - Major"@ru;
@@ -159,6 +161,8 @@ d:745_1
   rdfs:label "Курьерская почта - СПСР-Экспресс"@ru;
   rdfs:label "Express mail - СПСР-Экспресс"@en;
 .
+#---------------------------- END STG -------------
+
 d:727
   a v-s:DeliveryMethod;
   rdfs:label "Лично"@ru;
@@ -189,6 +193,8 @@ d:683
   rdfs:label "E-mail"@en;
 .
 
+#---------------------------- START STG -------------
+
 d:684
   a v-s:DeliveryMethod;
   rdfs:label "Почта России"@ru;
@@ -205,12 +211,6 @@ d:601
   rdfs:label "Курьером организации-отправителя"@ru;
   rdfs:label "Courier"@en;
 .
-d:602
-  a v-s:DeliveryMethod;
-  rdfs:label "КурьерСервисЭкспресс"@ru;
-  rdfs:label "Courier"@en;
-.
-
 d:603
   a v-s:DeliveryMethod;
   rdfs:label "1 классом"@ru;
@@ -221,3 +221,4 @@ d:604
   rdfs:label "Возвратное"@ru;
   rdfs:label "Recurrent"@en;
 .
+#---------------------------- END STG -------------
