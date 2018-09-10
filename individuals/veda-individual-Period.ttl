@@ -1,0 +1,45 @@
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cfg: <http://semantic-machines.com/veda/config/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantic-machines.com/veda/veda-individual-Period>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Справочник Период"@ru ;
+  rdfs:label "Veda ontology. Dictionary - Period"@en ;
+  v-s:loadPriority 10 ;
+.
+
+d:jsc4p8dq5u4fm1sumekuifkw7r
+  rdf:type v-s:Period ;
+  rdfs:label "Час"@ru ;
+  rdfs:label "Hour"@en ;
+.
+d:z8r34mi5y8rl8m4kbo3q69uw5d
+  rdf:type v-s:Period ;
+  rdfs:label "День"@ru ;
+  rdfs:label "Day"@en ;
+.
+d:a21t5y3pswuewm8ohjexiqtxscr
+  rdf:type v-s:Period ;
+  rdfs:label "Неделя"@ru ;
+  rdfs:label "Week"@en ;
+.
+d:pqauzdiqyls7pzrawelnh2zwj3
+  rdf:type v-s:Period ;
+  rdfs:label "Месяц"@ru ;
+  rdfs:label "Month"@en ;
+.
+d:a28m44dm9yw04j7hf69r4i40sn5
+  rdf:type v-s:Period ;
+  rdfs:label "Квартал"@ru ;
+  rdfs:label "Quarter"@en ;
+.
+d:p699yrkgnd7bamjaqwx305o5hi
+  rdf:type v-s:Period ;
+  rdfs:label "Год"@ru ;
+  rdfs:label "Year"@en ;
+.
