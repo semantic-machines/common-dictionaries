@@ -58,3 +58,9 @@ d:25341f858eaa42ecbd1b6dd7656f9745
   rdfs:label "Fatal"@en ;
   v-s:tag "danger" ;  
 .
+d:qvk5x9bdh3yaeattnkjk4dw2t0
+  rdf:type v-s:Level ;
+  rdfs:label "Аварийный"@ru ;
+  rdfs:label "Emergency"@en ;
+  v-s:tag "danger" ;  
+.
