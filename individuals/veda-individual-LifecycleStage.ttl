@@ -56,12 +56,12 @@ d:hhuixin23f142q8v9a996bg59i
 .
 d:twejo8o3tb0w00gkfkox62l1bz
   a v-s:LifecycleStage;
-  rdfs:label "Техническое проектирование (Проекты, Разделы проекта)"^^xsd:string;
+  rdfs:label "Техническое проектирование (Проекты, Разделы проекта, Расчеты)"^^xsd:string;
   v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
 .
 d:yzukiatavri0xticlw3xax2qeg
   a v-s:LifecycleStage;
-  rdfs:label "Рабочее проектирование (Комплекты рабочих чртежей, Чертежи)"^^xsd:string;
+  rdfs:label "Рабочее проектирование (Комплекты рабочих чертежей, Чертежи)"^^xsd:string;
   v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
 .
 #------------------------------------------------------------------------------------
