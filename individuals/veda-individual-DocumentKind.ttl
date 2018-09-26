@@ -1006,18 +1006,6 @@ d:e409c3e10a9a4f53a2eb6e18bb32f704
   rdfs:label "Стратегия"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
-d:332c11a413bb4e1b9e5ffaed12bc5ea7
-  a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Схема"^^xsd:string;
-  rdfs:label "Схема"^^xsd:string;
-  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
-  v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
-  v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
-  v-s:hasParentLink d:j1fscemown2iv45412nun98x;
-  v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
-  v-s:hasParentLink d:guqt0dp2mynpebhu7qbmwg1q ;
-.
 d:05ff2a46f67f458f9a74d3386b63ecb9
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
@@ -2128,6 +2116,9 @@ d:1be747f77ef54cfd840aa3220046edb1
   rdfs:label "Схемы"^^xsd:string;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
+  v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
+  v-s:hasParentLink d:j1fscemown2iv45412nun98x;
+  v-s:hasParentLink d:guqt0dp2mynpebhu7qbmwg1q ;  
 .
 d:2re747f77ef54cfd666aa3220046eef0
   a v-s:DocumentKind;
