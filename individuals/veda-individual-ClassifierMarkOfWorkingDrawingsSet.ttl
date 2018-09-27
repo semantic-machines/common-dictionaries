@@ -1,0 +1,369 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/>.
+
+<http://semantic-machines.com/veda/veda-individual-ClassifierMarkOfWorkingDrawingsSet>
+  rdf:type owl:Ontology ;
+  v-s:loadPriority 10 ;
+.
+#-------------------------Класс--------------
+v-s:ClassifierMarkOfWorkingDrawingsSet
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Марка комплекта рабочих чертежей"@ru ;
+  rdfs:label "Mark of working drawings set"@en ;
+.
+#-------------------------Индивиды--------------
+d:d4e02e6025e44209a2cb672a8120c4c2
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Конструкции строительные"^^xsd:string;
+  v-s:shortLabel "КС"^^xsd:string;
+.
+d:68f9019f9d674651af953f35ba8ce746
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация систем пожаротушения, дымоудаления"^^xsd:string;
+  v-s:shortLabel "АПТ"^^xsd:string;
+.
+d:f2cc0a13c94544d2a1bcae09cfe47874
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация систем пылеудаления"^^xsd:string;
+  v-s:shortLabel "АПУ"^^xsd:string;
+.
+d:bb2bf0affa454f0683782095f7d3dd23
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Архитектурные решения"^^xsd:string;
+  v-s:shortLabel "АР"^^xsd:string;
+.
+d:5a6e49b5640a48c88331aad2af1803fc
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Архитектурно-строительные решения"^^xsd:string;
+  v-s:shortLabel "АС"^^xsd:string;
+.
+d:43bdff9267df41f097469f8e99e81c4a
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация тепломеханических решений котельных"^^xsd:string;
+  v-s:shortLabel "АТМ"^^xsd:string;
+.
+d:335f1d2459ee4728ac3c6d98629f49c9
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация устройств теплоснабжения"^^xsd:string;
+  v-s:shortLabel "АТС"^^xsd:string;
+.
+d:c43b8548c95e4f59aa74f94d190d9950
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Системы автоматизации технологических процессов"^^xsd:string;
+  v-s:shortLabel "АТХ"^^xsd:string;
+.
+d:2e17b5638a534ba0a18f7a205a99afb7
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация холодильной установки"^^xsd:string;
+  v-s:shortLabel "АХС"^^xsd:string;
+.
+d:9fad0dc13a784b83bc810fa7f4e72a71
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Водопровод и канализация"^^xsd:string;
+  v-s:shortLabel "ВК"^^xsd:string;
+.
+d:e811e91167f4446bb39b2210cb689915
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Воздухоснабжение"^^xsd:string;
+  v-s:shortLabel "ВС"^^xsd:string;
+.
+d:5e0432dd7ee14859ac3b142b77dff9f6
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Генеральный план"^^xsd:string;
+  v-s:shortLabel "ГП"^^xsd:string;
+.
+d:906168b7b174486dab216dd876dff945
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Гидротехнические решения"^^xsd:string;
+  v-s:shortLabel "ГР"^^xsd:string;
+.
+d:cc71deafa31241988410f7d0c1dbd889
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Газоснабжение (внутренние устройства)"^^xsd:string;
+  v-s:shortLabel "ГСВ"^^xsd:string;
+.
+d:e12767ee44ab4f9ca07782a780314ec2
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Наружные газопроводы"^^xsd:string;
+  v-s:shortLabel "ГСН"^^xsd:string;
+.
+d:5c739b17c90d486ca4a88ac01ac1dfcc
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Генеральный план и сооружения транспорта"^^xsd:string;
+  v-s:shortLabel "ГТ"^^xsd:string;
+.
+d:d95a28a22b5845b589c1247746f7c34a
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Конструкции деревянные"^^xsd:string;
+  v-s:shortLabel "КД"^^xsd:string;
+.
+d:6fbfb48669e540a1b7fc7a2d123a63d8
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Конструкции железобетонные"^^xsd:string;
+  v-s:shortLabel "КЖ"^^xsd:string;
+.
+d:38b75a3c9b7a44078cf6a6935f9a87a5
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Конструкции металлические"^^xsd:string;
+  v-s:shortLabel "КМ"^^xsd:string;
+.
+d:1bbda4b53c564a028486e8d7a87fe081
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Конструкции металлические деталировочные"^^xsd:string;
+  v-s:shortLabel "КМД"^^xsd:string;
+.
+d:b264e1e73d3e440086c82621387a1351
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС линейно-аппаратных цехов станций и узлов"^^xsd:string;
+  v-s:shortLabel "ЛА"^^xsd:string;
+.
+d:0b0baaf621c34a36bb8af9700112c6aa
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС линейных сооружений: городской первичной сети"^^xsd:string;
+  v-s:shortLabel "ЛГ"^^xsd:string;
+.
+d:7ea3aab485f54341abfbbbba5857abe3
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС линейных сооружений: внутризоновой первичной сети"^^xsd:string;
+  v-s:shortLabel "ЛЗ"^^xsd:string;
+.
+d:4efc5708031148d98c8233e71caeeaf5
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС линейных сооружений: магистральной первичной сети"^^xsd:string;
+  v-s:shortLabel "ЛМ"^^xsd:string;
+.
+d:e42db29ed253461fa7133befac35712d
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС линейных сооружений: сельской первичной сети"^^xsd:string;
+  v-s:shortLabel "ЛС"^^xsd:string;
+.
+d:95f9e8b6d063435aaa9d155cd6102117
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС коммутационных цехов телефонных станций: междугородных"^^xsd:string;
+  v-s:shortLabel "МС"^^xsd:string;
+.
+d:c17f6f8b74494910b7b844d1a1de5ffc
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Наружные сети водоснабжения"^^xsd:string;
+  v-s:shortLabel "НВ"^^xsd:string;
+.
+d:a5338db6f9954c0f8b95a85da0445b73
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Наружные сети водоснабжения и канализации"^^xsd:string;
+  v-s:shortLabel "НВК"^^xsd:string;
+.
+d:02fef168a6944393a6573a90e9bc6c02
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Наружные сети канализации"^^xsd:string;
+  v-s:shortLabel "НК"^^xsd:string;
+.
+d:54292f775370484389240740bcfa0f17
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС необслуживаемых регенерационных (усилительных) пунктов"^^xsd:string;
+  v-s:shortLabel "НП"^^xsd:string;
+.
+d:9a69e78cc6224f939de6627fd9ac080a
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Отопление, вентиляция и кондиционирование"^^xsd:string;
+  v-s:shortLabel "ОВ"^^xsd:string;
+.
+d:005d33e1ff5a4f00a12625a5991508dc
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Основной комплект рабочих чертежей линейных сооружений оросительной системы"^^xsd:string;
+  v-s:shortLabel "ОРС"^^xsd:string;
+.
+d:b71f009d45f049a0beeef2e777e6cb29
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Охранная и охранно-пожарная сигнализация"^^xsd:string;
+  v-s:shortLabel "ОС"^^xsd:string;
+.
+d:9a29db16993a4b659bf7818e4bbb2f90
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Основной комплект рабочих чертежей линейных сооружений осушительной системы"^^xsd:string;
+  v-s:shortLabel "ОСС"^^xsd:string;
+.
+d:642a6c543c2b4d708b7109a56d0c8451
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС пунктов передачи и приема газет"^^xsd:string;
+  v-s:shortLabel "ПГ"^^xsd:string;
+.
+d:773c567fdebf42658ab48475dbe206b9
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС сетей передачи данных"^^xsd:string;
+  v-s:shortLabel "ПД"^^xsd:string;
+.
+d:1435e5141fed48b199319cd1435685c3
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Железнодорожные пути"^^xsd:string;
+  v-s:shortLabel "ПЖ"^^xsd:string;
+.
+d:afc40b1d34a74551bc7d6e1bbb75d7d6
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Пожарная сигнализация"^^xsd:string;
+  v-s:shortLabel "ПС"^^xsd:string;
+.
+d:0b14fb4ba2ab44048d563e4ac31eb6ae
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Пожаротушение"^^xsd:string;
+  v-s:shortLabel "ПТ"^^xsd:string;
+.
+d:071ec1e2b914486ea2c77157f961973f
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Пылеудаление"^^xsd:string;
+  v-s:shortLabel "ПУ"^^xsd:string;
+.
+d:b4717eb8dd6d4a3f9e11711d2a5f76be
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Радиосвязь, радиовещание и телевидение"^^xsd:string;
+  v-s:shortLabel "РТ"^^xsd:string;
+.
+d:cd3670a134fb4c2bbde8418bb346c41e
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС коммутационных цехов телефонных станций: городских"^^xsd:string;
+  v-s:shortLabel "СГ"^^xsd:string;
+.
+d:024e6fbd001e4c9584a1052f32b173ce
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС внутренних сетей предприятий и организаций"^^xsd:string;
+  v-s:shortLabel "СС"^^xsd:string;
+.
+d:0358ffcc8e894abea822fa2b0fe8c226
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС коммутационных цехов телефонных станций: сельских"^^xsd:string;
+  v-s:shortLabel "ССТ"^^xsd:string;
+.
+d:d09c4a6f56304b6098359190206e0ab3
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС телеграфных станций и узлов"^^xsd:string;
+  v-s:shortLabel "СТ"^^xsd:string;
+.
+d:1341fb436af449759b4aaca6fb12530e
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "ПСС коммутационных цехов телефонных станций: учрежденческих"^^xsd:string;
+  v-s:shortLabel "СУ"^^xsd:string;
+.
+d:f4ad1c2c66d44590805e9747372f4c5a
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Тепловая изоляция оборудования и трубопроводов"^^xsd:string;
+  v-s:shortLabel "ТИ"^^xsd:string;
+.
+d:548f1d47d50341b0965af712e374471e
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Технологические коммуникации"^^xsd:string;
+  v-s:shortLabel "ТК"^^xsd:string;
+.
+d:a087f45f699d4430a96e0a53c81dbc69
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Тепломеханические решения котельных"^^xsd:string;
+  v-s:shortLabel "ТМ"^^xsd:string;
+.
+d:fe77a4d7194a4bf8a320b1ff72d957ba
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Сооружения транспорта"^^xsd:string;
+  v-s:shortLabel "ТР"^^xsd:string;
+.
+d:9a7e4b771373497797074365d839f0ac
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Тепломеханические решения тепловых сетей"^^xsd:string;
+  v-s:shortLabel "ТС"^^xsd:string;
+.
+d:0d79498c9f7d494d8c638ca26fdc8df9
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Технология производства"^^xsd:string;
+  v-s:shortLabel "ТХ"^^xsd:string;
+.
+d:d39e76c5d60a4cf69c31d1afad38e0cd
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Холодоснабжение"^^xsd:string;
+  v-s:shortLabel "ХС"^^xsd:string;
+.
+d:a4ed7480075b40cf8948fefd7fc147be
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Силовое электрооборудование"^^xsd:string;
+  v-s:shortLabel "ЭМ"^^xsd:string;
+.
+d:4246d5250ffa47e78e87c65c5d8c8154
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Наружное электроосвещение"^^xsd:string;
+  v-s:shortLabel "ЭН"^^xsd:string;
+.
+d:0007cfc532ae41b6bd26826ebde8e686
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Электрическое освещение (внутреннее)"^^xsd:string;
+  v-s:shortLabel "ЭО"^^xsd:string;
+.
+d:16cb951187cc42118ed7b60e03398d84
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Электроснабжение"^^xsd:string;
+  v-s:shortLabel "ЭС"^^xsd:string;
+.
+d:636d9d5d9a544715a87c47b96ded985f
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация систем водоснабжения и канализации"^^xsd:string;
+  v-s:shortLabel "АВК"^^xsd:string;
+.
+d:cd6886224aac46c49e06c5764456004b
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация компрессорной станции (установки воздухоснабжения)"^^xsd:string;
+  v-s:shortLabel "АВС"^^xsd:string;
+.
+d:570f28ff76fe4ac98e497b8ec2e6003c
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация газораспределительных устройств"^^xsd:string;
+  v-s:shortLabel "АГСВ"^^xsd:string;
+.
+d:67599433d5fb4a979791830863fa5d72
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация газораспределительных пунктов"^^xsd:string;
+  v-s:shortLabel "АГСН"^^xsd:string;
+.
+d:789e0c5dd9094374832e073b4ba4c2f0
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автомобильные дороги"^^xsd:string;
+  v-s:shortLabel "АД"^^xsd:string;
+.
+d:d287bac8838c43ad8a1fa676e27ce278
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Антикоррозионная защита конструкций зданий, сооружений"^^xsd:string;
+  v-s:shortLabel "АЗ"^^xsd:string;
+.
+d:ce14afa39bcc42ffa0ab54e892308b78
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Антикоррозионная защита технологических аппаратов, газотходов и трубопроводов"^^xsd:string;
+  v-s:shortLabel "АЗО"^^xsd:string;
+.
+d:26e25b074b2b4332b77df5d67cf116e2
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Интерьеры"^^xsd:string;
+  v-s:shortLabel "АИ"^^xsd:string;
+.
+d:c1dd72ac243f484bbf3257d94200aeb2
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация комплексная"^^xsd:string;
+  v-s:shortLabel "АК"^^xsd:string;
+.
+d:bba2264fe43e461f8cfb6fe0b3a511bf
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация наружных систем водоснабжения"^^xsd:string;
+  v-s:shortLabel "АНВ"^^xsd:string;
+.
+d:c3b4819d484e4586b4b026d6108bc775
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация наружных систем водоснабжения и канализации"^^xsd:string;
+  v-s:shortLabel "АНВК"^^xsd:string;
+.
+d:01588ebddcec4873b6568f1053a09be3
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Автоматизация систем отопления и вентиляции"^^xsd:string;
+  v-s:shortLabel "АОВ"^^xsd:string;
+.
+d:6ba70b2261d4443e98d91452565d3b98
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Произвольный комплект"^^xsd:string;
+  v-s:shortLabel "ОО"^^xsd:string;
+.
