@@ -1,0 +1,142 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/>.
+
+<http://semantic-machines.com/veda/veda-individual-ClassifierSectionOfProjectDocumentation>
+  rdf:type owl:Ontology ;
+  v-s:loadPriority 10 ;
+.
+#---------------------------------------Класс
+v-s:ClassifierSectionOfProjectDocumentation
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Раздел проектной документации"@ru ;
+  rdfs:label "Section of project documentation"@en ;
+.
+# rdfs:label
+# v-s:shortLabel
+
+#-------------------------------------Индивиды
+d:726f5c08118647ccb2e5fc822ef70fd0
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Пояснительная записка"^^xsd:string;
+  v-s:shortLabel "ПЗ"^^xsd:string;
+.
+d:c442e613851e4db6adb858e16cb54d50
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Схема планировочной организации земельного участка"^^xsd:string;
+  v-s:shortLabel "ПЗУ"^^xsd:string;
+.
+d:e2a438de3e064d52b7398779103031b6
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Архитектурные решения"^^xsd:string;
+  v-s:shortLabel "АР"^^xsd:string;
+.
+d:8bf8cb6db9aa49b8b349923802931ab9
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Конструктивные и объемно-планировочные решения"^^xsd:string;
+  v-s:shortLabel "КР"^^xsd:string;
+.
+d:26ae34be8bbd4355b033690ba28e4339
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Система электроснабжения"^^xsd:string;
+  v-s:shortLabel "ЭС"^^xsd:string;
+.
+d:dea42552fcb14a1fb8050aa1a75af83b
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Система водоснабжения"^^xsd:string;
+  v-s:shortLabel "СВС"^^xsd:string;
+.
+d:ce224b03da03480790e3e47b704e12af
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Система водоотведения"^^xsd:string;
+  v-s:shortLabel "СВО"^^xsd:string;
+.
+d:f762d5725f3648c0abcf74644f7c0e83
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Отопление, вентиляция и кондиционирование воздуха, тепловые сети"^^xsd:string;
+  v-s:shortLabel "ОВ"^^xsd:string;
+.
+d:4df4c613a163445c89545d925ac9ca28
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Сети связи"^^xsd:string;
+  v-s:shortLabel "СС"^^xsd:string;
+.
+d:419b5808002449e88ba740b990415a96
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Система газоснабжения"^^xsd:string;
+  v-s:shortLabel "ГС"^^xsd:string;
+.
+d:fbb05118ac944ffbaae49189837234f7
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Технологические решения"^^xsd:string;
+  v-s:shortLabel "ТХ"^^xsd:string;
+.
+d:5e85f7e326c04e3ab3ad235e54dfd552
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Проект организации строительства"^^xsd:string;
+  v-s:shortLabel "ПОС"^^xsd:string;
+.
+d:53c9d29253a64c9fafdc58152548f6fa
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Проект организации работ по сносу или демонтажу объектов капитального строительства"^^xsd:string;
+  v-s:shortLabel "ПОД"^^xsd:string;
+.
+d:e65f5f384f6643b9b05df4172c686133
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Перечень мероприятий по охране окружающей среды"^^xsd:string;
+  v-s:shortLabel "ООС"^^xsd:string;
+.
+d:ad443f01a03543fbb8a79df6be78ddb6
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Мероприятия по обеспечению пожарной безопасности"^^xsd:string;
+  v-s:shortLabel "МПБ"^^xsd:string;
+.
+d:1887713ed3dc479d9987c0feec28f670
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Мероприятия по обеспечению доступа инвалидов"^^xsd:string;
+  v-s:shortLabel "ОДИ"^^xsd:string;
+.
+d:3e52a76e98564c9eb0ee56a980a6ec20
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Смета на строительство объектов капитального строительства"^^xsd:string;
+  v-s:shortLabel "СМ"^^xsd:string;
+.
+d:2309b99f03e24b9e8fd2b079a1b2b8fe
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Перечень мероприятий по гражданской обороне, мероприятий по предупреждению чрезвычайных ситуаций природного и техногенного характера"^^xsd:string;
+  v-s:shortLabel "ГОЧС"^^xsd:string;
+.
+d:d1054ee09a6546689cbc2076424290ff
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Мероприятия по противодействию террористическим актам"^^xsd:string;
+  v-s:shortLabel "ПТА"^^xsd:string;
+.
+d:d0c0f53566144c8a9aab802926142623
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Декларация промышленной безопасности опасных производственных объектов"^^xsd:string;
+  v-s:shortLabel "ДПБ"^^xsd:string;
+.
+d:4bd4f0b6bc4a4c4a86438463aeeb87b6
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Декларация безопасности гидротехнических сооружений"^^xsd:string;
+  v-s:shortLabel "ДБГ"^^xsd:string;
+.
+d:d2af44ac655e430a9fbe20eb32420ffd
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Проект полосы отвода"^^xsd:string;
+  v-s:shortLabel "ППО"^^xsd:string;
+.
+d:04e97c10af6a48379ef04c0e82454cb0
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Технологические и конструктивные решения линейного объекта. Искусственные сооружения"^^xsd:string;
+  v-s:shortLabel "ТКР"^^xsd:string;
+.
+d:5d5a86874ee34bf49cb72326830c29f9
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Здания и сооружения, входящие в инфраструктуру линейного объекта"^^xsd:string;
+  v-s:shortLabel "ИЛО"^^xsd:string;
+.
