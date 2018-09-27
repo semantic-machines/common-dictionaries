@@ -35,7 +35,7 @@ v-ui:StatusTemplate
   rdfs:label "Template for Status class"@en ;
   v-ui:forClass v-s:Status ;
   v-ui:template """
-  <span class="label margin-xs-h" property="rdfs:label"></span>
+  <span class="label margin-xs-h" about="@" property="rdfs:label"></span>
   <script>
     template.addClass("label-"+individual["v-s:tag"]);
   </script>
@@ -330,4 +330,16 @@ v-s:StatusFulfillmentOfFinancialPperations
   rdfs:label "Выполнение финансовых операций"@ru ;
   rdfs:label "Fulfillment of financial operations"@en ;
   v-s:tag "default" ;
+.
+v-s:StatusStarted
+  rdf:type v-s:Status ;
+  rdfs:label "Запущено"@ru ;
+  rdfs:label "Started"@en ;
+  v-s:tag "success" ;
+.
+v-s:StatusStopped
+  rdf:type v-s:Status ;
+  rdfs:label "Остановлено"@ru ;
+  rdfs:label "Stopped"@en ;
+  v-s:tag "danger" ;
 .
