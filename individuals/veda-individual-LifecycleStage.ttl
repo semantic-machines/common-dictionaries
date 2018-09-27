@@ -27,7 +27,7 @@ v-s:LifecycleStage
 # ------------------------------------------------------------ ИНДИВИДЫ --
 d:lq47gp7z6dg6e7xeuv2p6l1rvj
   a v-s:LifecycleStage;
-  rdfs:label "Предпроектные работы"^^xsd:string;
+  rdfs:label "Изыскания и обследования"^^xsd:string;
 .
 d:gw4yt6tz8cnfgen0iygofrx7ys
   a v-s:LifecycleStage;
@@ -45,43 +45,43 @@ d:krjj7aot9iaw3sqttxik8lxuyj
   v-s:hasParentLink d:lq47gp7z6dg6e7xeuv2p6l1rvj;
 .
 #------------------------------------------------------------------------------------
-d:i5kydruq51ybqqw5wbvgqevtqb
-  a v-s:LifecycleStage;
-  rdfs:label "Проектирование"^^xsd:string;
-.
+#d:i5kydruq51ybqqw5wbvgqevtqb
+#  a v-s:LifecycleStage;
+#  rdfs:label "Проектирование"^^xsd:string;
+#.
 d:hhuixin23f142q8v9a996bg59i
   a v-s:LifecycleStage;
-  rdfs:label "Эскизное проектирование (Технические решения)"^^xsd:string;
+  rdfs:label "Эскизный проект (Предварительные технические решения, Расчеты)"^^xsd:string;
   v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
 .
 d:twejo8o3tb0w00gkfkox62l1bz
   a v-s:LifecycleStage;
-  rdfs:label "Техническое проектирование (Проекты, Разделы проекта, Расчеты)"^^xsd:string;
+  rdfs:label "Технический проект (Проектная документация)"^^xsd:string;
   v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
 .
 d:yzukiatavri0xticlw3xax2qeg
   a v-s:LifecycleStage;
-  rdfs:label "Рабочее проектирование (Комплекты рабочих чертежей, Чертежи)"^^xsd:string;
+  rdfs:label "Рабочая проект (Рабочая документация)"^^xsd:string;
   v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
 .
 #------------------------------------------------------------------------------------
-d:a6uu8yexul97649zuczu37abf4f
-  a v-s:LifecycleStage;
-  rdfs:label "Эксплуатация"^^xsd:string;
-.
+#d:a6uu8yexul97649zuczu37abf4f
+#  a v-s:LifecycleStage;
+#  rdfs:label "Эксплуатация"^^xsd:string;
+#.
 d:a1jtbf9rj5v2rwgv3k10xklj2dj
   a v-s:LifecycleStage;
-  rdfs:label "Ввод в действие"^^xsd:string;
+  rdfs:label "Ввод в действие (Исполнительная документация)"^^xsd:string;
   v-s:hasParentLink d:a6uu8yexul97649zuczu37abf4f;
 .
 d:gigldog8r8la9vpe14h5skeuw4
   a v-s:LifecycleStage;
-  rdfs:label "Сопровождение / Использование"^^xsd:string;
+  rdfs:label "Сопровождение. Использование (Эксплуатационная документация)"^^xsd:string;
   v-s:hasParentLink d:a6uu8yexul97649zuczu37abf4f;
 .
 d:z0vc8fqiijihd7vlgp75rislsl
   a v-s:LifecycleStage;
-  rdfs:label "Ремонт"^^xsd:string;
+  rdfs:label "Ремонт (Ремонтрная документация)"^^xsd:string;
   v-s:hasParentLink d:a6uu8yexul97649zuczu37abf4f;
 .
 d:nj61ie67s9yvmz66j6s1g1yufy

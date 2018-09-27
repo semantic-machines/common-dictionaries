@@ -1886,8 +1886,8 @@ d:ze6ghob5hg98m05rk7hs7ryb
 #-----------------------------------------------
 d:xunth1d2vsshftwnadlfp8bk
   a v-s:DocumentKind;
-  v-s:shortLabel "Виды Проектно-конструкторских документов"^^xsd:string;
-  rdfs:label "Виды Проектно-конструкторских документов"^^xsd:string;
+  v-s:shortLabel "Формы Проектно-конструкторских документов"^^xsd:string;
+  rdfs:label "Формы Проектно-конструкторских документов"^^xsd:string;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
 .
 d:380ca0b9d3004675b2e07a8fc7482840
@@ -2126,8 +2126,12 @@ d:1be747f77ef54cfd840aa3220046edb1
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "С"^^xsd:string;
   rdfs:label "Схемы"^^xsd:string;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
+  v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
+  v-s:hasParentLink d:j1fscemown2iv45412nun98x;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
+  v-s:hasParentLink d:guqt0dp2mynpebhu7qbmwg1q ;
 .
 d:2re747f77ef54cfd666aa3220046eef0
   a v-s:DocumentKind;
