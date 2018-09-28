@@ -61,7 +61,7 @@ d:twejo8o3tb0w00gkfkox62l1bz
 .
 d:yzukiatavri0xticlw3xax2qeg
   a v-s:LifecycleStage;
-  rdfs:label "Рабочая проект (Рабочая документация)"^^xsd:string;
+  rdfs:label "Рабочий проект (Рабочая документация)"^^xsd:string;
   v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
 .
 #------------------------------------------------------------------------------------
@@ -81,7 +81,7 @@ d:gigldog8r8la9vpe14h5skeuw4
 .
 d:z0vc8fqiijihd7vlgp75rislsl
   a v-s:LifecycleStage;
-  rdfs:label "Ремонт (Ремонтрная документация)"^^xsd:string;
+  rdfs:label "Ремонт (Ремонтная документация)"^^xsd:string;
   v-s:hasParentLink d:a6uu8yexul97649zuczu37abf4f;
 .
 d:nj61ie67s9yvmz66j6s1g1yufy
