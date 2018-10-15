@@ -57,6 +57,7 @@ d:074d6f4add1b4aebaf1cf7bc0332eb3d
   rdfs:label "Заказ спецификация к контракту"@ru;
   rdfs:label "Order specification"@en;
   v-s:hasParentLink d:97a6c9fbbc15418f8309490b2b6d3d6e;
+
 .
 d:fecef6b8058549cfb0203b55bd2425de
   a v-s:DocumentKind;
@@ -2052,6 +2053,7 @@ d:008cae75474845fea02f19f446ed0940
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:t65lhnvctaegte3jq1rc6hj3 ;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:d31a94ab34094effacd483cdb17d79cd
   a v-s:DocumentKind;
@@ -2472,9 +2474,10 @@ d:oto8kli9t4yvl58vl91qfqhya4
 d:oto8kli9t4yvl58vl91qfqhya41
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Карта эскизов"^^xsd:string;
-  rdfs:label "Карта эскизов"^^xsd:string;
+  v-s:shortLabel "Эскиз"^^xsd:string;
+  rdfs:label "Эскиз"^^xsd:string;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:oto8kli9t4yvl58vl91qfqhya42
   a v-s:DocumentKind;
