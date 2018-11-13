@@ -92,7 +92,7 @@ d:2b249ab1d1644f528e50ff72977fa9c8
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg;
   v-s:hasParentLink d:j1fscemown2iv45412nun98x;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
-  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;  
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:5a343b4bd5f74935982025cec2582cac
   v-s:registrationNumber "0"^^xsd:string;
@@ -162,7 +162,7 @@ d:5fd9004f075f48b0aacb17379f27e46f
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg;
   v-s:hasParentLink d:j1fscemown2iv45412nun98x;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
-  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;  
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:c398f7d2fa5243b8ad7e92aa21558351
   a v-s:DocumentKind;
@@ -273,7 +273,7 @@ d:296caefb5d524350a049da491e2f7a9f
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:j1fscemown2iv45412nun98x;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
-  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;  
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:967b13a01401408aa3641890003d188a
   a v-s:DocumentKind;
@@ -296,7 +296,7 @@ d:4c89fbb119d74286a684435a7cec9a3f
   rdfs:label "Заключение"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
-  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;  
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:a3445d12620a4c20bb14e62f07575638
   a v-s:DocumentKind;
@@ -417,6 +417,13 @@ d:41d32cc4c1ef45e68a93006855e07d2f
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Книга"^^xsd:string;
   rdfs:label "Книга"^^xsd:string;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
+d:41d32cc4c1ef45e68a93006855e07d2f_1
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Книжка"^^xsd:string;
+  rdfs:label "Книжка"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 d:9dfe58cb43844804ae68267cb5adb71c
@@ -620,7 +627,7 @@ d:c9a564e2d3574f0ca2597be555acaa1d
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
-  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;  
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:2d82b83385ac4ac9a146609dd61c0b9a
   a v-s:DocumentKind;
@@ -835,7 +842,7 @@ d:7d633b2966c8434db81487474acbab06
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:j1fscemown2iv45412nun98x;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
-  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;  
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:1aec9eb45d0549d797f31ea906a07259
   a v-s:DocumentKind;
@@ -2167,7 +2174,7 @@ d:1be747f77ef54cfd840aa3220046edb1
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:guqt0dp2mynpebhu7qbmwg1q ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
-  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;  
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:2re747f77ef54cfd666aa3220046eef0
   a v-s:DocumentKind;
