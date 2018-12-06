@@ -28,10 +28,20 @@ d:a21t5y3pswuewm8ohjexiqtxscr
   rdfs:label "Неделя"@ru ;
   rdfs:label "Week"@en ;
 .
+d:fb27kxa3r98ilnkvmy99xc11p1
+  rdf:type v-s:Period ;
+  rdfs:label "2 недели"@ru ;
+  rdfs:label "2 weeks"@en ;
+.
 d:pqauzdiqyls7pzrawelnh2zwj3
   rdf:type v-s:Period ;
   rdfs:label "Месяц"@ru ;
   rdfs:label "Month"@en ;
+.
+d:d2cloqhm8yqaq8t68zi9iepc69
+  rdf:type v-s:Period ;
+  rdfs:label "2 месяца"@ru ;
+  rdfs:label "2 months"@en ;
 .
 d:a28m44dm9yw04j7hf69r4i40sn5
   rdf:type v-s:Period ;
