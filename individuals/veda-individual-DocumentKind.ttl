@@ -1240,9 +1240,10 @@ d:aqhn9agutrq29fe9yf35wd8lqr
 #-----------------------------------------------------
 d:c3b38c81e1594593932b9872a3257948
   a v-s:DocumentKind;
-  v-s:shortLabel "Формы документов по движению ОС"^^xsd:string;
   v-s:registrationNumber "0"^^xsd:string;
-  rdfs:label "Формы документов по движению основных средств"^^xsd:string;
+  v-s:shortLabel "Документ по движению ОС"^^xsd:string;
+  rdfs:label "Документ по движению ОС"^^xsd:string;
+  v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:90209600a3a44baa9e185809e4ecd866
   a v-s:DocumentKind;
@@ -1253,16 +1254,9 @@ d:90209600a3a44baa9e185809e4ecd866
 .
 d:a14a4c3ac6b54181b612e7ae20c12fa5
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Акт осмотра объекта основных средств"^^xsd:string;
-  rdfs:label "Акт о приеме передаче групп объектов основных средств (кроме зданий, сооружений). Форма ОС-1б"^^xsd:string;
-  v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
-.
-d:a14a4c3ac6b54181b612e7ae20c12fa5
-  a v-s:DocumentKind;
   v-s:registrationNumber "ОС-1б"^^xsd:string;
   v-s:shortLabel "ОС-1б. Акт о приеме передаче групп ОС"^^xsd:string;
-  rdfs:label "Акт осмотра объекта основных средств, подлежащего списанию"^^xsd:string;
+  rdfs:label "Акт о приеме передаче групп объектов основных средств (кроме зданий, сооружений). Форма ОС-1б"^^xsd:string;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:d52b64869ee84959b72de00a511d0632
@@ -1310,7 +1304,7 @@ d:39701203bf96414182e480f7f117fd5d
 d:e5faf3d2bd2e4c2ea1a100a32ee1663d
   a v-s:DocumentKind;
   v-s:registrationNumber "ОС-4"^^xsd:string;
-  v-s:shortLabel "Акт осмотра объекта основных средств"^^xsd:string;
+  v-s:shortLabel "ОС-4. Акт осмотра объекта основных средств"^^xsd:string;
   rdfs:label "Акт о списании объектов основных средств (кроме транспортных средств). Форма ОС-4"^^xsd:string;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
@@ -1393,13 +1387,6 @@ d:7919fd49560f4340b41ce6bc01aa87e9
   v-s:registrationNumber "10-4"^^xsd:string;
   v-s:shortLabel "Кредит - нота"^^xsd:string;
   rdfs:label "Кредит - нота"^^xsd:string;
-  v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
-.
-d:c3b38c81e1594593932b9872a3257948
-  a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Документ по движению ОС"^^xsd:string;
-  rdfs:label "Документ по движению ОС"^^xsd:string;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:d76789ad61c94e8296a1a780282b533e

@@ -667,10 +667,10 @@ d:Country_PRK
   v-s:description "Korea, Democratic People's Republic of"@en ;
   v-s:registrationNumber "408" ;
 .
-d:Country_IDN
+d:Country_KOR
   a v-s:ClassifierCountry;
-  v-s:title "IDN" ;
-  v-s:shortLabel "ID" ;
+  v-s:title "KOR" ;
+  v-s:shortLabel "KR" ;
   rdfs:label "ЮЖНАЯ КОРЕЯ"@ru ;
   rdfs:label "SOUTH KOREA"@en ;
   v-s:description "Республика Корея"@ru ;
