@@ -1,0 +1,26 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+
+<http://semantic-machines.com/veda/veda-individual-Profession>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Справочник Профессия"@ru ;
+  rdfs:label "Veda ontology. Dictionary - Profession"@en ;
+  v-s:loadPriority 10 ;
+.
+
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:Profession
+  rdf:type owl:Class ;
+  rdfs:label "Профессия"@ru ;
+  rdfs:label "Profession"@en ;
+  rdfs:subClassOf v-s:UserThing ;
+.
+# --- В связи с вводом класса мог-бы возникать предикат v-s:hasProfession. Но пока он не введен.
+
+# ------------------------------------------------------------ ИНДИВИДЫ --
+
+# --- Пока конкретные индивиды класса вводяться в онто конкретных организаций.
