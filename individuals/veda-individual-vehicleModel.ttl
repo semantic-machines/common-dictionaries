@@ -1145,3 +1145,21 @@ d:3e89cef929d64223ac11c39ea9987bad
   rdfs:comment "VAZ"@en ;
   rdfs:comment "VAZ"@ru ;  
 .
+
+
+d:1r45cef929d64223ac11c39ea9987rte
+    a v-s:VehicleModel;
+  rdfs:label "Linde"@ru ;
+  rdfs:label "Linde"@en ;
+  rdfs:comment "Linde"@en ;
+  rdfs:comment "Linde"@ru ;  
+.
+
+
+d:4t56cef929d64223ac11c39ea9986uiy
+    a v-s:VehicleModel;
+  rdfs:label "Yale"@ru ;
+  rdfs:label "Yale"@en ;
+  rdfs:comment "Yale"@en ;
+  rdfs:comment "Yale"@ru ;  
+.
