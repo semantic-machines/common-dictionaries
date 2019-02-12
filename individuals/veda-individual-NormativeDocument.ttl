@@ -288,6 +288,7 @@ d:c1yab05uv5kf5b8vl2ebmtr0zr
   v-s:hasNormativeDocumentRequirement d:bxlddm26t1q1jv2zebbgwr5klh;
   v-s:hasNormativeDocumentRequirement d:a7dobfz50d0boc7cliu8o7dccbp;
 .
+
 d:c4edc01cf20a4500ba6378ad2ea06a8f
   a v-s:NormativeDocument;
   rdfs:label " Межотраслевые правила по охране труда при использовании химических веществ"^^xsd:string;
@@ -1522,9 +1523,60 @@ d:ec9b79c150c846a1b73869174309af7d
 
 d:aaa5470d84e149afbef58cd878973abe
   a v-s:NormativeDocument;
-  rdfs:label "РОССИЙСКИЙ НАЦИОНАЛЬНЫЙ СТАНДАРТ ДОБРОВОЛЬНОЙ ЛЕСНОЙ СЕРТИФИКАЦИИ"^^xsd:string;
+  rdfs:label "Российский национальный стандарт добровольной лесной сертификации"^^xsd:string;
   v-s:attachment d:961d59b9-d22b-4947-8b0f-40f54bef892d;
   v-s:shortLabel "FSC"^^xsd:string;
+.
+
+d:a3m7gqwt4pwsg395c1zn8xkc2yr
+  a v-s:NormativeDocument;
+  rdfs:label "Программа одобрения схем лесной сертификации"^^xsd:string;
+  v-s:attachment d:961d59b9-d22b-4947-8b0f-40f54bef892d;
+  v-s:shortLabel "PEFC"^^xsd:string;
+.
+#------------------------FSC-------------------
+d:f0mz66on3g4lw3nm6igztfq0oa
+  a v-s:NormativeDocument;
+  rdfs:label "FSC-STD-RUS-V6-1-2012 (Лесоуправление и внутренняя цепочка поставок)"^^xsd:string;
+  v-s:shortLabel "FSC-STD-RUS-V6-1-2012"^^xsd:string;
+  v-s:hasNormativeDocument d:aaa5470d84e149afbef58cd878973abe;
+.
+d:f0mv9wdqjsj6kuuk2u1ipjlswp
+  a v-s:NormativeDocument;
+  rdfs:label "FSC –STD-40-005 V3-1 и НОР (Контролируемая древесина)"^^xsd:string;
+  v-s:shortLabel "FSC –STD-40-005 V3-1 и НОР"^^xsd:string;
+  v-s:hasNormativeDocument d:aaa5470d84e149afbef58cd878973abe;
+.
+d:etr6uzfithwzy06um6sxkk7xux
+  a v-s:NormativeDocument;
+  rdfs:label "FSC –STD-40-004 V3 (Цепочка поставок)"^^xsd:string;
+  v-s:shortLabel "FSC –STD-40-004 V3"^^xsd:string;
+  v-s:hasNormativeDocument d:aaa5470d84e149afbef58cd878973abe;
+.
+d:dbmxdwazwexg31hodaobgvr344
+  a v-s:NormativeDocument;
+  rdfs:label "FSC –STD-50-001 V2 (Товарные знаки)"^^xsd:string;
+  v-s:hasNormativeDocument d:aaa5470d84e149afbef58cd878973abe;
+.
+
+#-----------------------PEFC---------------------
+d:a12epy3sak6n4k5nv6eqaeyouvh
+  a v-s:NormativeDocument;
+  rdfs:label "PEFC ST 2001:2008 (логотип PEFC)"^^xsd:string;
+  v-s:shortLabel "PEFC ST 2001:2008"^^xsd:string;
+  v-s:hasNormativeDocument d:a3m7gqwt4pwsg395c1zn8xkc2yr;
+.
+d:mesvnvcrwol5ia5fr9pvmpd7lw
+  a v-s:NormativeDocument;
+  rdfs:label "PEFC-RUSSIA- ST-01-2015 (Лесоуправление и лесопользование)"^^xsd:string;
+  v-s:shortLabel "PEFC-RUSSIA- ST-01-2015"^^xsd:string;
+  v-s:hasNormativeDocument d:a3m7gqwt4pwsg395c1zn8xkc2yr;
+.
+d:tazxrcb48jcg5uhdxuhfc78a5q
+  a v-s:NormativeDocument;
+  rdfs:label "PEFC ST 2002:2013 (Цепочка поставок)"^^xsd:string;
+  v-s:shortLabel "PEFC ST 2002:2013"^^xsd:string;
+  v-s:hasNormativeDocument d:a3m7gqwt4pwsg395c1zn8xkc2yr;
 .
 
 d:e15282798f3a4352a22cd6461e8b4fbe
