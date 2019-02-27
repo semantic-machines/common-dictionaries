@@ -19,6 +19,16 @@ v-s:Profession
   rdfs:label "Profession"@en ;
   rdfs:subClassOf v-s:UserThing ;
 .
+
+v-s:hasRequiredFieldsForProfession
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "Обязательные поля вида работ"@ru ;
+  rdfs:label "Required Fields"@en ;
+  rdfs:range owl:ObjectProperty ;
+  rdfs:domain v-s:Profession ;
+.
+
+
 # --- В связи с вводом класса мог-бы возникать предикат v-s:hasProfession. Но пока он не введен.
 
 # ------------------------------------------------------------ ИНДИВИДЫ --
