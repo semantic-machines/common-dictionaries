@@ -446,6 +446,7 @@ d:afc1a827f2ac47a9bd19b6db910dfc13
   v-s:shortLabel "Комплект"^^xsd:string;
   rdfs:label "Комплект"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:46619e66024f49a6bd5a7be90fcb6a00
   a v-s:DocumentKind;
@@ -611,6 +612,7 @@ d:c531a1ef7211452291b9cf0687d74842
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:9f4f0922af464a10a21f746a940d2c5c
   a v-s:DocumentKind;
@@ -857,6 +859,7 @@ d:bdc120ddc9914bc2a88e520b552637dd
   v-s:shortLabel "Разрешение"^^xsd:string;
   rdfs:label "Разрешение"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:7dc43231b1e94686bb1b4ff61e39fb78
   a v-s:DocumentKind;
@@ -979,6 +982,13 @@ d:14add314e3684e2b863eb9fb8f31fcba
   rdfs:label "Сертификат"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:a26wryne43dijbzw781c5fcy4;
+.
+d:a7yivrmo8e4fy2e4cgdc70qzlyr
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Согласование/Заключение"^^xsd:string;
+  rdfs:label "Согласование/Заключение"^^xsd:string;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:a6cbfff5b2e84cc0ad0eec98aaedf6b3
   a v-s:DocumentKind;
@@ -1119,6 +1129,13 @@ d:c6578e018bad4fdc8735313c125b9815
   v-s:shortLabel "Учебник"^^xsd:string;
   rdfs:label "Учебник"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
+d:aq09sapuwv85fiy4jartxpwc7x
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Учет"^^xsd:string;
+  rdfs:label "Учет"^^xsd:string;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:5f0d2baaee4542f8ad216967220c1494
   a v-s:DocumentKind;
@@ -1920,6 +1937,7 @@ d:d74ecf7707894107aab07f7d8629df8e
   v-s:shortLabel "Д"^^xsd:string;
   rdfs:label "Документы прочие "^^xsd:string;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2;
 .
 d:ff74d9d7995b4d3f87d5451f28a4684f
   a v-s:DocumentKind;

@@ -43,37 +43,37 @@ d:8bf8cb6db9aa49b8b349923802931ab9
 d:26ae34be8bbd4355b033690ba28e4339
   rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
   rdfs:label "Система электроснабжения"^^xsd:string;
-  v-s:shortLabel "ЭС"^^xsd:string;
+  v-s:shortLabel "ИОС1"^^xsd:string;
 .
 d:dea42552fcb14a1fb8050aa1a75af83b
   rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
   rdfs:label "Система водоснабжения"^^xsd:string;
-  v-s:shortLabel "СВС"^^xsd:string;
+  v-s:shortLabel "ИОС2"^^xsd:string;
 .
 d:ce224b03da03480790e3e47b704e12af
   rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
   rdfs:label "Система водоотведения"^^xsd:string;
-  v-s:shortLabel "СВО"^^xsd:string;
+  v-s:shortLabel "ИОС3"^^xsd:string;
 .
 d:f762d5725f3648c0abcf74644f7c0e83
   rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
   rdfs:label "Отопление, вентиляция и кондиционирование воздуха, тепловые сети"^^xsd:string;
-  v-s:shortLabel "ОВ"^^xsd:string;
+  v-s:shortLabel "ИОС4"^^xsd:string;
 .
 d:4df4c613a163445c89545d925ac9ca28
   rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
   rdfs:label "Сети связи"^^xsd:string;
-  v-s:shortLabel "СС"^^xsd:string;
+  v-s:shortLabel "ИОС5"^^xsd:string;
 .
 d:419b5808002449e88ba740b990415a96
   rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
   rdfs:label "Система газоснабжения"^^xsd:string;
-  v-s:shortLabel "ГС"^^xsd:string;
+  v-s:shortLabel "ИОС6"^^xsd:string;
 .
 d:fbb05118ac944ffbaae49189837234f7
   rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
   rdfs:label "Технологические решения"^^xsd:string;
-  v-s:shortLabel "ТХ"^^xsd:string;
+  v-s:shortLabel "ИОС7"^^xsd:string;
 .
 d:5e85f7e326c04e3ab3ad235e54dfd552
   rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
@@ -139,4 +139,14 @@ d:5d5a86874ee34bf49cb72326830c29f9
   rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
   rdfs:label "Здания и сооружения, входящие в инфраструктуру линейного объекта"^^xsd:string;
   v-s:shortLabel "ИЛО"^^xsd:string;
+.
+d:s69lw2zsvp8tvdashi8mcsiu4v
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Мероприятия по обеспечению соблюдения требований энергетической эффективности и требований оснащенности зданий, строений и сооружений приборами учета используемых энергетических ресурсов"^^xsd:string;
+  v-s:shortLabel "ЭЭ"^^xsd:string;
+.
+d:s69lw2zsvp8tvdashi8mcsiu4v
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Требования к обеспечению безопасной эксплуатации объектов капитального строительства"^^xsd:string;
+  v-s:shortLabel "ОБЭ"^^xsd:string;
 .

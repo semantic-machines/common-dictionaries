@@ -64,6 +64,11 @@ d:yzukiatavri0xticlw3xax2qeg
   rdfs:label "Рабочий проект (Рабочая документация)"^^xsd:string;
   v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
 .
+d:sdh53mgzr8wcouhxnq7u7hpv96
+  a v-s:LifecycleStage;
+  rdfs:label "Получение разрешений (исходно-разрешительная документация)"^^xsd:string;
+  v-s:hasParentLink d:i5kydruq51ybqqw5wbvgqevtqb;
+.
 #------------------------------------------------------------------------------------
 #d:a6uu8yexul97649zuczu37abf4f
 #  a v-s:LifecycleStage;
