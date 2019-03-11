@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix mnd-s: <http://semantic-machines.com/veda/mondi-schema/>.
+@prefix d: <http://semantic-machines.com/veda/veda-data/>.
+
+<http://semantic-machines.com/veda/veda-individual-OriginalSource>
+  rdf:type owl:Ontology ;
+  v-s:loadPriority 10 ;
+.
+#-------------------------------------------------
+v-s:OriginalSource
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Источник оригинала"@ru ;
+  rdfs:label "Original source"@en ;
+.
+# --- В связи с вводом класса может использоваться предикат v-s:hasOriginalSource. Он описан в классе v-s:Registered
+
+d:5160c4c3bbb7404c98a3b562c99876fa
+  rdf:type v-s:OriginalSource ;
+  rdfs:label "Факсимильная копия"@ru;
+  rdfs:label "Fax"@en;
+  v-s:updateCounter "1"^^xsd:integer.
+
+d:3091808258d44b5da0ce9c403887a41c
+  rdf:type v-s:OriginalSource ;
+  rdfs:label "Бумажный экземпляр"@ru;
+  rdfs:label "Hard copy"@en;
+  v-s:updateCounter "1"^^xsd:integer.
+
+d:8e13b8213ad54768a86bdcbb14e5a65d
+  rdf:type v-s:OriginalSource ;
+  rdfs:label "Электронная копия"@ru;
+  rdfs:label "Digital copy"@en;
+  v-s:updateCounter "1"^^xsd:integer.
