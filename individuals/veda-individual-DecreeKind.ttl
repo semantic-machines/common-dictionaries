@@ -13,6 +13,14 @@
   v-s:loadPriority 10 ;
 .
 
+v-s:DecreeKind
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Вид распорядительного документа"@ru ;
+  rdfs:label "Decree kind"@en ;
+.
+# --- В связи с вводом класса может использоваться предикат v-s:hasDecreeKind. Он описан в классе v-s:Decree
+#-----------------------------------------------------------------
 d:3c5d0a103a484620b90f26cf79310d15
   rdf:type v-s:DecreeKind ;
   rdfs:label "Приказ по кадрам"@ru ;
