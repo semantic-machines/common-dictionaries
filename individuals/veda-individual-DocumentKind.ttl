@@ -2723,3 +2723,12 @@ d:4497b0977e8f411c9351a6eea04ce0a4
   rdfs:label "Макет упаковки"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+
+#-----------------------------------------------
+d:byrtofyhdn8fy4cf744dngzna8
+  a v-s:DocumentKind;
+  v-s:shortLabel "KPI"^^xsd:string;
+  rdfs:label "KPI"^^xsd:string;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
+
