@@ -36,7 +36,7 @@ v-ui:StatusTemplate
   v-ui:forClass v-s:Status ;
   v-ui:template """
   <span about="@" class="label margin-xs-h" property="rdfs:label"></span>
-  <script><!--async-->
+  <script>
     template.addClass("label-"+individual["v-s:tag"]);
   </script>
   """ ;
