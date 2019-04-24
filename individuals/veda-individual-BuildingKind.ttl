@@ -1,0 +1,57 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+
+<http://semantic-machines.com/veda/veda-individual-MaintenanceKind>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Справочник Вид сооружения"@ru ;
+  rdfs:label "Veda ontology. Dictionary - BuildingKind"@en ;
+  v-s:loadPriority 10 ;
+.
+
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:BuildingKind
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Вид здания, сооружения"@ru ;
+  rdfs:label "Kind of building"@en ;
+.
+# --- В связи с вводом класса возникает предикат v-s:hasBuildingKind 
+# --- Он описан в классе v-s:Spatial
+
+
+# ------------------------------------------------------------ ИНДИВИДЫ ---
+
+d:a9hth4r4dphbhwnkon7bru2gqsu
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Территория"@ru ;
+  rdfs:label "Territory"@en ;
+.
+d:jkufz2c9pxa5d8q242703fc5jm
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Группа зданий"@ru ;
+  rdfs:label "Several buildings"@en ;
+.
+d:a04234lrb448fer62qohhlw9jew
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Здание"@ru ;
+  rdfs:label "Building"@en ;
+.
+d:tdmroj9jwx56mtgioxobk9ib4l
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Участок здания"@ru ;
+  rdfs:label "Part of the building"@en ;
+.
+d:dgdt8bm0gig2k5q0df60fi4qyq
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Группа сооружений"@ru ;
+  rdfs:label "Several constructions"@en ;
+.
+d:a3nyqc2yjnthclux6kppar8n000
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Сооружение"@ru ;
+  rdfs:label "Construction"@en ;
+.
