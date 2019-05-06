@@ -341,14 +341,44 @@ v-s:StatusStopped
 
 v-s:StatusStarted
   rdf:type v-s:Status ;
-  rdfs:label "Запущено"@ru ;
+  rdfs:label "Процесс начат"@ru ;
   rdfs:label "Started"@en ;
   v-s:tag "success" ;
 .
-
 v-s:StatusRestarted
   rdf:type v-s:Status ;
-  rdfs:label "Запущено"@ru ;
-  rdfs:label "Started"@en ;
+  rdfs:label "Процесс начат повторно"@ru ;
+  rdfs:label "Restarted"@en ;
   v-s:tag "success" ;
+.
+
+v-s:StatusEngineering
+  rdf:type v-s:Status ;
+  rdfs:label "Проектирование"@ru ;
+  rdfs:label "Engineering"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusDevelopment
+  rdf:type v-s:Status ;
+  rdfs:label "Строительство"@ru ;
+  rdfs:label "Development"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusMaintenance
+  rdf:type v-s:Status ;
+  rdfs:label "Эксплуатация"@ru ;
+  rdfs:label "Maintenance"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusConserved
+  rdf:type v-s:Status ;
+  rdfs:label "Законсервирован"@ru ;
+  rdfs:label "Conserved"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusDismantled
+  rdf:type v-s:Status ;
+  rdfs:label "Ликвидирован"@ru ;
+  rdfs:label "Dismantled"@en ;
+  v-s:tag "default" ;
 .
