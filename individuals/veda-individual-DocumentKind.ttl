@@ -2212,6 +2212,20 @@ d:a6mdl9yodbw9k7jpo3ijxjqs3
   rdfs:label "Стандартная операционная процедура(SOP)"^^xsd:string;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
 .
+d:1ti3wc7son7tlb0xqhmnbt19h0
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Должностная инструкция"^^xsd:string;
+  rdfs:label "Должностная инструкция"^^xsd:string;
+  v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+.
+d:bjnkll1vkbv2h9gh6vvanx0nrg
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Положение о структурном подразделении"^^xsd:string;
+  rdfs:label "Положение о структурном подразделении"^^xsd:string;
+  v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+.
 d:w8944nrcvqekod1swwkqsnya
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
