@@ -1163,3 +1163,21 @@ d:4t56cef929d64223ac11c39ea9986uiy
   rdfs:comment "Yale"@en ;
   rdfs:comment "Yale"@ru ;  
 .
+
+
+d:3g7kjqsrn0nvis4m8whz18t1iv3a3hkr
+    a v-s:VehicleModel;
+  rdfs:label "Shaanxi"@ru ;
+  rdfs:label "Shaanxi"@en ;
+  rdfs:comment "Shaanxi"@en ;
+  rdfs:comment "Shaanxi"@ru ;  
+.
+
+
+d:i9vfm085c2f6j02sb81ivexh5q8f50gg
+    a v-s:VehicleModel;
+  rdfs:label "Shacman"@ru ;
+  rdfs:label "Shacman"@en ;
+  rdfs:comment "Shacman"@en ;
+  rdfs:comment "Shacman"@ru ;  
+.
