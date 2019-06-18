@@ -31,8 +31,8 @@ d:9d8eadd9b21d4d2a8ef616f67e090fac
   rdfs:label "Машина сельскохозяйственная"@en ;
   v-s:description ""@ru ;
   v-s:description ""@en ;
-  v-s:v-s:shortLabel "F"@ru ;
-  v-s:v-s:shortLabel "F"@en ;
+  v-s:shortLabel "F"@ru ;
+  v-s:shortLabel "F"@en ;
 .
 
 d:e3665465997648248fb3f9f6a1ccbe51
@@ -41,8 +41,8 @@ d:e3665465997648248fb3f9f6a1ccbe51
   rdfs:label "Машина гусеничная тяжелая"@en ;
   v-s:description "более 25,7 кВт"@ru ;
   v-s:description "более 25,7 кВт"@en ;
-  v-s:v-s:shortLabel "E"@ru ;
-  v-s:v-s:shortLabel "E"@en ;
+  v-s:shortLabel "E"@ru ;
+  v-s:shortLabel "E"@en ;
 .
 
 d:53133a214db34ee081835d45c8432348
@@ -51,8 +51,8 @@ d:53133a214db34ee081835d45c8432348
   rdfs:label "Машина колесная тяжелая"@en ;
   v-s:description "более 110,3 кВт"@ru ;
   v-s:description "более 110,3 кВт"@en ;
-  v-s:v-s:shortLabel "D"@ru ;
-  v-s:v-s:shortLabel "D"@en ;
+  v-s:shortLabel "D"@ru ;
+  v-s:shortLabel "D"@en ;
 .
 
 d:4d53251fece9481f99f1ae15d251f8b6
@@ -61,8 +61,8 @@ d:4d53251fece9481f99f1ae15d251f8b6
   rdfs:label "Машина колесная средняя"@en ;
   v-s:description "25,7-110,3 кВт"@ru ;
   v-s:description "25,7-110,3 кВт"@en ;
-  v-s:v-s:shortLabel "C"@ru ;
-  v-s:v-s:shortLabel "C"@en ;
+  v-s:shortLabel "C"@ru ;
+  v-s:shortLabel "C"@en ;
 .
 
 d:655f060614dc4829ba56c85dd6dfdff5
@@ -71,8 +71,8 @@ d:655f060614dc4829ba56c85dd6dfdff5
   rdfs:label "Машина гусеничная или колесная малая"@en ;
   v-s:description "до 25,7 кВт"@ru ;
   v-s:description "до 25,7 кВт"@en ;
-  v-s:v-s:shortLabel "B"@ru ;
-  v-s:v-s:shortLabel "B"@en ;
+  v-s:shortLabel "B"@ru ;
+  v-s:shortLabel "B"@en ;
 .
 
 d:e887953c6556432280585e2b5819afcb
@@ -81,8 +81,8 @@ d:e887953c6556432280585e2b5819afcb
   rdfs:label "Средство пассажирское внедорожное"@en ;
   v-s:description "более 8 пасс"@ru ;
   v-s:description "более 8 пасс"@en ;
-  v-s:v-s:shortLabel "AIV"@ru ;
-  v-s:v-s:shortLabel "AIV"@en ;
+  v-s:shortLabel "AIV"@ru ;
+  v-s:shortLabel "AIV"@en ;
 .
 
 d:741f69e6d6ab4a21b7baa2a9818cd4b1
@@ -91,8 +91,8 @@ d:741f69e6d6ab4a21b7baa2a9818cd4b1
   rdfs:label "Средство грузовое внедорожное"@en ;
   v-s:description "до 8 пасс, более 3,5 тонн"@ru ;
   v-s:description "до 8 пасс, более 3,5 тонн"@en ;
-  v-s:v-s:shortLabel "AIII"@ru ;
-  v-s:v-s:shortLabel "AIII"@en ;
+  v-s:shortLabel "AIII"@ru ;
+  v-s:shortLabel "AIII"@en ;
 .
 
 d:203f20c39674465885ca81e143b7fc55
@@ -101,8 +101,8 @@ d:203f20c39674465885ca81e143b7fc55
   rdfs:label "Средство легковое внедорожное"@en ;
   v-s:description "до 8 пасс, до 3,5 т"@ru ;
   v-s:description "до 8 пасс, до 3,5 т"@en ;
-  v-s:v-s:shortLabel "AII"@ru ;
-  v-s:v-s:shortLabel "AII"@en ;
+  v-s:shortLabel "AII"@ru ;
+  v-s:shortLabel "AII"@en ;
 .
 
 d:a6d4d25f234c430c89aec7c468bb168c
@@ -111,8 +111,8 @@ d:a6d4d25f234c430c89aec7c468bb168c
   rdfs:label "Средство мототранспортное внедорожное"@en ;
   v-s:description "до 50 км/ч"@ru ;
   v-s:description "до 50 км/ч"@en ;
-  v-s:v-s:shortLabel "AI"@ru ;
-  v-s:v-s:shortLabel "AI"@en ;
+  v-s:shortLabel "AI"@ru ;
+  v-s:shortLabel "AI"@en ;
 .
 
 d:674ad1656f2c4cdf8bf2ca5140dbbd54
@@ -121,8 +121,8 @@ d:674ad1656f2c4cdf8bf2ca5140dbbd54
   rdfs:label "Автомобиль грузовой с прицепом"@en ;
   v-s:description "более 7,5 т. прицеп более 12 т"@ru ;
   v-s:description "более 7,5 т. прицеп более 12 т"@en ;
-  v-s:v-s:shortLabel "CE"@ru ;
-  v-s:v-s:shortLabel "CE"@en ;
+  v-s:shortLabel "CE"@ru ;
+  v-s:shortLabel "CE"@en ;
 .
 
 d:dcd0517d09214ad39dab26a903f88dc3
@@ -131,8 +131,8 @@ d:dcd0517d09214ad39dab26a903f88dc3
   rdfs:label "Автомобиль грузовой малый с прицепом"@en ;
   v-s:description "3,5-7,5 т. прицеп 0,75-12 т"@ru ;
   v-s:description "3,5-7,5 т. прицеп 0,75-12 т"@en ;
-  v-s:v-s:shortLabel "C1E"@ru ;
-  v-s:v-s:shortLabel "C1E"@en ;
+  v-s:shortLabel "C1E"@ru ;
+  v-s:shortLabel "C1E"@en ;
 .
 
 d:2a67143977324790994ca6b50adeda90
@@ -141,8 +141,8 @@ d:2a67143977324790994ca6b50adeda90
   rdfs:label "Автомобиль грузовой"@en ;
   v-s:description "более 7,5 т"@ru ;
   v-s:description "более 7,5 т"@en ;
-  v-s:v-s:shortLabel "C"@ru ;
-  v-s:v-s:shortLabel "C"@en ;
+  v-s:shortLabel "C"@ru ;
+  v-s:shortLabel "C"@en ;
 .
 
 d:fd4b4bf49ef5428187cdac22a8614c4b
@@ -151,8 +151,8 @@ d:fd4b4bf49ef5428187cdac22a8614c4b
   rdfs:label "Автомобиль грузовой малый"@en ;
   v-s:description "3,5-7,5 т"@ru ;
   v-s:description "3,5-7,5 т"@en ;
-  v-s:v-s:shortLabel "C1"@ru ;
-  v-s:v-s:shortLabel "C1"@en ;
+  v-s:shortLabel "C1"@ru ;
+  v-s:shortLabel "C1"@en ;
 .
 
 d:e6179f32bb4f4d3f8719d7eeb1f1591d
@@ -161,8 +161,8 @@ d:e6179f32bb4f4d3f8719d7eeb1f1591d
   rdfs:label "Автомобиль пассажирский с прицепом"@en ;
   v-s:description "более 16 пасс. прицеп более 12 т"@ru ;
   v-s:description "более 16 пасс. прицеп более 12 т"@en ;
-  v-s:v-s:shortLabel "DE"@ru ;
-  v-s:v-s:shortLabel "DE"@en ;
+  v-s:shortLabel "DE"@ru ;
+  v-s:shortLabel "DE"@en ;
 .
 
 d:0bde68eab2284ae7bd52fdc6e3e31542
@@ -171,8 +171,8 @@ d:0bde68eab2284ae7bd52fdc6e3e31542
   rdfs:label "Автомобиль пассажирский малый с прицепом"@en ;
   v-s:description "9-16 пасс. прицеп 0,75-12 т"@ru ;
   v-s:description "9-16 пасс. прицеп 0,75-12 т"@en ;
-  v-s:v-s:shortLabel "D1E"@ru ;
-  v-s:v-s:shortLabel "D1E"@en ;
+  v-s:shortLabel "D1E"@ru ;
+  v-s:shortLabel "D1E"@en ;
 .
 
 d:768b9b1bcd5e42d382789711c36a5fb1
@@ -181,8 +181,8 @@ d:768b9b1bcd5e42d382789711c36a5fb1
   rdfs:label "Автомобиль пассажирский"@en ;
   v-s:description "более 16 пасс"@ru ;
   v-s:description "более 16 пасс"@en ;
-  v-s:v-s:shortLabel "D"@ru ;
-  v-s:v-s:shortLabel "D"@en ;
+  v-s:shortLabel "D"@ru ;
+  v-s:shortLabel "D"@en ;
 .
 
 d:991233fd85204a69a1d4c0710b5d2421
@@ -191,8 +191,8 @@ d:991233fd85204a69a1d4c0710b5d2421
   rdfs:label "Автомобиль пассажирский малый"@en ;
   v-s:description "9-16 пасс"@ru ;
   v-s:description "9-16 пасс"@en ;
-  v-s:v-s:shortLabel "D1"@ru ;
-  v-s:v-s:shortLabel "D1"@en ;
+  v-s:shortLabel "D1"@ru ;
+  v-s:shortLabel "D1"@en ;
 .
 
 d:a149df10970c48d6b2f72effaae836e5
@@ -201,8 +201,8 @@ d:a149df10970c48d6b2f72effaae836e5
   rdfs:label "Автомобиль легковой с прицепом"@en ;
   v-s:description "до 8 пасс, до 3,5 т. прицеп 0,75-3,5 т"@ru ;
   v-s:description "до 8 пасс, до 3,5 т. прицеп 0,75-3,5 т"@en ;
-  v-s:v-s:shortLabel "BE"@ru ;
-  v-s:v-s:shortLabel "BE"@en ;
+  v-s:shortLabel "BE"@ru ;
+  v-s:shortLabel "BE"@en ;
 .
 
 d:e759d64380ee425f9dfa55e320d1b3e5
@@ -211,8 +211,8 @@ d:e759d64380ee425f9dfa55e320d1b3e5
   rdfs:label "Автомобиль легковой"@en ;
   v-s:description "до 8 пасс, до 3,5 т"@ru ;
   v-s:description "до 8 пасс, до 3,5 т"@en ;
-  v-s:v-s:shortLabel "B"@ru ;
-  v-s:v-s:shortLabel "B"@en ;
+  v-s:shortLabel "B"@ru ;
+  v-s:shortLabel "B"@en ;
 .
 
 d:bb0583d54f0c43b3bf0849ea8a866c49
@@ -221,8 +221,8 @@ d:bb0583d54f0c43b3bf0849ea8a866c49
   rdfs:label "Трицикл, Квадрицикл"@en ;
   v-s:description ""@ru ;
   v-s:description ""@en ;
-  v-s:v-s:shortLabel "B1"@ru ;
-  v-s:v-s:shortLabel "B1"@en ;
+  v-s:shortLabel "B1"@ru ;
+  v-s:shortLabel "B1"@en ;
 .
 
 d:55825ca89b7c4922892db11755d96fad
@@ -231,8 +231,8 @@ d:55825ca89b7c4922892db11755d96fad
   rdfs:label "Мотоцикл"@en ;
   v-s:description "более 125 см3"@ru ;
   v-s:description "более 125 см3"@en ;
-  v-s:v-s:shortLabel "A"@ru ;
-  v-s:v-s:shortLabel "A"@en ;
+  v-s:shortLabel "A"@ru ;
+  v-s:shortLabel "A"@en ;
 .
 
 d:0f07e678350d42cfac8c668d73ca2e11
@@ -241,8 +241,8 @@ d:0f07e678350d42cfac8c668d73ca2e11
   rdfs:label "Мотоцикл легкий"@en ;
   v-s:description "50-125 см3"@ru ;
   v-s:description "50-125 см3"@en ;
-  v-s:v-s:shortLabel "A1"@ru ;
-  v-s:v-s:shortLabel "A1"@en ;
+  v-s:shortLabel "A1"@ru ;
+  v-s:shortLabel "A1"@en ;
 .
 
 d:325941d0e1b247af8e311af6fdb941fd
@@ -251,6 +251,6 @@ d:325941d0e1b247af8e311af6fdb941fd
   rdfs:label "Мопед, легкий квадрицикл"@en ;
   v-s:description "до 50 см3"@ru ;
   v-s:description "до 50 см3"@en ;
-  v-s:v-s:shortLabel "M"@ru ;
-  v-s:v-s:shortLabel "M"@en ;
+  v-s:shortLabel "M"@ru ;
+  v-s:shortLabel "M"@en ;
 .
