@@ -28,6 +28,14 @@ v-s:hasRequiredFieldsForProfession
   rdfs:domain v-s:Profession ;
 .
 
+v-s:hasRequiredFieldsContractorProfileSafety
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "Обязательные для досье организации по безопасности"@ru ;
+  rdfs:label "Required Fields for contractor profile safety"@en ;
+  rdfs:range owl:ObjectProperty ;
+  rdfs:domain v-s:Profession ;
+.
+
 
 # --- В связи с вводом класса мог-бы возникать предикат v-s:hasProfession. Но пока он не введен.
 
