@@ -468,11 +468,6 @@ d:2aa5f86187b343c6b5c6accdccd64157
   v-s:registrationNumber "110.050.040"^^xsd:string;
 .
 
-d:8f38682a618e4e738d4d601c2dac4f63
-  a v-s:Sector;
-  v-s:hasParentLink d:de2ef98f99814cbbb3ed11b2b1b75ffb;
-.
-
 d:19e13570e2774b92b6cadfec01848462
   a v-s:Sector;
   v-s:hasParentLink d:39501c43e13747d5ba00c35488c3b498;
