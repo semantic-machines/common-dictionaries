@@ -207,7 +207,7 @@ v-s:StatusInvestigationInitiation
 .
 v-s:StatusInvestigationInitiated
   rdf:type v-s:Status ;
-  rdfs:label "Расследование иницировано"@ru ;
+  rdfs:label "Расследование инициировано"@ru ;
   rdfs:label "Investigation Initiated"@en ;
   v-s:tag "default" ;
 .
@@ -227,6 +227,12 @@ v-s:StatusExecuted
   rdf:type v-s:Status ;
   rdfs:label "Исполнено"@ru ;
   rdfs:label "Executed"@en ;
+  v-s:tag "success" ;
+.
+v-s:StatusExecutedByContract
+  rdf:type v-s:Status ;
+  rdfs:label "Исполнено по конракту"@ru ;
+  rdfs:label "Executed by contract"@en ;
   v-s:tag "success" ;
 .
 v-s:StatusAcceptedOnBalance
