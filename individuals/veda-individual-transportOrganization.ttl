@@ -1,0 +1,130 @@
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://semantic-machines.com/veda/demo-individual-transportOrganization>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология индивидов Ved. Транспортные компании"@ru ;
+  rdfs:label "Veda individuals. transportOrganization"@en ;
+# owl:versionInfo "1.3" ;
+.
+
+
+#-------------------ФГУП "Почта России"------------------------------
+d:org_RU7724261610 a v-s:Organization;
+    rdfs:label "Федеральное государственное унитарное предприятие \"Почта России\""^^xsd:string;
+    v-s:hasClassifierCountry <d:Country_RUS>;
+    v-s:hasSubsidiary <d:213ee43f668a4338af73e610c2599135>, <d:a6957d00199d49789e35710901b01bd6>;
+    v-s:legalAddress "131000,ГОРОД МОСКВА,,,,ШОССЕ ВАРШАВСКОЕ,37,,,"^^xsd:string;
+    v-s:postalAddress "131000,ГОРОД МОСКВА,,,,ШОССЕ ВАРШАВСКОЕ,37,,,"^^xsd:string;
+    v-s:shortLabel "ФГУП \"Почта России\""^^xsd:string;
+    v-s:taxId "7724261610"^^xsd:string;
+.
+
+#-------------------ООО "Деловые линии"------------------------------
+d:org_RU7826094630 a v-s:Organization;
+    rdfs:label "ООО \"Деловые линии\""^^xsd:string;
+    v-s:hasClassifierCountry <d:Country_RUS>;
+    v-s:shortLabel "Деловые линии ИНН 7826094630"^^xsd:string;
+    v-s:taxId "7826094630"^^xsd:string;
+.
+
+#-------------------ООО "СПСР-Экспресс"------------------------------
+d:org_RU7715356456 a v-s:Organization;
+    rdfs:label "Общество с ограниченной ответственностью \"СПСР-ЭКСПРЕСС\""^^xsd:string;
+    v-s:hasClassifierCountry <d:Country_RUS>;
+    v-s:hasSubsidiary <d:00f59b51e00145c3b697e84db802dc22>;
+    v-s:legalAddress "129090,ГОРОД МОСКВА,,,,ПРОСПЕКТ МИРА,11,1"^^xsd:string;
+    v-s:shortLabel "ООО\" СПСР-Экспресс\""^^xsd:string;
+    v-s:taxId "7715356456"^^xsd:string;
+.
+
+#-------------------ООО "ЮНАЙТЕД ПАРСЕЛ СЕРВИС (РУС)"------------------------------
+d:org_RU7707280394 a v-s:Organization;
+    rdfs:label "ООО \"ЮНАЙТЕД ПАРСЕЛ СЕРВИС (РУС)\""^^xsd:string;
+    v-s:hasClassifierCountry <d:Country_RUS>;
+    v-s:legalAddress "123610,ГОРОД МОСКВА,,,,НАБЕРЕЖНАЯ КРАСНОПРЕСНЕНСКАЯ,12"^^xsd:string;
+    v-s:shortLabel "ООО \"ЮНАЙТЕД ПАРСЕЛ СЕРВИС (РУС)\""^^xsd:string;
+    v-s:taxId "7707280394"^^xsd:string;
+.
+
+#-------------------ООО "СИТИ ЭКСПРЕСС"------------------------------
+d:org_RU7709863465 a v-s:Organization;
+    rdfs:label "ООО \"СИТИ ЭКСПРЕСС\""^^xsd:string;
+    v-s:hasClassifierCountry <d:Country_RUS>;
+    v-s:hasClassifierLegalForm <d:OKOPF_12300>;
+    v-s:legalAddress "125315, МОСКВА ГОРОД, УЛИЦА САМЕДА ВУРГУНА, ДОМ 5, ЭТАЖ 1 ПОМ I КОМ 4"^^xsd:string;
+    v-s:postalAddress "125315, МОСКВА ГОРОД, УЛИЦА САМЕДА ВУРГУНА, ДОМ 5, ЭТАЖ 1 ПОМ I КОМ 4"^^xsd:string;
+    v-s:shortLabel "ООО \"СИТИ ЭКСПРЕСС\""^^xsd:string;
+    v-s:taxId "7709863465"^^xsd:string;
+    v-s:taxRegistrationCause "771401001"^^xsd:string;
+    v-s:taxRegistrationNumber "1107746839254"^^xsd:string;
+.
+
+#-------------------ООО "ПОНИ ЭКСПРЕСС"------------------------------
+d:org_RU3904605622 a v-s:Organization;
+    rdfs:label "ООО \"ПОНИ ЭКСПРЕСС\""^^xsd:string;
+    v-s:hasClassifierCountry <d:Country_RUS>;
+    v-s:hasClassifierLegalForm <d:OKOPF_12300>;
+    v-s:legalAddress "236023 КАЛИНИНГРАДСКАЯ ОБЛАСТЬ ГОРОД КАЛИНИНГРАД УЛИЦА КОМСОМОЛЬСКАЯ 66 1, "^^xsd:string;
+    v-s:postalAddress "236023 КАЛИНИНГРАДСКАЯ ОБЛАСТЬ ГОРОД КАЛИНИНГРАД УЛИЦА КОМСОМОЛЬСКАЯ 66 1, "^^xsd:string;
+    v-s:shortLabel "ООО \"ПОНИ ЭКСПРЕСС\""^^xsd:string;
+    v-s:taxId "3904605622"^^xsd:string;
+    v-s:taxRegistrationCause "390601001"^^xsd:string;
+    v-s:taxRegistrationNumber "1093925009243"^^xsd:string;
+. 
+
+#-------------------ООО "ДХЛ Экспресс"------------------------------
+d:org_RU7713727881 a v-s:Organization;
+    rdfs:label "Общество с ограниченной ответственностью \"ДХЛ Экспресс\""^^xsd:string;
+    v-s:hasClassifierCountry <d:Country_RUS>;
+    v-s:shortLabel "ООО \"ДХЛ Экспресс\""^^xsd:string;
+    v-s:taxId "7713727881"^^xsd:string;
+.
+
+#-------------------ООО "КурьерСервисЭкспресс"------------------------------
+d:org_RU7723606727 a v-s:Organization;
+    rdfs:label "Общество с ограниченной ответственностью \"КурьерСервисЭкспресс\""^^xsd:string;
+    v-s:hasClassifierCountry <d:Country_RUS>;
+    v-s:shortLabel "ООО \" КурьерСервисЭкспресс \""^^xsd:string;
+    v-s:taxId "7723606727"^^xsd:string;
+.
+
+#-------------------EMS ПОЧТА РОССИИ - ФИЛИАЛ ФГУП "ПОЧТА РОССИИ"------------------------------
+d:213ee43f668a4338af73e610c2599135 a v-s:Subsidiary;
+    rdfs:label "EMS ПОЧТА РОССИИ - ФИЛИАЛ ФГУП \"ПОЧТА РОССИИ\""^^xsd:string;
+    v-s:backwardProperty v-s:hasSubsidiary;
+    v-s:backwardTarget <d:org_RU7724261610>;
+    v-s:parent <d:org_RU7724261610>;
+    v-s:postalAddress "119454, г. МОСКВА, пр-т ВЕРНАДСКОГО, д. 18"^^xsd:string;
+    v-s:shortLabel "EMS ПОЧТА РОССИИ - ФИЛИАЛ ФГУП \"ПОЧТА РОССИИ\""^^xsd:string;
+.
+
+#-------------------ООО "МЭЙДЖОР ЭКСПРЕСС"------------------------------
+d:org_RU7743505170 a v-s:Organization;
+    rdfs:label "ООО \"МЭЙДЖОР ЭКСПРЕСС\""^^xsd:string;
+    v-s:hasClassifierCountry <d:Country_RUS>;
+    v-s:hasClassifierLegalForm <d:OKOPF_12300>;
+    v-s:legalAddress "143420, МОСКОВСКАЯ ОБЛАСТЬ, ГОРОД КРАСНОГОРСК, ДЕРЕВНЯ МИХАЛКОВО, ЗДАНИЕ СКЛАДСКОГО КОМПЛЕКСА, ЛИТЕР 1Б, ПОМЕЩЕНИЕ 92"^^xsd:string;
+    v-s:postalAddress "143420, МОСКОВСКАЯ ОБЛАСТЬ, ГОРОД КРАСНОГОРСК, ДЕРЕВНЯ МИХАЛКОВО, ЗДАНИЕ СКЛАДСКОГО КОМПЛЕКСА, ЛИТЕР 1Б, ПОМЕЩЕНИЕ 92"^^xsd:string;
+    v-s:shortLabel "ООО \"МЭЙДЖОР ЭКСПРЕСС\""^^xsd:string;
+    v-s:taxId "7743505170"^^xsd:string;
+    v-s:taxRegistrationCause "502401001"^^xsd:string;
+    v-s:taxRegistrationNumber "1037739830644"^^xsd:string;
+.
+
+#-------------------ООО "ДАЙМЭКС"------------------------------
+d:org_RU7723826955 a v-s:Organization;
+    rdfs:label "ООО \"ДАЙМЭКС\""^^xsd:string;
+    v-s:hasClassifierCountry <d:Country_RUS>;
+    v-s:hasClassifierLegalForm <d:OKOPF_12300>;
+    v-s:legalAddress "115201, МОСКВА ГОРОД, ПЕРЕУЛОК КОТЛЯКОВСКИЙ 1-Й, ДОМ 6, СТРОЕНИЕ 1, ПОМЕЩЕНИЕ 8"^^xsd:string;
+    v-s:postalAddress "115201, МОСКВА ГОРОД, ПЕРЕУЛОК КОТЛЯКОВСКИЙ 1-Й, ДОМ 6, СТРОЕНИЕ 1, ПОМЕЩЕНИЕ 8"^^xsd:string;
+    v-s:shortLabel "ООО \"ДАЙМЭКС\""^^xsd:string;
+    v-s:taxId "7723826955"^^xsd:string;
+    v-s:taxRegistrationCause "772401001"^^xsd:string;
+    v-s:taxRegistrationNumber "1127746071750"^^xsd:string;
+.
