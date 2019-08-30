@@ -1,0 +1,40 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+
+<http://semantic-machines.com/veda/veda-individual-BudgetCategory>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Монди. Справочник Категория бюджета"@ru ;
+  rdfs:label "Mondi ontology. Dictionary - BudgetCategory"@en ;
+  v-s:loadPriority 10 ;
+.
+
+# ------------------------------------------------------------ КЛАССЫ --
+#v-s:BudgetCategory
+  #rdf:type owl:Class ;
+  #rdfs:subClassOf v-s:UserThing ;
+  #rdfs:label "Категория бюджета"@ru ;
+  #rdfs:label "Budget category"@en ;
+#.
+
+
+
+# ------------------------------------------------------------ ИНДИВИДЫ --
+d:k3flid5detr88u34m212la2mdd
+    a v-s:ServicSource;
+  rdfs:label "Собственность сотрудника"@ru ;
+  rdfs:label "Собственность сотрудника"@en ;
+.
+d:iz0x2mz9k19mz80orvj5zlrkk6
+    a v-s:ServicSource;
+  rdfs:label "Собственность организации"@ru ;
+  rdfs:label "Собственность организации"@en ;
+.
+d:ekozxdmicjvb39mfmnrxv5fk8r
+    a v-s:ServicSource;
+  rdfs:label "Аренда"@ru ;
+  rdfs:label "Rent"@en ;
+.
