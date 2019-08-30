@@ -23,18 +23,10 @@
 
 
 # ------------------------------------------------------------ ИНДИВИДЫ --
-d:k3flid5detr88u34m212la2mdd
-    a v-s:ServicSource;
-  rdfs:label "Собственность сотрудника"@ru ;
-  rdfs:label "Собственность сотрудника"@en ;
-.
-d:iz0x2mz9k19mz80orvj5zlrkk6
-    a v-s:ServicSource;
-  rdfs:label "Собственность организации"@ru ;
-  rdfs:label "Собственность организации"@en ;
-.
-d:ekozxdmicjvb39mfmnrxv5fk8r
-    a v-s:ServicSource;
-  rdfs:label "Аренда"@ru ;
-  rdfs:label "Rent"@en ;
-.
+d:a193b366b-aaeb-c1f2-b101-89c95b10a6c8
+  a v-s:BudgetCategory;
+  rdfs:label "OPEX"^^xsd:string.
+
+d:add478ffd-4996-ca11-8d8c-51bf810357c7
+  a v-s:BudgetCategory;
+  rdfs:label "CAPEX"^^xsd:string.
