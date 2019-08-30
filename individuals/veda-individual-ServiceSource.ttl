@@ -1,0 +1,43 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+
+<http://semantic-machines.com/veda/veda-individual-ServiceSource>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Причина отклонения"@ru ;
+  rdfs:label "Veda ontology. Seviation reason"@en ;
+  v-s:loadPriority 10 ;
+.
+
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:ServicSource
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:subClassOf v-s:Registered ;
+  rdfs:label "Источник услуги"@ru ;
+  rdfs:label "Service source"@en ;
+.
+# --- В связи с вводом класса возникает предикат v-s:hasSourceOfTransport. 
+#Он описан в классе v-s:BusinessTrip
+
+
+
+# ------------------------------------------------------------ ИНДИВИДЫ --
+d:k3flid5detr88u34m212la2mdd
+    a v-s:ServicSource;
+  rdfs:label "Собственность сотрудника"@ru ;
+  rdfs:label "Собственность сотрудника"@en ;
+.
+d:iz0x2mz9k19mz80orvj5zlrkk6
+    a v-s:ServicSource;
+  rdfs:label "Собственность организации"@ru ;
+  rdfs:label "Собственность организации"@en ;
+.
+d:ekozxdmicjvb39mfmnrxv5fk8r
+    a v-s:ServicSource;
+  rdfs:label "Аренда"@ru ;
+  rdfs:label "Rent"@en ;
+.
