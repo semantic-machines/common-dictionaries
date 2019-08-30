@@ -3034,6 +3034,18 @@ d:4de4b79fed1441b283b0b555cf715a60
   rdfs:label "Деятельность воздушного и космического транспорта"^^xsd:string;
   v-s:hasParentLink d:7d5ed218d3594d1bad1c795b4dd5b72c;
 .
+d:yzo1w2fyhqgj4iy4ed36lwph0m0fa475
+  a v-s:ClassifierOKVED;
+  v-s:registrationNumber "51.1"^^xsd:string;
+  rdfs:label "Деятельность пассажирского воздушного транспорта"^^xsd:string;
+  v-s:hasParentLink d:4de4b79fed1441b283b0b555cf715a60;
+.
+d:v6zv7okrb5z5cvo3iyolo26t850ih939
+  a v-s:ClassifierOKVED;
+  v-s:registrationNumber "51.2"^^xsd:string;
+  rdfs:label "Деятельность грузового воздушного транспорта и космического транспорта"^^xsd:string;
+  v-s:hasParentLink d:4de4b79fed1441b283b0b555cf715a60;
+.
 d:aaf4c1d46ef142fea31373e6dab71a34
   a v-s:ClassifierOKVED;
   v-s:tag "ХРАНЕНИЕ И СКЛАДИРОВАНИЕ"^^xsd:string;
