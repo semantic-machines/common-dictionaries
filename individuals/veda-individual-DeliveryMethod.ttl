@@ -24,201 +24,147 @@ v-s:DeliveryMethod
 
 # ------------------------------------------------------------ ИНДИВИДЫ --
 
+# d:org_RU7724261610 - ФГУП "Почта России"
+# d:org_RU7826094630 - ООО "Деловые линии"
+# d:org_RU7715356456  - СПСР-Экспресс
+# d:org_RU7723826955  - DIMEX
+# d:org_RU7707280394  - Организация ООО "ЮНАЙТЕД ПАРСЕЛ СЕРВИС" UPS
+# d:org_RU7709863465  - City Express
+# d:213ee43f668a4338af73e610c2599135  - EMS Экспресс-почта России
+# d:org_RU3904605622  - Pony Express
+# d:  - FedEx
+# d:  - Мекус
+# d:  - TNT
+# d:org_RU7743505170  - ООО "МЭЙДЖОР ЭКСПРЕСС"
+# d:org_RU7713727881  - ООО "ДХЛ Экспресс" DHL
+# d:org_RU7723606727  - ООО " КурьерСервисЭкспресс " КСЭ
+
+
 d:244a40584c814020a7430b2e6005e387
   a v-s:DeliveryMethod;
   rdfs:label "Посылка"@ru;
   rdfs:label "Parcel"@en;
+	v-s:transportOrganization d:org_RU7724261610 ;
+	v-s:transportOrganization d:org_RU7826094630 ;
+	v-s:transportOrganization	d:org_RU7715356456 ;
+	v-s:transportOrganization	d:org_RU7707280394 ;
+	v-s:transportOrganization	d:org_RU7709863465 ;
+	v-s:transportOrganization	d:org_RU3904605622 ;
+	v-s:transportOrganization	d:org_RU7713727881 ;
+	v-s:transportOrganization	d:org_RU7723606727 ;
+	v-s:transportOrganization	d:213ee43f668a4338af73e610c2599135 ;
+	v-s:transportOrganization	d:org_RU7743505170 ;
+	v-s:transportOrganization	d:org_RU7723826955 ;
+.
+d:293b8861b53e4467864b7d8cd3a5f4fb
+  a v-s:DeliveryMethod;
+  rdfs:label "Заказная бандероль"@ru;
+  rdfs:label "Ordered parcel"@en;
+	v-s:transportOrganization d:org_RU7724261610 ;
+	v-s:transportOrganization d:org_RU7826094630 ;
+	v-s:transportOrganization	d:org_RU7715356456 ;		
+	v-s:transportOrganization	d:org_RU7707280394 ;
+	v-s:transportOrganization	d:org_RU7709863465 ;
+	v-s:transportOrganization	d:org_RU3904605622 ;
+	v-s:transportOrganization	d:org_RU7713727881 ;
+	v-s:transportOrganization	d:org_RU7723606727 ;
+	v-s:transportOrganization	d:213ee43f668a4338af73e610c2599135 ;
+	v-s:transportOrganization	d:org_RU7743505170 ;
+	v-s:transportOrganization	d:org_RU7723826955 ;
+.
+d:9c31eb7c49654891a8fcf1f3d29af2f4
+  a v-s:DeliveryMethod;
+  rdfs:label "Простая Бандероль"@ru;
+  rdfs:label "Common parcel"@en;
+	v-s:transportOrganization d:org_RU7724261610 ;
+	v-s:transportOrganization d:org_RU7826094630 ;
+	v-s:transportOrganization	d:org_RU7715356456 ;		
+	v-s:transportOrganization	d:org_RU7707280394 ;
+	v-s:transportOrganization	d:org_RU7709863465 ;
+	v-s:transportOrganization	d:org_RU3904605622 ;
+	v-s:transportOrganization	d:org_RU7713727881 ;
+	v-s:transportOrganization	d:org_RU7723606727 ;
+	v-s:transportOrganization	d:213ee43f668a4338af73e610c2599135 ;
+	v-s:transportOrganization	d:org_RU7743505170 ;
+	v-s:transportOrganization	d:org_RU7723826955 ;
+.
+d:0c4f6f13-d6c6-4e88-9bb9-560bf8f64bf9
+  a v-s:DeliveryMethod;
+  rdfs:label "Ценное письмо"@ru;
+  rdfs:label "Value letter"@en;
+	v-s:transportOrganization d:org_RU7724261610 ;
+.
+d:763
+  a v-s:DeliveryMethod;
+  rdfs:label "Заказное письмо"@ru;
+  rdfs:label "Ordered letter"@en;
+	v-s:transportOrganization d:org_RU7724261610 ;
+.
+d:718
+  a v-s:DeliveryMethod;
+  rdfs:label "Письмо с уведомлением"@ru;
+  rdfs:label "Letter with notification"@en;
+	v-s:transportOrganization d:org_RU7724261610 ;
+.
+d:700
+  a v-s:DeliveryMethod;
+  rdfs:label "Простое письмо"@ru;
+  rdfs:label "Common letter"@en;
+	v-s:transportOrganization d:org_RU7724261610 ;
 .
 
-d:14df63a520a0419da8feabbcfa67f183
+#---------------
+d:ce7763692dbe4aad97d1ea8408ce8352
   a v-s:DeliveryMethod;
-  rdfs:label "Дежурный звонок"@ru;
-  rdfs:label "Duty call"@en;
+  rdfs:label "Курьер (нарочный)"@ru;
+  rdfs:label "Courier"@en;
+	v-s:transportOrganization d:org_RU7724261610 ;
+	v-s:transportOrganization d:org_RU7826094630 ;
+	v-s:transportOrganization	d:org_RU7715356456 ;	
+	v-s:transportOrganization	d:org_RU7707280394 ;
+	v-s:transportOrganization	d:org_RU7709863465 ;
+	v-s:transportOrganization	d:org_RU3904605622 ;
+	v-s:transportOrganization	d:org_RU7713727881 ;
+	v-s:transportOrganization	d:org_RU7723606727 ;
+	v-s:transportOrganization	d:213ee43f668a4338af73e610c2599135 ;
+	v-s:transportOrganization	d:org_RU7743505170 ;
+	v-s:transportOrganization	d:org_RU7723826955 ;
 .
+
+#------------------------
 
 d:c4477673ec7946efa0403f80a9eb9bbc
   a v-s:DeliveryMethod;
   rdfs:label "Ячейка в канцелярии"@ru;
   rdfs:label "Office cell"@en;
 .
-
-d:293b8861b53e4467864b7d8cd3a5f4fb
-  a v-s:DeliveryMethod;
-  rdfs:label "Заказная бандероль"@ru;
-  rdfs:label "Ordered parcel"@en;
-.
-
-d:9c31eb7c49654891a8fcf1f3d29af2f4
-  a v-s:DeliveryMethod;
-  rdfs:label "Простая Бандероль"@ru;
-  rdfs:label "Common parcel"@en;
-.
-
-d:dc1ffdcab484464a81eaeea6f81fbc7e
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - КСЭ"@ru;
-  rdfs:label "Express mail - CSE"@en;
-.
-
-d:ce7763692dbe4aad97d1ea8408ce8352
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьер (нарочный)"@ru;
-  rdfs:label "Courier"@en;
-.
-
 d:a534c8d79a8c4f8f8bc13d567c8c0237
   a v-s:DeliveryMethod;
   rdfs:label "Портал"@ru;
   rdfs:label "Portal"@en;
 .
-
 d:aac2cc4dad9a47eaa623a6bb4dd61537
   a v-s:DeliveryMethod;
   rdfs:label "Система документооборота"@ru;
   rdfs:label "Document management system"@en;
 .
-
 d:b9d2da6785ee42b2bcb054fd8295c539
   a v-s:DeliveryMethod;
   rdfs:label "Телефон"@ru;
   rdfs:label "Phone"@en;
 .
-
-d:0c4f6f13-d6c6-4e88-9bb9-560bf8f64bf9
-  a v-s:DeliveryMethod;
-  rdfs:label "Ценное письмо"@ru;
-  rdfs:label "Value letter"@en;
-.
-
-d:763
-  a v-s:DeliveryMethod;
-  rdfs:label "Заказное письмо"@ru;
-  rdfs:label "Ordered letter"@en;
-.
-
-d:754
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта (другая)"@ru;
-  rdfs:label "Express mail - Other"@en;
-.
-
-d:745
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - DHL"@ru;
-  rdfs:label "Express mail - DHL"@en;
-.
-
-d:736
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - UPS"@ru;
-  rdfs:label "Express mail - UPS"@en;
-.
-
-#---------------------------- START STG -------------
-d:737
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - Major"@ru;
-  rdfs:label "Express mail - Major"@en;
-.
-
-d:738
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - TNT"@ru;
-  rdfs:label "Express mail - TNT"@en;
-.
-d:739
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - Мекус"@ru;
-  rdfs:label "Express mail - Мекус"@en;
-.
-d:740
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - FedEx"@ru;
-  rdfs:label "Express mail - FedEx"@en;
-.
-d:741
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - Pony Express"@ru;
-  rdfs:label "Express mail - Pony Express"@en;
-.
-d:742
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - EMS Экспресс-почта России"@ru;
-  rdfs:label "Express mail - EMS Экспресс-почта России"@en;
-.
-d:743
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - City Express"@ru;
-  rdfs:label "Express mail - City Express"@en;
-.
-d:744
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - DIMEX"@ru;
-  rdfs:label "Express mail - DIMEX"@en;
-.
-d:745_1
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьерская почта - СПСР-Экспресс"@ru;
-  rdfs:label "Express mail - СПСР-Экспресс"@en;
-.
-#---------------------------- END STG -------------
-
 d:727
   a v-s:DeliveryMethod;
   rdfs:label "Лично"@ru;
   rdfs:label "Personally"@en;
 .
-
-d:718
-  a v-s:DeliveryMethod;
-  rdfs:label "Письмо с уведомлением"@ru;
-  rdfs:label "Letter with notification"@en;
-.
-
-d:700
-  a v-s:DeliveryMethod;
-  rdfs:label "Простое письмо"@ru;
-  rdfs:label "Common letter"@en;
-.
-
 d:692
   a v-s:DeliveryMethod;
   rdfs:label "Факс"@ru;
   rdfs:label "Fax"@en;
 .
-
 d:683
   a v-s:DeliveryMethod;
   rdfs:label "Электронная почта"@ru;
   rdfs:label "E-mail"@en;
 .
-
-#---------------------------- START STG -------------
-
-d:684
-  a v-s:DeliveryMethod;
-  rdfs:label "Почта России"@ru;
-  rdfs:label "Russianpost"@en;
-.
-
-d:600
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьером организации-получателя"@ru;
-  rdfs:label "Courier"@en;
-.
-d:601
-  a v-s:DeliveryMethod;
-  rdfs:label "Курьером организации-отправителя"@ru;
-  rdfs:label "Courier"@en;
-.
-d:603
-  a v-s:DeliveryMethod;
-  rdfs:label "1 классом"@ru;
-  rdfs:label "Class 1"@en;
-.
-d:604
-  a v-s:DeliveryMethod;
-  rdfs:label "Возвратное"@ru;
-  rdfs:label "Recurrent"@en;
-.
-#---------------------------- END STG -------------
