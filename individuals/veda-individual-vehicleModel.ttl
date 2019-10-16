@@ -1181,3 +1181,20 @@ d:i9vfm085c2f6j02sb81ivexh5q8f50gg
   rdfs:comment "Shacman"@en ;
   rdfs:comment "Shacman"@ru ;  
 .
+
+
+d:a6ohc6jr5wj6ngqjzuqzs3018v0
+    a v-s:VehicleModel;
+  rdfs:label "Agrimac"@ru ;
+  rdfs:label "Agrimac"@en ;
+  rdfs:comment "Агримак"@en ;
+  rdfs:comment "Агримак"@ru ;  
+.
+
+d:cd0ten7mp9z3i72suvvj1eybgf
+    a v-s:VehicleModel;
+  rdfs:label "Hitachi"@ru ;
+  rdfs:label "Hitachi"@en ;
+  rdfs:comment "Хитачи"@en ;
+  rdfs:comment "Хитачи"@ru ;  
+.
