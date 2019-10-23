@@ -1198,3 +1198,17 @@ d:cd0ten7mp9z3i72suvvj1eybgf
   rdfs:comment "Хитачи"@en ;
   rdfs:comment "Хитачи"@ru ;  
 .
+
+d:xmvv4lbvzyvl6n4g5plt4ks121
+    a v-s:VehicleModel;
+  rdfs:label "John deere"@ru ;
+  rdfs:label "John deere"@en ;
+  rdfs:comment "Джон дир"@en ;
+  rdfs:comment "Джон дир"@ru ;  
+.
+
+d:qbc34yacew91tyrjlvmoc3yr91
+    a v-s:VehicleModel;
+  rdfs:label "XCMG"@ru ;
+  rdfs:label "XCMG"@en ; 
+.
