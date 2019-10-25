@@ -1212,3 +1212,9 @@ d:qbc34yacew91tyrjlvmoc3yr91
   rdfs:label "XCMG"@ru ;
   rdfs:label "XCMG"@en ; 
 .
+
+d:43kjwp6r5f3mxu4skpq9olw9nt
+    a v-s:VehicleModel;
+  rdfs:label "Liebherr"@ru ;
+  rdfs:label "Liebherr"@en ; 
+.
