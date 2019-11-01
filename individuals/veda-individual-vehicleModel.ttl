@@ -1143,7 +1143,14 @@ d:3e89cef929d64223ac11c39ea9987bad
   rdfs:label "ВАЗ"@ru ;
   rdfs:label "ВАЗ"@en ;
   rdfs:comment "VAZ"@en ;
-  rdfs:comment "VAZ"@ru ;  
+  rdfs:comment "VAZ"@ru ;
+  rdfs:comment "лада" ;
+  rdfs:comment "lada" ;
+  rdfs:comment "Жигули" ;
+  rdfs:comment "нива" ;
+  rdfs:comment "ока" ;
+  rdfs:comment "самара" ;
+  rdfs:comment "samara" ;
 .
 
 
