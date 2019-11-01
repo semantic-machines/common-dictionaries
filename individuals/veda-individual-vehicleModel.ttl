@@ -1225,3 +1225,9 @@ d:43kjwp6r5f3mxu4skpq9olw9nt
   rdfs:label "Liebherr"@ru ;
   rdfs:label "Liebherr"@en ; 
 .
+
+d:454kjp6r3f8mxu3skpq9olw9yt
+    a v-s:VehicleModel;
+  rdfs:label "Hidromek"@ru ;
+  rdfs:label "Hidromek"@en ; 
+.
