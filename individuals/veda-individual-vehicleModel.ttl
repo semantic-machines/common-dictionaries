@@ -1231,3 +1231,9 @@ d:454kjp6r3f8mxu3skpq9olw9yt
   rdfs:label "Hidromek"@ru ;
   rdfs:label "Hidromek"@en ; 
 .
+
+d:y860daex8co9gc933jvdvw160e
+    a v-s:VehicleModel;
+  rdfs:label "Haulotte"@ru ;
+  rdfs:label "Haulotte"@en ; 
+.
