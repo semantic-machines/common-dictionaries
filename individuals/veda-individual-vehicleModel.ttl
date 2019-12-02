@@ -1140,8 +1140,8 @@ d:8982ed51d1574343907beafd65702582
 
 d:3e89cef929d64223ac11c39ea9987bad
     a v-s:VehicleModel;
-  rdfs:label "ВАЗ"@ru ;
-  rdfs:label "ВАЗ"@en ;
+  rdfs:label "ВАЗ/Лада"@ru ;
+  rdfs:label "ВАЗ/Lada"@en ;
   rdfs:comment "VAZ"@en ;
   rdfs:comment "VAZ"@ru ;
   rdfs:comment "лада" ;
