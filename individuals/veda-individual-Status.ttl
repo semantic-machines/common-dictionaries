@@ -231,7 +231,7 @@ v-s:StatusExecuted
 .
 v-s:StatusExecutedByContract
   rdf:type v-s:Status ;
-  rdfs:label "Исполнено по конракту"@ru ;
+  rdfs:label "Исполнено по контракту"@ru ;
   rdfs:label "Executed by contract"@en ;
   v-s:tag "success" ;
 .
