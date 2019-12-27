@@ -2757,3 +2757,70 @@ d:byrtofyhdn8fy4cf744dngzna8
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 
+
+d:aygo9zg6wcbcpmnw5pae3388dr 
+  a v-s:DocumentKind;
+  v-s:shortLabel "Квитанция"^^xsd:string;
+  rdfs:label "Квитанция"^^xsd:string;
+.
+
+d:o3o3omhvi5jfb2sm71chdzhxh2
+  a v-s:DocumentKind;
+  v-s:shortLabel "Авансовый отчет"^^xsd:string;
+  rdfs:label "Авансовый отчет"^^xsd:string;
+.
+d:a31tdt3yehg0hgv93ac5rtljgtz
+  a v-s:DocumentKind;
+  v-s:shortLabel "Командировочное удостоверение"^^xsd:string;
+  rdfs:label "Командировочное удостоверение"^^xsd:string;
+.
+d:fklo8xxg2x8g9xmahsdnvsuzcz
+  a v-s:DocumentKind;
+  v-s:shortLabel "Материалы"^^xsd:string;
+  rdfs:label "Материалы"^^xsd:string;
+.
+d:a15e6x96hmb3yf2psdd29l2a76o
+  a v-s:DocumentKind;
+  v-s:shortLabel "Акт-сверки"^^xsd:string;
+  rdfs:label "Акт-сверки"^^xsd:string;
+.
+d:cxg66g04kqsjgfu8rqtc6bzc8u
+  a v-s:DocumentKind;
+  v-s:shortLabel "Лист согласования"^^xsd:string;
+  rdfs:label "Лист согласования"^^xsd:string;
+.
+d:a1ghfhe9ltsm35owon6vpei8zug
+  a v-s:DocumentKind;
+  v-s:shortLabel "Обращение"^^xsd:string;
+  rdfs:label "Обращение"^^xsd:string;
+.
+d:ojh8iuyrg60ue1t5qcdxh0ix6c
+  a v-s:DocumentKind;
+  v-s:shortLabel "Статистическая отчетность"^^xsd:string;
+  rdfs:label "Статистическая отчетность"^^xsd:string;
+.
+d:a2kcvu74fhxyl3p1teiavj0azp6
+  a v-s:DocumentKind;
+  v-s:shortLabel "Объяснительная"^^xsd:string;
+  rdfs:label "Объяснительная"^^xsd:string;
+.
+d:a9obfw3gfuxfznib2dw6ntykq3y
+  a v-s:DocumentKind;
+  v-s:shortLabel "Доверенность"^^xsd:string;
+  rdfs:label "Доверенность"^^xsd:string;
+.
+d:xwoxdf0v0hc18qxmyct13omi86
+  a v-s:DocumentKind;
+  v-s:shortLabel "Сведения"^^xsd:string;
+  rdfs:label "Сведения"^^xsd:string;
+.
+d:zsb0ja8kpuvdfgwds4vfwifvgo
+  a v-s:DocumentKind;
+  v-s:shortLabel "Табель"^^xsd:string;
+  rdfs:label "Табель"^^xsd:string;
+.
+d:a04m2e8ceb0ju1xqb5dgnrwz7vq
+  a v-s:DocumentKind;
+  v-s:shortLabel "Прейскурант"^^xsd:string;
+  rdfs:label "Прейскурант"^^xsd:string;
+.
