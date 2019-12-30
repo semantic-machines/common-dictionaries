@@ -1237,3 +1237,8 @@ d:y860daex8co9gc933jvdvw160e
   rdfs:label "Haulotte"@ru ;
   rdfs:label "Haulotte"@en ; 
 .
+d:r432daex8co3gc321jvdvw124r
+    a v-s:VehicleModel;
+  rdfs:label "SDLG"@ru ;
+  rdfs:label "SDLG"@en ; 
+.
