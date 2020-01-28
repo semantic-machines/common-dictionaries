@@ -1231,3 +1231,11 @@ d:454kjp6r3f8mxu3skpq9olw9yt
   rdfs:label "Hidromek"@ru ;
   rdfs:label "Hidromek"@en ; 
 .
+
+d:bdp5budugg4i4ezaqzlek4663q
+    a v-s:VehicleModel;
+  rdfs:label "SHANTUI"@ru ;
+  rdfs:label "SHANTUI"@en ;
+  rdfs:comment "Шантуи"@en ;
+  rdfs:comment "Шантуи"@ru ;  
+.
