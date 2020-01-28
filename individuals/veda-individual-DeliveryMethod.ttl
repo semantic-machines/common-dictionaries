@@ -22,7 +22,7 @@ v-s:DeliveryMethod
 # --- В связи с вводом класса возникает предикат v-s:deliverBy. Он описан в классе v-s:Deliverable2
 
 
-# ------------------------------------------------------------ ИНДИВИДЫ --
+# ------------------------------------------------------------ ИНДИВИДЫ ----
 
 # d:org_RU7724261610 - ФГУП "Почта России"
 # d:org_RU7826094630 - ООО "Деловые линии"
@@ -38,6 +38,7 @@ v-s:DeliveryMethod
 # d:org_RU7743505170  - ООО "МЭЙДЖОР ЭКСПРЕСС"
 # d:org_RU7713727881  - ООО "ДХЛ Экспресс" DHL
 # d:org_RU7723606727  - ООО " КурьерСервисЭкспресс " КСЭ
+# d:org_RU000000000000  - Физ лицо
 
 
 d:244a40584c814020a7430b2e6005e387
@@ -55,6 +56,7 @@ d:244a40584c814020a7430b2e6005e387
 	v-s:transportOrganization	d:213ee43f668a4338af73e610c2599135 ;
 	v-s:transportOrganization	d:org_RU7743505170 ;
 	v-s:transportOrganization	d:org_RU7723826955 ;
+  v-s:transportOrganization d:org_RU000000000000 ;
 .
 d:293b8861b53e4467864b7d8cd3a5f4fb
   a v-s:DeliveryMethod;
@@ -71,6 +73,7 @@ d:293b8861b53e4467864b7d8cd3a5f4fb
 	v-s:transportOrganization	d:213ee43f668a4338af73e610c2599135 ;
 	v-s:transportOrganization	d:org_RU7743505170 ;
 	v-s:transportOrganization	d:org_RU7723826955 ;
+  v-s:transportOrganization d:org_RU000000000000 ;
 .
 d:9c31eb7c49654891a8fcf1f3d29af2f4
   a v-s:DeliveryMethod;
@@ -93,12 +96,14 @@ d:0c4f6f13-d6c6-4e88-9bb9-560bf8f64bf9
   rdfs:label "Ценное письмо"@ru;
   rdfs:label "Value letter"@en;
 	v-s:transportOrganization d:org_RU7724261610 ;
+  v-s:transportOrganization d:org_RU000000000000 ;
 .
 d:763
   a v-s:DeliveryMethod;
   rdfs:label "Заказное письмо"@ru;
   rdfs:label "Ordered letter"@en;
 	v-s:transportOrganization d:org_RU7724261610 ;
+  v-s:transportOrganization d:org_RU000000000000 ;
 .
 d:718
   a v-s:DeliveryMethod;
@@ -111,6 +116,7 @@ d:700
   rdfs:label "Простое письмо"@ru;
   rdfs:label "Common letter"@en;
 	v-s:transportOrganization d:org_RU7724261610 ;
+  v-s:transportOrganization d:org_RU000000000000 ;
 .
 
 #---------------
@@ -129,6 +135,7 @@ d:ce7763692dbe4aad97d1ea8408ce8352
 	v-s:transportOrganization	d:213ee43f668a4338af73e610c2599135 ;
 	v-s:transportOrganization	d:org_RU7743505170 ;
 	v-s:transportOrganization	d:org_RU7723826955 ;
+  v-s:transportOrganization d:org_RU000000000000 ;
 .
 
 #------------------------

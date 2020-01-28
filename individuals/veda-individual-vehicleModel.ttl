@@ -1140,8 +1140,8 @@ d:8982ed51d1574343907beafd65702582
 
 d:3e89cef929d64223ac11c39ea9987bad
     a v-s:VehicleModel;
-  rdfs:label "ВАЗ"@ru ;
-  rdfs:label "ВАЗ"@en ;
+  rdfs:label "ВАЗ/Лада"@ru ;
+  rdfs:label "ВАЗ/Lada"@en ;
   rdfs:comment "VAZ"@en ;
   rdfs:comment "VAZ"@ru ;
   rdfs:comment "лада" ;
@@ -1232,6 +1232,7 @@ d:454kjp6r3f8mxu3skpq9olw9yt
   rdfs:label "Hidromek"@en ; 
 .
 
+<<<<<<< HEAD
 d:bdp5budugg4i4ezaqzlek4663q
     a v-s:VehicleModel;
   rdfs:label "SHANTUI"@ru ;
@@ -1239,3 +1240,15 @@ d:bdp5budugg4i4ezaqzlek4663q
   rdfs:comment "Шантуи"@en ;
   rdfs:comment "Шантуи"@ru ;  
 .
+=======
+d:y860daex8co9gc933jvdvw160e
+    a v-s:VehicleModel;
+  rdfs:label "Haulotte"@ru ;
+  rdfs:label "Haulotte"@en ; 
+.
+d:r432daex8co3gc321jvdvw124r
+    a v-s:VehicleModel;
+  rdfs:label "SDLG"@ru ;
+  rdfs:label "SDLG"@en ; 
+.
+>>>>>>> origin/master

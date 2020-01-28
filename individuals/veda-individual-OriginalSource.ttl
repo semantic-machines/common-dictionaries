@@ -3,11 +3,12 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
-@prefix mnd-s: <http://semantic-machines.com/veda/mondi-schema/>.
 @prefix d: <http://semantic-machines.com/veda/veda-data/>.
 
 <http://semantic-machines.com/veda/veda-individual-OriginalSource>
   rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Справочник - Источник оригинала"@ru ;
+  rdfs:label "Veda ontology. Dictionary - Original source"@en ;
   v-s:loadPriority 10 ;
 .
 #-------------------------------------------------

@@ -7,8 +7,8 @@
 
 <http://semantic-machines.com/veda/veda-individual-BudgetCategory>
   rdf:type owl:Ontology ;
-  rdfs:label "Онтология Монди. Справочник Категория бюджета"@ru ;
-  rdfs:label "Mondi ontology. Dictionary - BudgetCategory"@en ;
+  rdfs:label "Онтология Veda. Справочник - Категория бюджета"@ru ;
+  rdfs:label "Veda ontology. Dictionary - BudgetCategory"@en ;
   v-s:loadPriority 10 ;
 .
 
