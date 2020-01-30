@@ -1232,6 +1232,15 @@ d:454kjp6r3f8mxu3skpq9olw9yt
   rdfs:label "Hidromek"@en ; 
 .
 
+<<<<<<< HEAD
+d:bdp5budugg4i4ezaqzlek4663q
+    a v-s:VehicleModel;
+  rdfs:label "SHANTUI"@ru ;
+  rdfs:label "SHANTUI"@en ;
+  rdfs:comment "Шантуи"@en ;
+  rdfs:comment "Шантуи"@ru ;  
+.
+=======
 d:y860daex8co9gc933jvdvw160e
     a v-s:VehicleModel;
   rdfs:label "Haulotte"@ru ;
@@ -1242,3 +1251,4 @@ d:r432daex8co3gc321jvdvw124r
   rdfs:label "SDLG"@ru ;
   rdfs:label "SDLG"@en ; 
 .
+>>>>>>> origin/master
