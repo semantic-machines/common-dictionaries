@@ -1232,6 +1232,12 @@ d:454kjp6r3f8mxu3skpq9olw9yt
   rdfs:label "Hidromek"@en ; 
 .
 
+d:a06aarjdtr8f4ud6laoj1fqaytz
+    a v-s:VehicleModel;
+  rdfs:label "New Holland"@ru ;
+  rdfs:label "New Holland"@en ; 
+.
+
 <<<<<<< HEAD
 d:bdp5budugg4i4ezaqzlek4663q
     a v-s:VehicleModel;
