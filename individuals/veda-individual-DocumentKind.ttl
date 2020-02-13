@@ -2824,3 +2824,8 @@ d:a04m2e8ceb0ju1xqb5dgnrwz7vq
   v-s:shortLabel "Прейскурант"^^xsd:string;
   rdfs:label "Прейскурант"^^xsd:string;
 .
+d:gufxj1natqtehwxid6u1a3diobr
+  a v-s:DocumentKind;
+  v-s:shortLabel "Предостережение"^^xsd:string;
+  rdfs:label "Предостережение"^^xsd:string;
+.
