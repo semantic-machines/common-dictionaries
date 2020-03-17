@@ -1238,6 +1238,12 @@ d:a06aarjdtr8f4ud6laoj1fqaytz
   rdfs:label "New Holland"@en ; 
 .
 
+d:l2p6hiq9gnh0hzhuyd2ff68a9n
+    a v-s:VehicleModel;
+  rdfs:label "Кировец"@ru ;
+  rdfs:label "Кировец"@en ; 
+.
+
 <<<<<<< HEAD
 d:bdp5budugg4i4ezaqzlek4663q
     a v-s:VehicleModel;
