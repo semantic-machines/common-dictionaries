@@ -95,6 +95,7 @@ d:2b249ab1d1644f528e50ff72977fa9c8
   v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:5a343b4bd5f74935982025cec2582cac
+  a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Анкета"^^xsd:string;
   rdfs:label "Анкета"^^xsd:string;
