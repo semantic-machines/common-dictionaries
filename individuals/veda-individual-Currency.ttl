@@ -58,25 +58,4 @@ d:currency_gbp
     v-s:registrationNumber "826"^^xsd:string;
 .
 
-d:currency_rureur
-    a v-s:Currency;
-    v-s:shortLabel "RUEUR";
-    rdfs:label "Условная единица EUR"@ru;
-    rdfs:label "Сonventional unit EUR"@en;
-    v-s:registrationNumber "978"^^xsd:string;
-.
-
-d:currency_ruusd
-    a v-s:Currency;
-    v-s:shortLabel "RUUSD";
-    rdfs:label "Условная единица USD"@ru;
-    rdfs:label "Сonventional unit USD"@en;
-    v-s:registrationNumber "840"^^xsd:string;
-.
-d:currency_rugbp
-    a v-s:Currency;
-    v-s:shortLabel "RUGBP";
-    rdfs:label "Условная единица GBP"@ru;
-    rdfs:label "Сonventional unit GBP"@en;
-    v-s:registrationNumber "826"^^xsd:string;
 .
