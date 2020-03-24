@@ -145,7 +145,7 @@ d:s69lw2zsvp8tvdashi8mcsiu4v
   rdfs:label "Мероприятия по обеспечению соблюдения требований энергетической эффективности и требований оснащенности зданий, строений и сооружений приборами учета используемых энергетических ресурсов"^^xsd:string;
   v-s:shortLabel "ЭЭ"^^xsd:string;
 .
-d:s69lw2zsvp8tvdashi8mcsiu4v
+d:aq32048qzrflq3qj5bljmho5t0
   rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
   rdfs:label "Требования к обеспечению безопасной эксплуатации объектов капитального строительства"^^xsd:string;
   v-s:shortLabel "ОБЭ"^^xsd:string;
