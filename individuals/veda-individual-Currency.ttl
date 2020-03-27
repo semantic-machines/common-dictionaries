@@ -57,5 +57,3 @@ d:currency_gbp
     rdfs:label "British pound"@en;
     v-s:registrationNumber "826"^^xsd:string;
 .
-
-.
