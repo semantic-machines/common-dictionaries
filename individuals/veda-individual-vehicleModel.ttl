@@ -1262,3 +1262,10 @@ d:r432daex8co3gc321jvdvw124r
   rdfs:label "SDLG"@ru ;
   rdfs:label "SDLG"@en ;
 .
+d:a35x4xkzxeayatfhqviydv4esck
+    a v-s:VehicleModel;
+  rdfs:label "Haval"@ru ;
+  rdfs:label "Haval"@en ;
+  rdfs:comment "Хавейл" ;
+  rdfs:comment "Хавал" ;
+.
