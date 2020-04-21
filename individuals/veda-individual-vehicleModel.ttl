@@ -1269,3 +1269,11 @@ d:a35x4xkzxeayatfhqviydv4esck
   rdfs:comment "Хавейл" ;
   rdfs:comment "Хавал" ;
 .
+
+d:r87x4x743ea874fhqviydv3yure
+    a v-s:VehicleModel;
+  rdfs:label "xgma"@ru ;
+  rdfs:label "xgma"@en ;
+  rdfs:comment "ХГМА" ;
+  rdfs:comment "ХГМА" ;
+.
