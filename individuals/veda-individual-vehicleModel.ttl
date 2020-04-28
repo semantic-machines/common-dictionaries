@@ -1269,7 +1269,6 @@ d:a35x4xkzxeayatfhqviydv4esck
   rdfs:comment "Хавейл" ;
   rdfs:comment "Хавал" ;
 .
-
 d:r87x4x743ea874fhqviydv3yure
     a v-s:VehicleModel;
   rdfs:label "xgma"@ru ;
@@ -1277,3 +1276,13 @@ d:r87x4x743ea874fhqviydv3yure
   rdfs:comment "ХГМА" ;
   rdfs:comment "ХГМА" ;
 .
+d:213x4x743ea874fhqviyd343123
+    a v-s:VehicleModel;
+  rdfs:label "Kubota"@ru ;
+  rdfs:label "Kubota"@en ;
+  rdfs:comment "Кубота" ;
+  rdfs:comment "Кубота" ;
+.
+
+
+
