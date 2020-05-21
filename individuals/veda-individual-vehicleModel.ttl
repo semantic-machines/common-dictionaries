@@ -1274,15 +1274,18 @@ d:r87x4x743ea874fhqviydv3yure
   rdfs:label "xgma"@ru ;
   rdfs:label "xgma"@en ;
   rdfs:comment "ХГМА" ;
-  rdfs:comment "ХГМА" ;
 .
 d:213x4x743ea874fhqviyd343123
     a v-s:VehicleModel;
   rdfs:label "Kubota"@ru ;
   rdfs:label "Kubota"@en ;
   rdfs:comment "Кубота" ;
-  rdfs:comment "Кубота" ;
 .
-
+d:lflo9oobc7sb4m27iag4mjog42
+    a v-s:VehicleModel;
+  rdfs:label "Doosan"@ru ;
+  rdfs:label "Doosan"@en ;
+  rdfs:comment "дусан" ;
+.
 
 
