@@ -367,3 +367,13 @@ d:6ba70b2261d4443e98d91452565d3b98
   rdfs:label "Произвольный комплект"^^xsd:string;
   v-s:shortLabel "ОО"^^xsd:string;
 .
+d:a1hy51xq4tgcczser0ix0ntfopy
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Заземление и молниезащита"^^xsd:string;
+  v-s:shortLabel "ЭГ"^^xsd:string;
+.
+d:a9hd39a6up4k4lt86ka01dv1e5s
+  rdf:type v-s:ClassifierMarkOfWorkingDrawingsSet ;
+  rdfs:label "Система технологического видеонаблюдения"^^xsd:string;
+  v-s:shortLabel "ТВН"^^xsd:string;
+.
