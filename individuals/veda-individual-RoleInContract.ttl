@@ -11,11 +11,17 @@
   rdfs:label "Veda ontology. individual - RoleInContract"@en ;
   v-s:loadPriority 10 ;
 .
-
+#---------------------------------------Класс
+v-s:RoleInContract
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Роль в контракте"@ru ;
+  rdfs:label "Role in contract"@en ;
+.
 # ------------------------------------------------------------ ИНДИВИДЫ --
 d:dsxyd1uxsxuui6f1t3s4ki3rdp
   a v-s:RoleInContract;
-  rdfs:label "Закачик"@ru ;
+  rdfs:label "Заказчик"@ru ;
   rdfs:label "Customer"@en ;
 .
 d:wws2oz313z6xpl1hd4u3laxzfg
