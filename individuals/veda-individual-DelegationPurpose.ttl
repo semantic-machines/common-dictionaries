@@ -26,8 +26,8 @@ v-s:DelegationPurpose
 # ------------------------------------------------------------ ИНДИВИДЫ --
 d:delegate_Control
     a v-s:DelegationPurpose;
-    rdfs:label "Контроль (доступ к документам без прав на выполнение задач)"@ru;
-    rdfs:label "Control (access to documents without permissions to perform tasks)"@en;
+    rdfs:label "Контроль (только просмотр)"@ru;
+    rdfs:label "Control (viewing only)"@en;
 .
 d:delegate_Role
     a v-s:DelegationPurpose;
