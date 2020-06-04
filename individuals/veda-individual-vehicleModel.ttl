@@ -1144,5 +1144,17 @@ d:lflo9oobc7sb4m27iag4mjog42
   rdfs:label "Doosan"@en ;
   rdfs:comment "дусан" ;
 .
-
-
+d:2v7ykfedpfspgiwptncp21y0jm
+    a v-s:VehicleModel;
+  rdfs:label "hamm"@ru ;
+  rdfs:label "hamm"@en ;
+  rdfs:comment "хам" ;
+  rdfs:comment "хамм" ;
+.
+d:m27zyhoskyildyo2v6id5rkiyb
+    a v-s:VehicleModel;
+  rdfs:label "ДЗ"@ru ;
+  rdfs:label "ДЗ"@en ;
+  rdfs:comment "ДЗ-98B" ;
+  rdfs:comment "ДЗ-98В" ;
+.
