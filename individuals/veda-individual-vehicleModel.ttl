@@ -1158,3 +1158,30 @@ d:m27zyhoskyildyo2v6id5rkiyb
   rdfs:comment "ДЗ-98B" ;
   rdfs:comment "ДЗ-98В" ;
 .
+d:4twk5pd7olewrz999mfbh2qn39
+    a v-s:VehicleModel;
+  rdfs:label "Bobcat"@ru ;
+  rdfs:label "Bobcat"@en ;
+  rdfs:comment "Бобкат" ;
+.
+d:8tn0x7xd2wlffbnqjcazx1eqe8
+    a v-s:VehicleModel;
+  rdfs:label "BOMAG"@ru ;
+  rdfs:label "BOMAG"@en ;
+  rdfs:comment "Бомаг" ;
+.
+d:90ks8k4wrjus5i4ecb6l9wch92
+    a v-s:VehicleModel;
+  rdfs:label "Vogele"@ru ;
+  rdfs:label "Vogele"@en ;
+.
+d:cs2y4imlmpxvt958smsehimohk
+    a v-s:VehicleModel;
+  rdfs:label "WIRTGEN"@ru ;
+  rdfs:label "WIRTGEN"@en ;
+.
+d:zbo8fbb9r2xtkpho3hjboov3xw
+    a v-s:VehicleModel;
+  rdfs:label "Спецприцеп"@ru ;
+  rdfs:label "Cpecpricep"@en ;
+.
