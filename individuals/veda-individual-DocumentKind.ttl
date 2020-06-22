@@ -407,6 +407,7 @@ d:0c84fffc7f5249bab6032ab8e345e023
   rdfs:label "Каталог"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
 d:aa47dd07e266465bb973c55f2de206a3
   a v-s:DocumentKind;
