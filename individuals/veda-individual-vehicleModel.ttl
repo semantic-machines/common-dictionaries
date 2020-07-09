@@ -1185,3 +1185,10 @@ d:zbo8fbb9r2xtkpho3hjboov3xw
   rdfs:label "Спецприцеп"@ru ;
   rdfs:label "Cpecpricep"@en ;
 .
+d:74kdfllmcqp19y6x8cvk0m8w3g
+    a v-s:VehicleModel;
+  rdfs:label "Merlo"@ru ;
+  rdfs:label "Merlo"@en ;
+  rdfs:comment "мерло" ;
+  rdfs:comment "мэрло" ;
+.
