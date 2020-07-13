@@ -22,13 +22,19 @@ v-s:Status
   rdfs:subClassOf v-s:UserThing ;
   rdfs:label "Статус"@ru ;
   rdfs:label "Status"@en ;
-  v-ui:hasTemplate v-ui:StatusTemplate;
 .
 # --- В связи с вводом класса возникает предикат hasStatus
 # --- Он описан в классе v-s:Thing
 
 
 # ------------------------------------------------------------ ШАБЛОНЫ --
+v-s:TS_Status 
+  rdf:type v-ui:TemplateSpecification;
+  v-s:loadPriority "15"^^xsd:integer;
+  v-ui:defaultTemplate v-ui:StatusTemplate;
+  v-ui:forClass v-s:Status
+.
+
 v-ui:StatusTemplate
   rdf:type v-ui:ClassTemplate ;
   rdfs:label "Шаблон для класса Статус"@ru ;
