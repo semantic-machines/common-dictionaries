@@ -1192,3 +1192,9 @@ d:74kdfllmcqp19y6x8cvk0m8w3g
   rdfs:comment "мерло" ;
   rdfs:comment "мэрло" ;
 .
+d:d73z359rtif4q8wii7ys0a7qp9
+    a v-s:VehicleModel;
+  rdfs:label "Datsun"@ru ;
+  rdfs:label "Datsun"@en ;
+  rdfs:comment "датсун" ;
+.
