@@ -31,8 +31,8 @@ d:delegate_Control
 .
 d:delegate_Role
     a v-s:DelegationPurpose;
-    rdfs:label "Роль"@ru;
-    rdfs:label "Role"@en;
+    rdfs:label "Постоянная функция"@ru;
+    rdfs:label "Permanent function"@en;
 .
 d:delegate_Assistant
     a v-s:DelegationPurpose;
