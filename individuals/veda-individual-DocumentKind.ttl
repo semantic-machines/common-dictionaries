@@ -2831,3 +2831,29 @@ d:gufxj1natqtehwxid6u1a3diobr
   v-s:shortLabel "Предостережение"^^xsd:string;
   rdfs:label "Предостережение"^^xsd:string;
 .
+
+d:q7patoyf5vjr82g29qi8b6astq
+  a v-s:DocumentKind;
+  v-s:shortLabel "Запрос на путевку в санаторий-профилакторий Вита"^^xsd:string;
+  rdfs:label "Запрос на путевку в санаторий-профилакторий Вита"^^xsd:string;
+.
+d:qfppztlisnpkfydhx5l518xuhi
+  a v-s:DocumentKind;
+  v-s:shortLabel "Запрос на путевку в детский лагерь ЛПО"^^xsd:string;
+  rdfs:label "Запрос на путевку в детский лагерь ЛПО"^^xsd:string;
+.
+d:nxdtay1nzw52w60jqxz4oub6h3
+  a v-s:DocumentKind;
+  v-s:shortLabel "Запрос на путевку в детский лагерь Орленок"^^xsd:string;
+  rdfs:label "Запрос на путевку в детский лагерь Орленок"^^xsd:string;
+.
+d:bqk7mqrlfss5wexj5ycnxyw0k4
+  a v-s:DocumentKind;
+  v-s:shortLabel "Запрос на путевку, выездной отдых"^^xsd:string;
+  rdfs:label "Запрос на путевку, выездной отдых"^^xsd:string;
+.
+d:tlj3pt6di67r5jlh8w4wghcx2m
+  a v-s:DocumentKind;
+  v-s:shortLabel "Запрос на путевку в базу отдыха Парма"^^xsd:string;
+  rdfs:label "Запрос на путевку в базу отдыха Парма"^^xsd:string;
+.
