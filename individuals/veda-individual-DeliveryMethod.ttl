@@ -39,6 +39,7 @@ v-s:DeliveryMethod
 # d:org_RU7713727881  - ООО "ДХЛ Экспресс" DHL
 # d:org_RU7723606727  - ООО " КурьерСервисЭкспресс " КСЭ
 # d:org_RU000000000000  - Физ лицо
+# d:org_RU111111111111  - Юр лицо
 
 
 d:244a40584c814020a7430b2e6005e387
@@ -144,34 +145,43 @@ d:c4477673ec7946efa0403f80a9eb9bbc
   a v-s:DeliveryMethod;
   rdfs:label "Ячейка в канцелярии"@ru;
   rdfs:label "Office cell"@en;
+  v-s:transportOrganization d:org_RU111111111111;
 .
 d:a534c8d79a8c4f8f8bc13d567c8c0237
   a v-s:DeliveryMethod;
   rdfs:label "Портал"@ru;
   rdfs:label "Portal"@en;
+  v-s:transportOrganization d:org_RU111111111111;
 .
 d:aac2cc4dad9a47eaa623a6bb4dd61537
   a v-s:DeliveryMethod;
   rdfs:label "Система документооборота"@ru;
   rdfs:label "Document management system"@en;
+  v-s:transportOrganization d:org_RU111111111111;
 .
 d:b9d2da6785ee42b2bcb054fd8295c539
   a v-s:DeliveryMethod;
   rdfs:label "Телефон"@ru;
   rdfs:label "Phone"@en;
+  v-s:transportOrganization d:org_RU111111111111;
 .
 d:727
   a v-s:DeliveryMethod;
   rdfs:label "Лично"@ru;
   rdfs:label "Personally"@en;
+  v-s:transportOrganization d:org_RU000000000000 ;
+  v-s:transportOrganization d:org_RU111111111111;
 .
 d:692
   a v-s:DeliveryMethod;
   rdfs:label "Факс"@ru;
   rdfs:label "Fax"@en;
+  v-s:transportOrganization d:org_RU111111111111;
 .
 d:683
   a v-s:DeliveryMethod;
   rdfs:label "Электронная почта"@ru;
   rdfs:label "E-mail"@en;
+  v-s:transportOrganization d:org_RU000000000000 ;
+  v-s:transportOrganization d:org_RU111111111111;
 .
