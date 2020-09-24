@@ -1198,3 +1198,9 @@ d:d73z359rtif4q8wii7ys0a7qp9
   rdfs:label "Datsun"@en ;
   rdfs:comment "датсун" ;
 .
+d:5thq3y08bpfjz0ogxcfxe0y3q4
+    a v-s:VehicleModel;
+  rdfs:label "Liugong"@ru ;
+  rdfs:label "Liugong"@en ;
+  rdfs:comment "лиугонг" ;
+.
