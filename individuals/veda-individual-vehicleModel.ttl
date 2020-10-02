@@ -1204,3 +1204,9 @@ d:5thq3y08bpfjz0ogxcfxe0y3q4
   rdfs:label "Liugong"@en ;
   rdfs:comment "лиугонг" ;
 .
+d:nl13igbxzjr2714wrjfsw1lyny
+    a v-s:VehicleModel;
+  rdfs:label "KOBELCO"@ru ;
+  rdfs:label "KOBELCO"@en ;
+  rdfs:comment "кобелко" ;
+.
