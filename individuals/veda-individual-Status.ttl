@@ -394,3 +394,9 @@ v-s:StatusDismantled
   rdfs:label "Dismantled"@en ;
   v-s:tag "default" ;
 .
+v-s:StatusProcessed
+  rdf:type v-s:Status ;
+  rdfs:label "Обработано"@ru ;
+  rdfs:label "Processed"@en ;
+  v-s:tag "success" ;
+.
