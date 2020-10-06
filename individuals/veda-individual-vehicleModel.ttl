@@ -1210,3 +1210,10 @@ d:nl13igbxzjr2714wrjfsw1lyny
   rdfs:label "KOBELCO"@en ;
   rdfs:comment "кобелко" ;
 .
+d:q6mecn8y2pia5oi48hnk78doib
+    a v-s:VehicleModel;
+  rdfs:label "venieri"@ru ;
+  rdfs:label "venieri"@en ;
+  rdfs:comment "вениери" ;
+  rdfs:comment "vinieri" ;
+.
