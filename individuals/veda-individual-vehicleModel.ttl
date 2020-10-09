@@ -1217,3 +1217,8 @@ d:q6mecn8y2pia5oi48hnk78doib
   rdfs:comment "вениери" ;
   rdfs:comment "vinieri" ;
 .
+d:q02dsglyid70jou47aenhvezt7
+    a v-s:VehicleModel;
+  rdfs:label "Yuchai"@ru ;
+  rdfs:label "Yuchai"@en ;
+.
