@@ -1222,3 +1222,9 @@ d:q02dsglyid70jou47aenhvezt7
   rdfs:label "Yuchai"@ru ;
   rdfs:label "Yuchai"@en ;
 .
+
+d:xemrzpa8j512vyd4m1h2qmpeko
+    a v-s:VehicleModel;
+  rdfs:label "Terex"@ru ;
+  rdfs:label "Terex"@en ;
+.
