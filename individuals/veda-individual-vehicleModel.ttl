@@ -1228,7 +1228,13 @@ d:xemrzpa8j512vyd4m1h2qmpeko
   rdfs:label "Terex"@ru ;
   rdfs:label "Terex"@en ;
 .
-d:r2lgvvnm30gvgi6df4hfqy4s9x
+d:iwibh92pbyvxndlbvk4wjflugj
+    a v-s:VehicleModel;
+  rdfs:label "МК-21"@ru ;
+  rdfs:label "MK-21"@en ;
+  rdfs:comment "МК - 21" ;
+  rdfs:comment "MK - 21" ;
+.d:r2lgvvnm30gvgi6df4hfqy4s9x
     a v-s:VehicleModel;
   rdfs:label "Dino"@ru ;
   rdfs:label "Dino"@en ;
