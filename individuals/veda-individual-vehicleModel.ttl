@@ -1228,3 +1228,9 @@ d:xemrzpa8j512vyd4m1h2qmpeko
   rdfs:label "Terex"@ru ;
   rdfs:label "Terex"@en ;
 .
+d:r2lgvvnm30gvgi6df4hfqy4s9x
+    a v-s:VehicleModel;
+  rdfs:label "Dino"@ru ;
+  rdfs:label "Dino"@en ;
+  rdfs:comment "дино" ;
+.
