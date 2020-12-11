@@ -93,6 +93,16 @@ d:dm44s17tayal8frdutpnb2matk
   rdfs:label "Stakeholder"@en ;
 .
 
-
+#-------
+d:d7baxl3cu7w5hbzl2g560vyvb0
+  a v-s:RoleInContract;
+  rdfs:label "Ссудодатель"@ru ;
+  rdfs:label "Lender"@en ;
+.
+d:kwe8nsn9qn3e6u9dczwn7wpu67
+  a v-s:RoleInContract;
+  rdfs:label "Ссудоисполнитель"@ru ;
+  rdfs:label "Payer of a loan"@en ;
+.
 
 
