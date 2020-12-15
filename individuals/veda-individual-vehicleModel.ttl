@@ -1234,3 +1234,9 @@ d:r2lgvvnm30gvgi6df4hfqy4s9x
   rdfs:label "Dino"@en ;
   rdfs:comment "дино" ;
 .
+d:efkckzaylvmmudjz53ryp53qzs
+    a v-s:VehicleModel;
+  rdfs:label "MST"@ru ;
+  rdfs:label "MST"@en ;
+  rdfs:comment "мст" ;
+.
