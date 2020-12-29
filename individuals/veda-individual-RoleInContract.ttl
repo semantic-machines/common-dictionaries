@@ -105,4 +105,16 @@ d:kwe8nsn9qn3e6u9dczwn7wpu67
   rdfs:label "Payer of a loan"@en ;
 .
 
+#-------
+d:hmmpzblf01agptcfl0kn704l2a
+  a v-s:RoleInContract;
+  rdfs:label "Оператор"@ru ;
+  rdfs:label "Mobile operator"@en ;
+.
+d:h77kc056374cpeyqk9qj2nl20e
+  a v-s:RoleInContract;
+  rdfs:label "Абонент"@ru ;
+  rdfs:label "Subscriber"@en ;
+.
+
 
