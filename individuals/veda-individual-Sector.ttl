@@ -44,51 +44,57 @@ d:87a2d20a6ad344a595b39a73fce79480
   rdfs:label "Выбросы в атмосферу"^^xsd:string;
   v-s:registrationNumber "160.040.090.010"^^xsd:string;
 .
+d:wapmb5hlt2g4aryb8z1qrtkgybujd7ss
+  a v-s:Sector;
+  v-s:hasParentLink d:446e220001e145428bcf3ab471edb0c2;
+  rdfs:label "Безопасноть движения на ж/д транспорте"^^xsd:string;
+  v-s:registrationNumber "160.040.060.090"^^xsd:string;
+.
 d:5fc9a814661846bfa6eb569584c5e094
   a v-s:Sector;
-  v-s:hasParentLink d:6b42853f-c8bc-43a6-92c3-d42af912cc57;
+  v-s:hasParentLink d:446e220001e145428bcf3ab471edb0c2;
   rdfs:label "Энергетическая безопасность"^^xsd:string;
   v-s:registrationNumber "160.040.060.080"^^xsd:string;
 .
 d:4cf2efc3c3344fd5a7448da2aed915db
   a v-s:Sector;
-  v-s:hasParentLink d:6b42853f-c8bc-43a6-92c3-d42af912cc57;
+  v-s:hasParentLink d:446e220001e145428bcf3ab471edb0c2;
   rdfs:label "Безопасность при транспортировании опасных веществ"^^xsd:string;
   v-s:registrationNumber "160.040.060.070"^^xsd:string;
 .
 d:931311a688434cbaa014d8c0a9794936
   a v-s:Sector;
-  v-s:hasParentLink d:6b42853f-c8bc-43a6-92c3-d42af912cc57;
+  v-s:hasParentLink d:446e220001e145428bcf3ab471edb0c2;
   rdfs:label "Безопасность на объектах газораспределения и газопотребления "^^xsd:string;
   v-s:registrationNumber "160.040.060.060"^^xsd:string;
 .
 d:a2397a3480034a7abf854887044d3fa6
   a v-s:Sector;
-  v-s:hasParentLink d:6b42853f-c8bc-43a6-92c3-d42af912cc57;
+  v-s:hasParentLink d:446e220001e145428bcf3ab471edb0c2;
   rdfs:label "Безопасность к подъемным сооружениям "^^xsd:string;
   v-s:registrationNumber "160.040.060.050"^^xsd:string;
 .
 d:fe73ba51d27c472d9c811e9d0185a358
   a v-s:Sector;
-  v-s:hasParentLink d:6b42853f-c8bc-43a6-92c3-d42af912cc57;
+  v-s:hasParentLink d:446e220001e145428bcf3ab471edb0c2;
   rdfs:label "Безопасность к оборудованию, работающему под давлением"^^xsd:string;
   v-s:registrationNumber "160.040.060.040"^^xsd:string;
 .
 d:c8a3a2cc1eaa4737956f3a229e0e9107
   a v-s:Sector;
-  v-s:hasParentLink d:6b42853f-c8bc-43a6-92c3-d42af912cc57;
+  v-s:hasParentLink d:446e220001e145428bcf3ab471edb0c2;
   rdfs:label "Безопасность в химической промышленност"^^xsd:string;
   v-s:registrationNumber "160.040.060.030"^^xsd:string;
 .
 d:d3a86e4facb04677bd42438d4a5142c4
   a v-s:Sector;
-  v-s:hasParentLink d:6b42853f-c8bc-43a6-92c3-d42af912cc57;
+  v-s:hasParentLink d:446e220001e145428bcf3ab471edb0c2;
   rdfs:label "Безопасность в металлургической промышленности"^^xsd:string;
   v-s:registrationNumber "160.040.060.020"^^xsd:string;
 .
 d:1cef956363ed4b04bd7be76c316c9b4f
   a v-s:Sector;
-  v-s:hasParentLink d:6b42853f-c8bc-43a6-92c3-d42af912cc57;
+  v-s:hasParentLink d:446e220001e145428bcf3ab471edb0c2;
   rdfs:label "Безопасности гидротехнических сооружений"^^xsd:string;
   v-s:registrationNumber "160.040.060.010"^^xsd:string;
 .
@@ -1337,8 +1343,9 @@ d:542898636dce4165a494b4d04515142a
 
 d:446e220001e145428bcf3ab471edb0c2
   a v-s:Sector;
-  v-s:hasParentLink d:506614f30cdd4494976d190a83fccb4e, d:3f4a2dd6a8604b579c65857de9e39568;
+  v-s:hasParentLink d:506614f30cdd4494976d190a83fccb4e;
   v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
+  v-s:hasParentLink d:3f4a2dd6a8604b579c65857de9e39568;
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Промышленная безопасность"^^xsd:string;
   v-s:registrationNumber "160.040.060  090.010.030"^^xsd:string;
