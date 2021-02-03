@@ -41,7 +41,7 @@ d:delegate_Assistant
 .
 d:delegate_Acting
     a v-s:DelegationPurpose;
-    rdfs:label "Исполняющий обязанности"@ru;
+    rdfs:label "Временно исполняющий обязанности"@ru;
     rdfs:label "Acting"@en;
 .
 d:delegate_Collaboration
