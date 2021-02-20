@@ -400,3 +400,21 @@ v-s:StatusProcessed
   rdfs:label "Processed"@en ;
   v-s:tag "success" ;
 .
+v-s:StatusScheduled
+  rdf:type v-s:Status ;
+  rdfs:label "Запланировано"@ru ;
+  rdfs:label "Scheduled"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusActive
+  rdf:type v-s:Status ;
+  rdfs:label "Активно"@ru ;
+  rdfs:label "Active"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusCompleted
+  rdf:type v-s:Status ;
+  rdfs:label "Завершено"@ru ;
+  rdfs:label "Completed"@en ;
+  v-s:tag "default" ;
+.
