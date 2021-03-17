@@ -418,3 +418,27 @@ v-s:StatusCompleted
   rdfs:label "Completed"@en ;
   v-s:tag "default" ;
 .
+v-s:StatusLocked
+  rdf:type v-s:Status ;
+  rdfs:label "Заблокировано"@ru ;
+  rdfs:label "Locked"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusUnlocked
+  rdf:type v-s:Status ;
+  rdfs:label "Разблокировано"@ru ;
+  rdfs:label "Unlocked"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusLockWaitnig
+  rdf:type v-s:Status ;
+  rdfs:label "Ожидает блокировки"@ru ;
+  rdfs:label "Waiting for lock"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusUnlockWaitnig
+  rdf:type v-s:Status ;
+  rdfs:label "Ожидает разблокировки"@ru ;
+  rdfs:label "Waiting for unlock"@en ;
+  v-s:tag "default" ;
+.
