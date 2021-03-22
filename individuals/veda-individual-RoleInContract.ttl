@@ -101,8 +101,8 @@ d:d7baxl3cu7w5hbzl2g560vyvb0
 .
 d:kwe8nsn9qn3e6u9dczwn7wpu67
   a v-s:RoleInContract;
-  rdfs:label "Ссудоисполнитель"@ru ;
-  rdfs:label "Payer of a loan"@en ;
+  rdfs:label "Ссудополучатель"@ru ;
+  rdfs:label "Lender"@en ;
 .
 
 #-------
