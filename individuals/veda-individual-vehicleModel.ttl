@@ -1234,7 +1234,8 @@ d:iwibh92pbyvxndlbvk4wjflugj
   rdfs:label "MK-21"@en ;
   rdfs:comment "МК - 21" ;
   rdfs:comment "MK - 21" ;
-.d:r2lgvvnm30gvgi6df4hfqy4s9x
+.
+d:r2lgvvnm30gvgi6df4hfqy4s9x
     a v-s:VehicleModel;
   rdfs:label "Dino"@ru ;
   rdfs:label "Dino"@en ;
@@ -1245,4 +1246,10 @@ d:efkckzaylvmmudjz53ryp53qzs
   rdfs:label "MST"@ru ;
   rdfs:label "MST"@en ;
   rdfs:comment "мст" ;
+.
+d:hdtkzaylvmmudjz23yp43trw
+    a v-s:VehicleModel;
+  rdfs:label "Твэкс"@ru ;
+  rdfs:label "Твэкс"@en ;
+  rdfs:comment "твекс" ;
 .
