@@ -1253,3 +1253,8 @@ d:hdtkzaylvmmudjz23yp43trw
   rdfs:label "Твэкс"@en ;
   rdfs:comment "твекс" ;
 .
+d:wcf7i6yyxnqzawg8w9akmambop
+    a v-s:VehicleModel;
+  rdfs:label "Зумлион"@ru ;
+  rdfs:label "Zoomlion"@en ;
+.
