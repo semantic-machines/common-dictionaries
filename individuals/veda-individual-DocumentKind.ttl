@@ -124,6 +124,13 @@ d:4721aab5d8a44f49bfeee43b648c58da
   rdfs:label "Аттестат"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:097bqkekwxfkljkn81v3figr69fpkf8n
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Аудит ПЭТ"^^xsd:string;
+  rdfs:label "Аудит ПЭТ"^^xsd:string;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
 d:ba3e94a27ad041638e57572e0a7c90c0
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
