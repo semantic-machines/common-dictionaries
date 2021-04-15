@@ -28,19 +28,19 @@ v-s:VehicleCategory
 d:9d8eadd9b21d4d2a8ef616f67e090fac
   a v-s:VehicleCategory;
   rdfs:label "Машина сельскохозяйственная"@ru ;
-  rdfs:label "Машина сельскохозяйственная"@en ;
+  rdfs:label "Agricultural machine"@en ;
   v-s:description ""@ru ;
   v-s:description ""@en ;
   v-s:shortLabel "F"@ru ;
-  v-s:shortLabel "F"@en ;
+  v-s:shortLabel "1F"@en ;
 .
 
 d:e3665465997648248fb3f9f6a1ccbe51
   a v-s:VehicleCategory;
   rdfs:label "Машина гусеничная тяжелая"@ru ;
-  rdfs:label "Машина гусеничная тяжелая"@en ;
+  rdfs:label "Heavy tracked machine"@en ;
   v-s:description "более 25,7 кВт"@ru ;
-  v-s:description "более 25,7 кВт"@en ;
+  v-s:description "more than 25,7 kW"@en ;
   v-s:shortLabel "E"@ru ;
   v-s:shortLabel "E"@en ;
 .
@@ -48,9 +48,9 @@ d:e3665465997648248fb3f9f6a1ccbe51
 d:53133a214db34ee081835d45c8432348
   a v-s:VehicleCategory;
   rdfs:label "Машина колесная тяжелая"@ru ;
-  rdfs:label "Машина колесная тяжелая"@en ;
+  rdfs:label "Wheeled heavy machine"@en ;
   v-s:description "более 110,3 кВт"@ru ;
-  v-s:description "более 110,3 кВт"@en ;
+  v-s:description "more than 110,3 kW"@en ;
   v-s:shortLabel "D"@ru ;
   v-s:shortLabel "D"@en ;
 .
@@ -58,9 +58,9 @@ d:53133a214db34ee081835d45c8432348
 d:4d53251fece9481f99f1ae15d251f8b6
   a v-s:VehicleCategory;
   rdfs:label "Машина колесная средняя"@ru ;
-  rdfs:label "Машина колесная средняя"@en ;
+  rdfs:label "Medium wheeled machine"@en ;
   v-s:description "25,7-110,3 кВт"@ru ;
-  v-s:description "25,7-110,3 кВт"@en ;
+  v-s:description "25,7-110,3 kW"@en ;
   v-s:shortLabel "C"@ru ;
   v-s:shortLabel "C"@en ;
 .
@@ -68,9 +68,9 @@ d:4d53251fece9481f99f1ae15d251f8b6
 d:655f060614dc4829ba56c85dd6dfdff5
   a v-s:VehicleCategory;
   rdfs:label "Машина гусеничная или колесная малая"@ru ;
-  rdfs:label "Машина гусеничная или колесная малая"@en ;
+  rdfs:label "Small tracked or wheeled machine"@en ;
   v-s:description "до 25,7 кВт"@ru ;
-  v-s:description "до 25,7 кВт"@en ;
+  v-s:description "less than 25,7 kW"@en ;
   v-s:shortLabel "B"@ru ;
   v-s:shortLabel "B"@en ;
 .
@@ -78,9 +78,9 @@ d:655f060614dc4829ba56c85dd6dfdff5
 d:e887953c6556432280585e2b5819afcb
   a v-s:VehicleCategory;
   rdfs:label "Средство пассажирское внедорожное"@ru ;
-  rdfs:label "Средство пассажирское внедорожное"@en ;
+  rdfs:label "SUV passenger vehicle"@en ;
   v-s:description "более 8 пасс"@ru ;
-  v-s:description "более 8 пасс"@en ;
+  v-s:description "more than 8 passengers"@en ;
   v-s:shortLabel "AIV"@ru ;
   v-s:shortLabel "AIV"@en ;
 .
@@ -88,9 +88,9 @@ d:e887953c6556432280585e2b5819afcb
 d:741f69e6d6ab4a21b7baa2a9818cd4b1
   a v-s:VehicleCategory;
   rdfs:label "Средство грузовое внедорожное"@ru ;
-  rdfs:label "Средство грузовое внедорожное"@en ;
+  rdfs:label "SUV truck"@en ;
   v-s:description "до 8 пасс, более 3,5 тонн"@ru ;
-  v-s:description "до 8 пасс, более 3,5 тонн"@en ;
+  v-s:description "less than 8 passengers, more than 3,5 tons"@en ;
   v-s:shortLabel "AIII"@ru ;
   v-s:shortLabel "AIII"@en ;
 .
@@ -98,9 +98,9 @@ d:741f69e6d6ab4a21b7baa2a9818cd4b1
 d:203f20c39674465885ca81e143b7fc55
   a v-s:VehicleCategory;
   rdfs:label "Средство легковое внедорожное"@ru ;
-  rdfs:label "Средство легковое внедорожное"@en ;
+  rdfs:label "SUV passenger vehicle"@en ;
   v-s:description "до 8 пасс, до 3,5 т"@ru ;
-  v-s:description "до 8 пасс, до 3,5 т"@en ;
+  v-s:description "less than 8 passengers, less than 3,5 tons"@en ;
   v-s:shortLabel "AII"@ru ;
   v-s:shortLabel "AII"@en ;
 .
@@ -108,9 +108,9 @@ d:203f20c39674465885ca81e143b7fc55
 d:a6d4d25f234c430c89aec7c468bb168c
   a v-s:VehicleCategory;
   rdfs:label "Средство мототранспортное внедорожное"@ru ;
-  rdfs:label "Средство мототранспортное внедорожное"@en ;
+  rdfs:label "SUV motor vehicles"@en ;
   v-s:description "до 50 км/ч"@ru ;
-  v-s:description "до 50 км/ч"@en ;
+  v-s:description "less than 50 km/h"@en ;
   v-s:shortLabel "AI"@ru ;
   v-s:shortLabel "AI"@en ;
 .
@@ -118,9 +118,9 @@ d:a6d4d25f234c430c89aec7c468bb168c
 d:674ad1656f2c4cdf8bf2ca5140dbbd54
   a v-s:VehicleCategory;
   rdfs:label "Автомобиль грузовой с прицепом"@ru ;
-  rdfs:label "Автомобиль грузовой с прицепом"@en ;
+  rdfs:label "Truck with trailer"@en ;
   v-s:description "более 7,5 т. прицеп более 12 т"@ru ;
-  v-s:description "более 7,5 т. прицеп более 12 т"@en ;
+  v-s:description "more than 7,5 tons, trailer more than 12 tons"@en ;
   v-s:shortLabel "CE"@ru ;
   v-s:shortLabel "CE"@en ;
 .
@@ -128,9 +128,9 @@ d:674ad1656f2c4cdf8bf2ca5140dbbd54
 d:dcd0517d09214ad39dab26a903f88dc3
   a v-s:VehicleCategory;
   rdfs:label "Автомобиль грузовой малый с прицепом"@ru ;
-  rdfs:label "Автомобиль грузовой малый с прицепом"@en ;
+  rdfs:label "Small truck with a trailer"@en ;
   v-s:description "3,5-7,5 т. прицеп 0,75-12 т"@ru ;
-  v-s:description "3,5-7,5 т. прицеп 0,75-12 т"@en ;
+  v-s:description "3,5-7,5 tons, trailer 0,75-12 tons"@en ;
   v-s:shortLabel "C1E"@ru ;
   v-s:shortLabel "C1E"@en ;
 .
@@ -138,9 +138,9 @@ d:dcd0517d09214ad39dab26a903f88dc3
 d:2a67143977324790994ca6b50adeda90
   a v-s:VehicleCategory;
   rdfs:label "Автомобиль грузовой"@ru ;
-  rdfs:label "Автомобиль грузовой"@en ;
+  rdfs:label "Truck"@en ;
   v-s:description "более 7,5 т"@ru ;
-  v-s:description "более 7,5 т"@en ;
+  v-s:description "more than 7,5 tons"@en ;
   v-s:shortLabel "C"@ru ;
   v-s:shortLabel "C"@en ;
 .
@@ -148,9 +148,9 @@ d:2a67143977324790994ca6b50adeda90
 d:fd4b4bf49ef5428187cdac22a8614c4b
   a v-s:VehicleCategory;
   rdfs:label "Автомобиль грузовой малый"@ru ;
-  rdfs:label "Автомобиль грузовой малый"@en ;
+  rdfs:label "Small truck"@en ;
   v-s:description "3,5-7,5 т"@ru ;
-  v-s:description "3,5-7,5 т"@en ;
+  v-s:description "3,5-7,5 tons"@en ;
   v-s:shortLabel "C1"@ru ;
   v-s:shortLabel "C1"@en ;
 .
@@ -158,9 +158,9 @@ d:fd4b4bf49ef5428187cdac22a8614c4b
 d:e6179f32bb4f4d3f8719d7eeb1f1591d
   a v-s:VehicleCategory;
   rdfs:label "Автомобиль пассажирский с прицепом"@ru ;
-  rdfs:label "Автомобиль пассажирский с прицепом"@en ;
+  rdfs:label "Passenger car with trailer"@en ;
   v-s:description "более 16 пасс. прицеп более 12 т"@ru ;
-  v-s:description "более 16 пасс. прицеп более 12 т"@en ;
+  v-s:description "more than 16 passengers, trailer more than 12 tons"@en ;
   v-s:shortLabel "DE"@ru ;
   v-s:shortLabel "DE"@en ;
 .
@@ -168,9 +168,9 @@ d:e6179f32bb4f4d3f8719d7eeb1f1591d
 d:0bde68eab2284ae7bd52fdc6e3e31542
   a v-s:VehicleCategory;
   rdfs:label "Автомобиль пассажирский малый с прицепом"@ru ;
-  rdfs:label "Автомобиль пассажирский малый с прицепом"@en ;
+  rdfs:label "Small passenger car with a trailer"@en ;
   v-s:description "9-16 пасс. прицеп 0,75-12 т"@ru ;
-  v-s:description "9-16 пасс. прицеп 0,75-12 т"@en ;
+  v-s:description "9-16 passengers, trailer 0,75-12 tons"@en ;
   v-s:shortLabel "D1E"@ru ;
   v-s:shortLabel "D1E"@en ;
 .
@@ -178,9 +178,9 @@ d:0bde68eab2284ae7bd52fdc6e3e31542
 d:768b9b1bcd5e42d382789711c36a5fb1
   a v-s:VehicleCategory;
   rdfs:label "Автомобиль пассажирский"@ru ;
-  rdfs:label "Автомобиль пассажирский"@en ;
+  rdfs:label "Passenger car"@en ;
   v-s:description "более 16 пасс"@ru ;
-  v-s:description "более 16 пасс"@en ;
+  v-s:description "more than 16 passengers"@en ;
   v-s:shortLabel "D"@ru ;
   v-s:shortLabel "D"@en ;
 .
@@ -188,9 +188,9 @@ d:768b9b1bcd5e42d382789711c36a5fb1
 d:991233fd85204a69a1d4c0710b5d2421
   a v-s:VehicleCategory;
   rdfs:label "Автомобиль пассажирский малый"@ru ;
-  rdfs:label "Автомобиль пассажирский малый"@en ;
+  rdfs:label "Small passenger car"@en ;
   v-s:description "9-16 пасс"@ru ;
-  v-s:description "9-16 пасс"@en ;
+  v-s:description "9-16 passengers"@en ;
   v-s:shortLabel "D1"@ru ;
   v-s:shortLabel "D1"@en ;
 .
@@ -198,9 +198,9 @@ d:991233fd85204a69a1d4c0710b5d2421
 d:a149df10970c48d6b2f72effaae836e5
   a v-s:VehicleCategory;
   rdfs:label "Автомобиль легковой с прицепом"@ru ;
-  rdfs:label "Автомобиль легковой с прицепом"@en ;
+  rdfs:label "Car with a trailer"@en ;
   v-s:description "до 8 пасс, до 3,5 т. прицеп 0,75-3,5 т"@ru ;
-  v-s:description "до 8 пасс, до 3,5 т. прицеп 0,75-3,5 т"@en ;
+  v-s:description "less than 8 passengers, less than 3,5 tons, trailer 0,75-3,5 tons"@en ;
   v-s:shortLabel "BE"@ru ;
   v-s:shortLabel "BE"@en ;
 .
@@ -208,9 +208,9 @@ d:a149df10970c48d6b2f72effaae836e5
 d:e759d64380ee425f9dfa55e320d1b3e5
   a v-s:VehicleCategory;
   rdfs:label "Автомобиль легковой"@ru ;
-  rdfs:label "Автомобиль легковой"@en ;
+  rdfs:label "Passenger car"@en ;
   v-s:description "до 8 пасс, до 3,5 т"@ru ;
-  v-s:description "до 8 пасс, до 3,5 т"@en ;
+  v-s:description "less than 8 passengers, less than 3,5 tons"@en ;
   v-s:shortLabel "B"@ru ;
   v-s:shortLabel "B"@en ;
 .
@@ -218,7 +218,7 @@ d:e759d64380ee425f9dfa55e320d1b3e5
 d:bb0583d54f0c43b3bf0849ea8a866c49
   a v-s:VehicleCategory;
   rdfs:label "Трицикл, Квадрицикл"@ru ;
-  rdfs:label "Трицикл, Квадрицикл"@en ;
+  rdfs:label "Tricycle, Quadricycle"@en ;
   v-s:description ""@ru ;
   v-s:description ""@en ;
   v-s:shortLabel "B1"@ru ;
@@ -228,9 +228,9 @@ d:bb0583d54f0c43b3bf0849ea8a866c49
 d:55825ca89b7c4922892db11755d96fad
   a v-s:VehicleCategory;
   rdfs:label "Мотоцикл"@ru ;
-  rdfs:label "Мотоцикл"@en ;
+  rdfs:label "Motorcycle"@en ;
   v-s:description "более 125 см3"@ru ;
-  v-s:description "более 125 см3"@en ;
+  v-s:description "more than 125 sm3"@en ;
   v-s:shortLabel "A"@ru ;
   v-s:shortLabel "A"@en ;
 .
@@ -238,9 +238,9 @@ d:55825ca89b7c4922892db11755d96fad
 d:0f07e678350d42cfac8c668d73ca2e11
   a v-s:VehicleCategory;
   rdfs:label "Мотоцикл легкий"@ru ;
-  rdfs:label "Мотоцикл легкий"@en ;
+  rdfs:label "The motorcycle is lightweight"@en ;
   v-s:description "50-125 см3"@ru ;
-  v-s:description "50-125 см3"@en ;
+  v-s:description "50-125 sm3"@en ;
   v-s:shortLabel "A1"@ru ;
   v-s:shortLabel "A1"@en ;
 .
@@ -248,9 +248,9 @@ d:0f07e678350d42cfac8c668d73ca2e11
 d:325941d0e1b247af8e311af6fdb941fd
   a v-s:VehicleCategory;
   rdfs:label "Мопед, легкий квадрицикл"@ru ;
-  rdfs:label "Мопед, легкий квадрицикл"@en ;
+  rdfs:label "Moped, light quad bike"@en ;
   v-s:description "до 50 см3"@ru ;
-  v-s:description "до 50 см3"@en ;
+  v-s:description "less than 50 sm3"@en ;
   v-s:shortLabel "M"@ru ;
   v-s:shortLabel "M"@en ;
 .
