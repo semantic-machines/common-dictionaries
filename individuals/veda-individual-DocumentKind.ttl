@@ -17,7 +17,7 @@ v-s:DocumentKind
   rdf:type owl:Class ;
   rdfs:subClassOf v-s:UserThing ;
   rdfs:subClassOf v-s:NormativeDocument ;
-  rdfs:label "Вид документа1"@ru ;
+  rdfs:label "Вид документа"@ru ;
   rdfs:label "Document kind"@en ;
 .
 # --- В связи с вводом класса возникает предикат v-s:hasDocumentKind. Он описан в классе v-s:Thing
