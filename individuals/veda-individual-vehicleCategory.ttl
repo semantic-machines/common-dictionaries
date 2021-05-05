@@ -32,7 +32,7 @@ d:9d8eadd9b21d4d2a8ef616f67e090fac
   v-s:description ""@ru ;
   v-s:description ""@en ;
   v-s:shortLabel "F"@ru ;
-  v-s:shortLabel "1F"@en ;
+  v-s:shortLabel "F"@en ;
 .
 
 d:e3665465997648248fb3f9f6a1ccbe51
