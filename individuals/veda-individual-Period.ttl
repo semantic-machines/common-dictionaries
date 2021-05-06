@@ -27,16 +27,19 @@ d:a21t5y3pswuewm8ohjexiqtxscr
   rdf:type v-s:Period ;
   rdfs:label "Неделя"@ru ;
   rdfs:label "Week"@en ;
+  v-s:count "7"^^xsd:integer;
 .
 d:fb27kxa3r98ilnkvmy99xc11p1
   rdf:type v-s:Period ;
   rdfs:label "2 недели"@ru ;
   rdfs:label "2 weeks"@en ;
+  v-s:count "14"^^xsd:integer;
 .
 d:pqauzdiqyls7pzrawelnh2zwj3
   rdf:type v-s:Period ;
   rdfs:label "Месяц"@ru ;
   rdfs:label "Month"@en ;
+  v-s:count "30"^^xsd:integer;
 .
 d:d2cloqhm8yqaq8t68zi9iepc69
   rdf:type v-s:Period ;
@@ -52,4 +55,10 @@ d:p699yrkgnd7bamjaqwx305o5hi
   rdf:type v-s:Period ;
   rdfs:label "Год"@ru ;
   rdfs:label "Year"@en ;
+.
+d:q3qlurph45v2trm8kfmmdqtj04
+  rdf:type v-s:Period ;
+  rdfs:label "2 года"@ru ;
+  rdfs:label "2 years"@en ;
+  v-s:count "728"^^xsd:integer;
 .
