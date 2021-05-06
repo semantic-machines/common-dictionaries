@@ -275,7 +275,7 @@ v-s:StatusAccepted
   rdf:type v-s:Status ;
   rdfs:label "Принято"@ru ;
   rdfs:label "Accepted"@en ;
-  v-s:tag "default" ;
+  v-s:tag "success" ;
 .
 v-s:StatusAcceptedPartially
   rdf:type v-s:Status ;
