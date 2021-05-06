@@ -24,6 +24,8 @@ v-s:ClassifierCountry
 .
 # --- В связи с вводом класса возникает предикат v-s:hasClassifierCountry. Он описан в классе v-s:ClassifiedRus
 
+#телефонный код страны
+#v-s:countryCallingCode
 
 # ------------------------------------------------------------ ИНДИВИДЫ --
 d:Country_RUS
@@ -35,6 +37,7 @@ d:Country_RUS
   v-s:description "Российская Федерация"@ru ;
   v-s:description "Russian Fedaration"@en ;
   v-s:registrationNumber "643" ;
+  v-s:countryCallingCode "7";
 .
 d:Country_AFG
   a v-s:ClassifierCountry;
@@ -45,6 +48,7 @@ d:Country_AFG
   v-s:description "Переходное Исламское Государство Афганистан"@ru ;
   v-s:description "Transitional Islamic State of Afghanistan"@en ;
   v-s:registrationNumber "004" ;
+  v-s:countryCallingCode "93";
 .
 d:Country_ALB
   a v-s:ClassifierCountry;
@@ -55,6 +59,7 @@ d:Country_ALB
   v-s:description "Республика Албания"@ru ;
   v-s:description "The Republic of Albania"@en ;
   v-s:registrationNumber "008" ;
+  v-s:countryCallingCode "355";
 .
 d:Country_DZA
   a v-s:ClassifierCountry;
@@ -65,6 +70,7 @@ d:Country_DZA
   v-s:description "Алжирская Народная Демократическая Республика"@ru ;
   v-s:description "Algerian People's Democratic Republic"@en ;
   v-s:registrationNumber "012" ;
+  v-s:countryCallingCode "213";
 .
 d:Country_AND
   a v-s:ClassifierCountry;
@@ -75,6 +81,7 @@ d:Country_AND
   v-s:description "Княжество Андорра"@ru ;
   v-s:description "The Principality of Andorra"@en ;
   v-s:registrationNumber "020" ;
+  v-s:countryCallingCode "376";
 .
 d:Country_AGO
   a v-s:ClassifierCountry;
@@ -85,6 +92,7 @@ d:Country_AGO
   v-s:description "Республика Ангола"@ru ;
   v-s:description "Republic of Angola"@en ;
   v-s:registrationNumber "024" ;
+  v-s:countryCallingCode "244";
 .
 d:Country_AZE
   a v-s:ClassifierCountry;
@@ -95,6 +103,7 @@ d:Country_AZE
   v-s:description "Республика Азербайджан"@ru ;
   v-s:description "The Republic of Azerbaijan"@en ;
   v-s:registrationNumber "031" ;
+  v-s:countryCallingCode "994";
 .
 d:Country_ARG
   a v-s:ClassifierCountry;
@@ -105,6 +114,7 @@ d:Country_ARG
   v-s:description "Аргентинская Республика"@ru ;
   v-s:description "The Argentine Republic"@en ;
   v-s:registrationNumber "032" ;
+  v-s:countryCallingCode "54";
 .
 d:Country_AUS
   a v-s:ClassifierCountry;
@@ -115,6 +125,7 @@ d:Country_AUS
   v-s:description "АВСТРАЛИЯ"@ru ;
   v-s:description "Australia"@en ;
   v-s:registrationNumber "036" ;
+  v-s:countryCallingCode "61";
 .
 d:Country_AUT
   a v-s:ClassifierCountry;
@@ -125,6 +136,7 @@ d:Country_AUT
   v-s:description "Австрийская Республика"@ru ;
   v-s:description "Republic of Austria"@en ;
   v-s:registrationNumber "040" ;
+  v-s:countryCallingCode "43";
 .
 d:Country_BHS
   a v-s:ClassifierCountry;
@@ -135,6 +147,7 @@ d:Country_BHS
   v-s:description "Содружество Багамы"@ru ;
   v-s:description "Commonwealth of the Bahamas"@en ;
   v-s:registrationNumber "044" ;
+  v-s:countryCallingCode "242";
 .
 d:Country_ARM
   a v-s:ClassifierCountry;
@@ -145,6 +158,7 @@ d:Country_ARM
   v-s:description "Республика Армения"@ru ;
   v-s:description "Republic of Armenia"@en ;
   v-s:registrationNumber "051" ;
+  v-s:countryCallingCode "374";
 .
 d:Country_BGD
   a v-s:ClassifierCountry;
@@ -155,6 +169,7 @@ d:Country_BGD
   v-s:description "Народная Республика Бангладеш"@ru ;
   v-s:description "People's Republic of Bangladesh"@en ;
   v-s:registrationNumber "050" ;
+  v-s:countryCallingCode "880";
 .
 d:Country_BEL
   a v-s:ClassifierCountry;
@@ -165,6 +180,7 @@ d:Country_BEL
   v-s:description "Королевство Бельгии"@ru ;
   v-s:description "Kingdom of Belgium"@en ;
   v-s:registrationNumber "056" ;
+  v-s:countryCallingCode "32";
 .
 d:Country_BOL
   a v-s:ClassifierCountry;
@@ -175,6 +191,7 @@ d:Country_BOL
   v-s:description "Многонациональное Государство Боливия"@ru ;
   v-s:description "Plurinational State of Bolivia"@en ;
   v-s:registrationNumber "068" ;
+  v-s:countryCallingCode "591";
 .
 d:Country_BRA
   a v-s:ClassifierCountry;
@@ -185,6 +202,7 @@ d:Country_BRA
   v-s:description "Федеративная Республика Бразилия"@ru ;
   v-s:description "Federative Republic of Brazil"@en ;
   v-s:registrationNumber "076" ;
+  v-s:countryCallingCode "55";
 .
 d:Country_BGR
   a v-s:ClassifierCountry;
@@ -195,6 +213,7 @@ d:Country_BGR
   v-s:description "Республика Болгария"@ru ;
   v-s:description "Republic of Bulgaria"@en ;
   v-s:registrationNumber "100" ;
+  v-s:countryCallingCode "359";
 .
 d:Country_BLR
   a v-s:ClassifierCountry;
@@ -205,6 +224,7 @@ d:Country_BLR
   v-s:description "Республика Беларусь"@ru ;
   v-s:description "Republic of Belarus"@en ;
   v-s:registrationNumber "112" ;
+  v-s:countryCallingCode "375";
 .
 d:Country_KHM
   a v-s:ClassifierCountry;
@@ -215,6 +235,7 @@ d:Country_KHM
   v-s:description "Королевство Камбоджа"@ru ;
   v-s:description "The Kingdom of Cambodia"@en ;
   v-s:registrationNumber "116" ;
+  v-s:countryCallingCode "855";
 .
 d:Country_CMR
   a v-s:ClassifierCountry;
@@ -225,6 +246,7 @@ d:Country_CMR
   v-s:description "Республика Камерун"@ru ;
   v-s:description "Republic of Cameroon"@en ;
   v-s:registrationNumber "120" ;
+  v-s:countryCallingCode "237";
 .
 d:Country_CAN
   a v-s:ClassifierCountry;
@@ -235,6 +257,7 @@ d:Country_CAN
   v-s:description "КАНАДА"@ru ;
   v-s:description "Canada"@en ;
   v-s:registrationNumber "124" ;
+  v-s:countryCallingCode "1";
 .
 d:Country_LKA
   a v-s:ClassifierCountry;
@@ -245,6 +268,7 @@ d:Country_LKA
   v-s:description "Демократическая Социалистическая Республика Шри-Ланка"@ru ;
   v-s:description "Democratic Socialist Republic of Sri Lanka"@en ;
   v-s:registrationNumber "144" ;
+  v-s:countryCallingCode "94";
 .
 d:Country_TCD
   a v-s:ClassifierCountry;
@@ -255,6 +279,7 @@ d:Country_TCD
   v-s:description "Республика Чад"@ru ;
   v-s:description "Republic of Chad"@en ;
   v-s:registrationNumber "148" ;
+  v-s:countryCallingCode "235";
 .
 d:Country_CHL
   a v-s:ClassifierCountry;
@@ -265,6 +290,7 @@ d:Country_CHL
   v-s:description "Республика Чили"@ru ;
   v-s:description "Republic of Chile"@en ;
   v-s:registrationNumber "152" ;
+  v-s:countryCallingCode "56";
 .
 d:Country_CHN
   a v-s:ClassifierCountry;
@@ -275,6 +301,7 @@ d:Country_CHN
   v-s:description "Китайская Народная Республика"@ru ;
   v-s:description "Chinese People's Republic"@en ;
   v-s:registrationNumber "156" ;
+  v-s:countryCallingCode "86";
 .
 d:Country_TWN
   a v-s:ClassifierCountry;
@@ -285,6 +312,7 @@ d:Country_TWN
   v-s:description "ТАЙВАНЬ (КИТАЙ)"@ru ;
   v-s:description "TAIWAN (CHINA)"@en ;
   v-s:registrationNumber "158" ;
+  v-s:countryCallingCode "886";
 .
 d:Country_COL
   a v-s:ClassifierCountry;
@@ -295,6 +323,7 @@ d:Country_COL
   v-s:description "Республика Колумбия"@ru ;
   v-s:description "The Republic of Colombia"@en ;
   v-s:registrationNumber "170" ;
+  v-s:countryCallingCode "57";
 .
 d:Country_COG
   a v-s:ClassifierCountry;
@@ -305,6 +334,7 @@ d:Country_COG
   v-s:description "Республика Конго"@ru ;
   v-s:description "Republic of the Congo"@en ;
   v-s:registrationNumber "178" ;
+  v-s:countryCallingCode "242";
 .
 d:Country_COD
   a v-s:ClassifierCountry;
@@ -315,6 +345,7 @@ d:Country_COD
   v-s:description "Демократическая Республика Конго"@ru ;
   v-s:description "Democratic Republic of the Congo"@en ;
   v-s:registrationNumber "180" ;
+  v-s:countryCallingCode "243";
 .
 d:Country_CRI
   a v-s:ClassifierCountry;
@@ -325,6 +356,7 @@ d:Country_CRI
   v-s:description "Республика Коста-Рика"@ru ;
   v-s:description "The Republic of Costa Rica"@en ;
   v-s:registrationNumber "188" ;
+  v-s:countryCallingCode "506";
 .
 d:Country_HRV
   a v-s:ClassifierCountry;
@@ -335,6 +367,7 @@ d:Country_HRV
   v-s:description "Республика Хорватия"@ru ;
   v-s:description "The Republic of Croatia"@en ;
   v-s:registrationNumber "191" ;
+  v-s:countryCallingCode "385";
 .
 d:Country_CUB
   a v-s:ClassifierCountry;
@@ -345,6 +378,7 @@ d:Country_CUB
   v-s:description "Республика Куба"@ru ;
   v-s:description "The Republic of Cuba"@en ;
   v-s:registrationNumber "192" ;
+  v-s:countryCallingCode "53";
 .
 d:Country_CYP
   a v-s:ClassifierCountry;
@@ -355,6 +389,7 @@ d:Country_CYP
   v-s:description "Республика Кипр"@ru ;
   v-s:description "Republic of Cyprus"@en ;
   v-s:registrationNumber "196" ;
+  v-s:countryCallingCode "357";
 .
 d:Country_CZE
   a v-s:ClassifierCountry;
@@ -365,6 +400,7 @@ d:Country_CZE
   v-s:description "ЧЕШСКАЯ РЕСПУБЛИКА"@ru ;
   v-s:description "CZECH REPUBLIC"@en ;
   v-s:registrationNumber "203" ;
+  v-s:countryCallingCode "420";
 .
 d:Country_DNK
   a v-s:ClassifierCountry;
@@ -375,6 +411,7 @@ d:Country_DNK
   v-s:description "Королевство Дания"@ru ;
   v-s:description "Kingdom of Denmark"@en ;
   v-s:registrationNumber "208" ;
+  v-s:countryCallingCode "45";
 .
 d:Country_DOM
   a v-s:ClassifierCountry;
@@ -385,6 +422,7 @@ d:Country_DOM
   v-s:description "ДОМИНИКАНСКАЯ РЕСПУБЛИКА"@ru ;
   v-s:description "DOMINICAN REPUBLIC"@en ;
   v-s:registrationNumber "214" ;
+  v-s:countryCallingCode "809";
 .
 d:Country_ECU
   a v-s:ClassifierCountry;
@@ -395,6 +433,7 @@ d:Country_ECU
   v-s:description "Республика Эквадор"@ru ;
   v-s:description "The Republic of Ecuador"@en ;
   v-s:registrationNumber "218" ;
+  v-s:countryCallingCode "593";
 .
 d:Country_ETH
   a v-s:ClassifierCountry;
@@ -405,6 +444,7 @@ d:Country_ETH
   v-s:description "Федеративная Демократическая Республика Эфиопия"@ru ;
   v-s:description "Federal Democratic Republic of Ethiopia"@en ;
   v-s:registrationNumber "231" ;
+  v-s:countryCallingCode "251";
 .
 d:Country_EST
   a v-s:ClassifierCountry;
@@ -415,6 +455,7 @@ d:Country_EST
   v-s:description "Эстонская Республика"@ru ;
   v-s:description "The Republic of Estonia"@en ;
   v-s:registrationNumber "233" ;
+  v-s:countryCallingCode "372";
 .
 d:Country_FJI
   a v-s:ClassifierCountry;
@@ -425,6 +466,7 @@ d:Country_FJI
   v-s:description "Республика Фиджи"@ru ;
   v-s:description "fj"@en ;
   v-s:registrationNumber "242" ;
+  v-s:countryCallingCode "679";
 .
 d:Country_FIN
   a v-s:ClassifierCountry;
@@ -435,6 +477,7 @@ d:Country_FIN
   v-s:description "Финляндская Республика"@ru ;
   v-s:description "Republic of Finland"@en ;
   v-s:registrationNumber "246" ;
+  v-s:countryCallingCode "358";
 .
 d:Country_FRA
   a v-s:ClassifierCountry;
@@ -445,6 +488,7 @@ d:Country_FRA
   v-s:description "Французская Республика"@ru ;
   v-s:description "French Republic"@en ;
   v-s:registrationNumber "250" ;
+  v-s:countryCallingCode "33";
 .
 d:Country_GEO
   a v-s:ClassifierCountry;
@@ -455,6 +499,7 @@ d:Country_GEO
   v-s:description "Грузия"@ru ;
   v-s:description "Georgia"@en ;
   v-s:registrationNumber "268" ;
+  v-s:countryCallingCode "995";
 .
 d:Country_GMB
   a v-s:ClassifierCountry;
@@ -465,6 +510,7 @@ d:Country_GMB
   v-s:description "Республика Гамбия"@ru ;
   v-s:description "The Republic of The Gambia"@en ;
   v-s:registrationNumber "270" ;
+  v-s:countryCallingCode "220";
 .
 d:Country_PSE
   a v-s:ClassifierCountry;
@@ -475,6 +521,7 @@ d:Country_PSE
   v-s:description "Государство Палестина"@ru ;
   v-s:description "State of Palestine"@en ;
   v-s:registrationNumber "275" ;
+  v-s:countryCallingCode "970";
 .
 d:Country_DEU
   a v-s:ClassifierCountry;
@@ -485,6 +532,7 @@ d:Country_DEU
   v-s:description "Федеративная Республика Германия"@ru ;
   v-s:description "The Federal Republic of Germany"@en ;
   v-s:registrationNumber "276" ;
+  v-s:countryCallingCode "49";
 .
 d:Country_GRC
   a v-s:ClassifierCountry;
@@ -495,6 +543,7 @@ d:Country_GRC
   v-s:description "Греческая Республика"@ru ;
   v-s:description "Hellenic Republic"@en ;
   v-s:registrationNumber "300" ;
+  v-s:countryCallingCode "30";
 .
 
 d:Country_GRL
@@ -506,6 +555,7 @@ d:Country_GRL
   v-s:description "ГРЕНЛАНДИЯ"@ru ;
   v-s:description "GREENLAND"@en ;
   v-s:registrationNumber "304" ;
+  v-s:countryCallingCode "299";
 .
 d:Country_GRD
   a v-s:ClassifierCountry;
@@ -516,6 +566,7 @@ d:Country_GRD
   v-s:description "ГРЕНАДА"@ru ;
   v-s:description "GRENADA"@en ;
   v-s:registrationNumber "308" ;
+  v-s:countryCallingCode "473";
 .
 d:Country_HND
   a v-s:ClassifierCountry;
@@ -526,6 +577,7 @@ d:Country_HND
   v-s:description "Республика Гондурас"@ru ;
   v-s:description "Republic of Honduras"@en ;
   v-s:registrationNumber "340" ;
+  v-s:countryCallingCode "504";
 .
 d:Country_HKG
   a v-s:ClassifierCountry;
@@ -536,6 +588,7 @@ d:Country_HKG
   v-s:description "Специальный административный регион Китая Гонконг"@ru ;
   v-s:description "China Hong Kong Special Administrative Region"@en ;
   v-s:registrationNumber "344" ;
+  v-s:countryCallingCode "852";
 .
 d:Country_HUN
   a v-s:ClassifierCountry;
@@ -546,6 +599,7 @@ d:Country_HUN
   v-s:description "Венгрия"@ru ;
   v-s:description "Hungary"@en ;
   v-s:registrationNumber "348" ;
+  v-s:countryCallingCode "36";
 .
 d:Country_ISL
   a v-s:ClassifierCountry;
@@ -556,6 +610,7 @@ d:Country_ISL
   v-s:description "Республика Исландия"@ru ;
   v-s:description "The Republic of Iceland"@en ;
   v-s:registrationNumber "352" ;
+  v-s:countryCallingCode "354";
 .
 d:Country_IND
   a v-s:ClassifierCountry;
@@ -566,6 +621,7 @@ d:Country_IND
   v-s:description "Республика Индия"@ru ;
   v-s:description "The Republic of India"@en ;
   v-s:registrationNumber "356" ;
+  v-s:countryCallingCode "91";
 .
 d:Country_IDN
   a v-s:ClassifierCountry;
@@ -576,6 +632,7 @@ d:Country_IDN
   v-s:description "Республика Индонезия"@ru ;
   v-s:description "The Republic of Indonesia"@en ;
   v-s:registrationNumber "360" ;
+  v-s:countryCallingCode "62";
 .
 d:Country_IRN
   a v-s:ClassifierCountry;
@@ -586,6 +643,7 @@ d:Country_IRN
   v-s:description "Исламская Республика Иран"@ru ;
   v-s:description "Islamic Republic of Iran"@en ;
   v-s:registrationNumber "364" ;
+  v-s:countryCallingCode "98";
 .
 d:Country_IRQ
   a v-s:ClassifierCountry;
@@ -596,6 +654,7 @@ d:Country_IRQ
   v-s:description "Республика Ирак"@ru ;
   v-s:description "The Republic of Iraq"@en ;
   v-s:registrationNumber "368" ;
+  v-s:countryCallingCode "964";
 .
 d:Country_ISR
   a v-s:ClassifierCountry;
@@ -606,6 +665,7 @@ d:Country_ISR
   v-s:description "Государство Израиль"@ru ;
   v-s:description "The State of Israel"@en ;
   v-s:registrationNumber "376" ;
+  v-s:countryCallingCode "972";
 .
 d:Country_IRL
   a v-s:ClassifierCountry;
@@ -616,6 +676,7 @@ d:Country_IRL
   v-s:description "ИРЛАНДИЯ"@ru ;
   v-s:description "IRELAND"@en ;
   v-s:registrationNumber "372" ;
+  v-s:countryCallingCode "353";
 .
 d:Country_ITA
   a v-s:ClassifierCountry;
@@ -626,6 +687,7 @@ d:Country_ITA
   v-s:description "Итальянская Республика"@ru ;
   v-s:description "Italian Republic"@en ;
   v-s:registrationNumber "380" ;
+  v-s:countryCallingCode "39";
 .
 d:Country_JPN
   a v-s:ClassifierCountry;
@@ -636,6 +698,7 @@ d:Country_JPN
   v-s:description "ЯПОНИЯ"@ru ;
   v-s:description "JAPAN"@en ;
   v-s:registrationNumber "392" ;
+  v-s:countryCallingCode "81";
 .
 d:Country_KAZ
   a v-s:ClassifierCountry;
@@ -646,6 +709,7 @@ d:Country_KAZ
   v-s:description "Республика Казахстан"@ru ;
   v-s:description "The Republic of Kazakhstan"@en ;
   v-s:registrationNumber "398" ;
+  v-s:countryCallingCode "7";
 .
 d:Country_KEN
   a v-s:ClassifierCountry;
@@ -656,6 +720,7 @@ d:Country_KEN
   v-s:description "Республика Кения"@ru ;
   v-s:description "The Republic of Kenya"@en ;
   v-s:registrationNumber "404" ;
+  v-s:countryCallingCode "254";
 .
 d:Country_PRK
   a v-s:ClassifierCountry;
@@ -666,6 +731,7 @@ d:Country_PRK
   v-s:description "Корейская Народно-Демократическая Республика"@ru ;
   v-s:description "Korea, Democratic People's Republic of"@en ;
   v-s:registrationNumber "408" ;
+  v-s:countryCallingCode "850";
 .
 d:Country_KOR
   a v-s:ClassifierCountry;
@@ -676,6 +742,7 @@ d:Country_KOR
   v-s:description "Республика Корея"@ru ;
   v-s:description "The Republic of Korea"@en ;
   v-s:registrationNumber "410" ;
+  v-s:countryCallingCode "82";
 .
 d:Country_KWT
   a v-s:ClassifierCountry;
@@ -686,6 +753,7 @@ d:Country_KWT
   v-s:description "Государство Кувейт"@ru ;
   v-s:description "State of Kuwait"@en ;
   v-s:registrationNumber "414" ;
+  v-s:countryCallingCode "965";
 .
 d:Country_KGZ
   a v-s:ClassifierCountry;
@@ -696,6 +764,7 @@ d:Country_KGZ
   v-s:description "Киргизская Республика"@ru ;
   v-s:description "Kyrgyz Republic"@en ;
   v-s:registrationNumber "417" ;
+  v-s:countryCallingCode "996";
 .
 d:Country_LAO
   a v-s:ClassifierCountry;
@@ -706,6 +775,7 @@ d:Country_LAO
   v-s:description "ЛАОССКАЯ НАРОДНО-ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА"@ru ;
   v-s:description "Lao People's Democratic Republic"@en ;
   v-s:registrationNumber "418" ;
+  v-s:countryCallingCode "856";
 .
 d:Country_LBN
   a v-s:ClassifierCountry;
@@ -716,6 +786,7 @@ d:Country_LBN
   v-s:description "Ливанская Республика"@ru ;
   v-s:description "Lebanese Republic"@en ;
   v-s:registrationNumber "422" ;
+  v-s:countryCallingCode "961";
 .
 d:Country_LVA
   a v-s:ClassifierCountry;
@@ -726,6 +797,7 @@ d:Country_LVA
   v-s:description "Латвийская Республика"@ru ;
   v-s:description "Latvian republic"@en ;
   v-s:registrationNumber "428" ;
+  v-s:countryCallingCode "371";
 .
 d:Country_LBR
   a v-s:ClassifierCountry;
@@ -736,6 +808,7 @@ d:Country_LBR
   v-s:description "Республика Либерия"@ru ;
   v-s:description "Republic of Liberia"@en ;
   v-s:registrationNumber "430" ;
+  v-s:countryCallingCode "231";
 .
 d:Country_LBY
   a v-s:ClassifierCountry;
@@ -746,6 +819,7 @@ d:Country_LBY
   v-s:description "Ливия"@ru ;
   v-s:description "Libyan Arab Jamahiriya"@en ;
   v-s:registrationNumber "434" ;
+  v-s:countryCallingCode "218";
 .
 d:Country_LTU
   a v-s:ClassifierCountry;
@@ -756,6 +830,7 @@ d:Country_LTU
   v-s:description "Литовская Республика"@ru ;
   v-s:description "Republic of Lithuania"@en ;
   v-s:registrationNumber "440" ;
+  v-s:countryCallingCode "370";
 .
 d:Country_LUX
   a v-s:ClassifierCountry;
@@ -766,6 +841,7 @@ d:Country_LUX
   v-s:description "Великое Герцогство Люксембург"@ru ;
   v-s:description "Grand Duchy of Luxembourg"@en ;
   v-s:registrationNumber "442" ;
+  v-s:countryCallingCode "352";
 .
 d:Country_MYS
   a v-s:ClassifierCountry;
@@ -776,6 +852,7 @@ d:Country_MYS
   v-s:description "Малайзия"@ru ;
   v-s:description "Malaysia"@en ;
   v-s:registrationNumber "458" ;
+  v-s:countryCallingCode "60";
 .
 d:Country_MDV
   a v-s:ClassifierCountry;
@@ -786,6 +863,7 @@ d:Country_MDV
   v-s:description "Мальдивская Республика"@ru ;
   v-s:description "Maldives"@en ;
   v-s:registrationNumber "462" ;
+  v-s:countryCallingCode "960";
 .
 d:Country_MLI
   a v-s:ClassifierCountry;
@@ -796,6 +874,7 @@ d:Country_MLI
   v-s:description "Республика Мали"@ru ;
   v-s:description "The Republic of Mali"@en ;
   v-s:registrationNumber "466" ;
+  v-s:countryCallingCode "223";
 .
 d:Country_MLT
   a v-s:ClassifierCountry;
@@ -806,6 +885,7 @@ d:Country_MLT
   v-s:description "Республика Мальта"@ru ;
   v-s:description "Republic of Malta"@en ;
   v-s:registrationNumber "470" ;
+  v-s:countryCallingCode "356";
 .
 d:Country_MEX
   a v-s:ClassifierCountry;
@@ -816,6 +896,7 @@ d:Country_MEX
   v-s:description "Мексиканские Соединенные Штаты"@ru ;
   v-s:description "United Mexican States"@en ;
   v-s:registrationNumber "484" ;
+  v-s:countryCallingCode "52";
 .
 d:Country_MCO
   a v-s:ClassifierCountry;
@@ -826,6 +907,7 @@ d:Country_MCO
   v-s:description "Княжество Монако"@ru ;
   v-s:description "The Principality of Monaco"@en ;
   v-s:registrationNumber "492" ;
+  v-s:countryCallingCode "377";
 .
 d:Country_MNG
   a v-s:ClassifierCountry;
@@ -836,6 +918,7 @@ d:Country_MNG
   v-s:description "Монголия"@ru ;
   v-s:description "Mongolia"@en ;
   v-s:registrationNumber "496" ;
+  v-s:countryCallingCode "976";
 .
 d:Country_MDA
   a v-s:ClassifierCountry;
@@ -846,6 +929,7 @@ d:Country_MDA
   v-s:description "Республика Молдова"@ru ;
   v-s:description "The Republic of Moldova"@en ;
   v-s:registrationNumber "498" ;
+  v-s:countryCallingCode "373";
 .
 d:Country_MNE
   a v-s:ClassifierCountry;
@@ -856,6 +940,7 @@ d:Country_MNE
   v-s:description "Черногория"@ru ;
   v-s:description "Montenegro"@en ;
   v-s:registrationNumber "499" ;
+  v-s:countryCallingCode "382";
 .
 d:Country_NLD
   a v-s:ClassifierCountry;
@@ -866,6 +951,7 @@ d:Country_NLD
   v-s:description "Королевство Нидерландов"@ru ;
   v-s:description "Kingdom of the Netherlands"@en ;
   v-s:registrationNumber "528" ;
+  v-s:countryCallingCode "31";
 .
 d:Country_NZL
   a v-s:ClassifierCountry;
@@ -876,6 +962,7 @@ d:Country_NZL
   v-s:description "Новая Зеландия"@ru ;
   v-s:description "New Zealand"@en ;
   v-s:registrationNumber "554" ;
+  v-s:countryCallingCode "64";
 .
 d:Country_NIC
   a v-s:ClassifierCountry;
@@ -886,6 +973,7 @@ d:Country_NIC
   v-s:description "Республика Никарагуа"@ru ;
   v-s:description "The Republic of Nicaragua"@en ;
   v-s:registrationNumber "558" ;
+  v-s:countryCallingCode "505";
 .
 d:Country_NGA
   a v-s:ClassifierCountry;
@@ -896,6 +984,7 @@ d:Country_NGA
   v-s:description "Федеративная Республика Нигерия"@ru ;
   v-s:description "Federal Republic of Nigeria"@en ;
   v-s:registrationNumber "566" ;
+  v-s:countryCallingCode "234";
 .
 d:Country_NOR
   a v-s:ClassifierCountry;
@@ -906,6 +995,7 @@ d:Country_NOR
   v-s:description "Королевство Норвегия"@ru ;
   v-s:description "Kingdom of Norway"@en ;
   v-s:registrationNumber "578" ;
+  v-s:countryCallingCode "47";
 .
 d:Country_PAK
   a v-s:ClassifierCountry;
@@ -916,6 +1006,7 @@ d:Country_PAK
   v-s:description "Исламская Республика Пакистан"@ru ;
   v-s:description "Islamic Republic of Pakistan"@en ;
   v-s:registrationNumber "586" ;
+  v-s:countryCallingCode "92";
 .
 d:Country_PAN
   a v-s:ClassifierCountry;
@@ -926,6 +1017,7 @@ d:Country_PAN
   v-s:description "Республика Панама"@ru ;
   v-s:description "The Republic of Panama"@en ;
   v-s:registrationNumber "591" ;
+  v-s:countryCallingCode "507";
 .
 d:Country_PRY
   a v-s:ClassifierCountry;
@@ -936,6 +1028,7 @@ d:Country_PRY
   v-s:description "Республика Парагвай"@ru ;
   v-s:description "The Republic of Paraguay"@en ;
   v-s:registrationNumber "600" ;
+  v-s:countryCallingCode "595";
 .
 d:Country_PER
   a v-s:ClassifierCountry;
@@ -946,6 +1039,7 @@ d:Country_PER
   v-s:description "Республика Перу"@ru ;
   v-s:description "Republic of Peru"@en ;
   v-s:registrationNumber "604" ;
+  v-s:countryCallingCode "51";
 .
 d:Country_PHL
   a v-s:ClassifierCountry;
@@ -956,6 +1050,7 @@ d:Country_PHL
   v-s:description "Республика Филиппины"@ru ;
   v-s:description "Republic of the Philippines"@en ;
   v-s:registrationNumber "608" ;
+  v-s:countryCallingCode "63";
 .
 d:Country_POL
   a v-s:ClassifierCountry;
@@ -966,6 +1061,7 @@ d:Country_POL
   v-s:description "Республика Польша"@ru ;
   v-s:description "The Republic of Poland"@en ;
   v-s:registrationNumber "616" ;
+  v-s:countryCallingCode "48";
 .
 d:Country_PRT
   a v-s:ClassifierCountry;
@@ -976,6 +1072,7 @@ d:Country_PRT
   v-s:description "Португальская Республика"@ru ;
   v-s:description "Portuguese Republic"@en ;
   v-s:registrationNumber "620" ;
+  v-s:countryCallingCode "351";
 .
 d:Country_GNB
   a v-s:ClassifierCountry;
@@ -986,6 +1083,7 @@ d:Country_GNB
   v-s:description "Республика Гвинея-Бисау"@ru ;
   v-s:description "The Republic of Guinea-Bissau"@en ;
   v-s:registrationNumber "624" ;
+  v-s:countryCallingCode "245";
 .
 d:Country_QAT
   a v-s:ClassifierCountry;
@@ -996,6 +1094,7 @@ d:Country_QAT
   v-s:description "Государство Катар"@ru ;
   v-s:description "The State of Qatar"@en ;
   v-s:registrationNumber "634" ;
+  v-s:countryCallingCode "974";
 .
 d:Country_ROM
   a v-s:ClassifierCountry;
@@ -1006,6 +1105,7 @@ d:Country_ROM
   v-s:description "Румыния"@ru ;
   v-s:description "Romania"@en ;
   v-s:registrationNumber "642" ;
+  v-s:countryCallingCode "40";
 .
 d:Country_RWA
   a v-s:ClassifierCountry;
@@ -1016,6 +1116,7 @@ d:Country_RWA
   v-s:description "Руандийская Республика"@ru ;
   v-s:description "Rwandese Republic"@en ;
   v-s:registrationNumber "646" ;
+  v-s:countryCallingCode "250";
 .
 d:Country_SAU
   a v-s:ClassifierCountry;
@@ -1026,6 +1127,7 @@ d:Country_SAU
   v-s:description "Королевство Саудовская Аравия"@ru ;
   v-s:description "Kingdom of Saudi Arabia"@en ;
   v-s:registrationNumber "682" ;
+  v-s:countryCallingCode "966";
 .
 d:Country_SEN
   a v-s:ClassifierCountry;
@@ -1036,6 +1138,7 @@ d:Country_SEN
   v-s:description "Республика Сенегал"@ru ;
   v-s:description "The Republic of Senegal"@en ;
   v-s:registrationNumber "686" ;
+  v-s:countryCallingCode "221";
 .
 d:Country_SRB
   a v-s:ClassifierCountry;
@@ -1046,6 +1149,7 @@ d:Country_SRB
   v-s:description "Республика Сербия"@ru ;
   v-s:description "The Republic of Serbia"@en ;
   v-s:registrationNumber "688" ;
+  v-s:countryCallingCode "381";
 .
 d:Country_SGP
   a v-s:ClassifierCountry;
@@ -1056,6 +1160,7 @@ d:Country_SGP
   v-s:description "Республика Сингапур"@ru ;
   v-s:description "Republic of Singapore"@en ;
   v-s:registrationNumber "702" ;
+  v-s:countryCallingCode "65";
 .
 d:Country_SVK
   a v-s:ClassifierCountry;
@@ -1066,6 +1171,7 @@ d:Country_SVK
   v-s:description "Словацкая Республика"@ru ;
   v-s:description "The Slovak Republic"@en ;
   v-s:registrationNumber "703" ;
+  v-s:countryCallingCode "421";
 .
 d:Country_VNM
   a v-s:ClassifierCountry;
@@ -1076,6 +1182,7 @@ d:Country_VNM
   v-s:description "Социалистическая Республика Вьетнам"@ru ;
   v-s:description "The Socialist Republic of Vietnam"@en ;
   v-s:registrationNumber "704" ;
+  v-s:countryCallingCode "84";
 .
 d:Country_SVN
   a v-s:ClassifierCountry;
@@ -1086,6 +1193,7 @@ d:Country_SVN
   v-s:description "Республика Словения"@ru ;
   v-s:description "The Republic of Slovenia"@en ;
   v-s:registrationNumber "705" ;
+  v-s:countryCallingCode "386";
 .
 d:Country_ZAF
   a v-s:ClassifierCountry;
@@ -1096,6 +1204,7 @@ d:Country_ZAF
   v-s:description "Южно-Африканская Республика"@ru ;
   v-s:description "South Africa"@en ;
   v-s:registrationNumber "710" ;
+  v-s:countryCallingCode "27";
 .
 d:Country_ESP
   a v-s:ClassifierCountry;
@@ -1106,6 +1215,7 @@ d:Country_ESP
   v-s:description "Королевство Испания"@ru ;
   v-s:description "The Kingdom of Spain"@en ;
   v-s:registrationNumber "724" ;
+  v-s:countryCallingCode "34";
 .
 d:Country_SDN
   a v-s:ClassifierCountry;
@@ -1116,6 +1226,7 @@ d:Country_SDN
   v-s:description "Республика Судан"@ru ;
   v-s:description "Republic of the Sudan"@en ;
   v-s:registrationNumber "729" ;
+  v-s:countryCallingCode "249";
 .
 d:Country_SWE
   a v-s:ClassifierCountry;
@@ -1126,6 +1237,7 @@ d:Country_SWE
   v-s:description "Королевство Швеция"@ru ;
   v-s:description "Kingdom of Sweden"@en ;
   v-s:registrationNumber "752" ;
+  v-s:countryCallingCode "46";
 .
 d:Country_CHE
   a v-s:ClassifierCountry;
@@ -1136,6 +1248,7 @@ d:Country_CHE
   v-s:description "Швейцарская Конфедерация"@ru ;
   v-s:description "The Swiss Confederation"@en ;
   v-s:registrationNumber "756" ;
+  v-s:countryCallingCode "41";
 .
 d:Country_SYR
   a v-s:ClassifierCountry;
@@ -1146,6 +1259,7 @@ d:Country_SYR
   v-s:description "СИРИЙСКАЯ АРАБСКАЯ РЕСПУБЛИКА"@ru ;
   v-s:description "Syrian Arab Republic"@en ;
   v-s:registrationNumber "760" ;
+  v-s:countryCallingCode "963";
 .
 d:Country_TJK
   a v-s:ClassifierCountry;
@@ -1156,6 +1270,7 @@ d:Country_TJK
   v-s:description "Республика Таджикистан"@ru ;
   v-s:description "The Republic of Tajikistan"@en ;
   v-s:registrationNumber "762" ;
+  v-s:countryCallingCode "992";
 .
 d:Country_THA
   a v-s:ClassifierCountry;
@@ -1166,6 +1281,7 @@ d:Country_THA
   v-s:description "Королевство Таиланд"@ru ;
   v-s:description "Kingdom of Thailand"@en ;
   v-s:registrationNumber "764" ;
+  v-s:countryCallingCode "66";
 .
 d:Country_ARE
   a v-s:ClassifierCountry;
@@ -1176,6 +1292,7 @@ d:Country_ARE
   v-s:description "ОБЪЕДИНЕННЫЕ АРАБСКИЕ ЭМИРАТЫ"@ru ;
   v-s:description "United Arab Emirates"@en ;
   v-s:registrationNumber "784" ;
+  v-s:countryCallingCode "971";
 .
 d:Country_TUN
   a v-s:ClassifierCountry;
@@ -1186,6 +1303,7 @@ d:Country_TUN
   v-s:description "Тунисская Республика"@ru ;
   v-s:description "Republic of Tunisia"@en ;
   v-s:registrationNumber "788" ;
+  v-s:countryCallingCode "216";
 .
 d:Country_TUR
   a v-s:ClassifierCountry;
@@ -1196,6 +1314,7 @@ d:Country_TUR
   v-s:description "Турецкая Республика"@ru ;
   v-s:description "Turkish Republic"@en ;
   v-s:registrationNumber "792" ;
+  v-s:countryCallingCode "90";
 .
 d:Country_TKM
   a v-s:ClassifierCountry;
@@ -1206,6 +1325,7 @@ d:Country_TKM
   v-s:description "Туркменистан"@ru ;
   v-s:description "Turkmenistan"@en ;
   v-s:registrationNumber "795" ;
+  v-s:countryCallingCode "7";
 .
 d:Country_UKR
   a v-s:ClassifierCountry;
@@ -1216,6 +1336,7 @@ d:Country_UKR
   v-s:description "Украина"@ru ;
   v-s:description "Ukraine"@en ;
   v-s:registrationNumber "704" ;
+  v-s:countryCallingCode "380";
 .
 d:Country_EGY
   a v-s:ClassifierCountry;
@@ -1226,6 +1347,7 @@ d:Country_EGY
   v-s:description "Арабская Республика Египет"@ru ;
   v-s:description "Arab Republic of Egypt"@en ;
   v-s:registrationNumber "818" ;
+  v-s:countryCallingCode "20";
 .
 d:Country_GBR
   a v-s:ClassifierCountry;
@@ -1236,6 +1358,7 @@ d:Country_GBR
   v-s:description "Соединенное Королевство Великобритании и Северной Ирландии"@ru ;
   v-s:description "United Kingdom"@en ;
   v-s:registrationNumber "826" ;
+  v-s:countryCallingCode "44";
 .
 d:Country_USA
   a v-s:ClassifierCountry;
@@ -1246,6 +1369,7 @@ d:Country_USA
   v-s:description "Соединенные Штаты Америки"@ru ;
   v-s:description "United States of America"@en ;
   v-s:registrationNumber "840" ;
+  v-s:countryCallingCode "1";
 .
 d:Country_UZB
   a v-s:ClassifierCountry;
@@ -1256,6 +1380,7 @@ d:Country_UZB
   v-s:description "Республика Узбекистан"@ru ;
   v-s:description "The Republic of Uzbekistan"@en ;
   v-s:registrationNumber "860" ;
+  v-s:countryCallingCode "998";
 .
 d:Country_ABH
   a v-s:ClassifierCountry;
@@ -1266,6 +1391,7 @@ d:Country_ABH
   v-s:description "Республика Абхазия"@ru ;
   v-s:description "The Republic of Abkhazia"@en ;
   v-s:registrationNumber "895" ;
+  v-s:countryCallingCode "7";
 .
 d:Country_OST
   a v-s:ClassifierCountry;
@@ -1276,6 +1402,7 @@ d:Country_OST
   v-s:description "Республика Южная Осетия"@ru ;
   v-s:description "Republic of South Ossetia"@en ;
   v-s:registrationNumber "896" ;
+  v-s:countryCallingCode "7";
 .
 
 
