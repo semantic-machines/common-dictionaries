@@ -218,6 +218,7 @@ d:5026ea45f86d49df8d6a1fabc6a3446b
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
   rdfs:label "Купля-продажа"^^xsd:string;
   v-s:registrationNumber "030.120.010"^^xsd:string;
+  v-s:shortLabel "КП"^^xsd:string;
 .
 
 d:8895363c77984d4284df7a5d4c265f7a
@@ -842,6 +843,7 @@ d:acf44ed83484468bab99124d4708ac4f
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
   rdfs:label "Страхование"^^xsd:string;
   v-s:registrationNumber "030.120.160"^^xsd:string;
+  v-s:shortLabel "С"^^xsd:string;
 .
 
 d:831daafd86d9489ebb458450a49998a2
@@ -985,6 +987,7 @@ d:812b7db9dc974c34aaa02f4a0609032f
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
   rdfs:label "Возмездное оказание услуг"^^xsd:string;
   v-s:registrationNumber "030.120.100"^^xsd:string;
+  v-s:shortLabel "У"^^xsd:string;
 .
 
 d:3930908741864b31ac4d155fbb171bbf
@@ -1201,6 +1204,7 @@ d:1b0d368c502f4e4db36f0e6cf9513b16
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
   rdfs:label "Аренда"^^xsd:string;
   v-s:registrationNumber "030.120.050"^^xsd:string;
+  v-s:shortLabel "Ар"^^xsd:string;
 .
 
 d:52520c80f0e14b40a2ef0f27b0a727d6
@@ -1812,6 +1816,7 @@ d:05a019635556441aa111421951cb3850
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
   rdfs:label "Безвозмездное пользование"^^xsd:string;
   v-s:registrationNumber "030.120.070"^^xsd:string;
+  v-s:shortLabel "БП"^^xsd:string;
 .
 d:e29cb82cd2ae42e59dd1af8c7f002292
   a v-s:Sector;
