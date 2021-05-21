@@ -1258,3 +1258,9 @@ d:wcf7i6yyxnqzawg8w9akmambop
   rdfs:label "Зумлион"@ru ;
   rdfs:label "Zoomlion"@en ;
 .
+d:i578gs67qnvobzn3ijg4ncj0lq
+  a v-s:VehicleModel;
+  rdfs:label "Bova"@ru ;
+  rdfs:label "Bova"@en ;
+  rdfs:comment "VDL Бова";
+.
