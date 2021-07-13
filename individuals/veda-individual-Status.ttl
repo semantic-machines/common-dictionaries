@@ -442,3 +442,15 @@ v-s:StatusUnlockWaiting
   rdfs:label "Waiting for unlock"@en ;
   v-s:tag "warning" ;
 .
+v-s:StatusUnderControl
+  rdf:type v-s:Status ;
+  rdfs:label "На контроле"@ru ;
+  rdfs:label "Under control"@en ;
+  v-s:tag "warning" ;
+.
+v-s:StatusNotPerformed
+  rdf:type v-s:Status ;
+  rdfs:label "Не выполнено"@ru ;
+  rdfs:label "Not performed"@en ;
+  v-s:tag "default" ;
+.
