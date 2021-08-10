@@ -78,7 +78,7 @@ d:OKOPF_12247
 .
 d:OKOPF_12267
   a v-s:ClassifierLegalForm;
-  rdfs:label "АО" ;
+  rdfs:label "АО / ЗАО" ;
   v-s:title "Непубличные акционерные общества" ;
   v-s:registrationNumber "12267" ;
   v-s:hasParentLink d:OKOPF_12200 ;
