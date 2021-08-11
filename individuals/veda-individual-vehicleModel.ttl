@@ -1264,3 +1264,17 @@ d:i578gs67qnvobzn3ijg4ncj0lq
   rdfs:label "Bova"@en ;
   rdfs:comment "VDL Бова";
 .
+
+d:dy8jw4t9a4ixfz6saiq3vxgwd36ooeg8
+    a v-s:VehicleModel;
+  rdfs:label "CHANGLIN"@ru ;
+  rdfs:label "CHANGLIN"@en ;
+  rdfs:comment "Changlin"^^xsd:string;
+.
+
+d:vk1ag013egjzqb07w6hw6zzu0jxzcq7a
+    a v-s:VehicleModel;
+  rdfs:label "CASE"@ru ;
+  rdfs:label "CASE"@en ;
+  rdfs:comment "Case"^^xsd:string;
+.
