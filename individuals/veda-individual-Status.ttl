@@ -400,6 +400,12 @@ v-s:StatusProcessed
   rdfs:label "Processed"@en ;
   v-s:tag "success" ;
 .
+v-s:StatusPartiallyProcessed
+  rdf:type v-s:Status ;
+  rdfs:label "Обработано частично"@ru ;
+  rdfs:label "Partially processed "@en ;
+  v-s:tag "success" ;
+.
 v-s:StatusScheduled
   rdf:type v-s:Status ;
   rdfs:label "Запланировано"@ru ;
