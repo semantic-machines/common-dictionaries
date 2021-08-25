@@ -28,24 +28,29 @@ d:delegate_Control
     a v-s:DelegationPurpose;
     rdfs:label "Контроль (только просмотр)"@ru;
     rdfs:label "Control (viewing only)"@en;
+    v-s:shortLabel "к"^^xsd:string ;
 .
 d:delegate_Role
     a v-s:DelegationPurpose;
     rdfs:label "Постоянная функция"@ru;
     rdfs:label "Permanent function"@en;
+    v-s:shortLabel "роль"^^xsd:string ;
 .
 d:delegate_Assistant
     a v-s:DelegationPurpose;
     rdfs:label "Помощник"@ru;
     rdfs:label "Assistant"@en;
+    v-s:shortLabel "пом"^^xsd:string ;
 .
 d:delegate_Acting
     a v-s:DelegationPurpose;
     rdfs:label "Временно исполняющий обязанности"@ru;
     rdfs:label "Acting"@en;
+    v-s:shortLabel "врио"^^xsd:string ;
 .
 d:delegate_Collaboration
     a v-s:DelegationPurpose;
     rdfs:label "Совместная работа"@ru;
     rdfs:label "Collaboration"@en;
+    v-s:shortLabel "с.р."^^xsd:string ;
 .
