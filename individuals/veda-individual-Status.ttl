@@ -34,7 +34,14 @@ v-s:TS_Status
   v-ui:defaultTemplate v-ui:StatusTemplate;
   v-ui:forClass v-s:Status
 .
-
+v-s:CS_Status 
+  rdf:type v-s:ClassSpecification ;
+  rdfs:label "Спецификация класса v-s:Status"@ru, "Class specification v-s:Status"@en;
+  v-s:hasClass v-s:Status ;
+  v-s:isShelfLifeAlways true ;
+  v-ui:defaultTemplate v-ui:StatusTemplate;
+  v-s:loadPriority 15 ;
+.
 v-ui:StatusTemplate
   rdf:type v-ui:ClassTemplate ;
   rdfs:label "Шаблон для класса Статус"@ru ;
