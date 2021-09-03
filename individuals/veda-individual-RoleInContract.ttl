@@ -29,6 +29,16 @@ d:wws2oz313z6xpl1hd4u3laxzfg
   rdfs:label "Исполнитель"@ru ;
   rdfs:label "Supplier"@en ;
 .
+d:ge78v7hpfdmak7av1v7m9smycl
+  a v-s:RoleInContract;
+  rdfs:label "Подрядчик"@ru ;
+  rdfs:label "Contractor"@en ;
+.
+d:4lqno9s86a6fj3r2ney4vvxzbo
+  a v-s:RoleInContract;
+  rdfs:label "Автор"@ru ;
+  rdfs:label "Author"@en ;
+.
 #-------
 d:a14fhdnimgodskj2jlmzwausubs
   a v-s:RoleInContract;
@@ -39,6 +49,128 @@ d:jslj1t0dm3o6sg8jas931um4kw
   a v-s:RoleInContract;
   rdfs:label "Продавец"@ru ;
   rdfs:label "Seller"@en ;
+.
+#-------
+d:mrxvpir5r0um1jllfp9j67j2pl
+  a v-s:RoleInContract;
+  rdfs:label "Принципал"@ru ;
+  rdfs:label "Principal"@en ;
+.
+d:vgkbbmyui865hs5zm3sjewhfuf
+  a v-s:RoleInContract;
+  rdfs:label "Агент"@ru ;
+  rdfs:label "Agent"@en ;
+.
+d:dacn08vqsi7bkyvg3eogres63v
+  a v-s:RoleInContract;
+  rdfs:label "Гарант"@ru ;
+  rdfs:label "Garant"@en ;
+.
+#-------
+d:621s3d8pcpko7atkcwu8rleyu5
+  a v-s:RoleInContract;
+  rdfs:label "Заемщик"@ru ;
+  rdfs:label "Borrower"@en ;
+.
+d:z5l65m5erip778bp5xx1ija13e
+  a v-s:RoleInContract;
+  rdfs:label "Кредитор"@ru ;
+  rdfs:label "Creditor"@en ;
+.
+d:kqku1iwrq58h5hbvk7z3mimnv6
+  a v-s:RoleInContract;
+  rdfs:label "Займодавец"@ru ;
+  rdfs:label "Lender"@en ;
+.
+d:3jrjd78x8q4waet1y61oaefwhh
+  a v-s:RoleInContract;
+  rdfs:label "Должник"@ru ;
+  rdfs:label "Debtor"@en ;
+.
+d:a4sjpkvp7e8xsb3fjbbai2dbuo
+  a v-s:RoleInContract;
+  rdfs:label "Поручитель"@ru ;
+  rdfs:label "Guarantor"@en ;
+.
+#-------
+d:4x5caldmjmqrsil6w3kxc4igj6
+  a v-s:RoleInContract;
+  rdfs:label "Залогодатель"@ru ;
+  rdfs:label "Pledger"@en ;
+.
+d:8vll4xz4w7nf3fm0z8bh4lvybn
+  a v-s:RoleInContract;
+  rdfs:label "Залогодержатель"@ru ;
+  rdfs:label "Pledgee"@en ;
+.
+#-------
+d:1qmf4zbfphz8tdnrlyb7xcim14
+  a v-s:RoleInContract;
+  rdfs:label "Клиент"@ru ;
+  rdfs:label "Client"@en ;
+.
+d:5we53v99z9sdzbnnftcbbf4ml5
+  a v-s:RoleInContract;
+  rdfs:label "Финансовый агент (фактор)"@ru ;
+  rdfs:label "Financial agent (factor)"@en ;
+.
+#-------
+d:p57px25gizkbshkwjgikl2cmug
+  a v-s:RoleInContract;
+  rdfs:label "Отправитель"@ru ;
+  rdfs:label "Sender"@en ;
+.
+d:mi966cfvb38c10ltydfuy0li7d
+  a v-s:RoleInContract;
+  rdfs:label "Фрахтователь"@ru ;
+  rdfs:label "Charterer"@en ;
+.
+d:ip8qaiiq7uns5ojwxksigx4xma
+  a v-s:RoleInContract;
+  rdfs:label "Пассажир"@ru ;
+  rdfs:label "Passenger"@en ;
+.
+d:9e6qlillkavor05bntal78g9xd
+  a v-s:RoleInContract;
+  rdfs:label "Перевозчик"@ru ;
+  rdfs:label "Transporter"@en ;
+.
+d:bvfp5rr74a1yix8om3ewoezjzl
+  a v-s:RoleInContract;
+  rdfs:label "Экспедитор"@ru ;
+  rdfs:label "Forwarder"@en ;
+.
+d:7j1irg5so22xvbpyye69lc53eg
+  a v-s:RoleInContract;
+  rdfs:label "Фрахтовщик"@ru ;
+  rdfs:label "Freighter"@en ;
+.
+#-------
+d:wt56dd333ej1noiapi3sea8i2q
+  a v-s:RoleInContract;
+  rdfs:label "Потерпевший"@ru ;
+  rdfs:label "Victim"@en ;
+.
+d:bdxn7pjfm17e9p39fh3lnodj26
+  a v-s:RoleInContract;
+  rdfs:label "Приобретатель"@ru ;
+  rdfs:label "Acquirer"@en ;
+.
+d:6ew8bux1vtf1l3f1osc9qn5zyr
+  a v-s:RoleInContract;
+  rdfs:label "Причинитель вреда"@ru ;
+  rdfs:label "Causer of harm"@en ;
+.
+#-------
+d:id7l5zyp8e7cparzbapdhay7jp
+  a v-s:RoleInContract;
+  rdfs:label "Поклажедатель"@ru ;
+  rdfs:label "Depositor"@en ;
+.
+d:kcdr9iz59c0ln278zd7xwsozlc
+  a v-s:RoleInContract;
+  rdfs:label "Хранитель"@ru ;
+  rdfs:label "Keeper"@en ;
 .
 #-------
 d:rdvfeae7ylufawj02z492cxmto
@@ -52,59 +184,126 @@ d:tv2r6lzebfk6p3298jsnwokgxk
   rdfs:label "Attorney"@en ;
 .
 #-------
-d:a1nzzs06xqqx3fvud0bsjq78cdq
+d:pc33tn0mn28abrkm2zd4fld8gj
   a v-s:RoleInContract;
-  rdfs:label "Арендодатель"@ru ;
-  rdfs:label "Landlord"@en ;
+  rdfs:label "Комитент"@ru ;
+  rdfs:label "Comitant"@en ;
 .
+d:afklcfa4kr77v34ydbvy6osc8f
+  a v-s:RoleInContract;
+  rdfs:label "Комиссионер"@ru ;
+  rdfs:label "Commissioner"@en ;
+.
+#-------
+d:jmcbsmuhxytofdc1ksxcey8pym
+  a v-s:RoleInContract;
+  rdfs:label "Пользователь"@ru ;
+  rdfs:label "User"@en ;
+.
+d:96ul8zxbwm0d06pks63dr1w9rx
+  a v-s:RoleInContract;
+  rdfs:label "Правообладатель"@ru ;
+  rdfs:label "Copyright holder"@en ;
+.
+#-------
+d:ntmvb2g56iw29qnddx14h0anmz
+  a v-s:RoleInContract;
+  rdfs:label "Заинтересованное лицо"@ru ;
+  rdfs:label "Stakeholder"@en ;
+.
+d:mkrqj1ih08mcjez01heyvyw9iv
+  a v-s:RoleInContract;
+  rdfs:label "Лицо, действующее в чужом интересе"@ru ;
+  rdfs:label "A person acting in another's interest"@en ;
+.
+#-------
+d:d43hmxjv1afzjk03hywreb80lf
+  a v-s:RoleInContract;
+  rdfs:label "Лицензиат"@ru ;
+  rdfs:label "Licensee"@en ;
+.
+d:98o87qufmakw17zmm7br8s4tnb
+  a v-s:RoleInContract;
+  rdfs:label "Лицензиар"@ru ;
+  rdfs:label "Licensor"@en ;
+.
+#-------
 d:ji9b5cqs5ucr1uy8ou7s78989x
   a v-s:RoleInContract;
   rdfs:label "Арендатор"@ru ;
   rdfs:label "Tenant"@en ;
 .
-#-------
-d:wh0t3y7ou4k9o0ec5vw4j5df5c
+d:a1nzzs06xqqx3fvud0bsjq78cdq
   a v-s:RoleInContract;
-  rdfs:label "Страховщик"@ru ;
-  rdfs:label "Assurer"@en ;
+  rdfs:label "Арендодатель"@ru ;
+  rdfs:label "Landlord"@en ;
 .
+#-------
+d:b4rtclaivxz7yg2bqgllyulxnd
+  a v-s:RoleInContract;
+  rdfs:label "Наниматель"@ru ;
+  rdfs:label "Landlord"@en ;
+.
+d:fetlvi2y7a4dv2mzrxycxb6zb9
+  a v-s:RoleInContract;
+  rdfs:label "Наймодатель"@ru ;
+  rdfs:label "Tenant"@en ;
+.
+#-------
 d:xxsa1kfknh7anmo6688y026udp
   a v-s:RoleInContract;
   rdfs:label "Страхователь"@ru ;
   rdfs:label "Insurer"@en ;
 .
-
-#-------
-d:a1268rvzfsml3g4j0wcjxf2skc9
+d:wh0t3y7ou4k9o0ec5vw4j5df5c
   a v-s:RoleInContract;
-  rdfs:label "Даритель"@ru ;
-  rdfs:label "Grantor"@en ;
+  rdfs:label "Страховщик"@ru ;
+  rdfs:label "Assurer"@en ;
 .
+#-------
 d:p7xxv9vvwex8f1jfs2lhqjl85v
   a v-s:RoleInContract;
   rdfs:label "Одаряемый"@ru ;
   rdfs:label "Donee"@en ;
 .
-
-
-d:dm44s17tayal8frdutpnb2matk
+d:a1268rvzfsml3g4j0wcjxf2skc9
   a v-s:RoleInContract;
-  rdfs:label "Заинтересованная сторона"@ru ;
-  rdfs:label "Stakeholder"@en ;
+  rdfs:label "Даритель"@ru ;
+  rdfs:label "Grantor"@en ;
 .
-
 #-------
-d:d7baxl3cu7w5hbzl2g560vyvb0
-  a v-s:RoleInContract;
-  rdfs:label "Ссудодатель"@ru ;
-  rdfs:label "Lender"@en ;
-.
 d:kwe8nsn9qn3e6u9dczwn7wpu67
   a v-s:RoleInContract;
   rdfs:label "Ссудополучатель"@ru ;
   rdfs:label "Lender"@en ;
 .
-
+d:d7baxl3cu7w5hbzl2g560vyvb0
+  a v-s:RoleInContract;
+  rdfs:label "Ссудодатель"@ru ;
+  rdfs:label "Lender"@en ;
+.
+#-------
+d:mtj7ptexzw25jib39fz1ztv650
+  a v-s:RoleInContract;
+  rdfs:label "Вкладчик"@ru ;
+  rdfs:label "Depositor"@en ;
+.
+d:dnjw2u8lh5y4ztrzx5zjq8o4hf
+  a v-s:RoleInContract;
+  rdfs:label "Банк"@ru ;
+  rdfs:label "Bank"@en ;
+.
+#-------
+d:fvz5a1e2xasvlpsfl2ekzeipax
+  a v-s:RoleInContract;
+  rdfs:label "Участник"@ru ;
+  rdfs:label "Participant"@en ;
+.
+d:ng0x1k7d5yovsev9o1zs17qxve
+  a v-s:RoleInContract;
+  rdfs:label "Устроитель"@ru ;
+  rdfs:label "Organizer"@en ;
+.
 #-------
 d:hmmpzblf01agptcfl0kn704l2a
   a v-s:RoleInContract;
@@ -118,3 +317,18 @@ d:h77kc056374cpeyqk9qj2nl20e
 .
 
 
+d:dm44s17tayal8frdutpnb2matk
+  a v-s:RoleInContract;
+  rdfs:label "Заинтересованная сторона"@ru ;
+  rdfs:label "Stakeholder"@en ;
+.
+d:0yo5znskta3in6imyrgfpjewc8
+  a v-s:RoleInContract;
+  rdfs:label "Поставщик"@ru ;
+  rdfs:label "Provider"@en ;
+.
+d:p4mr293v3afqt21ubjfl2ct0w9
+  a v-s:RoleInContract;
+  rdfs:label "Получатель"@ru ;
+  rdfs:label "Recipient"@en ;
+.
