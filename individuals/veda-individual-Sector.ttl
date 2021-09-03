@@ -216,6 +216,8 @@ d:0d748c70b31745329ff5fbe2893aa03f
 d:5026ea45f86d49df8d6a1fabc6a3446b
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:a14fhdnimgodskj2jlmzwausubs;
+  v-s:suppliersRoleInContract d:jslj1t0dm3o6sg8jas931um4kw;
   rdfs:label "Купля-продажа"^^xsd:string;
   v-s:registrationNumber "030.120.010"^^xsd:string;
   v-s:shortLabel "КП"^^xsd:string;
@@ -275,6 +277,8 @@ d:97b94eb40c6b4583a9911ef6fcde067b
 d:dc518818cb1740a68e7c024d81102e37
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:dsxyd1uxsxuui6f1t3s4ki3rdp;
+  v-s:suppliersRoleInContract d:ge78v7hpfdmak7av1v7m9smycl;
   rdfs:label "Строительный подряд (в т.ч строительство под ключ)"^^xsd:string;
   v-s:registrationNumber "030.120.080"^^xsd:string;
 .
@@ -327,6 +331,8 @@ d:3f4a2dd6a8604b579c65857de9e39568
 d:5fc34b0357f34e8996143dc9032de5c6
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:1qmf4zbfphz8tdnrlyb7xcim14;
+  v-s:suppliersRoleInContract d:9e6qlillkavor05bntal78g9xd;
   rdfs:label "Перевозка. Транспортная экспедиция"^^xsd:string;
   v-s:registrationNumber "030.120.110"^^xsd:string;
 .
@@ -334,6 +340,8 @@ d:5fc34b0357f34e8996143dc9032de5c6
 d:b163739df75646a1a30be541071028fb
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:1qmf4zbfphz8tdnrlyb7xcim14;
+  v-s:suppliersRoleInContract d:5we53v99z9sdzbnnftcbbf4ml5;
   rdfs:label "Финансирование под уступку денежного требования"^^xsd:string;
   v-s:registrationNumber "030.120.120"^^xsd:string;
 .
@@ -452,6 +460,8 @@ d:713607444a6240038059e3c3e337a7d6
 d:f78aba8164604a29810e3f1b7d6f4f79
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:bdxn7pjfm17e9p39fh3lnodj26;
+  v-s:suppliersRoleInContract d:wt56dd333ej1noiapi3sea8i2q;
   rdfs:label "Обязательства вследствие неосновательного обогащения"^^xsd:string;
   v-s:registrationNumber "030.120.230"^^xsd:string;
 .
@@ -460,7 +470,8 @@ d:0e162619a2934e75ab27ac34b5630576
   a v-s:Sector;
   v-s:hasParentLink d:30d9ac31bf4048d9b12a7e2ec171c27d;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
-  rdfs:label "Служебная и   коммерческая тайна"^^xsd:string;
+  v-s:stakeholdersRoleInContract d:dm44s17tayal8frdutpnb2matk;
+  rdfs:label "Служебная и коммерческая тайна"^^xsd:string;
   v-s:registrationNumber "030.130.060"^^xsd:string;
 .
 
@@ -834,13 +845,44 @@ d:9df38352d8444e83816ad5d1f9c2f0fc
 d:e7b11abf4006413b9e225481d0af0ddd
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
-  rdfs:label "Агентский"^^xsd:string;
+  v-s:customersRoleInContract d:mrxvpir5r0um1jllfp9j67j2pl;
+  v-s:suppliersRoleInContract d:vgkbbmyui865hs5zm3sjewhfuf;
+  rdfs:label "Агентирование"^^xsd:string;
+  v-s:registrationNumber "030.120.170"^^xsd:string;
+.
+
+d:xw0ciof3st0273bki5ww3eynoxv8qo86
+  a v-s:Sector;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:rdvfeae7ylufawj02z492cxmto;
+  v-s:suppliersRoleInContract d:tv2r6lzebfk6p3298jsnwokgxk;
+  rdfs:label "Поручение"^^xsd:string;
+  v-s:registrationNumber "030.120.170"^^xsd:string;
+.
+
+d:fxz4x1x2rdf4a3nxfrxx4w4kt6sg0po1
+  a v-s:Sector;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:ntmvb2g56iw29qnddx14h0anmz;
+  v-s:suppliersRoleInContract d:mkrqj1ih08mcjez01heyvyw9iv;
+  rdfs:label "Действия в чужом интересе без поручения"^^xsd:string;
+  v-s:registrationNumber "030.120.170"^^xsd:string;
+.
+
+d:90v69ip7cwexhwbv9y4vu6ppaghg6yrw
+  a v-s:Sector;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:pc33tn0mn28abrkm2zd4fld8gj;
+  v-s:suppliersRoleInContract d:afklcfa4kr77v34ydbvy6osc8f;
+  rdfs:label "Комиссия"^^xsd:string;
   v-s:registrationNumber "030.120.170"^^xsd:string;
 .
 
 d:acf44ed83484468bab99124d4708ac4f
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:xxsa1kfknh7anmo6688y026udp;
+  v-s:suppliersRoleInContract d:wh0t3y7ou4k9o0ec5vw4j5df5c;
   rdfs:label "Страхование"^^xsd:string;
   v-s:registrationNumber "030.120.160"^^xsd:string;
   v-s:shortLabel "С"^^xsd:string;
@@ -943,6 +985,8 @@ d:ab7a5153c9ab4d3a8c4cbfcd88b628ce
 d:d4d803c1dbc54cb0a3c28705f476f72d
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:id7l5zyp8e7cparzbapdhay7jp;
+  v-s:suppliersRoleInContract d:kcdr9iz59c0ln278zd7xwsozlc;
   rdfs:label "Хранение"^^xsd:string;
   v-s:registrationNumber "030.120.150"^^xsd:string;
 .
@@ -985,6 +1029,8 @@ d:7bc0e1c8c41c4d52ad98cf157ddfbed0
 d:812b7db9dc974c34aaa02f4a0609032f
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:dsxyd1uxsxuui6f1t3s4ki3rdp;
+  v-s:suppliersRoleInContract d:wws2oz313z6xpl1hd4u3laxzfg;
   rdfs:label "Возмездное оказание услуг"^^xsd:string;
   v-s:registrationNumber "030.120.100"^^xsd:string;
   v-s:shortLabel "У"^^xsd:string;
@@ -1202,6 +1248,8 @@ d:748284793e5b42e69d10c456efd36eda
 d:1b0d368c502f4e4db36f0e6cf9513b16
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:ji9b5cqs5ucr1uy8ou7s78989x;
+  v-s:suppliersRoleInContract d:a1nzzs06xqqx3fvud0bsjq78cdq;
   rdfs:label "Аренда"^^xsd:string;
   v-s:registrationNumber "030.120.050"^^xsd:string;
   v-s:shortLabel "Ар"^^xsd:string;
@@ -1313,14 +1361,18 @@ d:506614f30cdd4494976d190a83fccb4e
 d:b3155bcd4e1e4cf1969ff3a75e746b9b
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:621s3d8pcpko7atkcwu8rleyu5;
+  v-s:suppliersRoleInContract d:z5l65m5erip778bp5xx1ija13e;
   rdfs:label "Кредит. Заем"^^xsd:string;
   v-s:registrationNumber "030.120.120"^^xsd:string;
 .
 
 d:0e473b25aacf4dbbaabbf3125b22be2a
   a v-s:Sector;
-  rdfs:label "Банковский счет. Банковский вклад"^^xsd:string;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:mtj7ptexzw25jib39fz1ztv650;
+  v-s:suppliersRoleInContract d:dnjw2u8lh5y4ztrzx5zjq8o4hf;
+  rdfs:label "Банковский счет. Банковский вклад"^^xsd:string;
   v-s:registrationNumber "030.120.130"^^xsd:string;
 .
 
@@ -1341,6 +1393,8 @@ d:06b0f6bc11b04acf96242a9d024d27b1
 d:542898636dce4165a494b4d04515142a
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:bdxn7pjfm17e9p39fh3lnodj26;
+  v-s:suppliersRoleInContract d:wt56dd333ej1noiapi3sea8i2q;
   rdfs:label "Обязательства вследствие причинения вреда"^^xsd:string;
   v-s:registrationNumber "030.120.220"^^xsd:string;
 .
@@ -1783,6 +1837,8 @@ d:01cfeb232eb7470b81d51c3a0e7230e2
 d:64eede016dff4464894dc49070aa2602
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:b4rtclaivxz7yg2bqgllyulxnd;
+  v-s:suppliersRoleInContract d:fetlvi2y7a4dv2mzrxycxb6zb9;
   rdfs:label "Наем жилого помещения"^^xsd:string;
   v-s:registrationNumber "030.120.060"^^xsd:string;
 .
@@ -1808,37 +1864,45 @@ d:9b9354e19fb24d74a71ab476100bf3e9
 d:2ae4749b19b14d6fb136c14ffe09f61a
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:p7xxv9vvwex8f1jfs2lhqjl85v;
+  v-s:suppliersRoleInContract d:a1268rvzfsml3g4j0wcjxf2skc9;
   rdfs:label "Дарение"^^xsd:string;
   v-s:registrationNumber "030.120.030"^^xsd:string;
 .
 d:05a019635556441aa111421951cb3850
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:kwe8nsn9qn3e6u9dczwn7wpu67;
+  v-s:suppliersRoleInContract d:d7baxl3cu7w5hbzl2g560vyvb0;
   rdfs:label "Безвозмездное пользование"^^xsd:string;
   v-s:registrationNumber "030.120.070"^^xsd:string;
   v-s:shortLabel "БП"^^xsd:string;
 .
 d:e29cb82cd2ae42e59dd1af8c7f002292
   a v-s:Sector;
-  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
   rdfs:label "Расчеты"^^xsd:string;
   v-s:registrationNumber "030.120.140"^^xsd:string;
 .
 d:7bc674d6a23646e5b9b5296ca1c9e9f5
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:kwe8nsn9qn3e6u9dczwn7wpu67;
+  v-s:suppliersRoleInContract d:d7baxl3cu7w5hbzl2g560vyvb0;
   rdfs:label "Коммерческая концессия"^^xsd:string;
   v-s:registrationNumber "030.120.190"^^xsd:string;
 .
 d:f6637ac2d2aa465792ef11aa6bca3d50
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
-  rdfs:label "Публичный конкурс"^^xsd:string;
+  v-s:customersRoleInContract d:fvz5a1e2xasvlpsfl2ekzeipax;
+  v-s:suppliersRoleInContract d:ng0x1k7d5yovsev9o1zs17qxve;
+  rdfs:label "Публичный конкурс. Проведение игр и пари. Публичное обещание награды"^^xsd:string;
   v-s:registrationNumber "030.120.210"^^xsd:string;
 .
 d:0e18eea3018e4b5793446c48112012e9
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:stakeholdersRoleInContract d:dm44s17tayal8frdutpnb2matk;
   rdfs:label "Другие виды обязательств"^^xsd:string;
   v-s:registrationNumber "030.120.240"^^xsd:string;
 .
@@ -1851,15 +1915,160 @@ d:fcce8db50b364f69aaa5062a3f3ea9c3
 d:3143fa8a631846e08e83eb846f717157
   a v-s:Sector;
   v-s:hasParentLink d:fcce8db50b364f69aaa5062a3f3ea9c3;
-  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
   rdfs:label "Исполнение обязательств (неустойка, залог, гарантия, задаток)"^^xsd:string;
   v-s:registrationNumber "030.100.020"^^xsd:string;
 .
+d:somesz4cfxv58qkmw2wkn0cnzg71x40q
+  a v-s:Sector;
+  v-s:hasParentLink d:3143fa8a631846e08e83eb846f717157;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:z5l65m5erip778bp5xx1ija13e;
+  v-s:suppliersRoleInContract d:3jrjd78x8q4waet1y61oaefwhh;
+  rdfs:label "Неустойка"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+d:86o3okzxj5a1zfc1zht6fbxlqz6hln1d
+  a v-s:Sector;
+  v-s:hasParentLink d:3143fa8a631846e08e83eb846f717157;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:4x5caldmjmqrsil6w3kxc4igj6;
+  v-s:suppliersRoleInContract d:8vll4xz4w7nf3fm0z8bh4lvybn;
+  rdfs:label "Залог"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+d:hkgbebgp7yhu3eofo22d0g6xgn8r3ar7
+  a v-s:Sector;
+  v-s:hasParentLink d:3143fa8a631846e08e83eb846f717157;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:z5l65m5erip778bp5xx1ija13e;
+  v-s:suppliersRoleInContract d:a4sjpkvp7e8xsb3fjbbai2dbuo;
+  rdfs:label "Поручительство"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+d:d12t5q5lq35gxniy5ysjemo56mk23w6m
+  a v-s:Sector;
+  v-s:hasParentLink d:3143fa8a631846e08e83eb846f717157;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:mrxvpir5r0um1jllfp9j67j2pl;
+  v-s:suppliersRoleInContract d:dacn08vqsi7bkyvg3eogres63v;
+  rdfs:label "Независимая гарантия"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+d:bpwxffhlsodic1xus0gaex75n94jrwbb
+  a v-s:Sector;
+  v-s:hasParentLink d:3143fa8a631846e08e83eb846f717157;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:stakeholdersRoleInContract d:dm44s17tayal8frdutpnb2matk;
+  rdfs:label "Задаток"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+d:9i5ru45m42nw1et5lhot5kzbo50y8aci
+  a v-s:Sector;
+  v-s:hasParentLink d:3143fa8a631846e08e83eb846f717157;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:stakeholdersRoleInContract d:dm44s17tayal8frdutpnb2matk;
+  rdfs:label "Обеспечительный платеж"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+d:npohxkpxi0vid0vtw2f3kinteotiwnif
+  a v-s:Sector;
+  v-s:hasParentLink d:3143fa8a631846e08e83eb846f717157;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:z5l65m5erip778bp5xx1ija13e;
+  v-s:suppliersRoleInContract d:3jrjd78x8q4waet1y61oaefwhh;
+  rdfs:label "Переход прав кредитора к другому лицу"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+d:uacp7oftbx8t9so6503aq9c9xmpo8qwa
+  a v-s:Sector;
+  v-s:hasParentLink d:3143fa8a631846e08e83eb846f717157;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:z5l65m5erip778bp5xx1ija13e;
+  v-s:suppliersRoleInContract d:3jrjd78x8q4waet1y61oaefwhh;
+  rdfs:label "Перевод долга"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+
+d:6nj9j03s8wci5x4s9haswarrfvt3rhrz
+  a v-s:Sector;
+  v-s:hasParentLink d:fcce8db50b364f69aaa5062a3f3ea9c3;
+  rdfs:label "Прекращение обязательств"^^xsd:string;
+  v-s:registrationNumber "030.100.060"^^xsd:string;
+.
+d:mfkglghgo3su6h547tj6qohffo4i1bl5
+  a v-s:Sector;
+  v-s:hasParentLink d:fcce8db50b364f69aaa5062a3f3ea9c3;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:stakeholdersRoleInContract d:dm44s17tayal8frdutpnb2matk;
+  rdfs:label "Отступное"^^xsd:string;
+  v-s:registrationNumber "030.100.060"^^xsd:string;
+.
+d:40xrgtdenx85651b4xp703r7l6ihv4ty
+  a v-s:Sector;
+  v-s:hasParentLink d:fcce8db50b364f69aaa5062a3f3ea9c3;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:stakeholdersRoleInContract d:dm44s17tayal8frdutpnb2matk;
+  rdfs:label "Прекращение обязательства зачетом"^^xsd:string;
+  v-s:registrationNumber "030.100.060"^^xsd:string;
+.
+d:y6sldjv3nouafxgafz6wg3dvd3kfnxvj
+  a v-s:Sector;
+  v-s:hasParentLink d:fcce8db50b364f69aaa5062a3f3ea9c3;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:z5l65m5erip778bp5xx1ija13e;
+  v-s:suppliersRoleInContract d:3jrjd78x8q4waet1y61oaefwhh;
+  rdfs:label "Зачет при уступке требования"^^xsd:string;
+  v-s:registrationNumber "030.100.060"^^xsd:string;
+.
+d:8hi41ybi0swfs94kjva7nek5447r23pc
+  a v-s:Sector;
+  v-s:hasParentLink d:fcce8db50b364f69aaa5062a3f3ea9c3;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:z5l65m5erip778bp5xx1ija13e;
+  v-s:suppliersRoleInContract d:3jrjd78x8q4waet1y61oaefwhh;
+  rdfs:label "Прощение долга"^^xsd:string;
+  v-s:registrationNumber "030.100.060"^^xsd:string;
+.
+
+d:5ql3jn4s4dbwmyn06rfxv7jjwisrd1em
+  a v-s:Sector;
+  rdfs:label "Права на результаты интеллектуальной деятельности и средства индивидуализации"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+d:fqdxbyqbcrq9ecy5cbcakzy8kijship5
+  a v-s:Sector;
+  v-s:hasParentLink d:5ql3jn4s4dbwmyn06rfxv7jjwisrd1em;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:bdxn7pjfm17e9p39fh3lnodj26;
+  v-s:suppliersRoleInContract d:96ul8zxbwm0d06pks63dr1w9rx;
+  rdfs:label "Договор об отчуждении исключительного права"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+d:49vl5i2x0433762o7ve4hb5z3j47rp4w
+  a v-s:Sector;
+  v-s:hasParentLink d:5ql3jn4s4dbwmyn06rfxv7jjwisrd1em;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:d43hmxjv1afzjk03hywreb80lf;
+  v-s:suppliersRoleInContract d:98o87qufmakw17zmm7br8s4tnb;
+  rdfs:label "Лицензионный договор"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+d:92bbptcmp2t3gzmd318rk8fum3w7vfre
+  a v-s:Sector;
+  v-s:hasParentLink d:5ql3jn4s4dbwmyn06rfxv7jjwisrd1em;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:dsxyd1uxsxuui6f1t3s4ki3rdp;
+  v-s:suppliersRoleInContract d:4lqno9s86a6fj3r2ney4vvxzbo;
+  rdfs:label "Договор авторского заказа"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+
 
 d:e094f6c7e96849688e9aea5b73e2a121
   a v-s:Sector;
   v-s:hasParentLink d:e575d78b2cc5472f811e8083e40d9f8e;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:stakeholdersRoleInContract d:dm44s17tayal8frdutpnb2matk;
   rdfs:label "Информационные ресурсы. Пользование информационными ресурсами"^^xsd:string;
   v-s:registrationNumber "120.030.080"^^xsd:string;
 .
@@ -1878,6 +2087,8 @@ d:a0krjx43essi7o5cqyvggniqz
 d:glq9eznqolfq58a2irwz6zdfdd
   a v-s:Sector;
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:dsxyd1uxsxuui6f1t3s4ki3rdp;
+  v-s:suppliersRoleInContract d:wws2oz313z6xpl1hd4u3laxzfg;
   rdfs:label "Выполнение научно-исследовательских, опытно-конструкторских и технологических работ"^^xsd:string;
   v-s:registrationNumber "030.120.090"^^xsd:string;
 .
