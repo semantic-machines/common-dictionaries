@@ -1976,7 +1976,16 @@ d:npohxkpxi0vid0vtw2f3kinteotiwnif
   v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
   v-s:customersRoleInContract d:z5l65m5erip778bp5xx1ija13e;
   v-s:suppliersRoleInContract d:3jrjd78x8q4waet1y61oaefwhh;
-  rdfs:label "Переход прав кредитора к другому лицу"^^xsd:string;
+  rdfs:label "Уступка прав требования"^^xsd:string;
+  v-s:registrationNumber "030.100.020"^^xsd:string;
+.
+d:gt4dacpqvf25apv1tez6oo1913ycnsli
+  a v-s:Sector;
+  v-s:hasParentLink d:3143fa8a631846e08e83eb846f717157;
+  v-s:hasParentLink d:69988613d9a148d998d2e40311b0b58e;
+  v-s:customersRoleInContract d:z5l65m5erip778bp5xx1ija13e;
+  v-s:suppliersRoleInContract d:3jrjd78x8q4waet1y61oaefwhh;
+  rdfs:label "Уступка обязательств"^^xsd:string;
   v-s:registrationNumber "030.100.020"^^xsd:string;
 .
 d:uacp7oftbx8t9so6503aq9c9xmpo8qwa
