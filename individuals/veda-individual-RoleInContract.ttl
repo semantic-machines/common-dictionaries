@@ -317,6 +317,11 @@ d:h77kc056374cpeyqk9qj2nl20e
 .
 
 
+d:faqgps86snf5j947sr54bsp68y
+  a v-s:RoleInContract;
+  rdfs:label "Cторона"@ru ;
+  rdfs:label "Stakeholder"@en ;
+.
 d:dm44s17tayal8frdutpnb2matk
   a v-s:RoleInContract;
   rdfs:label "Заинтересованная сторона"@ru ;
