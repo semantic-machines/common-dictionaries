@@ -1,0 +1,40 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+
+<http://semantic-machines.com/veda/veda-individual-ContractType>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Справочник Тип контракта"@ru ;
+  rdfs:label "Veda ontology. Dictionary - ContractType"@en ;
+  v-s:loadPriority 10 ;
+.
+
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:ContractType
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Тип контракта"@ru ;
+  rdfs:label "Contract type"@en ;
+.
+# --- В связи с вводом класса возникает предикат v-s:hasContractType
+# --- Он описан в классе v-s:Contractual
+
+# ------------------------------------------------------------ ИНДИВИДЫ ---
+d:contractType_Purchase
+  rdf:type v-s:ContractType ;
+  rdfs:label "Закупка"@ru ;
+  rdfs:label "Purchase"@en ;
+.
+d:contractType_Sale
+  rdf:type v-s:ContractType ;
+  rdfs:label "Продажа"@ru ;
+  rdfs:label "Sale"@en ;
+.
+d:contractType_Other
+  rdf:type v-s:ContractType ;
+  rdfs:label "Прочее"@ru ;
+  rdfs:label "Other"@en ;
+.
