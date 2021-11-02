@@ -461,6 +461,7 @@ d:0c84fffc7f5249bab6032ab8e345e023
 d:aa47dd07e266465bb973c55f2de206a3
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Классификатор"^^xsd:string;
   rdfs:label "Классификатор"@ru;
   rdfs:label "Classifier"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
@@ -1385,6 +1386,7 @@ d:agbxssnddkd2rnk4lfofwhi7
 d:id9fvum63d7t73lp6kos6brc
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Технологическая карта"^^xsd:string;
   rdfs:label "Технологическая карта"@ru;
   rdfs:label "Technological card"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
