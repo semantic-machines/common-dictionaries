@@ -185,7 +185,7 @@ d:66f31c625dbd4b49afec313119d731f4
   a v-s:Sector;
   v-s:hasParentLink d:a1ff805754004cdea5782e286d9754ac, d:0ed33c0939024c8991c60ac3acbdd287;
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
-  rdfs:label "Техническое обслуживание и ремонт электрического оборудования"^^xsd:string;
+  rdfs:label "Электрическое оборудование"^^xsd:string;
   v-s:registrationNumber "090.010.050.002"^^xsd:string;
   v-s:shortLabel "Э"^^xsd:string;
 .
@@ -528,7 +528,7 @@ d:45bb1de686d547098a58ca8b58a8dc5d
   a v-s:Sector;
   v-s:hasParentLink d:a1ff805754004cdea5782e286d9754ac, d:0ed33c0939024c8991c60ac3acbdd287;
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
-  rdfs:label "Техническое обслуживание и ремонт механического оборудования"^^xsd:string;
+  rdfs:label "Механическое оборудование"^^xsd:string;
   v-s:registrationNumber "090.010.050.003"^^xsd:string;
   v-s:shortLabel 'M' ;
 .
@@ -1233,7 +1233,7 @@ d:ba1a7913d52e4a47967645767b6f2604
   a v-s:Sector;
   v-s:hasParentLink d:a1ff805754004cdea5782e286d9754ac, d:0ed33c0939024c8991c60ac3acbdd287;
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
-  rdfs:label "Техническое обслуживание и ремонт оборудования КИП и А"^^xsd:string;
+  rdfs:label "Оборудование КИПиА"^^xsd:string;
   v-s:registrationNumber "090.010.050.001"^^xsd:string;
   v-s:shortLabel 'A' ;
 .
