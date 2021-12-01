@@ -47,12 +47,7 @@ v-ui:StatusTemplate
   rdfs:label "Шаблон для класса Статус"@ru ;
   rdfs:label "Template for Status class"@en ;
   v-ui:forClass v-s:Status ;
-  v-ui:template """
-<span about="@" class="label margin-xs-h" property="rdfs:label"></span>
-<script>
-  template.addClass("label-"+individual["v-s:tag"]);
-</script>
-  """ ;
+  v-ui:template "v-ui_StatusTemplate.js" ;
 .
 
 # ------------------------------------------------------------ ИНДИВИДЫ --
