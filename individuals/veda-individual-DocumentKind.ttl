@@ -1,4 +1,4 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> . 
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
@@ -28,7 +28,7 @@ d:97a6c9fbbc15418f8309490b2b6d3d6e
   a v-s:DocumentKind;
   v-s:shortLabel "Формы договорных документов"^^xsd:string;
   v-s:registrationNumber "0"^^xsd:string;
-  rdfs:label "Формы договорных документов"^^xsd:string;
+  rdfs:label "Формы договорных документов"@ru ;
 .
 d:cc87e0778a864272b1b8d366f591da88
   a v-s:DocumentKind;
@@ -74,7 +74,7 @@ d:391696576b33490bb7fb3744cbcbccf6
   a v-s:DocumentKind;
   v-s:shortLabel "Формы документов общего назначения"^^xsd:string;
   v-s:registrationNumber "0"^^xsd:string;
-  rdfs:label "Формы документов общего назначения"^^xsd:string;
+  rdfs:label "Формы документов общего назначения"@ru ;
 .
 d:856857e1b8bf4a2da158e2792dc09bce
   a v-s:DocumentKind;
@@ -224,7 +224,7 @@ d:4fa2c9f9958b4eda83ef162e4856d98d
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Дело"^^xsd:string;
-  rdfs:label "Дело"^^xsd:string;
+  rdfs:label "Дело"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 d:2d1f180dd5c44f4aa9ddd9f6eaa6b3de
@@ -239,7 +239,7 @@ d:1e78773535324f0e83593f68ee4bf58f
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Директива"^^xsd:string;
-  rdfs:label "Директива"^^xsd:string;
+  rdfs:label "Директива"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 d:abf466ace363431c8621bbad01b7bbfa
@@ -1209,14 +1209,14 @@ d:d5ec76c6a86949f5af9878aa119b2999
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Телеграмма"^^xsd:string;
-  rdfs:label "Телеграмма"^^xsd:string;
+  rdfs:label "Телеграмма"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 d:48e4e6b371bf43839daff550138a263a
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Телефонограмма"^^xsd:string;
-  rdfs:label "Телефонограмма"^^xsd:string;
+  rdfs:label "Телефонограмма"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 d:ce0724eb71a546f48048c229739ec914
@@ -1281,7 +1281,7 @@ d:c6578e018bad4fdc8735313c125b9815
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Учебник"^^xsd:string;
-  rdfs:label "Учебник"^^xsd:string;
+  rdfs:label "Учебник"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 d:aq09sapuwv85fiy4jartxpwc7x
@@ -1430,77 +1430,77 @@ d:c3b38c81e1594593932b9872a3257948
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Документ по движению ОС"^^xsd:string;
-  rdfs:label "Документ по движению ОС"^^xsd:string;
+  rdfs:label "Документ по движению ОС"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:90209600a3a44baa9e185809e4ecd866
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Акт осмотра объекта основных средств"^^xsd:string;
-  rdfs:label "Акт осмотра объекта основных средств, подлежащего списанию"^^xsd:string;
+  rdfs:label "Акт осмотра объекта основных средств, подлежащего списанию"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:a14a4c3ac6b54181b612e7ae20c12fa5
   a v-s:DocumentKind;
   v-s:registrationNumber "ОС-1б"^^xsd:string;
   v-s:shortLabel "ОС-1б. Акт о приеме передаче групп ОС"^^xsd:string;
-  rdfs:label "Акт о приеме передаче групп объектов основных средств (кроме зданий, сооружений). Форма ОС-1б"^^xsd:string;
+  rdfs:label "Акт о приеме передаче групп объектов основных средств (кроме зданий, сооружений). Форма ОС-1б"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:d52b64869ee84959b72de00a511d0632
   a v-s:DocumentKind;
   v-s:registrationNumber "ОС-1а"^^xsd:string;
   v-s:shortLabel "ОС-1а. Акт о приеме передаче здания"^^xsd:string;
-  rdfs:label "Акт о приеме передаче здания (сооружения). Форма ОС-1а"^^xsd:string;
+  rdfs:label "Акт о приеме передаче здания (сооружения). Форма ОС-1а"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:2e6a8b2f85b4483c9dc2c0e3402ededf
   a v-s:DocumentKind;
   v-s:registrationNumber "ОС-1"^^xsd:string;
   v-s:shortLabel "ОС-1. Акт о приеме передаче ОС"^^xsd:string;
-  rdfs:label "Акт о приеме передаче объектов основных средств (кроме зданий, сооружений). Форма ОС-1"^^xsd:string;
+  rdfs:label "Акт о приеме передаче объектов основных средств (кроме зданий, сооружений). Форма ОС-1"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:5fb70b754c814a8097659433ec095f11
   a v-s:DocumentKind;
   v-s:registrationNumber "ОС-3"^^xsd:string;
   v-s:shortLabel "ОС-3. Акт о приемке отремонтированных ОС"^^xsd:string;
-  rdfs:label "Акт о приеме-сдаче отремонтированных, реконструированных, модернизированных объектов основных средств. Форма ОС-3"^^xsd:string;
+  rdfs:label "Акт о приеме-сдаче отремонтированных, реконструированных, модернизированных объектов основных средств. Форма ОС-3"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:f134c87cab764107b69bb82008e15598
   a v-s:DocumentKind;
   v-s:registrationNumber "ОС-4а"^^xsd:string;
   v-s:shortLabel "ОС-4а. Акт о списании ас"^^xsd:string;
-  rdfs:label "Акт о списании автотранспортных средств. Форма ОС-4а"^^xsd:string;
+  rdfs:label "Акт о списании автотранспортных средств. Форма ОС-4а"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:81cae05675a64390bf3ba95f484c0736
   a v-s:DocumentKind;
   v-s:registrationNumber "ОС-4б"^^xsd:string;
   v-s:shortLabel "ОС-4б. Акт о списании групп ОС"^^xsd:string;
-  rdfs:label "Акт о списании групп объектов основных средств. Форма ОС-4б"^^xsd:string;
+  rdfs:label "Акт о списании групп объектов основных средств. Форма ОС-4б"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:39701203bf96414182e480f7f117fd5d
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Акт о списании неликвидных ТМЦ"^^xsd:string;
-  rdfs:label "Акт о списании неликвидных ТМЦ"^^xsd:string;
+  rdfs:label "Акт о списании неликвидных ТМЦ"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:e5faf3d2bd2e4c2ea1a100a32ee1663d
   a v-s:DocumentKind;
   v-s:registrationNumber "ОС-4"^^xsd:string;
   v-s:shortLabel "ОС-4. Акт осмотра объекта основных средств"^^xsd:string;
-  rdfs:label "Акт о списании объектов основных средств (кроме транспортных средств). Форма ОС-4"^^xsd:string;
+  rdfs:label "Акт о списании объектов основных средств (кроме транспортных средств). Форма ОС-4"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:3d210f60b075431792f113af3c974667
   a v-s:DocumentKind;
   v-s:registrationNumber "КС-11"^^xsd:string;
   v-s:shortLabel "КС-11. Акт приемки законченного ОС"^^xsd:string;
-  rdfs:label "Акт приемки законченного строительством объекта. Форма КС-11"^^xsd:string;
+  rdfs:label "Акт приемки законченного строительством объекта. Форма КС-11"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
@@ -1508,42 +1508,42 @@ d:837027d7e8b04305a5b632224f0d2716
   a v-s:DocumentKind;
   v-s:registrationNumber "ОС-2"^^xsd:string;
   v-s:shortLabel "ОС-2. Накладная на внутреннее перемещение ОС"^^xsd:string;
-  rdfs:label "Накладная на внутреннее перемещение объектов основных средств. Форма ОС-2 "^^xsd:string;
+  rdfs:label "Накладная на внутреннее перемещение объектов основных средств. Форма ОС-2 "@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:2e4ff886a4f74de1ade2a369b307006c
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Реестр по списанию ОС "^^xsd:string;
-  rdfs:label "Реестр по списанию ОС "^^xsd:string;
+  rdfs:label "Реестр по списанию ОС "@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:a7c3b20d5dc243c9ad078947ede1bb18
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Требование на ИХП"^^xsd:string;
-  rdfs:label "Требование - накладная на внутреннее перемещение ИХП"^^xsd:string;
+  rdfs:label "Требование - накладная на внутреннее перемещение ИХП"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:s8p7h99m39eptw5s65io7cl1
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Исполнительный лист"^^xsd:string;
-  rdfs:label "Исполнительный лист"^^xsd:string;
+  rdfs:label "Исполнительный лист"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:oqb5kf6uqkwpt00x7ge0htcl
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Расчет арендной платы"^^xsd:string;
-  rdfs:label "Расчет арендной платы"^^xsd:string;
+  rdfs:label "Расчет арендной платы"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 d:qwertiesmrjt8friq9s4y7h0yk
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Акт о списании малоценных и быстроизнашивающихся предметов"^^xsd:string;
-  rdfs:label "Акт о списании малоценных и быстроизнашивающихся предметов"^^xsd:string;
+  rdfs:label "Акт о списании малоценных и быстроизнашивающихся предметов"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
 .
 #-----------------------------------------------------
@@ -1551,14 +1551,14 @@ d:3e65a31d4d9340dc8861a452be25e04e
   a v-s:DocumentKind;
   v-s:shortLabel "Формы бухгалтерских документов"^^xsd:string;
   v-s:registrationNumber "0"^^xsd:string;
-  rdfs:label "Формы бухгалтерских документов"^^xsd:string;
+  rdfs:label "Формы бухгалтерских документов"@ru ;
 .
 d:b70adfacd3144644b17f930745e32c16
   a v-s:DocumentKind;
   v-s:deleted "true"^^xsd:boolean;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Отчет"^^xsd:string;
-  rdfs:label "Отчет"^^xsd:string;
+  rdfs:label "Отчет"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
   v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
@@ -1567,133 +1567,133 @@ d:7919fd49560f4340b41ce6bc01aa87e9
   a v-s:DocumentKind;
   v-s:registrationNumber "10-4"^^xsd:string;
   v-s:shortLabel "Кредит - нота"^^xsd:string;
-  rdfs:label "Кредит - нота"^^xsd:string;
+  rdfs:label "Кредит - нота"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:d76789ad61c94e8296a1a780282b533e
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Банковская выписка"^^xsd:string;
-  rdfs:label "Банковская выписка"^^xsd:string;
+  rdfs:label "Банковская выписка"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:40192c13b80a424bbee3217ff2ad91ca
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Исходящая счёт фактура"^^xsd:string;
-  rdfs:label "Исходящая счёт фактура"^^xsd:string;
+  rdfs:label "Исходящая счёт фактура"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:76d8339c36cf4940afa1c40f07677726
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Документ по заработной плате"^^xsd:string;
-  rdfs:label "Документ по заработной плате"^^xsd:string;
+  rdfs:label "Документ по заработной плате"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:8b241491195644deb3d68b87a368350d
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Путевой лист"^^xsd:string;
-  rdfs:label "Путевой лист"^^xsd:string;
+  rdfs:label "Путевой лист"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:dd0a88c458f94ba08b61ff632a5d66dd
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Комплект ТСД"^^xsd:string;
-  rdfs:label "Комплект товарно-сопроводительных документов"^^xsd:string;
+  rdfs:label "Комплект товарно-сопроводительных документов"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:11bda1c449844bc8bb95984a9d2d1e13
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ПО М-4"^^xsd:string;
-  rdfs:label "Приходный ордер"^^xsd:string;
+  rdfs:label "Приходный ордер"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:f747c40ad7f44cb9830da1767ed4cdca
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Платежное поручение"^^xsd:string;
-  rdfs:label "Платежное поручение"^^xsd:string;
+  rdfs:label "Платежное поручение"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:b059a9daac054e8e926953f16fbb93df
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Счет"^^xsd:string;
-  rdfs:label "Счет"^^xsd:string;
+  rdfs:label "Счет"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:b547743779204d37859628d8d6f77143
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Таможенный документ"^^xsd:string;
-  rdfs:label "Таможенный документ"^^xsd:string;
+  rdfs:label "Таможенный документ"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:6ef5acd0e8104e158045636555baedac
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Подтверждение об открытии, изменении аккредитива"^^xsd:string;
-  rdfs:label "Подтверждение об открытии, изменении аккредитива"^^xsd:string;
+  rdfs:label "Подтверждение об открытии, изменении аккредитива"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:e267901f0b904979ad7d8d4a0dc6a7d9
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Банковская гарантия"^^xsd:string;
-  rdfs:label "Банковская гарантия"^^xsd:string;
+  rdfs:label "Банковская гарантия"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:44c5a8038a784ba1b5cb40b66d5098a9
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Счет на предоплату"^^xsd:string;
-  rdfs:label "Счет на предоплату"^^xsd:string;
+  rdfs:label "Счет на предоплату"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:098d24816b3946f7933dd47263040a87
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Сертификат"^^xsd:string;
-  rdfs:label "Сертификат качества, происхождения, соответствия"^^xsd:string;
+  rdfs:label "Сертификат качества, происхождения, соответствия"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:753b0b16b74e4174949ff6ddbeac4294
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Инвойс поступающий вместе с товаром"^^xsd:string;
-  rdfs:label "Инвойс поступающий вместе с товаром"^^xsd:string;
+  rdfs:label "Инвойс поступающий вместе с товаром"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:53ee1e1d341b4351878fe12aff907618
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Инвойс на предоплату"^^xsd:string;
-  rdfs:label "Инвойс на предоплату"^^xsd:string;
+  rdfs:label "Инвойс на предоплату"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:77d4cbd58cf34321a82e7281e8347542
   a v-s:DocumentKind;
   v-s:registrationNumber "01_4"^^xsd:string;
   v-s:shortLabel "ДТ"^^xsd:string;
-  rdfs:label "Декларация на товары"^^xsd:string;
+  rdfs:label "Декларация на товары"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:bc986e1208e1460281c0446b7e0ac2e8
   a v-s:DocumentKind;
   v-s:registrationNumber "02_4"^^xsd:string;
   v-s:shortLabel "Товарно-транспортная накладная CMR"^^xsd:string;
-  rdfs:label "Товарно-транспортная накладная международная"^^xsd:string;
+  rdfs:label "Товарно-транспортная накладная международная"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:0e013b49ee56476897656015c1ca6c94
   a v-s:DocumentKind;
   v-s:registrationNumber "02_4"^^xsd:string;
   v-s:shortLabel "Акт выполненных работ"^^xsd:string;
-  rdfs:label "Акт о приемке выполненных работ (по форме КС-2 или в произвольной форме)"^^xsd:string;
+  rdfs:label "Акт о приемке выполненных работ (по форме КС-2 или в произвольной форме)"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
@@ -1701,7 +1701,7 @@ d:8737ebad40db4fafbf1cd5929f580c3a
   a v-s:DocumentKind;
   v-s:registrationNumber "04_4"^^xsd:string;
   v-s:shortLabel "Акт выполненных работ имп."^^xsd:string;
-  rdfs:label "Акт о приемке выполненных работ имп."^^xsd:string;
+  rdfs:label "Акт о приемке выполненных работ имп."@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 
@@ -1709,77 +1709,77 @@ d:c26c0ae5290a4c119561aacc2b01f04d
   a v-s:DocumentKind;
   v-s:registrationNumber "01_4"^^xsd:string;
   v-s:shortLabel "КДТ"^^xsd:string;
-  rdfs:label "Корректировка декларации на товары"^^xsd:string;
+  rdfs:label "Корректировка декларации на товары"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:b21fe715d62244e793514756fe7a5571
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Иной первичный документ"^^xsd:string;
-  rdfs:label "Иной первичный документ"^^xsd:string;
+  rdfs:label "Иной первичный документ"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:bab2548e97bd4623826aa33021e103a9
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Жд квитанция"^^xsd:string;
-  rdfs:label "Железнодорожная квитанция"^^xsd:string;
+  rdfs:label "Железнодорожная квитанция"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:be8f778490cc4432893973e53d87c333
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Жд накладная имп."^^xsd:string;
-  rdfs:label "Железнодорожная накладная имп."^^xsd:string;
+  rdfs:label "Железнодорожная накладная имп."@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:029549e0607c412097e47e47b4e8dc94
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Инвойс к услугам, работам"^^xsd:string;
-  rdfs:label "Инвойс к услугам, работам"^^xsd:string;
+  rdfs:label "Инвойс к услугам, работам"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:c34111148a834679ae4c27e9aa7bd0e1
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Сертификат имп."^^xsd:string;
-  rdfs:label "Сертификат качества, происхождения, соответствия имп."^^xsd:string;
+  rdfs:label "Сертификат качества, происхождения, соответствия имп."@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:ada37e3e328b4a1592b0e259e95539b8
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Справка о стоимости работ КС-3"^^xsd:string;
-  rdfs:label "Справка о стоимости выполненных работ и затрат (форма КС-3)"^^xsd:string;
+  rdfs:label "Справка о стоимости выполненных работ и затрат (форма КС-3)"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:81cd1dfaeac64a3fadd2f6f8fabfaccb
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Счет-фактура"^^xsd:string;
-  rdfs:label "Счет-фактура"^^xsd:string;
+  rdfs:label "Счет-фактура"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:1a45e9241bcb4f2fae55b10624f29b6f
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ТОРГ-12"^^xsd:string;
-  rdfs:label "Товарная накладная (унифицированная форма ТОРГ-12)"^^xsd:string;
+  rdfs:label "Товарная накладная (унифицированная форма ТОРГ-12)"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:70fdb1875257475a839210333d793377
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Жд накладная"^^xsd:string;
-  rdfs:label "Железнодорожная накладная"^^xsd:string;
+  rdfs:label "Железнодорожная накладная"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 d:eqdjxkit5ok02412q0qcy5k3
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "УПД"^^xsd:string;
-  rdfs:label "Универсальный передаточный документ"^^xsd:string;
+  rdfs:label "Универсальный передаточный документ"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
 
@@ -1788,7 +1788,7 @@ d:8a7dde743f844ae0bf773fd3c245c5f7
   a v-s:DocumentKind;
   v-s:shortLabel "Формы технических документов"^^xsd:string;
   v-s:registrationNumber "0"^^xsd:string;
-  rdfs:label "Формы технических документов"^^xsd:string;
+  rdfs:label "Формы технических документов"@ru ;
 .
 
 #-----------------------------------------------------
@@ -1796,14 +1796,14 @@ d:6869e29efeb24915b43992e210b530aa
   a v-s:DocumentKind;
   v-s:shortLabel "Формы ЛНД"^^xsd:string;
   v-s:registrationNumber "0"^^xsd:string;
-  rdfs:label "Формы локальных нормативных документов"^^xsd:string;
+  rdfs:label "Формы локальных нормативных документов"@ru ;
 .
 
 d:ae1c31e5a-5ac7-60b9-5f9a-9170c5c011b4
   a v-s:DocumentKind;
   v-s:shortLabel "Регламент"^^xsd:string;
   v-s:registrationNumber "0"^^xsd:string;
-  rdfs:label "Регламент"^^xsd:string;
+  rdfs:label "Регламент"@ru ;
   v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
   rdfs:comment "Документ, определяющий последовательность действий для осуществления технологического процесса производства какого-либо вида продукции Компании, а также требования к оборудованию, материалам и обслуживающему персоналу"^^xsd:string;
 .
@@ -1811,7 +1811,7 @@ d:a238df72c-7862-1e47-0ad3-0288d70561fb
   a v-s:DocumentKind;
   v-s:shortLabel "Стандарт"^^xsd:string;
   v-s:registrationNumber "0"^^xsd:string;
-  rdfs:label "Стандарт"^^xsd:string;
+  rdfs:label "Стандарт"@ru ;
   v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
   rdfs:comment "Документ, в котором в целях добровольного многократного использования устанавливаются характеристики продукции, правила осуществления и характеристики процессов проектирования (включая изыскания), производства, строительства, монтажа, наладки, эксплуатации, хранения, перевозки, реализации и утилизации, выполнения работ или оказания услуг. Стандарт также может содержать правила и методы исследований (испытаний) и измерений, правила отбора образцов, требования к терминологии, символике, упаковке, маркировке или этикеткам и правилам их нанесения"^^xsd:string;
 .
@@ -1819,14 +1819,14 @@ d:8e2d4d3e0fd540ebb509a9d0cf3e4f71
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Гарантийное письмо"^^xsd:string;
-  rdfs:label "Гарантийное письмо"^^xsd:string;
+  rdfs:label "Гарантийное письмо"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 d:2b7f2af51d1340d8ad48a29898102b72
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Претензия"^^xsd:string;
-  rdfs:label "Претензионное письмо"^^xsd:string;
+  rdfs:label "Претензионное письмо"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
@@ -1834,7 +1834,7 @@ d:c25b475f506d47eea1847ea8861ac747
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Смета"^^xsd:string;
-  rdfs:label "Сметная документация"^^xsd:string;
+  rdfs:label "Сметная документация"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 
@@ -1844,55 +1844,55 @@ d:s4xf96dcdjfmmd87tcc86oed
   a v-s:DocumentKind;
   v-s:shortLabel "Формы документов по лесообеспечению"^^xsd:string;
   v-s:registrationNumber "0"^^xsd:string;
-  rdfs:label "Формы документов по лесообеспечению"^^xsd:string;
+  rdfs:label "Формы документов по лесообеспечению"@ru ;
 .
 d:yncyiggv8bmvzbb4qd6407ja
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Разрешение на продление срока заготовки и вывозки"^^xsd:string;
-  rdfs:label "Разрешение на продление срока заготовки и вывозки"^^xsd:string;
+  rdfs:label "Разрешение на продление срока заготовки и вывозки"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:z5to2ok3unc5ocj3iggh1ru3
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Разрешение на внутрихозяйственные работы"^^xsd:string;
-  rdfs:label "Разрешение на внутрихозяйственные работы"^^xsd:string;
+  rdfs:label "Разрешение на внутрихозяйственные работы"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:a0hkg9lqlx8g1m7asohd73l70
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Акт приемки технической рекультивации"^^xsd:string;
-  rdfs:label "Акт приемки технической рекультивации"^^xsd:string;
+  rdfs:label "Акт приемки технической рекультивации"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:oqpmvtjh5xj83udyvjchfurz
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Тендер (Дорожное строительство)"^^xsd:string;
-  rdfs:label "Тендер (Дорожное строительство)"^^xsd:string;
+  rdfs:label "Тендер (Дорожное строительство)"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:mli0fri1kshbavcmpanr5js9
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "МДО (Дорожное строительство)"^^xsd:string;
-  rdfs:label "МДО (Дорожное строительство)"^^xsd:string;
+  rdfs:label "МДО (Дорожное строительство)"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:ptwxend7incb7m9stsogx9vq
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Абрис (Дорожное строительство)"^^xsd:string;
-  rdfs:label "Абрис (Дорожное строительство)"^^xsd:string;
+  rdfs:label "Абрис (Дорожное строительство)"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:su7uj8iq8xman67yl6uaqtzk
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ТЗ"^^xsd:string;
-  rdfs:label "Техническое задание"^^xsd:string;
+  rdfs:label "Техническое задание"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
   v-s:hasParentLink d:t65lhnvctaegte3jq1rc6hj3 ;
 .
@@ -1900,161 +1900,161 @@ d:a1gr0oezv1htwihvjuyab521b
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ТЗ на закупку оборудования"^^xsd:string;
-  rdfs:label "Техническое задание на закупку оборудования"^^xsd:string;
+  rdfs:label "Техническое задание на закупку оборудования"@ru ;
   v-s:hasParentLink d:su7uj8iq8xman67yl6uaqtzk;
 .
 d:yabsm3nb74h7bo435ki7swi6
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ТЗ на услуги"^^xsd:string;
-  rdfs:label "Техническое задание на услуги"^^xsd:string;
+  rdfs:label "Техническое задание на услуги"@ru ;
   v-s:hasParentLink d:su7uj8iq8xman67yl6uaqtzk;
 .
 d:hbfyq1n8nj4agiqvh11jel8z
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ТЗ на закупку стратегических з/ч"^^xsd:string;
-  rdfs:label "Техническое задание на закупку стратегических з/ч"^^xsd:string;
+  rdfs:label "Техническое задание на закупку стратегических з/ч"@ru ;
   v-s:hasParentLink d:su7uj8iq8xman67yl6uaqtzk;
 .
 d:erygggmvrrb6rbvc7ygisq10
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ТЗ на закупку ОС без монтажа"^^xsd:string;
-  rdfs:label "Техническое задание на закупку ОС без монтажа"^^xsd:string;
+  rdfs:label "Техническое задание на закупку ОС без монтажа"@ru ;
   v-s:hasParentLink d:su7uj8iq8xman67yl6uaqtzk;
 .
 d:a6upd5mhlpdsrzrvoxqxeki7f
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ТЗ на работы под ключ"^^xsd:string;
-  rdfs:label "Техническое задание на работы под ключ"^^xsd:string;
+  rdfs:label "Техническое задание на работы под ключ"@ru ;
   v-s:hasParentLink d:su7uj8iq8xman67yl6uaqtzk;
 .
 d:ozhgqf9od3fl0egslfm1hlgz
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Трассировка (карта-схема)"^^xsd:string;
-  rdfs:label "Трассировка (карта-схема)"^^xsd:string;
+  rdfs:label "Трассировка (карта-схема)"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:wrwpiem7sm5778hr8pqx247i
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Абрис (Лесовосстановление)"^^xsd:string;
-  rdfs:label "Абрис (Лесовосстановление)"^^xsd:string;
+  rdfs:label "Абрис (Лесовосстановление)"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:gf8yvrldbvyexh7mg8j0gh3x
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Технологическая карта (Лесовосстановление)"^^xsd:string;
-  rdfs:label "Технологическая карта (Лесовосстановление)"^^xsd:string;
+  rdfs:label "Технологическая карта (Лесовосстановление)"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:a9vusrjooxqimm14mo7x8fkfl
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Проект рубок ухода"^^xsd:string;
-  rdfs:label "Проект рубок ухода"^^xsd:string;
+  rdfs:label "Проект рубок ухода"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:grdge6045ny1tcxkh3famxb6
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Акты по осенней инвентаризации"^^xsd:string;
-  rdfs:label "Акты по осенней инвентаризации"^^xsd:string;
+  rdfs:label "Акты по осенней инвентаризации"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:s4koueqhejet84ko0vt9bznz
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Акт проверки делянки"^^xsd:string;
-  rdfs:label "Акт проверки делянки"^^xsd:string;
+  rdfs:label "Акт проверки делянки"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:qyb6yjyd4210fo31lrjdzz3w
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Проект лесовосстановления"^^xsd:string;
-  rdfs:label "Проект лесовосстановления"^^xsd:string;
+  rdfs:label "Проект лесовосстановления"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:hnqkgonuwxfzp8tyvegcwjfu
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Акт аттестации"^^xsd:string;
-  rdfs:label "Акт аттестации"^^xsd:string;
+  rdfs:label "Акт аттестации"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:k9t0quhmkroo4rel1pkg1p5q
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Решения судов"^^xsd:string;
-  rdfs:label "Решения судов"^^xsd:string;
+  rdfs:label "Решения судов"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:a8y6hdtg8i3omvc3g9725cx6u
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Бланк выделения биотопа"^^xsd:string;
-  rdfs:label "Бланк выделения биотопа"^^xsd:string;
+  rdfs:label "Бланк выделения биотопа"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:kuzsrore0mazdi2s4lvkj6mo
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ситуационный план"^^xsd:string;
-  rdfs:label "Ситуационный план"^^xsd:string;
+  rdfs:label "Ситуационный план"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:a03zsidhqw52akuy4bhgu5gnm
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Акт освидетельствования"^^xsd:string;
-  rdfs:label "Акт освидетельствования"^^xsd:string;
+  rdfs:label "Акт освидетельствования"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:a5le8x80amh7j2rbu92uny4mj
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Предписания лесничеств"^^xsd:string;
-  rdfs:label "Предписания лесничеств"^^xsd:string;
+  rdfs:label "Предписания лесничеств"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:emwfl1y9h0nfzue33himkz63
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Акт приемо-передачи делянки"^^xsd:string;
-  rdfs:label "Акт приемо-передачи делянки"^^xsd:string;
+  rdfs:label "Акт приемо-передачи делянки"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:h1zlqfxchlif8fc1992gds38
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Абрис-схема лесонарушения"^^xsd:string;
-  rdfs:label "Абрис-схема лесонарушения"^^xsd:string;
+  rdfs:label "Абрис-схема лесонарушения"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:ryd85zisn2i8goq8sadltc9r
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Акт о лесонарушении"^^xsd:string;
-  rdfs:label "Акт о лесонарушении"^^xsd:string;
+  rdfs:label "Акт о лесонарушении"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:vg6dpox8anfkpi864plasluf
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Извещение о проверке государственными органами"^^xsd:string;
-  rdfs:label "Извещение о проверке государственными органами"^^xsd:string;
+  rdfs:label "Извещение о проверке государственными органами"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:eefi3pal7ir9jitea0wqak3b
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость перечета"^^xsd:string;
-  rdfs:label "Ведомость перечета"^^xsd:string;
+  rdfs:label "Ведомость перечета"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2062,7 +2062,7 @@ d:l2nzax61buzifev1a8n28iux
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость МДОЛ"^^xsd:string;
-  rdfs:label "Ведомость МДОЛ"^^xsd:string;
+  rdfs:label "Ведомость МДОЛ"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2070,14 +2070,14 @@ d:a5rrihl8fkpbjuxqo99neiq25
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Абрис"^^xsd:string;
-  rdfs:label "Абрис"^^xsd:string;
+  rdfs:label "Абрис"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
 d:ze6ghob5hg98m05rk7hs7ryb
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость объемов работ"^^xsd:string;
-  rdfs:label "Ведомость объемов работ"^^xsd:string;
+  rdfs:label "Ведомость объемов работ"@ru ;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2085,14 +2085,14 @@ d:ze6ghob5hg98m05rk7hs7ryb
 d:xunth1d2vsshftwnadlfp8bk
   a v-s:DocumentKind;
   v-s:shortLabel "Формы Проектно-конструкторских документов"^^xsd:string;
-  rdfs:label "Формы Проектно-конструкторских документов"^^xsd:string;
+  rdfs:label "Формы Проектно-конструкторских документов"@ru ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
 .
 d:380ca0b9d3004675b2e07a8fc7482840
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Ремонтный чертеж"^^xsd:string;
+  rdfs:label "Ремонтный чертеж"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:n4nj7nyj8prliu2bkgwdlgai ;
@@ -2103,7 +2103,7 @@ d:d74ecf7707894107aab07f7d8629df8e
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Д"^^xsd:string;
-  rdfs:label "Документы прочие "^^xsd:string;
+  rdfs:label "Документы прочие "@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2;
 .
@@ -2111,7 +2111,7 @@ d:ff74d9d7995b4d3f87d5451f28a4684f
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "РР"^^xsd:string;
-  rdfs:label "Расчеты"^^xsd:string;
+  rdfs:label "Расчеты"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
 .
@@ -2119,7 +2119,7 @@ d:2e503d0ab01d400b913b59ba0773e40c
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ТБ"^^xsd:string;
-  rdfs:label "Таблицы"^^xsd:string;
+  rdfs:label "Таблицы"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
 .
@@ -2127,7 +2127,7 @@ d:76f8f6b3196f477f977936f09733b51c
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ПМ"^^xsd:string;
-  rdfs:label "Программа и методика испытаний"^^xsd:string;
+  rdfs:label "Программа и методика испытаний"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:t65lhnvctaegte3jq1rc6hj3 ;
@@ -2136,7 +2136,7 @@ d:0250629aed0d41eaa86cbe68284d8456
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ТУ"^^xsd:string;
-  rdfs:label "Технические условия"^^xsd:string;
+  rdfs:label "Технические условия"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:n4nj7nyj8prliu2bkgwdlgai ;
@@ -2145,7 +2145,7 @@ d:1b8f63368370492dba311f7f45dcd8b3
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ВП"^^xsd:string;
-  rdfs:label "Ведомость покупных изделий"^^xsd:string;
+  rdfs:label "Ведомость покупных изделий"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
@@ -2154,7 +2154,7 @@ d:0d6b7d8b1e7b421d87c6618f84b54401
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ВД"^^xsd:string;
-  rdfs:label "Ведомость ссылочных документов"^^xsd:string;
+  rdfs:label "Ведомость ссылочных документов"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
@@ -2163,7 +2163,7 @@ d:a1ba4c1b1d9b4a2ba922b64fceea4548
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ВC"^^xsd:string;
-  rdfs:label "Ведомость спецификаций"^^xsd:string;
+  rdfs:label "Ведомость спецификаций"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
@@ -2172,7 +2172,7 @@ d:oomp8h5ve65hyljhme3bfpvlf5
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Ведомость разрешения применения покупных изделий"^^xsd:string;
+  rdfs:label "Ведомость разрешения применения покупных изделий"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
@@ -2181,7 +2181,7 @@ d:u2xrgd4055za8gxqb6fqbaq0t2
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Ведомость держателей подлинников"^^xsd:string;
+  rdfs:label "Ведомость держателей подлинников"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
@@ -2191,7 +2191,7 @@ d:m2kgeh9z535yx8032318m8i8io
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Ведомость технического предложения"^^xsd:string;
+  rdfs:label "Ведомость технического предложения"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
@@ -2200,7 +2200,7 @@ d:dc2ae6coqeo8x4y4bbnsvv8yne
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Ведомость эскизного проекта"^^xsd:string;
+  rdfs:label "Ведомость эскизного проекта"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
@@ -2209,7 +2209,7 @@ d:a0082le0p5medctv0fflxdkyfiu
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Ведомость технического проекта"^^xsd:string;
+  rdfs:label "Ведомость технического проекта"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
@@ -2218,7 +2218,7 @@ d:p54x8miwaokje0ui46ypg1xmxq
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Ведомость электронных документов"^^xsd:string;
+  rdfs:label "Ведомость электронных документов"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
@@ -2227,7 +2227,7 @@ d:008cae75474845fea02f19f446ed0940
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Спецификация"^^xsd:string;
+  rdfs:label "Спецификация"@ru ;
   rdfs:comment "Документ, точно, полностью и в поддающейся проверке форме определяет требования, устройство, поведение или другие особенности системы, компонента, продукта, результата или услуги, а также процедуры, способные определить, были ли выполнены эти условия."^^xsd:string;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
@@ -2239,7 +2239,7 @@ d:d31a94ab34094effacd483cdb17d79cd
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "УЧ"^^xsd:string;
-  rdfs:label "Упаковочный чертеж"^^xsd:string;
+  rdfs:label "Упаковочный чертеж"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
 .
@@ -2247,7 +2247,7 @@ d:c0383de0ddfa4b37af812af34784b27c
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "МЧ"^^xsd:string;
-  rdfs:label "Монтажный чертеж"^^xsd:string;
+  rdfs:label "Монтажный чертеж"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
@@ -2257,7 +2257,7 @@ d:35e72638f461474eb754191672a0cb5f
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "МЭ"^^xsd:string;
-  rdfs:label "Электромонтажный чертеж"^^xsd:string;
+  rdfs:label "Электромонтажный чертеж"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
 .
@@ -2265,7 +2265,7 @@ d:cf5b3f476bb24fcabf52c5888cca29ad
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ГЧ"^^xsd:string;
-  rdfs:label "Габаритный чертеж"^^xsd:string;
+  rdfs:label "Габаритный чертеж"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
 .
@@ -2273,7 +2273,7 @@ d:7979aedbb8b14c9abc5ed4f44cc27a9a
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ТЧ"^^xsd:string;
-  rdfs:label "Теоретический чертеж"^^xsd:string;
+  rdfs:label "Теоретический чертеж"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
 .
@@ -2281,7 +2281,7 @@ d:08ecfbc56afc4ac99d0527b3754e2916
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ВО"^^xsd:string;
-  rdfs:label "Чертеж общего вида"^^xsd:string;
+  rdfs:label "Чертеж общего вида"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
@@ -2291,7 +2291,7 @@ d:99d3887ae22d439c9fe77a10ff5a4b0d
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "СБ"^^xsd:string;
-  rdfs:label "Сборочный чертеж"^^xsd:string;
+  rdfs:label "Сборочный чертеж"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
@@ -2301,7 +2301,7 @@ d:cecd640c9c514bf4b622c905ccfce4c6
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "ЭСБ"^^xsd:string;
-  rdfs:label "Электронная модель сборочной единицы"^^xsd:string;
+  rdfs:label "Электронная модель сборочной единицы"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
@@ -2311,7 +2311,7 @@ d:8304cbd8e1d54ca9a011be9621fbfa4d
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Чертеж детали"^^xsd:string;
+  rdfs:label "Чертеж детали"@ru ;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
@@ -2321,7 +2321,7 @@ d:624281ba4005472f8cdff2f5e27260ae
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Электронная модель детали"^^xsd:string;
+  rdfs:label "Электронная модель детали"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
@@ -2331,7 +2331,7 @@ d:a0d0nb0o6bg2zbcvtsskio46uvr
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Электронная структура изделия"^^xsd:string;
+  rdfs:label "Электронная структура изделия"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
 .
@@ -2354,7 +2354,7 @@ d:2re747f77ef54cfd666aa3220046eef0
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
-  rdfs:label "Документация технического устройства на ОПО"^^xsd:string;
+  rdfs:label "Документация технического устройства на ОПО"@ru ;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
@@ -2658,7 +2658,7 @@ d:fbjh630mjxy8hquwp4k33nn0ir
 d:fqtq6vjbcq3nkdspwvrhdgn3
   a v-s:DocumentKind;
   v-s:shortLabel "Технологические документы"^^xsd:string;
-  rdfs:label "Технологические документы"^^xsd:string;
+  rdfs:label "Технологические документы"@ru ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
   v-s:hasNormativeDocument d:kr4xokecchfpvo0m5xflzjoa ;
 .
@@ -2666,7 +2666,7 @@ d:k9kr50oh4hp7vpywws6hapoi
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Технологические режимы"^^xsd:string;
-  rdfs:label "Технологические режимы"^^xsd:string;
+  rdfs:label "Технологические режимы"@ru ;
   rdfs:comment "Технологические режимы"^^xsd:string;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
@@ -2674,7 +2674,7 @@ d:p2haovg1x2rjcwvsxlxf2uv2
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Карты технологического контроля"^^xsd:string;
-  rdfs:label "Карты технологического контроля"^^xsd:string;
+  rdfs:label "Карты технологического контроля"@ru ;
   rdfs:comment "Карты технологического контроля"^^xsd:string;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
@@ -2682,7 +2682,7 @@ d:jl99a2aau286kog8ko5jf7ms
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Карты лабораторного контроля"^^xsd:string;
-  rdfs:label "Карты лабораторного контроля"^^xsd:string;
+  rdfs:label "Карты лабораторного контроля"@ru ;
   rdfs:comment "Карты лабораторного контроля"^^xsd:string;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
@@ -2690,21 +2690,21 @@ d:cl5emwsuke26ym5oeo74jer6
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Стандарт предприятия на продукцию"^^xsd:string;
-  rdfs:label "Стандарт предприятия на продукцию"^^xsd:string;
+  rdfs:label "Стандарт предприятия на продукцию"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:oto8kli9t4yvl58vl91qfqhya4
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Титульный лист"^^xsd:string;
-  rdfs:label "Титульный лист"^^xsd:string;
+  rdfs:label "Титульный лист"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:oto8kli9t4yvl58vl91qfqhya41
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Эскиз"^^xsd:string;
-  rdfs:label "Эскиз"^^xsd:string;
+  rdfs:label "Эскиз"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
 .
@@ -2712,63 +2712,63 @@ d:oto8kli9t4yvl58vl91qfqhya42
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Маршрутная карта"^^xsd:string;
-  rdfs:label "Маршрутная карта"^^xsd:string;
+  rdfs:label "Маршрутная карта"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:oto8kli9t4yvl58vl91qfqhya43
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Операционная карта"^^xsd:string;
-  rdfs:label "Операционная карта"^^xsd:string;
+  rdfs:label "Операционная карта"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:oto8kli9t4yvl58vl91qfqhya44
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Карта технологической информации"^^xsd:string;
-  rdfs:label "Карта технологической информации"^^xsd:string;
+  rdfs:label "Карта технологической информации"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:oto8kli9t4yvl58vl91qfqhya45
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Карта технологического процесса"^^xsd:string;
-  rdfs:label "Карта технологического процесса"^^xsd:string;
+  rdfs:label "Карта технологического процесса"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:oto8kli9t4yvl58vl91qfqhya46
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Комплектовочная карта"^^xsd:string;
-  rdfs:label "Комплектовочная карта"^^xsd:string;
+  rdfs:label "Комплектовочная карта"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:oto8kli9t4yvl58vl91qfqhya47
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Технико-нормировочная карта"^^xsd:string;
-  rdfs:label "Технико-нормировочная карта"^^xsd:string;
+  rdfs:label "Технико-нормировочная карта"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:oto8kli9t4yvl58vl91qfqhya48
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Карта кодирования информации"^^xsd:string;
-  rdfs:label "Карта кодирования информации"^^xsd:string;
+  rdfs:label "Карта кодирования информации"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:oto8kli9t4yvl58vl91qfqhya49
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Карта наладки"^^xsd:string;
-  rdfs:label "Карта наладки"^^xsd:string;
+  rdfs:label "Карта наладки"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
 .
 d:oto8kli9t4yvl58vl91qfqhya410
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость технологических маршрутов"^^xsd:string;
-  rdfs:label "Ведомость технологических маршрутов"^^xsd:string;
+  rdfs:label "Ведомость технологических маршрутов"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2776,7 +2776,7 @@ d:oto8kli9t4yvl58vl91qfqhya411
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость оснастки"^^xsd:string;
-  rdfs:label "Ведомость оснастки"^^xsd:string;
+  rdfs:label "Ведомость оснастки"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2784,7 +2784,7 @@ d:oto8kli9t4yvl58vl91qfqhya412
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость оборудования"^^xsd:string;
-  rdfs:label "Ведомость оборудования"^^xsd:string;
+  rdfs:label "Ведомость оборудования"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2792,7 +2792,7 @@ d:oto8kli9t4yvl58vl91qfqhya413
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость материалов"^^xsd:string;
-  rdfs:label "Ведомость материалов"^^xsd:string;
+  rdfs:label "Ведомость материалов"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2800,7 +2800,7 @@ d:oto8kli9t4yvl58vl91qfqhya414
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость специфицированных норм расхода материалов"^^xsd:string;
-  rdfs:label "Ведомость специфицированных норм расхода материалов"^^xsd:string;
+  rdfs:label "Ведомость специфицированных норм расхода материалов"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2808,7 +2808,7 @@ d:oto8kli9t4yvl58vl91qfqhya415
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость удельных норм расхода материалов"^^xsd:string;
-  rdfs:label "Ведомость удельных норм расхода материалов"^^xsd:string;
+  rdfs:label "Ведомость удельных норм расхода материалов"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2816,7 +2816,7 @@ d:oto8kli9t4yvl58vl91qfqhya416
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Технологическая ведомость"^^xsd:string;
-  rdfs:label "Технологическая ведомость"^^xsd:string;
+  rdfs:label "Технологическая ведомость"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2824,7 +2824,7 @@ d:oto8kli9t4yvl58vl91qfqhya417
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость применяемости"^^xsd:string;
-  rdfs:label "Ведомость применяемости"^^xsd:string;
+  rdfs:label "Ведомость применяемости"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2832,7 +2832,7 @@ d:oto8kli9t4yvl58vl91qfqhya418
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость сборки изделия"^^xsd:string;
-  rdfs:label "Ведомость сборки изделия"^^xsd:string;
+  rdfs:label "Ведомость сборки изделия"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2840,7 +2840,7 @@ d:oto8kli9t4yvl58vl91qfqhya419
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость операций"^^xsd:string;
-  rdfs:label "Ведомость операций"^^xsd:string;
+  rdfs:label "Ведомость операций"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2848,7 +2848,7 @@ d:oto8kli9t4yvl58vl91qfqhya420
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость деталей"^^xsd:string;
-  rdfs:label "Ведомость деталей"^^xsd:string;
+  rdfs:label "Ведомость деталей"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2856,7 +2856,7 @@ d:oto8kli9t4yvl58vl91qfqhya421
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость дефектаций"^^xsd:string;
-  rdfs:label "Ведомость дефектаций"^^xsd:string;
+  rdfs:label "Ведомость дефектаций"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2864,7 +2864,7 @@ d:oto8kli9t4yvl58vl91qfqhya422
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость стержней"^^xsd:string;
-  rdfs:label "Ведомость стержней"^^xsd:string;
+  rdfs:label "Ведомость стержней"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2872,7 +2872,7 @@ d:oto8kli9t4yvl58vl91qfqhya423
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Ведомость держателей подлинников"^^xsd:string;
-  rdfs:label "Ведомость держателей подлинников"^^xsd:string;
+  rdfs:label "Ведомость держателей подлинников"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
@@ -2881,7 +2881,7 @@ d:oto8kli9t4yvl58vl91qfqhya423
 d:j1fscemown2iv45412nun98x
   a v-s:DocumentKind;
   v-s:shortLabel "Исполнительные документы"^^xsd:string;
-  rdfs:label "Исполнительные документы"^^xsd:string;
+  rdfs:label "Исполнительные документы"@ru ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
   v-s:hasNormativeDocument d:n6geyip94lfhcm8l9eeb3nqj ;
   v-s:hasNormativeDocument d:c4ekq4e7zt4kyp3plcshhr62 ;
@@ -2893,13 +2893,13 @@ d:j1fscemown2iv45412nun98x
 d:a26wryne43dijbzw781c5fcy4
   a v-s:DocumentKind;
   v-s:shortLabel "Разрешительные документы"^^xsd:string;
-  rdfs:label "Разрешительные документы"^^xsd:string;
+  rdfs:label "Разрешительные документы"@ru ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
 .
 d:qghjme06zp2ielddfdctpjvtuw
   a v-s:DocumentKind;
   v-s:shortLabel "Свидетельство о государственной регистрации"^^xsd:string;
-  rdfs:label "Свидетельство о государственной регистрации"^^xsd:string;
+  rdfs:label "Свидетельство о государственной регистрации"@ru ;
   v-s:hasParentLink d:a27993f6be1340b6beb1b4e8d049d812;
   v-s:hasParentLink d:a26wryne43dijbzw781c5fcy4;
 .
@@ -2914,14 +2914,14 @@ d:db3zjipxdgztjnrrgjr7hg2sug
 d:hoklhank71pa09uzylukp7oomf
   a v-s:DocumentKind;
   v-s:shortLabel "Отказное письмо"^^xsd:string;
-  rdfs:label "Отказное письмо"^^xsd:string;
+  rdfs:label "Отказное письмо"@ru ;
   v-s:hasParentLink d:cb9cf2f497654f1cb9b2e84e77b54213;
   v-s:hasParentLink d:a26wryne43dijbzw781c5fcy4;
 .
 d:k623cu0cih8u0fgsgkmbelou3h
   a v-s:DocumentKind;
   v-s:shortLabel "Разрешение на применение"^^xsd:string;
-  rdfs:label "Разрешение на применение"^^xsd:string;
+  rdfs:label "Разрешение на применение"@ru ;
   v-s:hasParentLink d:bdc120ddc9914bc2a88e520b552637dd;
   v-s:hasParentLink d:a26wryne43dijbzw781c5fcy4;
 .
@@ -2930,7 +2930,7 @@ d:k623cu0cih8u0fgsgkmbelou3h
 d:zn8jlec6ma6x28fsgp6lyw49zo
   a v-s:DocumentKind;
   v-s:shortLabel "Инженерные изыскания"^^xsd:string;
-  rdfs:label "Инженерные изыскания"^^xsd:string;
+  rdfs:label "Инженерные изыскания"@ru ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
 .
 
@@ -2938,7 +2938,7 @@ d:zn8jlec6ma6x28fsgp6lyw49zo
 d:4497b0977e8f411c9351a6eea04ce0a4
   a v-s:DocumentKind;
   v-s:shortLabel "Макет упаковки"^^xsd:string;
-  rdfs:label "Макет упаковки"^^xsd:string;
+  rdfs:label "Макет упаковки"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 
@@ -2946,85 +2946,85 @@ d:4497b0977e8f411c9351a6eea04ce0a4
 d:byrtofyhdn8fy4cf744dngzna8
   a v-s:DocumentKind;
   v-s:shortLabel "KPI"^^xsd:string;
-  rdfs:label "KPI"^^xsd:string;
+  rdfs:label "KPI"@en ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 
 
-d:aygo9zg6wcbcpmnw5pae3388dr 
+d:aygo9zg6wcbcpmnw5pae3388dr
   a v-s:DocumentKind;
   v-s:shortLabel "Квитанция"^^xsd:string;
-  rdfs:label "Квитанция"^^xsd:string;
+  rdfs:label "Квитанция"@ru ;
 .
 
 d:o3o3omhvi5jfb2sm71chdzhxh2
   a v-s:DocumentKind;
   v-s:shortLabel "Авансовый отчет"^^xsd:string;
-  rdfs:label "Авансовый отчет"^^xsd:string;
+  rdfs:label "Авансовый отчет"@ru ;
 .
 d:a31tdt3yehg0hgv93ac5rtljgtz
   a v-s:DocumentKind;
   v-s:shortLabel "Командировочное удостоверение"^^xsd:string;
-  rdfs:label "Командировочное удостоверение"^^xsd:string;
+  rdfs:label "Командировочное удостоверение"@ru ;
 .
 d:fklo8xxg2x8g9xmahsdnvsuzcz
   a v-s:DocumentKind;
   v-s:shortLabel "Материалы"^^xsd:string;
-  rdfs:label "Материалы"^^xsd:string;
+  rdfs:label "Материалы"@ru ;
 .
 d:a15e6x96hmb3yf2psdd29l2a76o
   a v-s:DocumentKind;
   v-s:shortLabel "Акт-сверки"^^xsd:string;
-  rdfs:label "Акт-сверки"^^xsd:string;
+  rdfs:label "Акт-сверки"@ru ;
 .
 d:cxg66g04kqsjgfu8rqtc6bzc8u
   a v-s:DocumentKind;
   v-s:shortLabel "Лист согласования"^^xsd:string;
-  rdfs:label "Лист согласования"^^xsd:string;
+  rdfs:label "Лист согласования"@ru ;
 .
 d:a1ghfhe9ltsm35owon6vpei8zug
   a v-s:DocumentKind;
   v-s:shortLabel "Обращение"^^xsd:string;
-  rdfs:label "Обращение"^^xsd:string;
+  rdfs:label "Обращение"@ru ;
 .
 d:ojh8iuyrg60ue1t5qcdxh0ix6c
   a v-s:DocumentKind;
   v-s:shortLabel "Статистическая отчетность"^^xsd:string;
-  rdfs:label "Статистическая отчетность"^^xsd:string;
+  rdfs:label "Статистическая отчетность"@ru ;
 .
 d:a2kcvu74fhxyl3p1teiavj0azp6
   a v-s:DocumentKind;
   v-s:shortLabel "Объяснительная"^^xsd:string;
-  rdfs:label "Объяснительная"^^xsd:string;
+  rdfs:label "Объяснительная"@ru ;
 .
 d:a9obfw3gfuxfznib2dw6ntykq3y
   a v-s:DocumentKind;
   v-s:shortLabel "Доверенность"^^xsd:string;
-  rdfs:label "Доверенность"^^xsd:string;
+  rdfs:label "Доверенность"@ru ;
 .
 d:xwoxdf0v0hc18qxmyct13omi86
   a v-s:DocumentKind;
   v-s:shortLabel "Сведения"^^xsd:string;
-  rdfs:label "Сведения"^^xsd:string;
+  rdfs:label "Сведения"@ru ;
 .
 d:zsb0ja8kpuvdfgwds4vfwifvgo
   a v-s:DocumentKind;
   v-s:shortLabel "Табель"^^xsd:string;
-  rdfs:label "Табель"^^xsd:string;
+  rdfs:label "Табель"@ru ;
 .
 d:a04m2e8ceb0ju1xqb5dgnrwz7vq
   a v-s:DocumentKind;
   v-s:shortLabel "Прейскурант"^^xsd:string;
-  rdfs:label "Прейскурант"^^xsd:string;
+  rdfs:label "Прейскурант"@ru ;
 .
 d:gufxj1natqtehwxid6u1a3diobr
   a v-s:DocumentKind;
   v-s:shortLabel "Предостережение"^^xsd:string;
-  rdfs:label "Предостережение"^^xsd:string;
+  rdfs:label "Предостережение"@ru ;
 .
 d:7pe6avq64rs6m0857y0t96dd2q
   a v-s:DocumentKind;
   v-s:shortLabel "Правило"^^xsd:string;
-  rdfs:label "Правило"^^xsd:string;
+  rdfs:label "Правило"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
