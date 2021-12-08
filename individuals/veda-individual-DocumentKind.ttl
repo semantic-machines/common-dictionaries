@@ -2946,10 +2946,10 @@ d:4497b0977e8f411c9351a6eea04ce0a4
 d:byrtofyhdn8fy4cf744dngzna8
   a v-s:DocumentKind;
   v-s:shortLabel "KPI"^^xsd:string;
+  rdfs:label "KPI"@ru ;
   rdfs:label "KPI"@en ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
-
 
 d:aygo9zg6wcbcpmnw5pae3388dr
   a v-s:DocumentKind;
