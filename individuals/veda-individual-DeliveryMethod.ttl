@@ -230,6 +230,7 @@ d:727
   rdfs:label "Лично"@ru;
   rdfs:label "Personally"@en;
   v-s:transportOrganization d:org_RU000000000000 ;
+  v-s:transportOrganization d:org_RU111111111111 ;
 .
 d:692
   a v-s:DeliveryMethod;
