@@ -27,6 +27,7 @@ v-s:DeliveryMethod
 # d:org_RU000000000000  Физ лицо
 # d:org_RU111111111111  Юр лицо
 # d:org_RU7724261610 ФГУП "Почта России"
+# d:org_RU7724490000 АО Почта России
 # d:213ee43f668a4338af73e610c2599135 EMS Экспресс-почта России
 # d:org_RU3904605622  ООО Пони экспресс | Pony Express
 # d:org_RU7707280394  ООО ЮНАЙТЕД ПАРСЕЛ СЕРВИС | UPS
@@ -76,6 +77,7 @@ d:244a40584c814020a7430b2e6005e387
   rdfs:label "Посылка"@ru;
   rdfs:label "Parcel"@en;
 	v-s:transportOrganization d:org_RU7724261610 ;
+	v-s:transportOrganization d:org_RU7724490000 ;
 	v-s:transportOrganization d:org_RU7826094630 ;
 	v-s:transportOrganization	d:org_RU7715356456 ;
 	v-s:transportOrganization	d:org_RU7707280394 ;
@@ -112,8 +114,8 @@ d:244a40584c814020a7430b2e6005e387
 .
 d:aoyj96mwnpw0ltuwq02f9slz4a
   a v-s:DeliveryMethod;
-  rdfs:label "Пакет"@ru;
-  rdfs:label "Pack"@en;
+  rdfs:label "Конверт"@ru;
+  rdfs:label "Envelope"@en;
   v-s:transportOrganization d:org_RU7826094630 ;
   v-s:transportOrganization d:org_RU7715356456 ;
   v-s:transportOrganization d:org_RU7707280394 ;
@@ -152,37 +154,50 @@ d:293b8861b53e4467864b7d8cd3a5f4fb
   a v-s:DeliveryMethod;
   rdfs:label "Заказная бандероль"@ru;
   rdfs:label "Ordered parcel"@en;
-  v-s:transportOrganization d:org_RU7724261610 ;
+  v-s:transportOrganization d:org_RU7724490000 ;
+  v-s:transportOrganization d:org_RU7724261610 ;  
 .
 d:9c31eb7c49654891a8fcf1f3d29af2f4
   a v-s:DeliveryMethod;
   rdfs:label "Простая Бандероль"@ru;
   rdfs:label "Common parcel"@en;
-  v-s:transportOrganization d:org_RU7724261610 ;
+  v-s:transportOrganization d:org_RU7724490000 ;
+  v-s:transportOrganization d:org_RU7724261610 ;  
 .
 d:0c4f6f13-d6c6-4e88-9bb9-560bf8f64bf9
   a v-s:DeliveryMethod;
   rdfs:label "Ценное письмо"@ru;
   rdfs:label "Value letter"@en;
-	v-s:transportOrganization d:org_RU7724261610 ;
+	v-s:transportOrganization d:org_RU7724490000 ;
+  v-s:transportOrganization d:org_RU7724261610 ;  
 .
 d:763
   a v-s:DeliveryMethod;
   rdfs:label "Заказное письмо"@ru;
   rdfs:label "Ordered letter"@en;
-	v-s:transportOrganization d:org_RU7724261610 ;
+	v-s:transportOrganization d:org_RU7724490000 ;
+  v-s:transportOrganization d:org_RU7724261610 ;  
 .
 d:718
   a v-s:DeliveryMethod;
   rdfs:label "Заказное с уведомлением"@ru;
   rdfs:label "Ordered with notification"@en;
-	v-s:transportOrganization d:org_RU7724261610 ;
+	v-s:transportOrganization d:org_RU7724490000 ;
+  v-s:transportOrganization d:org_RU7724261610 ;  
 .
 d:700
   a v-s:DeliveryMethod;
   rdfs:label "Простое письмо"@ru;
   rdfs:label "Common letter"@en;
-	v-s:transportOrganization d:org_RU7724261610 ;
+	v-s:transportOrganization d:org_RU7724490000 ;
+  v-s:transportOrganization d:org_RU7724261610 ;  
+.
+d:n8dx2xuqkrx3to6i2cychv0zbl
+  a v-s:DeliveryMethod;
+  rdfs:label "EMS – курьерская служба"@ru;
+  rdfs:label "EMS delivery"@en;
+	v-s:transportOrganization d:org_RU7724490000 ;
+  v-s:transportOrganization d:org_RU7724261610 ;  
 .
 
 #---------------
