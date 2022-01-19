@@ -87,6 +87,12 @@ v-s:StatusPreparationLegalOpinion
   rdfs:label "Preparation of a legal opinion"@en ;
   v-s:tag "default" ;
 .
+v-s:StatusPreparationAnswerCustomer
+  rdf:type v-s:Status ;
+  rdfs:label "Подготовка ответа покупателю"@ru ;
+  rdfs:label "Response preparation"@en ;
+  v-s:tag "default" ;
+.
 v-s:StatusFulfillmentConditions
   rdf:type v-s:Status ;
   rdfs:label "Выполнение условий"@ru ;
