@@ -25,14 +25,17 @@ d:jr36dz2zd75s4bk2mx0cvuppmo
     a v-s:VotingResult;
     rdfs:label "Поддерживаю"@ru;
     rdfs:label "Support"@en;
+    rdfs:comment "1"^^xsd:string;
 .
 d:ellrdkgazqyzsnfxi9eqplxm2l
     a v-s:VotingResult;
     rdfs:label "Не поддерживаю"@ru;
     rdfs:label "Not support"@en;
+    rdfs:comment "2"^^xsd:string;
 .
 d:9o944f2we19115512nab0p1je9
     a v-s:VotingResult;
     rdfs:label "Вне моей ответственности"@ru;
     rdfs:label "Beyond my responsibility"@en;
+    rdfs:comment "3"^^xsd:string;
 .
