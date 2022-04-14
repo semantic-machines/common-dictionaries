@@ -132,7 +132,7 @@ d:de2ef98f99814cbbb3ed11b2b1b75ffb
 d:6f61b219ee1548c98812485f7dda5953
   a v-s:Sector;
   v-s:hasParentLink d:bc8dd0bf919d4d4fa7e49ede5cbcc868;
-  rdfs:label "Производство по  делам   об   административных правонарушениях"^^xsd:string;
+  rdfs:label "Производство по  делам об административных правонарушениях"^^xsd:string;
   v-s:registrationNumber "020.060.050"^^xsd:string;
 .
 
@@ -154,7 +154,7 @@ d:bdc10cafd79a4ad8b1d914b0202893a3
 d:51df5a9d6eaf4f8d878b069b84923739
   a v-s:Sector;
   v-s:hasParentLink d:e13c6dd05f08446a9ec5ed02ca5639ee;
-  rdfs:label "Мониторинг за   состоянием   атмосферного   воздуха. Служба слежения за состоянием атмосферы"^^xsd:string;
+  rdfs:label "Мониторинг за состоянием атмосферного воздуха. Служба слежения за состоянием атмосферы"^^xsd:string;
   v-s:registrationNumber "110.090.030"^^xsd:string;
 .
 
@@ -187,7 +187,6 @@ d:66f31c625dbd4b49afec313119d731f4
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Электрическое оборудование"^^xsd:string;
   v-s:registrationNumber "090.010.050.002"^^xsd:string;
-  v-s:shortLabel "Э"^^xsd:string;
 .
 
 d:1e49e40b5d144075b97e2a2882a81d5f
@@ -220,7 +219,6 @@ d:5026ea45f86d49df8d6a1fabc6a3446b
   v-s:suppliersRoleInContract d:jslj1t0dm3o6sg8jas931um4kw;
   rdfs:label "Купля-продажа"^^xsd:string;
   v-s:registrationNumber "030.120.010"^^xsd:string;
-  v-s:shortLabel "КП"^^xsd:string;
 .
 
 d:8895363c77984d4284df7a5d4c265f7a
@@ -530,7 +528,6 @@ d:45bb1de686d547098a58ca8b58a8dc5d
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Механическое оборудование"^^xsd:string;
   v-s:registrationNumber "090.010.050.003"^^xsd:string;
-  v-s:shortLabel 'M' ;
 .
 
 d:5b01cbe55fda45fdb346007a9d82b7b8
@@ -550,7 +547,7 @@ d:b687100bddd94423aa6a70f0ffe8184a
 d:2ff514dd9aec4326b63d2d4a0544b52a
   a v-s:Sector;
   v-s:hasParentLink d:9d2c61a621634fdc8e9d889869c568f1;
-  rdfs:label "Трудоустройство и   занятость   населения"^^xsd:string;
+  rdfs:label "Трудоустройство и занятость населения"^^xsd:string;
   v-s:registrationNumber "060.010.000"^^xsd:string;
 .
 
@@ -655,7 +652,7 @@ d:a82fa1f588c94c4fa17475048071a53b
 d:67ae13107d3b4943a1ffd8a0027f8583
   a v-s:Sector;
   v-s:hasParentLink d:39501c43e13747d5ba00c35488c3b498;
-  rdfs:label "Перевозка грузов. Погрузочно-разгрузочные   работы"^^xsd:string;
+  rdfs:label "Перевозка грузов. Погрузочно-разгрузочные работы"^^xsd:string;
   v-s:registrationNumber "090.070.140"^^xsd:string;
 .
 
@@ -699,7 +696,7 @@ d:a1ff805754004cdea5782e286d9754ac
 d:1f07086f200b4406b773ef78f0ba3cf8
   a v-s:Sector;
   v-s:hasParentLink d:30d9ac31bf4048d9b12a7e2ec171c27d;
-  rdfs:label "Патентное право (изобретения, полезные   модели, промышленные образцы)"^^xsd:string;
+  rdfs:label "Патентное право (изобретения, полезные модели, промышленные образцы)"^^xsd:string;
   v-s:registrationNumber "030.130.040"^^xsd:string;
 .
 
@@ -885,7 +882,6 @@ d:acf44ed83484468bab99124d4708ac4f
   v-s:suppliersRoleInContract d:wh0t3y7ou4k9o0ec5vw4j5df5c;
   rdfs:label "Страхование"^^xsd:string;
   v-s:registrationNumber "030.120.160"^^xsd:string;
-  v-s:shortLabel "С"^^xsd:string;
 .
 
 d:831daafd86d9489ebb458450a49998a2
@@ -894,7 +890,6 @@ d:831daafd86d9489ebb458450a49998a2
   v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
   rdfs:label "Лесная, деревообрабатывающая  и  целлюлозно-бумажная промышленность"^^xsd:string;
   v-s:registrationNumber "090.010.170"^^xsd:string;
-  v-s:shortLabel 'T' ;
 .
 
 d:1375d1eed390496f8fee1fc9124d239a
@@ -957,7 +952,7 @@ d:c286ee99e0864208b2e8ee971adb1c27
 d:30d9ac31bf4048d9b12a7e2ec171c27d
   a v-s:Sector;
   v-s:hasParentLink d:4b7c19a876ea4ae295baf48f6a378451;
-  rdfs:label "Интеллектуальная собственность (исключительные   права)"^^xsd:string;
+  rdfs:label "Интеллектуальная собственность (исключительные права)"^^xsd:string;
   v-s:registrationNumber "030.130.000"^^xsd:string;
 .
 
@@ -1033,7 +1028,6 @@ d:812b7db9dc974c34aaa02f4a0609032f
   v-s:suppliersRoleInContract d:wws2oz313z6xpl1hd4u3laxzfg;
   rdfs:label "Возмездное оказание услуг"^^xsd:string;
   v-s:registrationNumber "030.120.100"^^xsd:string;
-  v-s:shortLabel "У"^^xsd:string;
 .
 
 d:3930908741864b31ac4d155fbb171bbf
@@ -1075,14 +1069,14 @@ d:4c567e20864148738757b6f44849d385
   a v-s:Sector;
   v-s:hasParentLink d:506614f30cdd4494976d190a83fccb4e;
   v-s:hasParentLink d:678d0d1e89f04f5f9f5d975e79c86d77;
-  rdfs:label "Охрана государственной  и   частной   собственности. Вневедомственная охрана"^^xsd:string;
+  rdfs:label "Охрана государственной  и частной собственности. Вневедомственная охрана"^^xsd:string;
   v-s:registrationNumber "160.040.040"^^xsd:string;
 .
 
 d:4c720db189624cc394b177da061b63dc
   a v-s:Sector;
   v-s:hasParentLink d:d330376dcb14460c8581408b2dc4d730;
-  rdfs:label "Право собственности и иные права на объекты нежилого фонда,   приватизация нежилого  фонда"^^xsd:string;
+  rdfs:label "Право собственности и иные права на объекты нежилого фонда, приватизация нежилого  фонда"^^xsd:string;
   v-s:registrationNumber "050.060.020"^^xsd:string;
 .
 
@@ -1235,7 +1229,6 @@ d:ba1a7913d52e4a47967645767b6f2604
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Оборудование КИПиА"^^xsd:string;
   v-s:registrationNumber "090.010.050.001"^^xsd:string;
-  v-s:shortLabel 'A' ;
 .
 
 d:748284793e5b42e69d10c456efd36eda
@@ -1252,7 +1245,6 @@ d:1b0d368c502f4e4db36f0e6cf9513b16
   v-s:suppliersRoleInContract d:a1nzzs06xqqx3fvud0bsjq78cdq;
   rdfs:label "Аренда"^^xsd:string;
   v-s:registrationNumber "030.120.050"^^xsd:string;
-  v-s:shortLabel "Ар"^^xsd:string;
 .
 
 d:52520c80f0e14b40a2ef0f27b0a727d6
@@ -1265,7 +1257,7 @@ d:52520c80f0e14b40a2ef0f27b0a727d6
 d:60567c38058f4d3c8d79dd9bca158611
   a v-s:Sector;
   v-s:hasParentLink d:88e66a7d24944ba1ae15bef62a71effe, d:0ed33c0939024c8991c60ac3acbdd287;
-  rdfs:label "Охрана окружающей  природной среды и обеспечение          экологической безопасности"^^xsd:string;
+  rdfs:label "Охрана окружающей природной среды и обеспечение экологической безопасности"^^xsd:string;
   v-s:registrationNumber "110.010.130"^^xsd:string;
 .
 
@@ -1515,7 +1507,7 @@ d:37fca6a101a1410cb92712c22ad83cad
 d:7d2ceacd13ba41568180731170cc37fb
   a v-s:Sector;
   v-s:hasParentLink d:e13c6dd05f08446a9ec5ed02ca5639ee;
-  rdfs:label "Охрана атмосферы  от   загрязнения,   радиационного, теплового и иных вредных воздействий"^^xsd:string;
+  rdfs:label "Охрана атмосферы  от загрязнения, радиационного, теплового и иных вредных воздействий"^^xsd:string;
   v-s:registrationNumber "110.090.050"^^xsd:string;
 .
 
@@ -1548,7 +1540,6 @@ d:52690a3f0dbd4d3baf937220a7035ae0
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Экологическая безопасность"^^xsd:string;
   v-s:registrationNumber "160.040.090"^^xsd:string;
-  v-s:shortLabel 'E' ;
 .
 
 d:f7f09ec9090143879cf7e94b0c3bcdd0
@@ -1634,7 +1625,7 @@ d:aeaa058393bd4850a710a0a804d61a09
 d:0ee0215cff344246b0929a1491a45fb9
   a v-s:Sector;
   v-s:hasParentLink d:909875eb5dd749229c403d8a2c7da010;
-  rdfs:label "Договоры об оказании услуг в международных гражданско-правовых   отношениях"^^xsd:string;
+  rdfs:label "Договоры об оказании услуг в международных гражданско-правовых отношениях"^^xsd:string;
   v-s:registrationNumber "030.150.120"^^xsd:string;
 .
 
@@ -1663,7 +1654,7 @@ d:e8519cdeb5194009a0afefae8275a171
   a v-s:Sector;
   v-s:hasParentLink d:3f4a2dd6a8604b579c65857de9e39568;
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
-  rdfs:label "Электронная и   электротехническая   промышленность. Бытовые приборы"^^xsd:string;
+  rdfs:label "Электронная и электротехническая промышленность. Бытовые приборы"^^xsd:string;
   v-s:registrationNumber "090.010.160"^^xsd:string;
 .
 
@@ -1765,7 +1756,6 @@ d:ae5e2e05b8bc48e2a10df25dfe18f1cb
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Энергетика"^^xsd:string;
   v-s:registrationNumber "090.010.070"^^xsd:string;
-  v-s:shortLabel 'E' ;
 .
 
 d:bd282d53983843a183137a9dd8bd1dac
@@ -1811,7 +1801,7 @@ d:6f16de81abb34ccc80cb99de3022e6d3
 d:be6914f2ce1049ab860cd014fe0ba9b5
   a v-s:Sector;
   v-s:hasParentLink d:d4e3daec542c4febb91f83f4f7e60f58;
-  rdfs:label "Общие   вопросы  государственного управления в  сфере экономики, социально-культурного  и  административно-политического строительства"^^xsd:string;
+  rdfs:label "Общие вопросы государственного управления в сфере экономики, социально-культурного и административно-политического строительства"^^xsd:string;
   v-s:registrationNumber "020.030.000"^^xsd:string;
 .
 
@@ -1859,7 +1849,6 @@ d:a7441b96b-5bd5-38cf-649b-0c3880d57840
 d:9b9354e19fb24d74a71ab476100bf3e9
   a v-s:Sector;
   rdfs:label "Технологическое обслуживание оборудования"^^xsd:string;
-  v-s:shortLabel "Т"^^xsd:string;
 .
 d:2ae4749b19b14d6fb136c14ffe09f61a
   a v-s:Sector;
@@ -1876,7 +1865,6 @@ d:05a019635556441aa111421951cb3850
   v-s:suppliersRoleInContract d:d7baxl3cu7w5hbzl2g560vyvb0;
   rdfs:label "Безвозмездное пользование"^^xsd:string;
   v-s:registrationNumber "030.120.070"^^xsd:string;
-  v-s:shortLabel "БП"^^xsd:string;
 .
 d:e29cb82cd2ae42e59dd1af8c7f002292
   a v-s:Sector;
