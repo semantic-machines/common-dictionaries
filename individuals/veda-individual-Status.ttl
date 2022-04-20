@@ -424,7 +424,7 @@ v-s:StatusActive
   rdf:type v-s:Status ;
   rdfs:label "Активно"@ru ;
   rdfs:label "Active"@en ;
-  v-s:tag "default" ;
+  v-s:tag "info" ;
 .
 v-s:StatusCompleted
   rdf:type v-s:Status ;
