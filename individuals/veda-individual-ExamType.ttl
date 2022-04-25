@@ -1,0 +1,338 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/>.
+
+@prefix v-fc: <http://semantic-machines.com/veda/veda-function-create/> .
+<http://semantic-machines.com/veda/mondi-individual-Profession>
+  rdf:type owl:Ontology ;
+  v-s:loadPriority 10 ;
+.
+
+
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:ExamType
+  rdf:type owl:Class ;
+  rdfs:label "Категория"@ru ;
+  rdfs:label "Category"@en ;
+  rdfs:subClassOf v-s:UserThing ;
+.
+
+# --- В связи с вводом класса возникает предикат v-s:hasExamType в v-s:CertificationDocument
+
+# ------------------------------------------------------------ ИНДИВИДЫ --
+
+#---------------------------------------------------------------------
+d:rqyj0nwl964wikvbccy16fuw8j
+    a v-s:ExamType;
+    rdfs:label "Медосмотр"@ru;
+    rdfs:label "Medical checkup"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasMedicalCheckupCertificate;
+.
+  #-----
+  d:wcri9z749dn8m4jeez1b05cvb1
+    a v-s:ExamType;
+    rdfs:label "Медосмотр ИТР"@ru;
+    rdfs:label "Medical checkup(technical engineer)"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasMedicalCheckupCertificate;
+    v-s:hasParentLink d:rqyj0nwl964wikvbccy16fuw8j;
+  .
+  #-----
+  d:g16oy9pcm9h9yfae12lyrjrv6x
+    a v-s:ExamType;
+    rdfs:label "Медосмотр рабочие"@ru;
+    rdfs:label "Medical checkup(workers)"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasMedicalCheckupCertificate;
+    v-s:hasParentLink d:rqyj0nwl964wikvbccy16fuw8j;
+  .
+  #-----
+  d:a1xxv93fi5r2nbild9rl1yxzan
+    a v-s:ExamType;
+    rdfs:label "Медосмотр водители"@ru;
+    rdfs:label "Medical checkup(drivers)"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasMedicalCheckupCertificate;
+    v-s:hasParentLink d:rqyj0nwl964wikvbccy16fuw8j;
+  . 
+#---------------------------------------------------------------------
+d:gvzt9lypntvhkagl6hmf9yawxr
+    a v-s:ExamType;
+    rdfs:label "ОТ"@ru;
+    rdfs:label "Work safety"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasLaborSafetyCertificate;
+.
+  #-----
+  d:6ypkmhe3xlow4dwwxaz6jmq2cq
+      a v-s:ExamType;
+      rdfs:label "ОТ рабочие"@ru;
+      rdfs:label "Work safety(workers)"@en;
+      v-s:hasRequiredFieldsForProfession  v-s:hasLaborSafetyCertificate;
+      v-s:hasParentLink d:gvzt9lypntvhkagl6hmf9yawxr;
+  .
+  #-----
+  d:o1eq59sz9d35adqwb5dsczq64r
+      a v-s:ExamType;
+      rdfs:label "ОТ ИТР"@ru;
+      rdfs:label "Work safety(technical engineer)"@en;
+      v-s:hasRequiredFieldsForProfession  v-s:hasLaborSafetyCertificate;
+      v-s:hasParentLink d:gvzt9lypntvhkagl6hmf9yawxr;
+  .
+#---------------------------------------------------------------------
+d:pztgmily9moom3rgnr0fsrdy5b
+  a v-s:ExamType;
+  rdfs:label "Работы на высоте"@ru;
+  rdfs:label "Working at height"@en;
+  v-s:hasRequiredFieldsForProfession  v-s:hasLaborSafetyCertificate;
+.  
+  #-----
+  d:nvz943cklq9w8btm3rjwc04tsa
+      a v-s:ExamType;
+      rdfs:label "Работы на высоте (без группы)"@ru;
+      rdfs:label "Working at height(without group)"@en;
+      v-s:hasRequiredFieldsForProfession  v-s:hasWorkAtHighAltitudeCertificate;
+      v-s:hasParentLink d:pztgmily9moom3rgnr0fsrdy5b;
+  .
+  #-----
+  d:ha0yx0zek0abndqeime5qsfk667
+      a v-s:ExamType;
+      rdfs:label "Работы на высоте 1 группа"@ru;
+      rdfs:label "Working at height 1 group"@en;
+      v-s:hasRequiredFieldsForProfession  v-s:hasWorkAtHighAltitudeCertificate;
+      v-s:hasParentLink d:pztgmily9moom3rgnr0fsrdy5b;
+  .
+  #-----
+  d:hw7mwf9ewb6z2b3o6i6pyab1yg
+      a v-s:ExamType;
+      rdfs:label "Работы на высоте 2 группа"@ru;
+      rdfs:label "Working at height 2 group"@en;
+      v-s:hasRequiredFieldsForProfession  v-s:hasWorkAtHighAltitudeCertificate;
+      v-s:hasParentLink d:pztgmily9moom3rgnr0fsrdy5b;
+  .
+  #-----
+  d:ofm25z29txasakckmimfqdw0ea
+      a v-s:ExamType;
+      rdfs:label "Работы на высоте 3 группа"@ru;
+      rdfs:label "Working at height 3 group"@en;
+      v-s:hasRequiredFieldsForProfession  v-s:hasWorkAtHighAltitudeCertificate;
+      v-s:hasParentLink d:pztgmily9moom3rgnr0fsrdy5b;
+  .
+#---------------------------------------------------------------------
+d:ric9hkvvkys4qt9ddhowp0vipc
+    a v-s:ExamType;
+    rdfs:label "Рабочий люльки"@ru;
+    rdfs:label "Cradle worker"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasCradleCertificate;
+.
+#---------------------------------------------------------------------
+d:vlcjwcbsh0alsipv9mlfxywh7g
+    a v-s:ExamType;
+    rdfs:label "Машинист подъемника"@ru;
+    rdfs:label "Elevator operator"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasLiftDriverCertificate;
+.
+#---------------------------------------------------------------------
+d:gqsqh9v99vdtdszllqk40x5led
+    a v-s:ExamType;
+    rdfs:label "Проверка знаний по Пож тех мини - ПТМ"@ru;
+    rdfs:label "Fire Technical Knowledge Test"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasFireTechnicalMinimumCertificate;
+.
+#---------------------------------------------------------------------
+d:4885setel2tixzccdm8t8fvd35
+    a v-s:ExamType;
+    rdfs:label "Электробезопасность"@ru;
+    rdfs:label "Electrical Safety"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasElectricalSafetyCertificate;
+.
+  #------
+  d:5hrsx9bsb40rmh856dnj69rwag
+    a v-s:ExamType;
+    rdfs:label "Электробезопасность 2 группа"@ru;
+    rdfs:label "Electrical Safety 2 group"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasElectricalSafetyCertificate;
+    v-s:hasParentLink d:4885setel2tixzccdm8t8fvd35;
+  .
+  #------
+  d:dhrs01o72v5jt7ybg3t2w361gs
+    a v-s:ExamType;
+    rdfs:label "Электробезопасность 3 группа"@ru;
+    rdfs:label "Electrical Safety 3 group"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasElectricalSafetyCertificate;
+    v-s:hasParentLink d:4885setel2tixzccdm8t8fvd35;
+  .
+  #------
+  d:ell0spf87scxhtmisny6hoze1m
+    a v-s:ExamType;
+    rdfs:label "Электробезопасность 4 группа"@ru;
+    rdfs:label "Electrical Safety 4 group"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasElectricalSafetyCertificate;
+    v-s:hasParentLink d:4885setel2tixzccdm8t8fvd35;
+  .
+  #------
+  d:k6soqbj1ky3acuyv1fkz8afy9e
+    a v-s:ExamType;
+    rdfs:label "Электробезопасность 5 группа"@ru;
+    rdfs:label "Electrical Safety 5 group"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasElectricalSafetyCertificate;
+    v-s:hasParentLink d:4885setel2tixzccdm8t8fvd35;
+  .
+
+#---------------------------------------------------------------------
+d:p85hoe2sdptt0xcst2xn81zjez
+    a v-s:ExamType;
+    rdfs:label "Работы газорезчика"@ru;
+    rdfs:label "Gas cutter work"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasGasCutterCertificate;
+.
+#---------------------------------------------------------------------
+d:poby8cxri0xasgksh0f7jrn065
+    a v-s:ExamType;
+    rdfs:label "Работы сварщика"@ru;
+    rdfs:label "Welder's work"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasWelderCertificate;
+.
+#---------------------------------------------------------------------
+d:lhay2u0i0509dt6v01mmx8cfkc
+    a v-s:ExamType;
+    rdfs:label "Работы слесаря-ремонтника"@ru;
+    rdfs:label "The work of a locksmith"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasLocksmithCertificate;
+.
+#---------------------------------------------------------------------
+d:pfn1ztaz9cxqi9pkv5gq5jwy3z
+    a v-s:ExamType;
+    rdfs:label "Ответственный за безопасность производство работ ПС"@ru;
+    rdfs:label "Responsible for the safety of the work of the PS"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasSafetyOfWorkWithLiftingStructureCertificate;
+.
+#---------------------------------------------------------------------
+d:4aomqs0xw1rbtnavhdw2m28ptr
+    a v-s:ExamType;
+    rdfs:label "Ответственный за безопасность производство работ с ПС для людей"@ru;
+    rdfs:label "Responsible for the safety of work with PS for people"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasSafetyOfWorkWithLiftingStructurePeopleCertificate;
+.
+#---------------------------------------------------------------------
+d:wc0v18wrwjvadad0rkxl6wlu4s
+    a v-s:ExamType;
+    rdfs:label "Водитель АТС, трактора, погрузчика, машиниста"@ru;
+    rdfs:label "Tractor driver, loader driver, machinist"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasDriverCertificate;
+.
+#---------------------------------------------------------------------
+d:ztcsxs670id9jqzgiiybw2cdjq
+    a v-s:ExamType;
+    rdfs:label "Проверка БДД"@ru;
+    rdfs:label "Road Safety check"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasRoadSafetyCertificate;
+.
+#---------------------------------------------------------------------
+d:zzgxw7sr6ud45ao0fbm8w98vbk
+    a v-s:ExamType;
+    rdfs:label "Работы стропальщика"@ru;
+    rdfs:label "Slinger's work"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasSlingerCertificate;
+.
+#---------------------------------------------------------------------
+d:qpanrvn73zbsy5xoyz6k799cqh
+    a v-s:ExamType;
+    rdfs:label "Крановые работы"@ru;
+    rdfs:label "Crane work"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasHoistmanCertificate;
+.
+#---------------------------------------------------------------------
+d:2mkjwkbrdoqtbdj4by4adiigk6
+    a v-s:ExamType;
+    rdfs:label "Промышленный альпинизм"@ru;
+    rdfs:label "Industrial climbing"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasSpidermanCertificate;
+.
+#---------------------------------------------------------------------
+d:w5c12jon5wq70r0hzl3r5fyrzp
+    a v-s:ExamType;
+    rdfs:label "Водолазные работы"@ru;
+    rdfs:label "Diving work"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasDiverCertificate;
+.
+#---------------------------------------------------------------------
+d:tlepav48r7681y4y2gg04cvlc7
+    a v-s:ExamType;
+    rdfs:label "Прочие квалификации"@ru;
+    rdfs:label "Other qualifications"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasOtherCertificate;
+.
+
+#---------------------------------------------------------------------
+d:dsq8d9ayhljmhq3xkcr91j523h
+    a v-s:ExamType;
+    rdfs:label "Работы в ограниченных и замкнутых пространствах"@ru;
+    rdfs:label "Working in confined spaces"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasWorkingInConfinedSpaces;
+.
+  #------
+  d:huef38nn40bdnw24xfiumqvb4c
+    a v-s:ExamType;
+    rdfs:label "Работы в ограниченных и замкнутых пространствах 1 группа"@ru;
+    rdfs:label "Working in confined spaces 1 group"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasWorkingInConfinedSpaces;
+    v-s:hasParentLink d:dsq8d9ayhljmhq3xkcr91j523h;
+  .
+  #------
+  d:m7f0lq2cg54gmcqikhdfzibwsg
+    a v-s:ExamType;
+    rdfs:label "Работы в ограниченных и замкнутых пространствах 2 группа"@ru;
+    rdfs:label "Working in confined spaces 2 group"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasWorkingInConfinedSpaces;
+    v-s:hasParentLink d:dsq8d9ayhljmhq3xkcr91j523h;
+  .
+  #------
+  d:eicgvn5trv5tixscyxq0fp139d
+    a v-s:ExamType;
+    rdfs:label "Работы в ограниченных и замкнутых пространствах 2 группа (замерщик параметров среды ОЗП/ работник в функцию которых входит эвакуация и спасение )"@ru;
+    rdfs:label "Working in confined spaces 2 group(+evacuation)"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasWorkingInConfinedSpaces;
+    v-s:hasParentLink d:dsq8d9ayhljmhq3xkcr91j523h;
+  .
+  #------
+  d:i9la1pt5xed3m1nnhl65h511b9
+    a v-s:ExamType;
+    rdfs:label "Работы в ограниченных и замкнутых пространствах 3 группа"@ru;
+    rdfs:label "Working in confined spaces 3 group"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasWorkingInConfinedSpaces;
+    v-s:hasParentLink d:dsq8d9ayhljmhq3xkcr91j523h;
+  .
+
+
+
+  #------
+  d:7r2pzjq6x1brca77zn43s49c
+    a v-s:ExamType;
+    rdfs:label "Б1.11. Эксплуатация химически опасных производственных объектов"@ru;
+    rdfs:label "B1.11. Operation of chemically hazardous production facilities"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasСhemicallyCertificate;
+  .  
+  d:ldpnf6begaeesyrsti0bppws
+    a v-s:ExamType;
+    rdfs:label "Б7.1. Эксплуатация сетей газораспределения и газопотребления"@ru;
+    rdfs:label "B7.1. Operation of gas distribution and gas consumption networks"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasGasCertificate;
+  .  
+  d:i507e19lo8p124lk4rble30h
+    a v-s:ExamType;
+    rdfs:label "Б9.3. Эксплуатация опасных производственных объектов, на которых используются подъемные сооружения, предназначенные для подъема и перемещения грузов"@ru;
+    rdfs:label "B9.3. Operation of hazardous production facilities that use lifting structures designed to lift and move goods"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasLiftingGoodStructuresCertificate;
+  .  
+  d:561g5237z8toovb3tnfbzbdl
+    a v-s:ExamType;
+    rdfs:label "Б 9.4. Эксплуатация опасных производственных объектов, на которых используются подъемные сооружения, предназначенные для подъема и транспортировки людей"@ru;
+    rdfs:label "B 9.4. Operation of hazardous production facilities that use lifting structures designed to lift and transport people"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasLiftingPeopleStructuresCertificate;
+  .  
+
+
+  
+
+
+
