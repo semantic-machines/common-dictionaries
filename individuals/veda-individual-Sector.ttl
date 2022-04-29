@@ -430,8 +430,15 @@ d:59e3b2054a9f430cb89e1fccf3ea0ed9
 d:4c813c6ff755415eba9e38c9a1b4e5db
   a v-s:Sector;
   v-s:hasParentLink d:5be6c7e6bad3429ca52b2d3df6373956;
-  rdfs:label "Иностранные  граждане и лица без гражданства."^^xsd:string;
+  rdfs:label "Иностранные  граждане и лица без гражданства"^^xsd:string;
   v-s:registrationNumber "010.050.020"^^xsd:string;
+.
+
+d:newozuviess3awsl9lb2xbsna7x67ia0
+  a v-s:Sector;
+  v-s:hasParentLink d:5be6c7e6bad3429ca52b2d3df6373956;
+  rdfs:label "Миграция"^^xsd:string;
+  v-s:registrationNumber "010.050.050"^^xsd:string;
 .
 
 d:7a8c0e7ed3a248fb93876d664e7b3c2a
@@ -682,6 +689,13 @@ d:70aba2c647eb4180ab22438d7a74f491
   v-s:hasParentLink d:12f12ac6cb6e4624a73762f43e6097b3;
   rdfs:label "Право собственности и иные права на землю"^^xsd:string;
   v-s:registrationNumber "110.020.070"^^xsd:string;
+.
+
+d:9ri3js61v1b1d7opgafjh6fzk8xn5deh
+  a v-s:Sector;
+  v-s:hasParentLink d:a24713500352467d9b39cb1572530133;
+  rdfs:label "Использование и охрана недр"^^xsd:string;
+  v-s:registrationNumber "110.030.000"^^xsd:string;
 .
 
 d:a1ff805754004cdea5782e286d9754ac
@@ -1562,6 +1576,13 @@ d:530bcde120bf4a7989529f300f7fd6f0
   v-s:hasParentLink d:a0krjx43essi7o5cqyvggniqz ;
   rdfs:label "Экологический контроль"^^xsd:string;
   v-s:registrationNumber "110.010.090"^^xsd:string;
+.
+
+d:obu5wf7i3ytzo6cs1qfb2h92ixdsyylc
+  a v-s:Sector;
+  v-s:hasParentLink d:530bcde120bf4a7989529f300f7fd6f0;
+  rdfs:label "Карантин растений"^^xsd:string;
+  v-s:registrationNumber "110.010.090.001"^^xsd:string;
 .
 
 d:ed1065c95fa549ea8f6e2779f6cfff83
