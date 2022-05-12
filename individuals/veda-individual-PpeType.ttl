@@ -1,0 +1,82 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+
+<http://semantic-machines.com/veda/veda-individual-PPEType>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Справочник - Классификатор СИЗ"@ru ;
+  rdfs:label "Veda ontology. Dictionary - PPE Type"@en ;
+  v-s:loadPriority 10 ;
+.
+
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:PPEType
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:subClassOf v-s:Registered ;
+  rdfs:label "Классификатор СИЗ"@ru ;
+  rdfs:label "PPE type"@en ;
+.
+
+
+
+# ------------------------------------------------------------ СИЗ --
+d:qwuj04lyvfgk4boubgxfvv7krm
+  a v-s:PPEType;
+  rdfs:label "СИЗ"@ru ;
+  rdfs:label "PPE"@en ;
+.
+d:a9xay90e4x2uynbu83kbqdrxnnp
+  a v-s:PPEType;
+  rdfs:label "Очки защитные"@ru ;
+  rdfs:label "Goggles"@en ;
+  v-s:registrationNumber "112500508"^^xsd:string;
+  v-s:hasParentLink d:qwuj04lyvfgk4boubgxfvv7krm ;
+.
+d:8fhzrcoj2hhzbkz1tmtuj402dq3
+  a v-s:PPEType;
+  rdfs:label "Каски"@ru ;
+  rdfs:label "Goggles"@en ;
+  v-s:hasParentLink d:qwuj04lyvfgk4boubgxfvv7krm ;
+.
+
+# ------------------------------------------------------------ спецодежда --
+d:qpna8idrvd07plk4dg8isevsrs
+  a v-s:PPEType;
+  rdfs:label "Спец. одежда и обувь"@ru ;
+  rdfs:label "Work clothes and shoes"@en ;
+.
+d:ywb5pdsj0szrwa31wipakpdl80l
+  a v-s:PPEType;
+  rdfs:label "Спецодежда (летняя, зимняя)"@ru ;
+  rdfs:label "Overalls"@en ;
+  v-s:hasParentLink d:qpna8idrvd07plk4dg8isevsrs ;
+.
+d:5pv9f4vtc3fbq37bbzouapdq7r9
+  a v-s:PPEType;
+  rdfs:label "Спецобувь (летняя, зимняя)"@ru ;
+  rdfs:label "Safety shoes"@en ;
+  v-s:hasParentLink d:qpna8idrvd07plk4dg8isevsrs ;
+.
+d:a8jhfsoo4yhn2g0lr9s7fezy9ow 
+  a v-s:PPEType;
+  rdfs:label "Перчатки (рукавицы)"@ru ;
+  rdfs:label "gloves (mittens)"@en ;
+  v-s:hasParentLink d:ywb5pdsj0szrwa31wipakpdl80l ;
+.
+d:pdttpg0vc8dxw5ydutk73vm3hzj 
+  a v-s:PPEType;
+  rdfs:label "Костюм, очки и щиток для работы с водой высокого давления"@ru ;
+  rdfs:label "High pressure water suit, goggles and visor"@en ;
+  v-s:hasParentLink d:ywb5pdsj0szrwa31wipakpdl80l ;
+.
+
+# ------------------------------------------------------------ альпинистское снаряжение
+d:eskog9b0ud6wfpktxfhtrqempvp
+  a v-s:PPEType;
+  rdfs:label "Альпинистское снаряжение"@ru ;
+  rdfs:label "Climbing equipment"@en ;
+.
