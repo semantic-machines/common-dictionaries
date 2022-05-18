@@ -235,6 +235,13 @@ d:b59d58f1cd42409498f38a08fea197a7
   v-s:registrationNumber "030.120.010.002"^^xsd:string;
 .
 
+d:zwlm03kny20kwek2gu0011e981hjqztx
+  a v-s:Sector;
+  rdfs:label "Продажа бумажной продукции (основной)"^^xsd:string;
+  v-s:hasParentLink <d:5026ea45f86d49df8d6a1fabc6a3446b>, <d:b59d58f1cd42409498f38a08fea197a7>;
+  v-s:registrationNumber "030.120.010.002.001"^^xsd:string;
+.
+
 d:550f04867ba247c49b9b7590d82fd32b
   a v-s:Sector;
   v-s:hasParentLink d:653df79bb7ae44c7a8768e2ec18c16ca;
