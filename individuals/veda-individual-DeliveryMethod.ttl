@@ -214,6 +214,12 @@ d:n8dx2xuqkrx3to6i2cychv0zbl
 	v-s:transportOrganization d:org_RU7724490000 ;
   v-s:transportOrganization d:org_RU7724261610 ;  
 .
+d:z5jb6r6gqdlzqy8pekowyi8hoa
+  a v-s:DeliveryMethod;
+  rdfs:label "Телеграмма"@ru;
+  rdfs:label "Telegram"@en;
+	v-s:transportOrganization d:org_RU7724490000 ;
+.
 
 #---------------
 d:ce7763692dbe4aad97d1ea8408ce8352
