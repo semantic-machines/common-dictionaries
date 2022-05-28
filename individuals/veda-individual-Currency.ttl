@@ -57,3 +57,12 @@ d:currency_gbp
     rdfs:label "British pound"@en;
     v-s:registrationNumber "826"^^xsd:string;
 .
+
+d:currency_cny
+    a v-s:Currency;
+    v-s:shortLabel "CNY ";
+    rdfs:label "Китайский юань"@ru;
+    rdfs:label "Chinese yuan"@en;
+    v-s:registrationNumber "156"^^xsd:string;
+.
+
