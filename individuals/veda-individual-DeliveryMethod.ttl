@@ -69,6 +69,7 @@ v-s:DeliveryMethod
 # d:org_RU7801539647 ООО "Петропост Экспресс"
 # d:org_RU701723274445 ООО "ВЫДАНО.РУ"
 # d:org_KZ020340001250 ТОО "Алем тат"
+# d:org_RU7842487194  OOO "СЛУЖБА ДОСТАВКИ "КОНТАКТ" 
 
 
 # d:org_RU7826094630 - ООО "Деловые линии"
@@ -121,6 +122,7 @@ d:244a40584c814020a7430b2e6005e387
   v-s:transportOrganization d:org_RU7801539647 ;
   v-s:transportOrganization d:org_RU701723274445 ;
   v-s:transportOrganization d:org_KZ020340001250 ;
+  v-s:transportOrganization d:org_RU7842487194 ;
 .
 d:aoyj96mwnpw0ltuwq02f9slz4a
   a v-s:DeliveryMethod;
@@ -164,6 +166,7 @@ d:aoyj96mwnpw0ltuwq02f9slz4a
   v-s:transportOrganization d:org_RU7801539647 ;
   v-s:transportOrganization d:org_RU701723274445 ;
   v-s:transportOrganization d:org_KZ020340001250 ;
+  v-s:transportOrganization d:org_RU7842487194 ;
 .
 d:293b8861b53e4467864b7d8cd3a5f4fb
   a v-s:DeliveryMethod;
