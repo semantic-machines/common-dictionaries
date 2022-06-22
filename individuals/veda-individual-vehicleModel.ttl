@@ -248,7 +248,12 @@ d:ed09fe6f092341288b1df266e136357a
 
 
 
-
+d:a3zl4f8lmjdom57qpqc34win9ud
+    a v-s:VehicleModel;
+  rdfs:label "Argo"@ru ;
+  rdfs:label "Argo"@en ;
+  rdfs:comment "Арго"^^xsd:string;
+.
 
 d:1c6c379337ef45a4aa3d14e7cf23f711
     a v-s:VehicleModel;
