@@ -330,7 +330,6 @@ d:OKOPF_20600
   v-s:title "Ассоциации (союзы)" ;
   v-s:registrationNumber "20600" ;
   v-s:hasParentLink d:OKOPF_20000 ;
-  v-s:deleted true;
 .
 d:OKOPF_20601
   a v-s:ClassifierLegalForm;
