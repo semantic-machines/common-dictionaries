@@ -942,6 +942,17 @@ d:Country_MNE
   v-s:registrationNumber "499" ;
   v-s:countryCallingCode "382";
 .
+d:Country_OMN
+  a v-s:ClassifierCountry;
+  v-s:title "OMN" ;
+  v-s:shortLabel "OM" ;
+  rdfs:label "Оман"@ru ;
+  rdfs:label "Oman"@en ;
+  v-s:description "Султанат Оман"@ru ;
+  v-s:description "Sultanate Oman"@en ;
+  v-s:registrationNumber "512" ;
+  v-s:countryCallingCode "968";
+.
 d:Country_NLD
   a v-s:ClassifierCountry;
   v-s:title "NLD" ;
