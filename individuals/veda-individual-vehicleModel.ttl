@@ -1283,3 +1283,9 @@ d:vk1ag013egjzqb07w6hw6zzu0jxzcq7a
   rdfs:label "CASE"@en ;
   rdfs:comment "Case"^^xsd:string;
 .
+d:yj3yntewvt1qch5p8cgypajbv4
+    a v-s:VehicleModel;
+  rdfs:label "Grove"@ru ;
+  rdfs:label "Grove"@en ;
+  rdfs:comment "Case"^^xsd:string;
+.
