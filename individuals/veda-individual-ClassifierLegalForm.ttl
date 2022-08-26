@@ -582,6 +582,7 @@ d:OKOPF_50000
   rdfs:label "Организационно-правовые формы для деятельности граждан (физических лиц)" ;
   v-s:title "Организационно-правовые формы для деятельности граждан (физических лиц)" ;
   v-s:registrationNumber "50000" ;
+  v-s:deleted true ;
 .
 d:OKOPF_50100
   a v-s:ClassifierLegalForm;
@@ -589,6 +590,7 @@ d:OKOPF_50100
   v-s:title "Организационно-правовые формы для коммерческой деятельности граждан" ;
   v-s:registrationNumber "50100" ;
   v-s:hasParentLink d:OKOPF_50000 ;
+  rdfs:comment "Самозанятый" ;
 .
 d:OKOPF_50101
   a v-s:ClassifierLegalForm;
@@ -610,7 +612,7 @@ d:OKOPF_50200
   v-s:title "Организационно-правовые формы для деятельности граждан, не отнесенной к предпринимательству" ;
   v-s:registrationNumber "50200" ;
   v-s:hasParentLink d:OKOPF_50000 ;
-  v-s:deleted true;
+  rdfs:comment "Физическое лицо" ;
 .
 d:OKOPF_50201
   a v-s:ClassifierLegalForm;
