@@ -17,111 +17,165 @@ v-s:SheetSize
   rdfs:label "Sheet size"@en ;
 .
 #-------------------------Индивиды--------------
-d:sheetSize_A4
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A4"^^xsd:string;
-.
-d:sheetSize_A3
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A3"^^xsd:string;
-.
-d:sheetSize_A2
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A2"^^xsd:string;
-.
-d:sheetSize_A1
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A1"^^xsd:string;
-.
-d:sheetSize_A4_3
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A4x3"^^xsd:string;
-.
-d:sheetSize_A4_4
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A4x4"^^xsd:string;
-.
-d:sheetSize_A4_5
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A4x5"^^xsd:string;
-.
-d:sheetSize_A4_6
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A4x6"^^xsd:string;
-.
-d:sheetSize_A5
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A5"^^xsd:string;
-.
-d:sheetSize_25_A2
-  rdf:type v-s:SheetSize ;
-  rdfs:label "2.5A2"^^xsd:string;
-.
-d:sheetSize_15_A2
-  rdf:type v-s:SheetSize ;
-  rdfs:label "1.5A2"^^xsd:string;
-.
-d:sheetSize_075_A1
-  rdf:type v-s:SheetSize ;
-  rdfs:label "0.75A1"^^xsd:string;
-.
-d:sheetSize_125_A1
-  rdf:type v-s:SheetSize ;
-  rdfs:label "1.25A1"^^xsd:string;
-.
-d:sheetSize_15_A1
-  rdf:type v-s:SheetSize ;
-  rdfs:label "1.5A1"^^xsd:string;
-.
-d:sheetSize_A3_4
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A3x4"^^xsd:string;
-.
-d:sheetSize_A3_6
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A3x6"^^xsd:string;
-.
-d:sheetSize_A3_7
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A3x7"^^xsd:string;
-.
-d:sheetSize_A3_9
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A3x9"^^xsd:string;
-.
-d:sheetSize_2_A1
-  rdf:type v-s:SheetSize ;
-  rdfs:label "2A1"^^xsd:string;
-.
 d:sheetSize_A0
   rdf:type v-s:SheetSize ;
-  rdfs:label "A0"^^xsd:string;
-.
-d:sheetSize_A2_3
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A2x3"^^xsd:string;
-.
-d:sheetSize_A2_4
-  rdf:type v-s:SheetSize ;
-  rdfs:label "A2x4"^^xsd:string;
-.
-d:sheetSize_175_A1
-  rdf:type v-s:SheetSize ;
-  rdfs:label "1.75A1"^^xsd:string;
-.
-d:sheetSize_2_A2
-  rdf:type v-s:SheetSize ;
-  rdfs:label "2A2"^^xsd:string;
-.
-d:sheetSize_6_A1
-  rdf:type v-s:SheetSize ;
-  rdfs:label "6A1"^^xsd:string;
-.
-d:sheetSize_3_A1
-  rdf:type v-s:SheetSize ;
-  rdfs:label "3A1"^^xsd:string;
+  rdfs:label "А0"@ru ;
+  rdfs:label "A0"@en ;
+  v-s:count "2"^^xsd:decimal;
 .
 d:sheetSize_A0_5
   rdf:type v-s:SheetSize ;
-  rdfs:label "A0x5"^^xsd:string;
+  rdfs:label "А0x5"@ru ;
+  rdfs:label "A0x5"@en ;
+  v-s:count "10"^^xsd:decimal;
+.
+d:sheetSize_A1
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А1"@ru ;
+  rdfs:label "A1"@en ;
+  v-s:count "1"^^xsd:decimal;
+.
+d:sheetSize_075_A1
+  rdf:type v-s:SheetSize ;
+  rdfs:label "0.75А1"@ru ;
+  rdfs:label "0.75A1"@en ;
+  v-s:count "0.75"^^xsd:decimal;
+.
+d:sheetSize_125_A1
+  rdf:type v-s:SheetSize ;
+  rdfs:label "1.25А1"@ru ;
+  rdfs:label "1.25A1"@en ;
+  v-s:count "1.25"^^xsd:decimal;
+.
+d:sheetSize_15_A1
+  rdf:type v-s:SheetSize ;
+  rdfs:label "1.5А1"@ru ;
+  rdfs:label "1.5A1"@en ;
+  v-s:count "1.5"^^xsd:decimal;
+.
+d:sheetSize_175_A1
+  rdf:type v-s:SheetSize ;
+  rdfs:label "1.75А1"@ru ;
+  rdfs:label "1.75A1"@en ;
+  v-s:count "1.75"^^xsd:decimal;
+.
+d:sheetSize_2_A1
+  rdf:type v-s:SheetSize ;
+  rdfs:label "2А1"@ru ;
+  rdfs:label "2A1"@en ;
+  v-s:count "2"^^xsd:decimal;
+.
+d:sheetSize_6_A1
+  rdf:type v-s:SheetSize ;
+  rdfs:label "6А1"@ru ;
+  rdfs:label "6A1"@en ;
+  v-s:count "6"^^xsd:decimal;
+.
+d:sheetSize_3_A1
+  rdf:type v-s:SheetSize ;
+  rdfs:label "3А1"@ru ;
+  rdfs:label "3A1"@en ;
+  v-s:count "3"^^xsd:decimal;
+.
+d:sheetSize_A2
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А2"@ru ;
+  rdfs:label "A2"@en ;
+  v-s:count "0.5"^^xsd:decimal;
+.
+d:sheetSize_25_A2
+  rdf:type v-s:SheetSize ;
+  rdfs:label "2.5А2"@ru ;
+  rdfs:label "2.5A2"@en ;
+  v-s:count "1.25"^^xsd:decimal;
+.
+d:sheetSize_15_A2
+  rdf:type v-s:SheetSize ;
+  rdfs:label "1.5А2"@ru ;
+  rdfs:label "1.5A2"@en ;
+  v-s:count "0.75"^^xsd:decimal;
+.
+d:sheetSize_2_A2
+  rdf:type v-s:SheetSize ;
+  rdfs:label "2А2"@ru ;
+  rdfs:label "2A2"@en ;
+  v-s:count "1"^^xsd:decimal;
+.
+d:sheetSize_A2_3
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А2x3"@ru ;
+  rdfs:label "A2x3"@en ;
+  v-s:count "1.5"^^xsd:decimal;
+.
+d:sheetSize_A2_4
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А2x4"@ru ;
+  rdfs:label "A2x4"@en ;
+  v-s:count "2"^^xsd:decimal;
+.
+d:sheetSize_A3
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А3"@ru ;
+  rdfs:label "A3"@en ;
+  v-s:count "0.25"^^xsd:decimal;
+.
+d:sheetSize_A3_4
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А3x4"@ru ;
+  rdfs:label "A3x4"@en ;
+  v-s:count "1"^^xsd:decimal;
+.
+d:sheetSize_A3_6
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А3x6"@ru ;
+  rdfs:label "A3x6"@en ;
+  v-s:count "1.5"^^xsd:decimal;
+.
+d:sheetSize_A3_7
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А3x7"@ru ;
+  rdfs:label "A3x7"@en ;
+  v-s:count "1.75"^^xsd:decimal;
+.
+d:sheetSize_A3_9
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А3x9"@ru ;
+  rdfs:label "A3x9"@en ;
+  v-s:count "2.25"^^xsd:decimal;
+.
+d:sheetSize_A4
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А4"@ru ;
+  rdfs:label "A4"@en ;
+  v-s:count "0.125"^^xsd:decimal;
+.
+d:sheetSize_A4_3
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А4x3"@ru ;
+  rdfs:label "A4x3"@en ;
+  v-s:count "0.375"^^xsd:decimal;
+.
+d:sheetSize_A4_4
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А4x4"@ru ;
+  rdfs:label "A4x4"@en ;
+  v-s:count "0.5"^^xsd:decimal;
+.
+d:sheetSize_A4_5
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А4x5"@ru ;
+  rdfs:label "A4x5"@en ;
+  v-s:count "0.625"^^xsd:decimal;
+.
+d:sheetSize_A4_6
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А4x6"@ru ;
+  rdfs:label "A4x6"@en ;
+  v-s:count "0.75"^^xsd:decimal;
+.
+d:sheetSize_A5
+  rdf:type v-s:SheetSize ;
+  rdfs:label "А5"@ru ;
+  rdfs:label "A5"@en ;
+  v-s:count "0.0625"^^xsd:decimal;
 .
