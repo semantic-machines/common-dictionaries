@@ -308,9 +308,9 @@ d:dsq8d9ayhljmhq3xkcr91j523h
   #------
   d:7r2pzjq6x1brca77zn43s49c
     a v-s:ExamType;
-    rdfs:label "Б1.11. Эксплуатация химически опасных производственных объектов"@ru;
-    rdfs:label "B1.11. Operation of chemically hazardous production facilities"@en;
-    v-s:hasRequiredFieldsForProfession  v-s:hasСhemicallyCertificate;
+    rdfs:label "Б1.11. Безопасное ведение газоопасных, огневых и ремонтных работ"@ru;
+    rdfs:label "B1.11. Safe conduct of gas hazardous, fire and repair work"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasGazFireRepairCertificate;
   .  
   d:ldpnf6begaeesyrsti0bppws
     a v-s:ExamType;
@@ -322,13 +322,13 @@ d:dsq8d9ayhljmhq3xkcr91j523h
     a v-s:ExamType;
     rdfs:label "Б9.3. Эксплуатация опасных производственных объектов, на которых используются подъемные сооружения, предназначенные для подъема и перемещения грузов"@ru;
     rdfs:label "B9.3. Operation of hazardous production facilities that use lifting structures designed to lift and move goods"@en;
-    v-s:hasRequiredFieldsForProfession  v-s:hasLiftingGoodStructuresCertificate;
+    v-s:hasRequiredFieldsForProfession  v-s:hasSafetyOfWorkWithLiftingStructureCertificate;
   .  
   d:561g5237z8toovb3tnfbzbdl
     a v-s:ExamType;
-    rdfs:label "Б 9.4. Эксплуатация опасных производственных объектов, на которых используются подъемные сооружения, предназначенные для подъема и транспортировки людей"@ru;
-    rdfs:label "B 9.4. Operation of hazardous production facilities that use lifting structures designed to lift and transport people"@en;
-    v-s:hasRequiredFieldsForProfession  v-s:hasLiftingPeopleStructuresCertificate;
+    rdfs:label "Б9.4. Эксплуатация опасных производственных объектов, на которых используются подъемные сооружения, предназначенные для подъема и транспортировки людей"@ru;
+    rdfs:label "B9.4. Operation of hazardous production facilities that use lifting structures designed to lift and transport people"@en;
+    v-s:hasRequiredFieldsForProfession  v-s:hasSafetyOfWorkWithLiftingStructurePeopleCertificate;
   .  
 
 
