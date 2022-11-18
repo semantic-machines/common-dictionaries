@@ -1424,6 +1424,13 @@ d:aqhn9agutrq29fe9yf35wd8lqr
   rdfs:label "Parcel"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:dv1voj8fy7biwmdeyrbt0l8dsb
+  a v-s:DocumentKind;
+  v-s:shortLabel "Папка"^^xsd:string;
+  rdfs:label "Папка"@ru;
+  rdfs:label "Folder"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
 
 #-----------------------------------------------------
 d:c3b38c81e1594593932b9872a3257948
