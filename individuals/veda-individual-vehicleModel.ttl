@@ -1291,7 +1291,7 @@ d:yj3yntewvt1qch5p8cgypajbv4
 .
 d:t36qe35r0xrln4o8yhen6lxy9s
     a v-s:VehicleModel;
-  rdfs:label "LGSE"@ru ;
-  rdfs:label "LGSE"@en ;
+  rdfs:label "LGCE"@ru ;
+  rdfs:label "LGCE"@en ;
   rdfs:comment "Case"^^xsd:string;
 .
