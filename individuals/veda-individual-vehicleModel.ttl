@@ -1295,3 +1295,9 @@ d:t36qe35r0xrln4o8yhen6lxy9s
   rdfs:label "LGCE"@en ;
   rdfs:comment "Case"^^xsd:string;
 .
+d:x06ue9jv99r2c2fx5iwaor2nqf
+    a v-s:VehicleModel;
+  rdfs:label "ЛУИДОР"@ru ;
+  rdfs:label "LUIDOR"@en ;
+  rdfs:comment "Case"^^xsd:string;
+.
