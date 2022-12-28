@@ -1301,3 +1301,9 @@ d:x06ue9jv99r2c2fx5iwaor2nqf
   rdfs:label "LUIDOR"@en ;
   rdfs:comment "Case"^^xsd:string;
 .
+d:qvuankdgwb1lgr68jmhtz72pcr
+    a v-s:VehicleModel;
+  rdfs:label "CUKUROVA"@ru ;
+  rdfs:label "CUKUROVA"@en ;
+  rdfs:comment "Case"^^xsd:string;
+.
