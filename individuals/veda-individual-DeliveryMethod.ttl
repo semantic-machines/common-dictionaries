@@ -77,6 +77,7 @@ v-s:DeliveryMethod
 # d:org_RU5257048758  ООО "НОРДЭКС-НН" (Nord Express)
 # d:org_RU7811539156  ООО"ДЭЛС"
 # d:org_RU7719416240  ООО «НОВЫЕ ТЕХНОЛОГИИ БИЗНЕСА» (POSTBURO)
+# d:org_BY192185637   ЧП "Сапсан Экспресс" (SapsanExpress)
 
 # d:org_RU7826094630 - ООО "Деловые линии"
 # d:  - Мекус
@@ -137,7 +138,7 @@ d:244a40584c814020a7430b2e6005e387
   v-s:transportOrganization d:org_KZ600500640562 ;
   v-s:transportOrganization d:org_RU7811539156 ;
   v-s:transportOrganization d:org_RU7719416240 ;
-  
+  v-s:transportOrganization d:org_BY192185637 ;
 .
 d:aoyj96mwnpw0ltuwq02f9slz4a
   a v-s:DeliveryMethod;
@@ -191,6 +192,7 @@ d:aoyj96mwnpw0ltuwq02f9slz4a
   v-s:transportOrganization d:org_KZ600500640562 ;
   v-s:transportOrganization d:org_RU7811539156 ;
   v-s:transportOrganization d:org_RU7719416240 ;
+  v-s:transportOrganization d:org_BY192185637 ;
 .
 d:293b8861b53e4467864b7d8cd3a5f4fb
   a v-s:DeliveryMethod;
