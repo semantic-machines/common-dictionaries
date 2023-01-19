@@ -1711,6 +1711,14 @@ d:8737ebad40db4fafbf1cd5929f580c3a
   rdfs:label "Акт о приемке выполненных работ имп."@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
+d:5feldftqtrw4mpkzgbtjvkmobf9eit7p
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Акт сверки"^^xsd:string;
+  rdfs:label "Акт сверки"@ru ;
+  v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
+  v-s:hasParentLink d:2b249ab1d1644f528e50ff72977fa9c8;
+.
 
 d:c26c0ae5290a4c119561aacc2b01f04d
   a v-s:DocumentKind;
