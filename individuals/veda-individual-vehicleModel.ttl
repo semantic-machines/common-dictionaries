@@ -1287,23 +1287,24 @@ d:yj3yntewvt1qch5p8cgypajbv4
     a v-s:VehicleModel;
   rdfs:label "Grove"@ru ;
   rdfs:label "Grove"@en ;
-  rdfs:comment "Case"^^xsd:string;
 .
 d:t36qe35r0xrln4o8yhen6lxy9s
     a v-s:VehicleModel;
   rdfs:label "LGCE"@ru ;
   rdfs:label "LGCE"@en ;
-  rdfs:comment "Case"^^xsd:string;
 .
 d:x06ue9jv99r2c2fx5iwaor2nqf
     a v-s:VehicleModel;
   rdfs:label "ЛУИДОР"@ru ;
   rdfs:label "LUIDOR"@en ;
-  rdfs:comment "Case"^^xsd:string;
 .
 d:qvuankdgwb1lgr68jmhtz72pcr
     a v-s:VehicleModel;
   rdfs:label "CUKUROVA"@ru ;
   rdfs:label "CUKUROVA"@en ;
-  rdfs:comment "Case"^^xsd:string;
+.
+d:a8b0o37b5zrppfi6oyqop90gl2g
+    a v-s:VehicleModel;
+  rdfs:label "Syuyda"@ru ;
+  rdfs:label "Syuyda"@en ;
 .
