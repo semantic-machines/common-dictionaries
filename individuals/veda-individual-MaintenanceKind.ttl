@@ -55,3 +55,18 @@ d:8f4df97c49fd99ff23fe6bd9d491ca2e
   rdfs:label "Ежемесячный"@ru ;
   rdfs:label "Monthly"@en ;
 .
+d:jngjqc6lgu6jtdl7lel3v5avllxiswzr
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Сезонность"@ru ;
+  rdfs:label "Seasonal"@en ;
+.
+d:7q7xv93v2vqvbvhzx638yw67qwt85rfv
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Сроки устранения нарушения по предписанию, заключению экспертизы и т.д."@ru ;
+  rdfs:label "Timeframe for elimination of the violation under the prescription, the conclusion of the examination, etc."@en ;
+.
+d:aagv3qherj7tq26mpo49dod7368201aw
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Сроки устранения нарушения по RCFA"@ru ;
+  rdfs:label "Timeframe for correcting RCFA violation"@en ;
+.
