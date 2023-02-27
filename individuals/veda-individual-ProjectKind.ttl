@@ -25,35 +25,50 @@ v-s:ProjectKind
 
 # ------------------------------------------------------------ ИНДИВИДЫ --
 
-d:d0b5aa936a0025177c0b0ab9b8f9b428a
+d:3fv2cobl6byjif6g5rolsq8id81cbqrhg
   rdf:type v-s:ProjectKind ;
-  rdfs:label "Поддержание"@ru ;
-  rdfs:label "Stay in business"@en ;
-.
-d:d2a9c27d435465f2a90db2cbd0c85a06c
-  rdf:type v-s:ProjectKind ;
-  rdfs:label "Требования по безопасности"@ru ;
-  rdfs:label "SHE"@en ;
-.
-d:d33eb7f35b0216410cc404540c8e041a6
-  rdf:type v-s:ProjectKind ;
-  rdfs:label "Требования надзорных органов"@ru ;
-  rdfs:label "Regulatory"@en ;
-.
-d:d5938a59c45c2adee3d40f1c2d11ab24b
-  rdf:type v-s:ProjectKind ;
-  rdfs:label "Улучшение процесса"@ru ;
-  rdfs:label "Process improvement"@en ;
+  rdfs:label "Договор аренды"@ru ;
+  rdfs:label "Lease contract"@en ;
 .
 d:d67d5c7bd9120158740eb730f206a2484
   rdf:type v-s:ProjectKind ;
   rdfs:label "Повышение прибыли"@ru ;
   rdfs:label "EBITDA improvement"@en ;
 .
+d:d0b5aa936a0025177c0b0ab9b8f9b428a
+  rdf:type v-s:ProjectKind ;
+  rdfs:label "Поддержание"@ru ;
+  rdfs:label "Stay in business"@en ;
+.
+d:x4sc7w0rfhhx7nznmpzxdy8nhjx0a4h89
+  rdf:type v-s:ProjectKind ;
+  rdfs:label "Ремонт стратегических запчастей"@ru ;
+  rdfs:label "Strategic Parts Repair"@en ;
+.
+d:03v5hwqaw9sox2yo2jx79h702t39hdobr
+  rdf:type v-s:ProjectKind ;
+  rdfs:label "Создание резерва (запчасть)"@ru ;
+  rdfs:label "Creating a reserve (spare part)"@en ;
+.
 d:d8eda1caf4345bcce6bcd14854ea81402
   rdf:type v-s:ProjectKind ;
-  rdfs:label "Стратегический"@ru ;
-  rdfs:label "Strategic"@en ;
+  rdfs:label "Стратегический проект"@ru ;
+  rdfs:label "Strategic project"@en ;
+.
+d:d33eb7f35b0216410cc404540c8e041a6
+  rdf:type v-s:ProjectKind ;
+  rdfs:label "Требования надзорных органов"@ru ;
+  rdfs:label "Regulatory"@en ;
+.
+d:d2a9c27d435465f2a90db2cbd0c85a06c
+  rdf:type v-s:ProjectKind ;
+  rdfs:label "Требования по безопасности"@ru ;
+  rdfs:label "SHE"@en ;
+.
+d:d5938a59c45c2adee3d40f1c2d11ab24b
+  rdf:type v-s:ProjectKind ;
+  rdfs:label "Улучшение процесса"@ru ;
+  rdfs:label "Process improvement"@en ;
 .
 d:af80243ca-a107-2da8-ba7d-5c45b6f46e3a
   rdf:type v-s:ProjectKind ;
