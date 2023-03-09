@@ -36,7 +36,7 @@ const statusTemplate = `
       <div class="status-image">
         <span class="status-circle"><span class="status-circle-text"></span></span>
       </div>
-      <strong class="status-text" about="@" data-template="v-ui:LabelTemplate"></strong>
+      <strong class="status-text text-center" about="@" data-template="v-ui:LabelTemplate"></strong>
     </div>
   </li>
 `;
@@ -118,7 +118,7 @@ export const html = `
       }
       .status-text {
         color: darkgray;
-        word-break: break-all;
+        word-break: normal;
         margin-top: 0.25em;
         padding: 0 1rem;
       }
