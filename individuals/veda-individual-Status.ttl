@@ -49,6 +49,13 @@ v-ui:StatusTemplate
   v-ui:forClass v-s:Status ;
   v-ui:template "v-ui_StatusTemplate.js" ;
 .
+v-ui:StatusProgressTemplate
+  rdf:type v-ui:ClassTemplate ;
+  rdfs:label "Шаблон для класса Статус"@ru ;
+  rdfs:label "Template for Status class"@en ;
+  v-ui:forClass v-s:Status ;
+  v-ui:template "v-ui_StatusProgressTemplate.js" ;
+.
 
 # ------------------------------------------------------------ ИНДИВИДЫ --
 v-s:StatusDraft
