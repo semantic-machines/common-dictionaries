@@ -91,7 +91,7 @@ d:pztgmily9moom3rgnr0fsrdy5b
     v-s:origin "admin";
   rdfs:label "Работы на высоте"@ru;
   rdfs:label "Working at height"@en;
-  v-s:hasRequiredFieldsForProfession  v-s:hasLaborSafetyCertificate;
+  v-s:hasRequiredFieldsForProfession  v-s:hasWorkAtHighAltitudeCertificate;
 .  
   #-----
   d:nvz943cklq9w8btm3rjwc04tsa
