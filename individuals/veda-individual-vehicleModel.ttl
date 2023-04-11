@@ -1308,3 +1308,9 @@ d:a8b0o37b5zrppfi6oyqop90gl2g
   rdfs:label "Syuyda"@ru ;
   rdfs:label "Syuyda"@en ;
 .
+d:a1ys8jer2myxwt9v1us0y2v8h6
+  a v-s:VehicleModel;
+  rdfs:label "Sitrak"@ru ;
+  rdfs:label "Sitrak"@en ;
+  rdfs:comment "Ситрак" ; 
+.
