@@ -70,3 +70,8 @@ d:aagv3qherj7tq26mpo49dod7368201aw
   rdfs:label "Сроки устранения нарушения по RCFA"@ru ;
   rdfs:label "Timeframe for correcting RCFA violation"@en ;
 .
+d:007iksemw7ys5hcsl4nobbmh8256893w
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Не применимо"@ru;
+  rdfs:label "Not applicable"@en
+.
