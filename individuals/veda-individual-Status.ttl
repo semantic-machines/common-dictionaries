@@ -258,7 +258,7 @@ v-s:StatusExecutedByContract
 .
 v-s:StatusAcceptedOnBalance
   rdf:type v-s:Status ;
-  rdfs:label "Введен в ОС"@ru ;
+  rdfs:label "Введен в ОФ"@ru ;
   rdfs:label "Accepted on balance"@en ;
   v-s:tag "default" ;
 .
