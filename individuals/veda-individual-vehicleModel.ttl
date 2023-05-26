@@ -1314,3 +1314,9 @@ d:a1ys8jer2myxwt9v1us0y2v8h6
   rdfs:label "Sitrak"@en ;
   rdfs:comment "Ситрак" ; 
 .
+d:yctp4dnvgbaeg0vze3xm37jiip
+  a v-s:VehicleModel;
+  rdfs:label "Экскаватор"@ru ;
+  rdfs:label "Экскаватор"@en ;
+  rdfs:comment "Экскаватор" ; 
+.
