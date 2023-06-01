@@ -1320,3 +1320,8 @@ d:yctp4dnvgbaeg0vze3xm37jiip
   rdfs:label "Экскаватор"@en ;
   rdfs:comment "Экскаватор" ; 
 .
+d:tr0qovf0m1qrll65saaf7b3sfa
+  a v-s:VehicleModel;
+  rdfs:label "КС"@ru ;
+  rdfs:label "KS"@en ; 
+.
