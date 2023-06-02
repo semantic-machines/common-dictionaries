@@ -818,6 +818,13 @@ d:e575d78b2cc5472f811e8083e40d9f8e
   v-s:registrationNumber "120.030.000"^^xsd:string;
 .
 
+d:d6sc454lghgzu52ltq3mfqg2oqmi424a
+  a v-s:Sector;
+  v-s:hasParentLink d:e575d78b2cc5472f811e8083e40d9f8e;
+  rdfs:label "Документирование информации. Делопроизводство"^^xsd:string;
+  v-s:registrationNumber "120.030.020"^^xsd:string;
+.
+
 d:78debba1583345b09f8af61b693443dc
   a v-s:Sector;
   v-s:hasParentLink d:d35283762e8c4c3989d047171f6c6ed1;
