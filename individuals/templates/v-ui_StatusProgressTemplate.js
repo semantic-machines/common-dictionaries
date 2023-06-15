@@ -11,7 +11,7 @@ export const post = async function (individual, template, container, mode, extra
   individual.on(rel, renderStatus);
   template.addEventListener('remove', () => individual.off(rel, renderStatus));
   const statusContainer = template.querySelector('.statuses');
-  renderStatus();
+  await renderStatus();
 
   async function renderStatus () {
     clear(statusContainer);
