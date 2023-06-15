@@ -1,32 +1,49 @@
 /**
  * Example usage:
- * <div about="@" data-template="v-ui:StatusProgressTemplate" data-rel="v-s:hasStatus" data-status="v-s:StatusImplementation v-s:StatusReview v-s:StatusAgreed v-s:StatusDraft"></div>
+ * <div about="@" data-template="v-ui:StatusProgressTemplate" data-rel="v-s:hasStatus" data-status="v-s:StatusImplementation [v-s:StatusReview v-s:StatusAgreed] v-s:StatusDraft"></div>
  */
 
 import IndividualModel from '/js/common/individual_model.js';
 import {clear} from '/js/browser/dom_helpers.js';
 
 export const post = async function (individual, template, container, mode, extra) {
-  const {status, rel = 'v-s:hasStatus'} = container.dataset;
+  let {status, rel = 'v-s:hasStatus'} = container.dataset;
   individual.on(rel, renderStatus);
   template.addEventListener('remove', () => individual.off(rel, renderStatus));
   const statusContainer = template.querySelector('.statuses');
+  const statusGroup = /\+/g;
+  status = status.replace(/\s+/g, ' ').replace(/\[\s/g, '[').replace(/\s\]/g, ']').replace(/(?<=\[[^\]]*)\s(?=[^\[]*\])/g, '+').trim();
+
   await renderStatus();
 
   async function renderStatus () {
     clear(statusContainer);
     const current = individual[rel][0];
-    const statusUris = status.split(' ');
+    const statusUris = status.split(/\s/g);
     await statusUris.reduce(async (p, statusUri) => {
       await p;
-      const status = new IndividualModel(statusUri);
-      const rendered = await status.present(statusContainer, statusTemplate);
-      if (status === current) {
-        rendered.querySelector('.status-image').classList.add('bd-' + status['v-s:tag'][0]);
-        rendered.querySelector('.status-circle').classList.add('bg-' + status['v-s:tag'][0]);
-        rendered.querySelector('.status-text').classList.add('text-' + status['v-s:tag'][0]);
+      if (statusGroup.test(statusUri)) {
+        const groupUris = statusUri.replace(/(\[|\])/g, '').split('+');
+        const index = groupUris.indexOf(current?.id);
+        if (index >= 0) {
+          await renderSingleStatus(groupUris[index], current);
+        } else {
+          await renderSingleStatus(groupUris[0], current);
+        }
+      } else {
+        await renderSingleStatus(statusUri, current);
       }
     }, await 0);
+  }
+
+  async function renderSingleStatus (statusUri, current) {
+    const status = new IndividualModel(statusUri);
+    const rendered = await status.present(statusContainer, statusTemplate);
+    if (status === current) {
+      rendered.querySelector('.status-image').classList.add('bd-' + status['v-s:tag'][0]);
+      rendered.querySelector('.status-circle').classList.add('bg-' + status['v-s:tag'][0]);
+      rendered.querySelector('.status-text').classList.add('text-' + status['v-s:tag'][0]);
+    }
   }
 };
 
