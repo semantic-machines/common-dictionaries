@@ -308,7 +308,7 @@ v-s:StatusRegistration
   rdf:type v-s:Status ;
   rdfs:label "Регистрация"@ru ;
   rdfs:label "Registration"@en ;
-  v-s:tag "default" ;
+  v-s:tag "info" ;
 .
 v-s:StatusClosing
   rdf:type v-s:Status ;
@@ -474,4 +474,22 @@ v-s:StatusNotPerformed
   rdfs:label "Не выполнено"@ru ;
   rdfs:label "Not performed"@en ;
   v-s:tag "default" ;
+.
+v-s:StatusSigning
+  rdf:type v-s:Status ;
+  rdfs:label "Подписание"@ru ;
+  rdfs:label "Signing"@en ;
+  v-s:tag "info" ;
+.
+v-s:StatusRegistered
+  rdf:type v-s:Status ;
+  rdfs:label "Зарегистрировано"@ru ;
+  rdfs:label "Registrated"@en ;
+  v-s:tag "success" ;
+.
+v-s:StatusRework
+  rdf:type v-s:Status ;
+  rdfs:label "На доработке"@ru ;
+  rdfs:label "Rework"@en ;
+  v-s:tag "warning" ;
 .
