@@ -150,3 +150,38 @@ d:aq32048qzrflq3qj5bljmho5t0
   rdfs:label "Требования к обеспечению безопасной эксплуатации объектов капитального строительства"^^xsd:string;
   v-s:shortLabel "ОБЭ"^^xsd:string;
 .
+d:f301y3l9tqe5ck2cl9c119afu3
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Требования к безопасной эксплуатации объекта"^^xsd:string;
+  v-s:shortLabel "ТБЭ"^^xsd:string;
+.
+d:b9oq5w471navtfyx3v7yujs4t8
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Ведомость объёмов работ"^^xsd:string;
+  v-s:shortLabel "ВОР"^^xsd:string;
+.
+d:jdubkh5bkxpv192xqo1rec8plt
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Сведения о нормативной периодичности выполнения работ по капитальному ремонту объекта капитального строительства, необходимых для обеспечения безопасной эксплуатации такого объекта"^^xsd:string;
+  v-s:shortLabel "НПКР"^^xsd:string;
+.
+d:y573vhj0hji2uvwvr0d7sz5npp
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Инженерно-геодезические изыскания"^^xsd:string;
+  v-s:shortLabel "ИГДИ"^^xsd:string;
+.
+d:pqebtdq7rhei1dgns31om5vwrv
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Инженерно-геологические изыскания"^^xsd:string;
+  v-s:shortLabel "ИГИ"^^xsd:string;
+.
+d:ye4013rb1x55dzyu32o79dc5zu
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Инженерно-экологические изыскания"^^xsd:string;
+  v-s:shortLabel "ИЭИ"^^xsd:string;
+.
+d:a1zzl1r1brmf0hjwtsrh1mi3tg7
+  rdf:type v-s:ClassifierSectionOfProjectDocumentation ;
+  rdfs:label "Инженерно-гидрометеорологические изыскания"^^xsd:string;
+  v-s:shortLabel "ИГМИ"^^xsd:string;
+.
