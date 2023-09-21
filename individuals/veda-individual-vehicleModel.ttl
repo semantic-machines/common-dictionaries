@@ -1325,3 +1325,8 @@ d:tr0qovf0m1qrll65saaf7b3sfa
   rdfs:label "КС"@ru ;
   rdfs:label "KS"@en ; 
 .
+d:vk9f7g9mlr7yss7f74thxsnm4m
+  a v-s:VehicleModel;
+  rdfs:label "SPT 499"@ru ;
+  rdfs:label "SPT 499"@en ; 
+.
