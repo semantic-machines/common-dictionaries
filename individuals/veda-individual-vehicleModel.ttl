@@ -1330,3 +1330,8 @@ d:vk9f7g9mlr7yss7f74thxsnm4m
   rdfs:label "SPT 499"@ru ;
   rdfs:label "SPT 499"@en ; 
 .
+d:rfs1z23c0eg6g4ryzxj838zwdg
+  a v-s:VehicleModel;
+  rdfs:label "Builder"@ru ;
+  rdfs:label "Builder"@en ; 
+.
