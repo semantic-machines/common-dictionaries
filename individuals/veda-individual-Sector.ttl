@@ -223,7 +223,7 @@ d:5026ea45f86d49df8d6a1fabc6a3446b
 
 d:8895363c77984d4284df7a5d4c265f7a
   a v-s:Sector;
-  rdfs:label "Купля"^^xsd:string;
+  rdfs:label "Закупка"^^xsd:string;
   v-s:hasParentLink <d:5026ea45f86d49df8d6a1fabc6a3446b>, <d:0ed33c0939024c8991c60ac3acbdd287>, <d:678d0d1e89f04f5f9f5d975e79c86d77>;
   v-s:registrationNumber "030.120.010.001"^^xsd:string;
 .
