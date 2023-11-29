@@ -25,10 +25,18 @@ v-s:FormOfPowerOfAttorney
 # ------------------------------------------------------------ ИНДИВИДЫ --
 d:a2shywgnwnx2agbk2sj86whxpdw
   a v-s:FormOfPowerOfAttorney;
-  rdfs:label "Нотариально заверенная"^^xsd:string;
+  rdfs:label "Нотариально заверенная"@ru;
+  rdfs:label "Notarized"@en;
 .
 
 d:a2279cyw3wx16idkt4k2pj3xac
   a v-s:FormOfPowerOfAttorney;
-  rdfs:label "Простая письменная"^^xsd:string;
+  rdfs:label "Простая письменная"@ru;
+  rdfs:label "Simple written"@en;
+.
+
+d:a3dr2ee0u28nwoxqyo1w3ho0h7x
+  a v-s:FormOfPowerOfAttorney;
+  rdfs:label "МЧД"@ru;
+  rdfs:label "Machine-readable power of attorney"@en;
 .
