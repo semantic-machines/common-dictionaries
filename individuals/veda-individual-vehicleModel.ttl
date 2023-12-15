@@ -1335,3 +1335,10 @@ d:rfs1z23c0eg6g4ryzxj838zwdg
   rdfs:label "Builder"@ru ;
   rdfs:label "Builder"@en ; 
 .
+d:z953soaepe4o0aworyt8w0h61e
+    a v-s:VehicleModel;
+  rdfs:label "Changan"@ru ;
+  rdfs:label "Changan"@en ;
+  rdfs:comment "Чанган" ;
+  rdfs:comment "Чанг Ан" ;
+.
