@@ -200,15 +200,25 @@ d:44e3c8b14e4a401eaee81b483a5b166b
   rdfs:label "Extract"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:cp9gn8af1lhukkooikpn0ap7berbpnkp
+  a v-s:DocumentKind;
+  v-s:registrationNumber "42"^^xsd:string;
+  v-s:shortLabel "График"^^xsd:string;
+  rdfs:label "График"@ru;
+  rdfs:label "Schedule"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:definition "Инструмент контроля качества продукции в ходе производства, устанавливает наиболее рациональные способы и последовательность выполнения контроля (чаще всего указываются показатели, периодичность контроля, средства контроля, ответственные лица, осуществляющие контроль)"^^xsd:string;
+.
 d:4eeacd016d5141f08656cbd1107e99b6
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "43"^^xsd:string;
   v-s:shortLabel "График"^^xsd:string;
   rdfs:label "График"@ru;
   rdfs:label "Schedule"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
-  rdfs:comment "Инструмент контроля качества продукции в ходе производства, устанавливает наиболее рациональные способы и последовательность выполнения контроля (чаще всего указываются показатели, периодичность контроля, средства контроля, ответственные лица, осуществляющие контроль)"^^xsd:string;
+  v-s:hasParentLink d:cp9gn8af1lhukkooikpn0ap7berbpnkp ;
+  v-s:definition "Графический документ; упрощенное изложение, изображение, представление. !План работ с точными показателями норм и времени выполнения - это не ЛНД. Это записи."^^xsd:string;
 .
 d:6634a914828748b5b5be6d569c77ccfa
   a v-s:DocumentKind;
@@ -415,6 +425,15 @@ d:2684bf172503479abc5a2613ced7013b
   rdfs:label "Initiative"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:pyapvcjflmjndopjeaq2qqqi85mgxcme
+  a v-s:DocumentKind;
+  v-s:registrationNumber "26"^^xsd:string;
+  v-s:shortLabel "Инструкция"^^xsd:string;
+  rdfs:label "Инструкция"@ru;
+  rdfs:label "Instruction"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:definition "Документ, описывающий порядок (способ выполнения) правил, требований, норм  - определяет сроки, действия должностных лиц"^^xsd:string;
+.
 d:c9e0a1dd43d943ed87f5072a6790d5c2
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
@@ -430,7 +449,7 @@ d:c9e0a1dd43d943ed87f5072a6790d5c2
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
   v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
   v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
-  rdfs:comment "Документ, описывающий порядок (способ выполнения) правил, требований, норм  - определяет сроки, действия должностных лиц"^^xsd:string;
+  v-s:definition "Документ, описывающий порядок (способ выполнения) правил, требований, норм  - определяет сроки, действия должностных лиц"^^xsd:string;
 .
 d:0df8324ec5924a25a7bcbc61af4aa2dd
   a v-s:DocumentKind;
@@ -509,11 +528,13 @@ d:afc1a827f2ac47a9bd19b6db910dfc13
 .
 d:46619e66024f49a6bd5a7be90fcb6a00
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "03"^^xsd:string;
   v-s:shortLabel "Концепция"^^xsd:string;
   rdfs:label "Концепция"@ru;
   rdfs:label "Concept"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:hasParentLink d:ljv3ocyv0ctvm9lpweuipjlzjgfkaoa8;
+  v-s:definition "Комплекс взглядов на проект, связанных между собой и образующих единую систему; определённый способ понимания, трактовки процессов проекта; основная точка зрения, руководящая идея для их освещения."^^xsd:string;
 .
 d:84218fef420049bdaa62a6a3a58e218d
   a v-s:DocumentKind;
@@ -555,15 +576,25 @@ d:254dac9807e44e3eb8be705f7fc190b0
   rdfs:label "Menu"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:84zk0wqm5xzo2v5xy2m6tku02ccn6jrj
+  a v-s:DocumentKind;
+  v-s:registrationNumber "35"^^xsd:string;
+  v-s:shortLabel "Метод"^^xsd:string;
+  rdfs:label "Метод"@ru;
+  rdfs:label "Methods"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:definition "Совокупность конкретно описанных операций, выполнение которых обеспечивает получение результатов измерений с установленными показателями точности"^^xsd:string;
+.
 d:653a839fec394a75bc060cd49404963f
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Методика"^^xsd:string;
-  rdfs:label "Методика"@ru;
+  v-s:registrationNumber "36"^^xsd:string;
+  v-s:shortLabel " Метод / Методика / Методология"^^xsd:string;
+  rdfs:label "Метод / Методика / Методология"@ru;
   rdfs:label "Methods"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
-  rdfs:comment "совокупность конкретно описанных операций, выполнение которых обеспечивает получение результатов измерений с установленными показателями точности"^^xsd:string;
+  v-s:hasParentLink d:84zk0wqm5xzo2v5xy2m6tku02ccn6jrj ;
+  v-s:definition "Совокупность методов обучения чему-либо или практического выполнения чего-либо"^^xsd:string;
 .
 d:9b97d538fd45464b9cd6be3fd809d2b4
   a v-s:DocumentKind;
@@ -740,6 +771,15 @@ d:cb9cf2f497654f1cb9b2e84e77b54213
   rdfs:label "Letter"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:nek5fti7f7xrk5iunrsqm6rrzby38mc3
+  a v-s:DocumentKind;
+  v-s:registrationNumber "38"^^xsd:string;
+  v-s:shortLabel "План"^^xsd:string;
+  rdfs:label "План"@ru;
+  rdfs:label "Plan"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:definition "Документ, содержащий события /действия для достижения целей и задач. Должен включать ответственных за достижение целей, ресурсы и сроки выполнения"^^xsd:string;
+.
 d:f471c538c5584f5a91785c41df2b8e37
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
@@ -748,7 +788,7 @@ d:f471c538c5584f5a91785c41df2b8e37
   rdfs:label "Plan"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
-  rdfs:comment "Документ, содержащий события /действия для достижения целей и задач. Должен включать ответственных за достижение целей, ресурсы и сроки выполнения"^^xsd:string;
+  v-s:definition "Документ, содержащий события /действия для достижения целей и задач. Должен включать ответственных за достижение целей, ресурсы и сроки выполнения"^^xsd:string;
 .
 d:b573ee25f26a48e8a596cb13e753cb66
   a v-s:DocumentKind;
@@ -774,25 +814,45 @@ d:258a380fd64143cbb2c7caac613b86f4
   rdfs:label "Policy"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:ljv3ocyv0ctvm9lpweuipjlzjgfkaoa8
+  a v-s:DocumentKind;
+  v-s:registrationNumber "01"^^xsd:string;
+  v-s:shortLabel "Политика"^^xsd:string;
+  rdfs:label "Политика"@ru;
+  rdfs:label "Policy"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:definition "Документ, устанавливающий общие намерения и направление деятельности Компании в отдельных областях, официально сформулированные высшим руководством (в области качества, экологии, информационной безопасности и т.д.)"^^xsd:string;
+.
 d:e7232eb0ffbf4ee088ea7ceb484c6b8a
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "04"^^xsd:string;
   v-s:shortLabel "Политика"^^xsd:string;
   rdfs:label "Политика"@ru;
   rdfs:label "Policy"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
-  rdfs:comment "Документ, устанавливающий общие намерения и направление деятельности Компании в отдельных областях, официально сформулированные высшим руководством (в области качества, экологии, информационной безопасности и т.д.)"^^xsd:string;
+  v-s:hasParentLink d:ljv3ocyv0ctvm9lpweuipjlzjgfkaoa8 ;
+  v-s:definition "Документ, устанавливающий общие намерения и направление деятельности Компании в отдельных областях, официально сформулированные высшим руководством (в области качества, экологии, информационной безопасности и т.д.)"^^xsd:string;
+.
+d:moj0nwg5jp3bvh7v4yh40jy9yef4dlzl
+  a v-s:DocumentKind;
+  v-s:registrationNumber "05"^^xsd:string;
+  v-s:shortLabel "Положение"^^xsd:string;
+  rdfs:label "Положение"@ru;
+  rdfs:label "Regulation"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:definition "Документ, устанавливающий правила, требования, нормы для отдельных видов деятельности: регламентирует требования для нескольких СП или всего предприятия; устанавливает ответственность должностных лиц на уровне руководителей СП"^^xsd:string;
 .
 d:28c2f3899c174412a33c5512ac1fa10b
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "06"^^xsd:string;
   v-s:shortLabel "Положение"^^xsd:string;
   rdfs:label "Положение"@ru;
   rdfs:label "Regulation"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa;
-  rdfs:comment "Документ, устанавливающий правила, требования, нормы для отдельных видов деятельности: регламентирует требования для нескольких СП или всего предприятия; устанавливает ответственность должностных лиц на уровне руководителей СП"^^xsd:string;
+  v-s:hasParentLink d:moj0nwg5jp3bvh7v4yh40jy9yef4dlzl;
+  v-s:definition "Документ, устанавливающий правила, требования, нормы для отдельных видов деятельности: регламентирует требования для нескольких СП или всего предприятия; устанавливает ответственность должностных лиц на уровне руководителей СП"^^xsd:string;
 .
 d:96ef6f2d013a41de8da1ac5073e77eca
   a v-s:DocumentKind;
@@ -804,11 +864,13 @@ d:96ef6f2d013a41de8da1ac5073e77eca
 .
 d:dfb84c5733cc48a6a3bad3e65b6e10b7
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Порядок"^^xsd:string;
-  rdfs:label "Порядок"@ru;
+  v-s:registrationNumber "11"^^xsd:string;
+  v-s:shortLabel "Процесс / Порядок / Процедура"^^xsd:string;
+  rdfs:label "Процесс / Порядок / Процедура"@ru;
   rdfs:label "Order"@en;
+  v-s:hasParentLink d:cqpb4iujcip4xy16cpnt0f0512pzf1qo ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:definition "Документ, определяющий последовательность целенаправленных действий для решения определенной задачи в рамках определённого процесса, устанавливающий сроки и регламентирующий способы выполнения работ и контроля их результатов"^^xsd:string;
 .
 d:175f937ca9db487a8216ce880b70ee62
   a v-s:DocumentKind;
@@ -919,11 +981,13 @@ d:3f5a24984a7c422380eeaaa6d964e0f0
 .
 d:34ec539caad74a6cb634e700854e0a0d
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Программа"^^xsd:string;
-  rdfs:label "Программа"@ru;
+  v-s:registrationNumber "12"^^xsd:string;
+  v-s:shortLabel "Программа обучения"^^xsd:string;
+  rdfs:label "Программа обучения"@ru;
   rdfs:label "Program"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:hasParentLink d:cqpb4iujcip4xy16cpnt0f0512pzf1qo ;
+  v-s:definition "Программа обучения - созданный в рамках системы обучения документ, определяющий содержание и количество знаний, умений и навыков, предназначенных к обязательному усвоению по той или иной учебной дисциплине, распределение их по темам, разделам и периодам обучения."^^xsd:string;
 .
 d:abb80d6e3deb4a368faabe3838e41d02
   a v-s:DocumentKind;
@@ -1086,13 +1150,15 @@ d:61358f23e9c24100b257dc899d0c3bdd
 .
 d:ea3b4eae755c460788c7b02159c423b0
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "08"^^xsd:string;
   v-s:shortLabel "Руководство"^^xsd:string;
   rdfs:label "Руководство"@ru;
   rdfs:label "Manual"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
   v-s:hasParentLink d:n4nj7nyj8prliu2bkgwdlgai ;
+  v-s:hasParentLink d:moj0nwg5jp3bvh7v4yh40jy9yef4dlzl;
+  v-s:definition "Документ, устанавливающий общие правила и направление деятельности Компании в определенной области."^^xsd:string;
 .
 d:20af5c052d0449558dcaadc1c4893b42
   a v-s:DocumentKind;
@@ -1178,17 +1244,17 @@ d:a53d3098af3c409da2cb0df76e2f9234
 .
 d:e409c3e10a9a4f53a2eb6e18bb32f704
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Стратегия"^^xsd:string;
   rdfs:label "Стратегия"@ru;
   rdfs:label "Strategy"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:definition "Общий, недетализированный план, охватывающий длительный период времени, способ достижения сложной цели. Задачей стратегии является эффективное использование имеющихся ресурсов для достижения основной цели."^^xsd:string;
 .
 d:332c11a413bb4e1b9e5ffaed12bc5ea7
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Схема"^^xsd:string;
-  rdfs:label "Схема"@ru;
+  v-s:registrationNumber "44"^^xsd:string;
+  v-s:shortLabel "Схема / Блок-схема"^^xsd:string;
+  rdfs:label "Схема / Блок-схема"@ru;
   rdfs:label "Scheme"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
@@ -1196,6 +1262,8 @@ d:332c11a413bb4e1b9e5ffaed12bc5ea7
   v-s:hasParentLink d:j1fscemown2iv45412nun98x;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:guqt0dp2mynpebhu7qbmwg1q ;
+  v-s:hasParentLink d:cp9gn8af1lhukkooikpn0ap7berbpnkp ;
+  v-s:definition "Схема - это изложение, изображение, представление данных в самых общих чертах, упрощённо. Блок-схема - это схематичное представление процесса, системы или алгоритма"^^xsd:string;
 .
 d:05ff2a46f67f458f9a74d3386b63ecb9
   a v-s:DocumentKind;
@@ -1219,6 +1287,15 @@ d:48e4e6b371bf43839daff550138a263a
   rdfs:label "Телефонограмма"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:ghorn9vceajrth4nony3hq6k24wkenyv
+  a v-s:DocumentKind;
+  v-s:registrationNumber "22"^^xsd:string;
+  v-s:shortLabel "Требование"^^xsd:string;
+  rdfs:label "Требование"@ru;
+  rdfs:label "Requirement"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:definition "Документ, устанавливающий порядок выполнения той или иной операции, совокупность значений параметров технологического процесса в определенном интервале времени работы, либо определяющий потребность в сырье, химикатах, вспомогательных материалах, достаточных и необходимых для выработки единицы / тонны продукции"^^xsd:string;
+.
 d:ce0724eb71a546f48048c229739ec914
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
@@ -1227,7 +1304,7 @@ d:ce0724eb71a546f48048c229739ec914
   rdfs:label "Requirement"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
-  rdfs:comment "Документ, устанавливающий порядок выполнения той или иной операции, совокупность значений параметров технологического процесса в определенном интервале времени работы, либо определяющий потребность в сырье, химикатах, вспомогательных материалах, достаточных и необходимых для выработки единицы / тонны продукции"^^xsd:string;
+  v-s:definition "Документ, устанавливающий порядок выполнения той или иной операции, совокупность значений параметров технологического процесса в определенном интервале времени работы, либо определяющий потребность в сырье, химикатах, вспомогательных материалах, достаточных и необходимых для выработки единицы / тонны продукции"^^xsd:string;
 .
 d:75c50851b6244c73b0b589b8ba579340
   a v-s:DocumentKind;
@@ -1385,13 +1462,15 @@ d:agbxssnddkd2rnk4lfofwhi7
 .
 d:id9fvum63d7t73lp6kos6brc
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "33"^^xsd:string;
   v-s:shortLabel "Технологическая карта"^^xsd:string;
   rdfs:label "Технологическая карта"@ru;
   rdfs:label "Technological card"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
+  v-s:hasParentLink d:pyapvcjflmjndopjeaq2qqqi85mgxcme ;
+  v-s:definition "Организационно-технологический документ, разрабатываемый для выполнения технологического процесса и определяющий состав операций и средств механизации, требования к качеству, трудоемкость, ресурсы и мероприятия по безопасности."^^xsd:string;
 .
 d:a68iimapjlsr0m7d7uoernuww
   a v-s:DocumentKind;
@@ -1411,11 +1490,13 @@ d:a1jg010jy473r5k9t8y2zx51
 .
 d:fl4fzamgqfnhgu8a2xnljiii
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "34"^^xsd:string;
   v-s:shortLabel "План (проект) производства работ"^^xsd:string;
   rdfs:label "План (проект) производства работ"@ru;
   rdfs:label "Work plan (project)"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:hasParentLink d:pyapvcjflmjndopjeaq2qqqi85mgxcme ;
+  v-s:definition "Организационно-технологический документ, разрабатываемый для реализации проекта и рабочего проекта и определяющий технологии работ (технологические процессы и операции), качество их выполнения, сроки, ресурсы и мероприятия по безопасности."^^xsd:string;
 .
 d:aqhn9agutrq29fe9yf35wd8lqr
   a v-s:DocumentKind;
@@ -1531,6 +1612,24 @@ d:a7c3b20d5dc243c9ad078947ede1bb18
   v-s:shortLabel "Требование на ИХП"^^xsd:string;
   rdfs:label "Требование - накладная на внутреннее перемещение ИХП"@ru ;
   v-s:hasParentLink d:c3b38c81e1594593932b9872a3257948;
+.
+d:ydbcxe5yqbemjuinlk1p3fc6qb
+  a v-s:DocumentKind;
+  v-s:registrationNumber "23"^^xsd:string;
+  v-s:shortLabel "Техническое требование"^^xsd:string;
+  rdfs:label "Техническое требование"@ru;
+  rdfs:label "Technical requirement"@en;
+  v-s:hasParentLink d:ghorn9vceajrth4nony3hq6k24wkenyv;
+  v-s:definition "Документ, содержащий перечень требований, предъявляемых к конкретному продукту"^^xsd:string;
+.
+d:1x4s7glda7j2w75dylhct4kv5a
+  a v-s:DocumentKind;
+  v-s:registrationNumber "25"^^xsd:string;
+  v-s:shortLabel "Целевые показатели (технологические)"^^xsd:string;
+  rdfs:label "Целевые показатели (технологические)"@ru;
+  rdfs:label "Target indicators (technological)"@en;
+  v-s:hasParentLink d:ghorn9vceajrth4nony3hq6k24wkenyv;
+  v-s:definition "Документ, устанавливающий требования по достижению к тем или иным показателям"^^xsd:string;
 .
 d:s8p7h99m39eptw5s65io7cl1
   a v-s:DocumentKind;
@@ -1814,21 +1913,38 @@ d:6869e29efeb24915b43992e210b530aa
   rdfs:label "Формы локальных нормативных документов"@ru ;
 .
 
+d:cqpb4iujcip4xy16cpnt0f0512pzf1qo
+  a v-s:DocumentKind;
+  v-s:shortLabel "Регламент"^^xsd:string;
+  v-s:registrationNumber "09"^^xsd:string;
+  rdfs:label "Регламент"@ru ;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:definition "Документ, определяющий последовательность действий для осуществления технологического процесса производства какого-либо вида продукции Компании, а также требования к оборудованию, материалам и обслуживающему персоналу"^^xsd:string;
+.
 d:ae1c31e5a-5ac7-60b9-5f9a-9170c5c011b4
   a v-s:DocumentKind;
   v-s:shortLabel "Регламент"^^xsd:string;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "10"^^xsd:string;
   rdfs:label "Регламент"@ru ;
-  v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
-  rdfs:comment "Документ, определяющий последовательность действий для осуществления технологического процесса производства какого-либо вида продукции Компании, а также требования к оборудованию, материалам и обслуживающему персоналу"^^xsd:string;
+  v-s:hasParentLink d:cqpb4iujcip4xy16cpnt0f0512pzf1qo ;
+  v-s:definition "Документ, определяющий последовательность действий для осуществления технологического процесса производства какого-либо вида продукции Компании, а также требования к оборудованию, материалам и обслуживающему персоналу"^^xsd:string;
+.
+d:b0wkqg7rv3u1s7km4nfnoivc03uipir2
+  a v-s:DocumentKind;
+  v-s:shortLabel "Стандарт"^^xsd:string;
+  v-s:registrationNumber "15"^^xsd:string;
+  rdfs:label "Стандарт"@ru ;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:definition "Документ, в котором в целях добровольного многократного использования устанавливаются характеристики продукции, правила осуществления и характеристики процессов проектирования (включая изыскания), производства, строительства, монтажа, наладки, эксплуатации, хранения, перевозки, реализации и утилизации, выполнения работ или оказания услуг. Стандарт также может содержать правила и методы исследований (испытаний) и измерений, правила отбора образцов, требования к терминологии, символике, упаковке, маркировке или этикеткам и правилам их нанесения"^^xsd:string;
 .
 d:a238df72c-7862-1e47-0ad3-0288d70561fb
   a v-s:DocumentKind;
   v-s:shortLabel "Стандарт"^^xsd:string;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "16"^^xsd:string;
   rdfs:label "Стандарт"@ru ;
   v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
-  rdfs:comment "Документ, в котором в целях добровольного многократного использования устанавливаются характеристики продукции, правила осуществления и характеристики процессов проектирования (включая изыскания), производства, строительства, монтажа, наладки, эксплуатации, хранения, перевозки, реализации и утилизации, выполнения работ или оказания услуг. Стандарт также может содержать правила и методы исследований (испытаний) и измерений, правила отбора образцов, требования к терминологии, символике, упаковке, маркировке или этикеткам и правилам их нанесения"^^xsd:string;
+  v-s:hasParentLink d:b0wkqg7rv3u1s7km4nfnoivc03uipir2 ;
+  v-s:definition "Документ, в котором в целях добровольного многократного использования устанавливаются характеристики продукции, правила осуществления и характеристики процессов проектирования (включая изыскания), производства, строительства, монтажа, наладки, эксплуатации, хранения, перевозки, реализации и утилизации, выполнения работ или оказания услуг. Стандарт также может содержать правила и методы исследований (испытаний) и измерений, правила отбора образцов, требования к терминологии, символике, упаковке, маркировке или этикеткам и правилам их нанесения"^^xsd:string;
 .
 d:8e2d4d3e0fd540ebb509a9d0cf3e4f71
   a v-s:DocumentKind;
@@ -1855,6 +1971,14 @@ d:c25b475f506d47eea1847ea8861ac747
 
 
 #-----------------------------------------------------
+d:xcx6a5kaz8vb6vm6b77u8pq8
+  a v-s:DocumentKind;
+  v-s:shortLabel "Технологический регламент"^^xsd:string;
+  v-s:registrationNumber "13"^^xsd:string;
+  rdfs:label "Технологический регламент"@ru ;
+  v-s:hasParentLink d:cqpb4iujcip4xy16cpnt0f0512pzf1qo;
+  v-s:definition "Основной технологический документ по описанию характеристик производственного объекта, исходного сырья, готовой продукции, вспомогательных материалов, технологической схемы, параметров технологического процесса производства, условий безопасной эксплуатации производства, охраны окружающей среды и промышленной санитарии в соответствии с действующими нормативными документами Российской Федерации."^^xsd:string;
+.
 d:s4xf96dcdjfmmd87tcc86oed
   a v-s:DocumentKind;
   v-s:shortLabel "Формы документов по лесообеспечению"^^xsd:string;
@@ -2238,17 +2362,26 @@ d:p54x8miwaokje0ui46ypg1xmxq
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
 .
-d:008cae75474845fea02f19f446ed0940
+d:xtus5yk9okfiwmjeqgh855jbt03k22i6
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "20"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
   rdfs:label "Спецификация"@ru ;
-  rdfs:comment "Документ, точно, полностью и в поддающейся проверке форме определяет требования, устройство, поведение или другие особенности системы, компонента, продукта, результата или услуги, а также процедуры, способные определить, были ли выполнены эти условия."^^xsd:string;
+  v-s:definition "Документ, точно, полностью и в поддающейся проверке форме определяет требования, устройство, поведение или другие особенности системы, компонента, продукта, результата или услуги, а также процедуры, способные определить, были ли выполнены эти условия."^^xsd:string;
+  v-s:hasParentLink d:5fd9004f075f48b0aacb17379f27e46f ;
+.
+d:008cae75474845fea02f19f446ed0940
+  a v-s:DocumentKind;
+  v-s:registrationNumber "21"^^xsd:string;
+  v-s:shortLabel ""^^xsd:string;
+  rdfs:label "Спецификация"@ru ;
+  v-s:definition "Документ, точно, полностью и в поддающейся проверке форме определяет требования, устройство, поведение или другие особенности системы, компонента, продукта, результата или услуги, а также процедуры, способные определить, были ли выполнены эти условия."^^xsd:string;
   v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
   v-s:hasParentLink d:sr5gdnqd0b6w59hjzxkl02gg ;
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:t65lhnvctaegte3jq1rc6hj3 ;
   v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
+  v-s:hasParentLink d:xtus5yk9okfiwmjeqgh855jbt03k22i6 ;
 .
 d:d31a94ab34094effacd483cdb17d79cd
   a v-s:DocumentKind;
@@ -2377,11 +2510,33 @@ d:2re747f77ef54cfd666aa3220046eef0
 .
 d:xkjh1dnrx1vy365qnejogfm8
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Стандарт предприятия на техобслуживание"^^xsd:string;
-  rdfs:label "Стандарт предприятия на техобслуживание"@ru;
+  v-s:registrationNumber "17"^^xsd:string;
+  v-s:shortLabel "Стандарт техобслуживания (СТО)"^^xsd:string;
+  rdfs:label "Стандарт техобслуживания (СТО)"@ru;
   rdfs:label "Company standard for maintenance"@en;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+  v-s:hasParentLink d:b0wkqg7rv3u1s7km4nfnoivc03uipir2;
+  v-s:definition "Cтандарт, утвержденный и применяемый организацией для целей стандартизации, а также для совершенствования производства и обеспечения качества продукции, выполнения работ, оказания услуг, а также для распространения и использования полученных в различных областях знаний результатов исследований (испытаний), измерений и разработок (ГОСТ Р 1.12-2004 «Стандартизация в РФ. Термины и определения»)."^^xsd:string;
+.
+d:o6yo0cr2sxi6182v5ie10c9oci
+  a v-s:DocumentKind;
+  v-s:registrationNumber "18"^^xsd:string;
+  v-s:shortLabel "Стандарт на производство готовой продукции"^^xsd:string;
+  rdfs:label "Стандарт на производство готовой продукции"@ru;
+  rdfs:label "Company standard for finished products"@en;
+  v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+  v-s:hasParentLink d:b0wkqg7rv3u1s7km4nfnoivc03uipir2;
+  v-s:definition "Cтандарт, утвержденный и применяемый организацией с целью производства и реализации готовой продукции. Определяет область применения, нормы, характеристики, методы контроля, требования для готовой продукции выпускаемой на предприятии."^^xsd:string;
+.
+d:eqg019et7c743phg4omwiti0wr
+  a v-s:DocumentKind;
+  v-s:registrationNumber "19"^^xsd:string;
+  v-s:shortLabel "Стандарт безопасности"^^xsd:string;
+  rdfs:label "Стандарт безопасности"@ru;
+  rdfs:label "Company safety standard"@en;
+  v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+  v-s:hasParentLink d:b0wkqg7rv3u1s7km4nfnoivc03uipir2;
+  v-s:definition "Нормативно-технический документ, содержащий требования, нормы и правила, направленные на обеспечение безопасности, сохранение здоровья и работоспособности человека в процессе труда, регламентирующий аспекты, связанные с безопасностью человека при производстве продукции, использовании процессов и технологий, устанавливающий условия эксплуатации и технического обслуживания средств производства, а также исключения неприемлемого риска, нарушений условий функционирования, для исключения вреда здоровью человека."^^xsd:string;
 .
 d:s5pk1zh991llj78d6wbfdoqw
   a v-s:DocumentKind;
@@ -2391,37 +2546,53 @@ d:s5pk1zh991llj78d6wbfdoqw
   rdfs:label "Enterprise standard for equipment and materials"@en;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
 .
+d:22crh74kccpl3gnwlt3tewqftl
+  a v-s:DocumentKind;
+  v-s:registrationNumber "27"^^xsd:string;
+  v-s:shortLabel "Инструкция предприятия"^^xsd:string;
+  rdfs:label "Инструкция предприятия"@ru;
+  rdfs:label "Company Instruction"@en;
+  v-s:hasParentLink d:pyapvcjflmjndopjeaq2qqqi85mgxcme;
+  v-s:definition "Документ, определяющий порядок взаимодействия структурных подразделений предприятия"^^xsd:string;
+.
 d:a6mdl9yodbw9k7jpo3ijxjqs3
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "32"^^xsd:string;
   v-s:shortLabel "Стандартная операционная процедура(SOP)"^^xsd:string;
   rdfs:label "Стандартная операционная процедура(SOP)"@ru;
   rdfs:label "Standard Operating Procedure (SOP)"@en;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+  v-s:hasParentLink d:pyapvcjflmjndopjeaq2qqqi85mgxcme;
+  v-s:definition "Набор пошаговых инструкций, для однотипного выполнения последовательности каких-либо действий."^^xsd:string;
 .
 d:1ti3wc7son7tlb0xqhmnbt19h0
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "28"^^xsd:string;
   v-s:shortLabel "Должностная инструкция"^^xsd:string;
   rdfs:label "Должностная инструкция"@ru;
   rdfs:label "Duty Instruction"@en;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+  v-s:hasParentLink d:pyapvcjflmjndopjeaq2qqqi85mgxcme;
+  v-s:definition "Документ, издаваемый в целях регламентации организационно-правового положения работника, установления его должностных обязанностей, прав и ответственности, а также квалификационных требований, предъявляемые к занимаемой должности."^^xsd:string;
 .
 d:bjnkll1vkbv2h9gh6vvanx0nrg
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "07"^^xsd:string;
   v-s:shortLabel "Положение о структурном подразделении"^^xsd:string;
   rdfs:label "Положение о структурном подразделении"@ru;
   rdfs:label "Regulations on the structural subdivision"@en;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+  v-s:hasParentLink d:moj0nwg5jp3bvh7v4yh40jy9yef4dlzl;
+  v-s:definition "Локальный нормативный документ предприятия, который устанавливает порядок создания подразделения, его задачи, функции, права и обязанности, организацию работы, взаимоотношения с другими подразделениями предприятия."^^xsd:string;
 .
 d:w8944nrcvqekod1swwkqsnya
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
+  v-s:registrationNumber "40"^^xsd:string;
   v-s:shortLabel "Стандартный пакет технического обслуживания"^^xsd:string;
   rdfs:label "Стандартный пакет технического обслуживания"@ru;
   rdfs:label "Standard maintenance package"@en;
-  v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+  v-s:hasParentLink d:nek5fti7f7xrk5iunrsqm6rrzby38mc3;
+  v-s:definition "Документ, содержащий описание конкретных плановых работ по техническому обслуживанию, периодичность и необходимый ресурс для их выполнения"^^xsd:string;
 .
 d:n4bswi8qkktqn2fk863igo6m7p
   a v-s:DocumentKind;
@@ -2439,10 +2610,31 @@ d:mwr236feznyw6jg43b8mlbmu9q
 .
 d:a9ldyzcsvwbn4i62n5k6vz8kee2
   a v-s:DocumentKind;
+  v-s:registrationNumber "29"^^xsd:string;
   v-s:shortLabel "Производственная инструкция"^^xsd:string;
   rdfs:label "Производственная инструкция"@ru;
   rdfs:label "Production instruction"@en;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+  v-s:hasParentLink d:pyapvcjflmjndopjeaq2qqqi85mgxcme;
+  v-s:definition "Документ для определенных видов работ, содержащий требования к технологическим и вспомогательным процессам, не указанные в технологической документации."^^xsd:string;
+.
+d:nv6chn05h4z1kkvuoah082m42l
+  a v-s:DocumentKind;
+  v-s:registrationNumber "30"^^xsd:string;
+  v-s:shortLabel "Инструкция по охране труда"^^xsd:string;
+  rdfs:label "Инструкция по охране труда"@ru;
+  rdfs:label "HSE Instruction"@en;
+  v-s:hasParentLink d:pyapvcjflmjndopjeaq2qqqi85mgxcme;
+  v-s:definition "Нормативный акт, устанавливающий требования по охране труда при выполнении работ на производстве. Инструкции по охране труда могут разрабатываться как для отдельных профессий, так и на отдельные виды работ."^^xsd:string;
+.
+d:nmhvqeiw5iw7hkkcmvwte9z2xb
+  a v-s:DocumentKind;
+  v-s:registrationNumber "31"^^xsd:string;
+  v-s:shortLabel "Инструкция по пожарной безопасности"^^xsd:string;
+  rdfs:label "Инструкция по пожарной безопасности"@ru;
+  rdfs:label "Fire safety instruction"@en;
+  v-s:hasParentLink d:pyapvcjflmjndopjeaq2qqqi85mgxcme;
+  v-s:definition "Нормативный акт, устанавливающий требования в области пожарной безопасности на объектах и территории предприятия"^^xsd:string;
 .
 d:xhk5rtbp7b91fs20jjhgoepd5a
   a v-s:DocumentKind;
@@ -2450,6 +2642,24 @@ d:xhk5rtbp7b91fs20jjhgoepd5a
   rdfs:label "Дополнение к ППР"@ru;
   rdfs:label "Addendum to WP"@en;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+.
+d:v54vcp9va20zksxtcbc7gzas2j
+  a v-s:DocumentKind;
+  v-s:registrationNumber "39"^^xsd:string;
+  v-s:shortLabel "План / Программа мероприятий / работ"^^xsd:string;
+  rdfs:label "План / Программа мероприятий / работ"@ru;
+  rdfs:label "Plan"@en;
+  v-s:hasParentLink d:nek5fti7f7xrk5iunrsqm6rrzby38mc3;
+  v-s:definition "Документ, который определяет цели, конкретные действия (работы или мероприятия), требования к их результатам, сроки выполнения и исполнителей этих действий (должность)"^^xsd:string;
+.
+d:r5caikwryqmskf3sod9d7zm1sx
+  a v-s:DocumentKind;
+  v-s:registrationNumber "41"^^xsd:string;
+  v-s:shortLabel "План по качеству"^^xsd:string;
+  rdfs:label "План по качеству"@ru;
+  rdfs:label "Plan"@en;
+  v-s:hasParentLink d:nek5fti7f7xrk5iunrsqm6rrzby38mc3;
+  v-s:definition "Документ или несколько документов, сформированные на основе стандартов качества, практик, ресурсов, спецификаций, инструкций, которые применяются к конкретному продукту, услуге, проекту или контракту"^^xsd:string;
 .
 d:hnmsek8upnd0rsrcy9qsq0aizr
   a v-s:DocumentKind;
@@ -2522,6 +2732,15 @@ d:mqzlxqrejhhbod4ra42nq8cf
   v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
   v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2 ;
+.
+d:2ca024d3lkjb0rlj184tgwrpcq
+  a v-s:DocumentKind;
+  v-s:registrationNumber "24"^^xsd:string;
+  v-s:shortLabel "Норма"^^xsd:string;
+  rdfs:label "Норма"@ru;
+  rdfs:label "Rates"@en;
+  v-s:hasParentLink d:ghorn9vceajrth4nony3hq6k24wkenyv;
+  v-s:definition "Документ, устанавливающий правила, общие принципы или характеристики, касающиеся различных видов деятельности или их результатов"^^xsd:string;
 .
 d:a0fxg2oiw4c5z3g7s63hx8p7sud
   a v-s:DocumentKind;
@@ -2620,7 +2839,7 @@ d:evabhsx9humkl0aswj3wlzx7y7
   rdfs:label "Руководство системного программиста"@ru;
   rdfs:label "System Programmer's Guide"@en;
   v-s:hasParentLink d:t65lhnvctaegte3jq1rc6hj3;
-  v-s:hasParentLink d:ea3b4eae755c460788c7b02159c423b0 ;
+  # v-s:hasParentLink d:ea3b4eae755c460788c7b02159c423b0 ;
 .
 d:c2v2agedjiv51vady2cejd9l4w
   a v-s:DocumentKind;
@@ -2629,7 +2848,7 @@ d:c2v2agedjiv51vady2cejd9l4w
   rdfs:label "Руководство программиста"@ru;
   rdfs:label "Programmer's Guide"@en;
   v-s:hasParentLink d:t65lhnvctaegte3jq1rc6hj3;
-  v-s:hasParentLink d:ea3b4eae755c460788c7b02159c423b0 ;
+  # v-s:hasParentLink d:ea3b4eae755c460788c7b02159c423b0 ;
 .
 d:q9xef5ajxgemi2kwvi6avmn0n0
   a v-s:DocumentKind;
@@ -2638,7 +2857,7 @@ d:q9xef5ajxgemi2kwvi6avmn0n0
   rdfs:label "Руководство оператора"@ru;
   rdfs:label "Operator's Manual"@en;
   v-s:hasParentLink d:t65lhnvctaegte3jq1rc6hj3;
-  v-s:hasParentLink d:ea3b4eae755c460788c7b02159c423b0 ;
+  # v-s:hasParentLink d:ea3b4eae755c460788c7b02159c423b0 ;
 .
 d:ocdo1rb13p8ycwp9u0no88i9om
   a v-s:DocumentKind;
@@ -2656,7 +2875,7 @@ d:q2dh87sdd49dpfgpo4hio0jt7h
   rdfs:label "Руководство по техническому обслуживанию"@ru;
   rdfs:label "Maintenance Manual"@en;
   v-s:hasParentLink d:t65lhnvctaegte3jq1rc6hj3;
-  v-s:hasParentLink d:ea3b4eae755c460788c7b02159c423b0 ;
+  # v-s:hasParentLink d:ea3b4eae755c460788c7b02159c423b0 ;
 .
 
 #-----------------------------------------------
@@ -2686,27 +2905,32 @@ d:fqtq6vjbcq3nkdspwvrhdgn3
 .
 d:k9kr50oh4hp7vpywws6hapoi
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Технологические режимы"^^xsd:string;
-  rdfs:label "Технологические режимы"@ru ;
-  rdfs:comment "Технологические режимы"^^xsd:string;
+  v-s:registrationNumber "14"^^xsd:string;
+  v-s:shortLabel "Технологический режим"^^xsd:string;
+  rdfs:label "Технологический режим"@ru ;
+  v-s:definition "Технологический режим"^^xsd:string;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
+  v-s:hasParentLink d:cqpb4iujcip4xy16cpnt0f0512pzf1qo;
+  v-s:definition "Документ, устанавливающий нормы для технологических параметров по стадиям производства для осуществления контроля выпуска определенного вида продукции."^^xsd:string;
 .
 d:p2haovg1x2rjcwvsxlxf2uv2
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
   v-s:shortLabel "Карты технологического контроля"^^xsd:string;
   rdfs:label "Карты технологического контроля"@ru ;
-  rdfs:comment "Карты технологического контроля"^^xsd:string;
+  v-s:definition "Карты технологического контроля"^^xsd:string;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
+  v-s:definition "Документ, описывающий набор показателей, методы их испытаний и периодичность контроля для конкретного вида продукции."^^xsd:string;
 .
 d:jl99a2aau286kog8ko5jf7ms
   a v-s:DocumentKind;
-  v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Карты лабораторного контроля"^^xsd:string;
-  rdfs:label "Карты лабораторного контроля"@ru ;
-  rdfs:comment "Карты лабораторного контроля"^^xsd:string;
+  v-s:registrationNumber "45"^^xsd:string;
+  v-s:shortLabel "Карта лабораторного / технологического контроля"^^xsd:string;
+  rdfs:label "Карта лабораторного / технологического контроля"@ru ;
+  v-s:definition "Карта лабораторного / технологического контроля"^^xsd:string;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
+  v-s:hasParentLink d:cp9gn8af1lhukkooikpn0ap7berbpnkp ;
+  v-s:definition "Документ, описывающий набор показателей, методы их испытаний и периодичность контроля для конкретного вида продукции."^^xsd:string;
 .
 d:cl5emwsuke26ym5oeo74jer6
   a v-s:DocumentKind;
@@ -2967,10 +3191,13 @@ d:4497b0977e8f411c9351a6eea04ce0a4
 #-----------------------------------------------
 d:byrtofyhdn8fy4cf744dngzna8
   a v-s:DocumentKind;
+  v-s:registrationNumber "37"^^xsd:string;
   v-s:shortLabel "KPI"^^xsd:string;
-  rdfs:label "KPI"@ru ;
-  rdfs:label "KPI"@en ;
+  rdfs:label "KPI (по премированию)"@ru ;
+  rdfs:label "KPI (по премированию)"@en ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:hasParentLink d:84zk0wqm5xzo2v5xy2m6tku02ccn6jrj;
+  v-s:definition "KPI (Key Performance Indicators), или ключевые показатели эффективности — это числовые выраженные в абсолютных или относительных (процентных) значениях показатели для измерения результативности и эффективности предпринятых действий. Эффективность отражает соотношение расходов с результатами, а результативность — степень достижения намеченных целей"^^xsd:string;
 .
 
 d:aygo9zg6wcbcpmnw5pae3388dr
