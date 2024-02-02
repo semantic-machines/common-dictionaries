@@ -1415,6 +1415,14 @@ d:Country_OST
   v-s:registrationNumber "896" ;
   v-s:countryCallingCode "7";
 .
-
-
-
+d:Country_LIE
+  a v-s:ClassifierCountry;
+  v-s:title "LIE" ;
+  v-s:shortLabel "LI" ;
+  rdfs:label "Лихтенштейн"@ru ;
+  rdfs:label "Liechtenstein"@en ;
+  v-s:description "Лихтенштейн"@ru ;
+  v-s:description "Liechtenstein"@en ;
+  v-s:registrationNumber "897" ;
+  v-s:countryCallingCode "423";
+.
