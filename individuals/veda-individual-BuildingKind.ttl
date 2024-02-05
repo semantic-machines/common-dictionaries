@@ -35,11 +35,6 @@ d:jkufz2c9pxa5d8q242703fc5jm
   rdfs:label "Группа зданий"@ru ;
   rdfs:label "Several buildings"@en ;
 .
-d:a04234lrb448fer62qohhlw9jew
-  rdf:type v-s:BuildingKind ;
-  rdfs:label "Здание"@ru ;
-  rdfs:label "Building"@en ;
-.
 d:tdmroj9jwx56mtgioxobk9ib4l
   rdf:type v-s:BuildingKind ;
   rdfs:label "Участок здания"@ru ;
@@ -50,8 +45,38 @@ d:dgdt8bm0gig2k5q0df60fi4qyq
   rdfs:label "Группа сооружений"@ru ;
   rdfs:label "Several constructions"@en ;
 .
+d:a04234lrb448fer62qohhlw9jew
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Здание"@ru ;
+  rdfs:label "Building"@en ;
+.
 d:a3nyqc2yjnthclux6kppar8n000
   rdf:type v-s:BuildingKind ;
   rdfs:label "Сооружение"@ru ;
   rdfs:label "Construction"@en ;
+.
+d:rmoxqzx0yocxmsb8ktg9d4qgwyb
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Производственный участок"@ru ;
+  rdfs:label "Production area"@en ;
+.
+d:te5rxsrncbmjgj9dqvp36vie615
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Производственная линия"@ru ;
+  rdfs:label "Production line"@en ;
+.
+d:kmpo61rjoulx4bj31ktk7tfod5j
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Производственная секция"@ru ;
+  rdfs:label "Production section"@en ;
+.
+d:b9caqbryq7nrtexaotdtjotecit
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Производственная группа"@ru ;
+  rdfs:label "Production group"@en ;
+.
+d:0rmtrvjvm739sicy43anj4ry3m2
+  rdf:type v-s:BuildingKind ;
+  rdfs:label "Здание/помещение/сооружение"@ru ;
+  rdfs:label "Building/room/construction"@en ;
 .

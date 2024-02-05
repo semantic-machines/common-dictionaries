@@ -2558,8 +2558,8 @@ d:22crh74kccpl3gnwlt3tewqftl
 d:a6mdl9yodbw9k7jpo3ijxjqs3
   a v-s:DocumentKind;
   v-s:registrationNumber "32"^^xsd:string;
-  v-s:shortLabel "Стандартная операционная процедура(SOP)"^^xsd:string;
-  rdfs:label "Стандартная операционная процедура(SOP)"@ru;
+  v-s:shortLabel "Стандартная операционная процедура (SOP)"^^xsd:string;
+  rdfs:label "Стандартная операционная процедура (SOP)"@ru;
   rdfs:label "Standard Operating Procedure (SOP)"@en;
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
   v-s:hasParentLink d:pyapvcjflmjndopjeaq2qqqi85mgxcme;
@@ -2927,7 +2927,6 @@ d:jl99a2aau286kog8ko5jf7ms
   v-s:registrationNumber "45"^^xsd:string;
   v-s:shortLabel "Карта лабораторного / технологического контроля"^^xsd:string;
   rdfs:label "Карта лабораторного / технологического контроля"@ru ;
-  v-s:definition "Карта лабораторного / технологического контроля"^^xsd:string;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
   v-s:hasParentLink d:cp9gn8af1lhukkooikpn0ap7berbpnkp ;
   v-s:definition "Документ, описывающий набор показателей, методы их испытаний и периодичность контроля для конкретного вида продукции."^^xsd:string;
