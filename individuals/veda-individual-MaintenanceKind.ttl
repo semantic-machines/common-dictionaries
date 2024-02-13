@@ -75,3 +75,43 @@ d:007iksemw7ys5hcsl4nobbmh8256893w
   rdfs:label "Не применимо"@ru;
   rdfs:label "Not applicable"@en
 .
+d:2vqa1l15a86wuj06rmvsrkw1jjefkx3f
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Длительный останов за рамками КР и ППР"@ru ;
+  rdfs:label "Prolonged stoppage beyond the scope of CR and PDP"@en ;
+.
+d:995fm87wmsl0bj2mxa4zdi3xy2fz0pup
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Совмещенный останов за рамками КР и ППР"@ru ;
+  rdfs:label "Combined stoppage outside the framework of CR and PDP"@en ;
+.
+d:2hdavpn2g3h0cvsrkda5s8ivgkwb4882
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Теплый период"@ru ;
+  rdfs:label "Warm period"@en ;
+.
+d:lfj0bmutohav4o9zyo3axxc5jkvx6kyp
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Безводный период"@ru ;
+  rdfs:label "Anhydrous period"@en ;
+.
+d:nyv18vkbj9kv5ykqtam5v2v61xlcfj3h
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Безгазовый период"@ru ;
+  rdfs:label "Gas-free period"@en ;
+.
+d:lhrtbk5pvyetfy32lhxr4wmxkvf4052s
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Период межени"@ru ;
+  rdfs:label "Low water period"@en ;
+.
+d:9fdc4o45ietdkzwoceox8dmhejp30dk0
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Отключение участков сетей"@ru ;
+  rdfs:label "Disconnection of network sections"@en ;
+.
+d:ehjrzepw7m1eadk5101hdg6ejyk7kv7h
+  rdf:type v-s:MaintenanceKind ;
+  rdfs:label "Отключение энергоустановок"@ru ;
+  rdfs:label "Disconnection of power installations"@en ;
+.
