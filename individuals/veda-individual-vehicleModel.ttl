@@ -1342,3 +1342,9 @@ d:z953soaepe4o0aworyt8w0h61e
   rdfs:comment "Чанган" ;
   rdfs:comment "Чанг Ан" ;
 .
+d:fmq63rhnf13fdxotj9c8f12rf7
+    a v-s:VehicleModel;
+  rdfs:label "BULL"@ru ;
+  rdfs:label "BULL"@en ;
+  rdfs:comment "Булл" ;
+.
