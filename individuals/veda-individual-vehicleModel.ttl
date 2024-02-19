@@ -1348,3 +1348,10 @@ d:fmq63rhnf13fdxotj9c8f12rf7
   rdfs:label "BULL"@en ;
   rdfs:comment "Булл" ;
 .
+d:acxs7l4szxjp3okm6s8zcvcges
+    a v-s:VehicleModel;
+  rdfs:label "CLG"@ru ;
+  rdfs:label "CLG"@en ;
+  rdfs:comment "СЛДжи" ;
+  rdfs:comment "СЛГ" ;
+.
