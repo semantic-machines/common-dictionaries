@@ -1348,3 +1348,9 @@ d:fmq63rhnf13fdxotj9c8f12rf7
   rdfs:label "BULL"@en ;
   rdfs:comment "Булл" ;
 .
+d:kedis6bqv0fx46hrhq32eg25wz
+    a v-s:VehicleModel;
+  rdfs:label "SOLLERS ARGO"@ru ;
+  rdfs:label "SOLLERS ARGO"@en ;
+  rdfs:comment "Солерс Арго" ;
+.
