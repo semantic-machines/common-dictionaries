@@ -66,3 +66,10 @@ d:currency_cny
     v-s:registrationNumber "156"^^xsd:string;
 .
 
+d:currency_aed
+    a v-s:Currency;
+    v-s:shortLabel "AED";
+    rdfs:label "Дирхам ОАЭ"@ru;
+    rdfs:label "UAE Dirham"@en;
+    v-s:registrationNumber "784"^^xsd:string;
+.
