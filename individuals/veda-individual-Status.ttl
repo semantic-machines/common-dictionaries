@@ -493,3 +493,30 @@ v-s:StatusRework
   rdfs:label "Rework"@en ;
   v-s:tag "warning" ;
 .
+
+
+#-------------------------------статусы для визуального отображения-----------
+v-s:StatusLiquidationForView
+  rdf:type v-s:Status ;
+  rdfs:label "В процессе ликвидации"@ru ;
+  rdfs:label "In the process of liquidation"@en ;
+  v-s:tag "warning" ;
+.
+v-s:StatusActiveForView
+  rdf:type v-s:Status ;
+  rdfs:label "Действующий"@ru ;
+  rdfs:label "Active"@en ;
+  v-s:tag "success" ;
+.
+v-s:StatusNotActiveForView
+  rdf:type v-s:Status ;
+  rdfs:label "Деятельность прекращена"@ru ;
+  rdfs:label "Not operating"@en ;
+  v-s:tag "danger" ;
+.
+v-s:StatusBankruptcyForView
+  rdf:type v-s:Status ;
+  rdfs:label "Банкротство"@ru ;
+  rdfs:label "Bankruptcy"@en ;
+  v-s:tag "danger" ;
+.
