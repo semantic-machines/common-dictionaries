@@ -107,7 +107,7 @@ d:OKOPF_14000
 .
 d:OKOPF_14100
   a v-s:ClassifierLegalForm;
-  rdfs:label "С.х. производственные кооперативы" ;
+  rdfs:label "С.-х. производственные кооперативы" ;
   v-s:title "Сельскохозяйственные производственные кооперативы" ;
   v-s:registrationNumber "14100" ;
   v-s:hasParentLink d:OKOPF_14000 ;
@@ -115,7 +115,7 @@ d:OKOPF_14100
 .
 d:OKOPF_14153
   a v-s:ClassifierLegalForm;
-  rdfs:label "Сельскохозяйственные артели (колхозы)" ;
+  rdfs:label "С.-х. артели (колхозы)" ;
   v-s:title "Сельскохозяйственные артели (колхозы)" ;
   v-s:registrationNumber "14153" ;
   v-s:hasParentLink d:OKOPF_14100 ;
@@ -150,7 +150,7 @@ d:OKOPF_19000
 .
 d:OKOPF_20000
   a v-s:ClassifierLegalForm;
-  rdfs:label "Некоммерческие корпоративные организации" ;
+  rdfs:label "НКО" ;
   v-s:title "Организационно-правовые формы юридических лиц, являющихся некоммерческими корпоративными организациями" ;
   v-s:registrationNumber "20000" ;
   v-s:deleted true;
@@ -214,56 +214,56 @@ d:OKOPF_20107
 .
 d:OKOPF_20108
   a v-s:ClassifierLegalForm;
-  rdfs:label "Общества взаимного страхования" ;
+  rdfs:label "ОВС" ;
   v-s:title "Общества взаимного страхования" ;
   v-s:registrationNumber "20108" ;
   v-s:hasParentLink d:OKOPF_20100 ;
 .
 d:OKOPF_20109
   a v-s:ClassifierLegalForm;
-  rdfs:label "Сельскохозяйственные потребительские перерабатывающие кооперативы" ;
+  rdfs:label "С.-х. потребительские перерабатывающие кооперативы" ;
   v-s:title "Сельскохозяйственные потребительские перерабатывающие кооперативы" ;
   v-s:registrationNumber "20109" ;
   v-s:hasParentLink d:OKOPF_20100 ;
 .
 d:OKOPF_20110
   a v-s:ClassifierLegalForm;
-  rdfs:label "Сельскохозяйственные потребительские сбытовые (торговые) кооперативы" ;
+  rdfs:label "С.-х. потребительские сбытовые (торговые) кооперативы" ;
   v-s:title "Сельскохозяйственные потребительские сбытовые (торговые) кооперативы" ;
   v-s:registrationNumber "20110" ;
   v-s:hasParentLink d:OKOPF_20100 ;
 .
 d:OKOPF_20111
   a v-s:ClassifierLegalForm;
-  rdfs:label "Сельскохозяйственные потребительские обслуживающие кооперативы" ;
+  rdfs:label "С.-х. потребительские обслуживающие кооперативы" ;
   v-s:title "Сельскохозяйственные потребительские обслуживающие кооперативы" ;
   v-s:registrationNumber "20111" ;
   v-s:hasParentLink d:OKOPF_20100 ;
 .
 d:OKOPF_20113
   a v-s:ClassifierLegalForm;
-  rdfs:label "Сельскохозяйственные потребительские садоводческие кооперативы" ;
+  rdfs:label "С.-х. потребительские садоводческие кооперативы" ;
   v-s:title "Сельскохозяйственные потребительские садоводческие кооперативы" ;
   v-s:registrationNumber "20113" ;
   v-s:hasParentLink d:OKOPF_20100 ;
 .
 d:OKOPF_20112
   a v-s:ClassifierLegalForm;
-  rdfs:label "Сельскохозяйственные потребительские снабженческие кооперативы" ;
+  rdfs:label "С.-х. потребительские снабженческие кооперативы" ;
   v-s:title "Сельскохозяйственные потребительские снабженческие кооперативы" ;
   v-s:registrationNumber "20112" ;
   v-s:hasParentLink d:OKOPF_20100 ;
 .
 d:OKOPF_20114
   a v-s:ClassifierLegalForm;
-  rdfs:label "Сельскохозяйственные потребительские огороднические кооперативы" ;
+  rdfs:label "С.-х. потребительские огороднические кооперативы" ;
   v-s:title "Сельскохозяйственные потребительские огороднические кооперативы" ;
   v-s:registrationNumber "20114" ;
   v-s:hasParentLink d:OKOPF_20100 ;
 .
 d:OKOPF_20115
   a v-s:ClassifierLegalForm;
-  rdfs:label "Сельскохозяйственные потребительские животноводческие кооперативы";
+  rdfs:label "С.-х. потребительские животноводческие кооперативы";
   v-s:title "Сельскохозяйственные потребительские животноводческие ооперативы" ;
   v-s:registrationNumber "20115" ;
   v-s:hasParentLink d:OKOPF_20100 ;
@@ -312,7 +312,7 @@ d:OKOPF_20210
 .
 d:OKOPF_20211
   a v-s:ClassifierLegalForm;
-  rdfs:label "Сельскохозяйственные потребительские обслуживающие кооперативы" ;
+  rdfs:label "С.-х. потребительские обслуживающие кооперативы" ;
   v-s:title "Сельскохозяйственные потребительские обслуживающие кооперативы" ;
   v-s:registrationNumber "20211" ;
   v-s:hasParentLink d:OKOPF_20200 ;
@@ -396,7 +396,7 @@ d:OKOPF_20610
 .
 d:OKOPF_20611
   a v-s:ClassifierLegalForm;
-  rdfs:label "Торгово-промышленные палаты" ;
+  rdfs:label "ТПП" ;
   v-s:title "Торгово-промышленные палаты" ;
   v-s:registrationNumber "20611" ;
   v-s:hasParentLink d:OKOPF_20600 ;
@@ -481,7 +481,7 @@ d:OKOPF_20701
 .
 d:OKOPF_20716
   a v-s:ClassifierLegalForm;
-  rdfs:label "Товарищества собственников жилья" ;
+  rdfs:label "ТСЖ" ;
   v-s:title "Товарищества собственников жилья" ;
   v-s:registrationNumber "20716" ;
   v-s:hasParentLink d:OKOPF_20700 ;
@@ -537,7 +537,7 @@ d:OKOPF_30004
 .
 d:OKOPF_30005
   a v-s:ClassifierLegalForm;
-  rdfs:label "Паевые инвестиционные фонды" ;
+  rdfs:label "ПИФ" ;
   v-s:title "Паевые инвестиционные фонды" ;
   v-s:registrationNumber "30005" ;
   v-s:hasParentLink d:OKOPF_30000 ;
@@ -586,7 +586,7 @@ d:OKOPF_50000
 .
 d:OKOPF_50100
   a v-s:ClassifierLegalForm;
-  rdfs:label "Организационно-правовые формы для коммерческой деятельности граждан" ;
+  rdfs:label "ОПФ для коммерческой деятельности граждан" ;
   v-s:title "Организационно-правовые формы для коммерческой деятельности граждан" ;
   v-s:registrationNumber "50100" ;
   v-s:hasParentLink d:OKOPF_50000 ;
@@ -601,14 +601,14 @@ d:OKOPF_50101
 .
 d:OKOPF_50102
   a v-s:ClassifierLegalForm;
-  rdfs:label "Индивидуальные предприниматели" ;
+  rdfs:label "ИП" ;
   v-s:title "Индивидуальные предприниматели" ;
   v-s:registrationNumber "50102" ;
   v-s:hasParentLink d:OKOPF_50100 ;
 .
 d:OKOPF_50200
   a v-s:ClassifierLegalForm;
-  rdfs:label "Организационно-правовые формы для деятельности граждан, не отнесенной к предпринимательству" ;
+  rdfs:label "ОПФ для деятельности граждан, не отнесенной к предпринимательству" ;
   v-s:title "Организационно-правовые формы для деятельности граждан, не отнесенной к предпринимательству" ;
   v-s:registrationNumber "50200" ;
   v-s:hasParentLink d:OKOPF_50000 ;
@@ -652,7 +652,7 @@ d:OKOPF_65100
 .
 d:OKOPF_65141
   a v-s:ClassifierLegalForm;
-  rdfs:label "Федеральные казенные предприятия" ;
+  rdfs:label "ФКП" ;
   v-s:title "Федеральные казенные предприятия" ;
   v-s:registrationNumber "65141" ;
   v-s:hasParentLink d:OKOPF_65100 ;
@@ -666,7 +666,7 @@ d:OKOPF_65142
 .
 d:OKOPF_65143
   a v-s:ClassifierLegalForm;
-  rdfs:label "Муниципальные казенные предприятия" ;
+  rdfs:label "МКП" ;
   v-s:title "Муниципальные казенные предприятия" ;
   v-s:registrationNumber "65143" ;
   v-s:hasParentLink d:OKOPF_65100 ;
@@ -681,21 +681,21 @@ d:OKOPF_65200
 .
 d:OKOPF_65241
   a v-s:ClassifierLegalForm;
-  rdfs:label "Федеральные государственные унитарные предприятия" ;
+  rdfs:label "ФГУП" ;
   v-s:title "Федеральные государственные унитарные предприятия" ;
   v-s:registrationNumber "65241" ;
   v-s:hasParentLink d:OKOPF_65200 ;
 .
 d:OKOPF_65242
   a v-s:ClassifierLegalForm;
-  rdfs:label "Государственные унитарные предприятия субъектов РФ" ;
+  rdfs:label "ГУП субъектов РФ" ;
   v-s:title "Государственные унитарные предприятия субъектов Российской Федерации" ;
   v-s:registrationNumber "65242" ;
   v-s:hasParentLink d:OKOPF_65200 ;
 .
 d:OKOPF_65243
   a v-s:ClassifierLegalForm;
-  rdfs:label "Муниципальные унитарные предприятия" ;
+  rdfs:label "МУП" ;
   v-s:title "Муниципальные унитарные предприятия" ;
   v-s:registrationNumber "65243" ;
   v-s:hasParentLink d:OKOPF_65200 ;
@@ -724,7 +724,7 @@ d:OKOPF_70401
 .
 d:OKOPF_70402
   a v-s:ClassifierLegalForm;
-  rdfs:label "Негосударственные пенсионные фонды" ;
+  rdfs:label "НПФ" ;
   v-s:title "Негосударственные пенсионные фонды" ;
   v-s:registrationNumber "70402" ;
   v-s:hasParentLink d:OKOPF_70400 ;
@@ -745,7 +745,7 @@ d:OKOPF_70404
 .
 d:OKOPF_71400
   a v-s:ClassifierLegalForm;
-  rdfs:label "Автономные некоммерческие организации" ;
+  rdfs:label "АНО" ;
   v-s:title "Автономные некоммерческие организации" ;
   v-s:registrationNumber "71400" ;
   v-s:hasParentLink d:OKOPF_70000 ;
@@ -804,21 +804,21 @@ d:OKOPF_75100
 .
 d:OKOPF_75101
   a v-s:ClassifierLegalForm;
-  rdfs:label "Федеральные государственные автономные учреждения" ;
+  rdfs:label "ФГАУ" ;
   v-s:title "Федеральные государственные автономные учреждения" ;
   v-s:registrationNumber "75101" ;
   v-s:hasParentLink d:OKOPF_75100 ;
 .
 d:OKOPF_75103
   a v-s:ClassifierLegalForm;
-  rdfs:label "Федеральные государственные бюджетные учреждения" ;
+  rdfs:label "ФГБУ" ;
   v-s:title "Федеральные государственные бюджетные учреждения" ;
   v-s:registrationNumber "75103" ;
   v-s:hasParentLink d:OKOPF_75100 ;
 .
 d:OKOPF_75104
   a v-s:ClassifierLegalForm;
-  rdfs:label "Федеральные государственные казенные учреждения" ;
+  rdfs:label "ФГКУ" ;
   v-s:title "Федеральные государственные казенные учреждения" ;
   v-s:registrationNumber "75104" ;
   v-s:hasParentLink d:OKOPF_75100 ;
@@ -833,21 +833,21 @@ d:OKOPF_75200
 .
 d:OKOPF_75201
   a v-s:ClassifierLegalForm;
-  rdfs:label "Государственные автономные учреждения субъектов РФ" ;
+  rdfs:label "ГАУ субъектов РФ" ;
   v-s:title "Государственные автономные учреждения субъектов Российской Федерации" ;
   v-s:registrationNumber "75201" ;
   v-s:hasParentLink d:OKOPF_75200 ;
 .
 d:OKOPF_75202
   a v-s:ClassifierLegalForm;
-  rdfs:label "Государственные бюджетные учреждения субъектов РФ" ;
+  rdfs:label "ГБУ субъектов РФ" ;
   v-s:title "Государственные бюджетные учреждения субъектов Российской Федерации" ;
   v-s:registrationNumber "75202" ;
   v-s:hasParentLink d:OKOPF_75200 ;
 .
 d:OKOPF_75204
   a v-s:ClassifierLegalForm;
-  rdfs:label "Государственные казенные учреждения субъектов РФ" ;
+  rdfs:label "ГКУ субъектов РФ" ;
   v-s:title "Государственные казенные учреждения субъектов Российской Федерации" ;
   v-s:registrationNumber "75204" ;
   v-s:hasParentLink d:OKOPF_75200 ;
@@ -861,7 +861,7 @@ d:OKOPF_75300
 .
 d:OKOPF_75400
   a v-s:ClassifierLegalForm;
-  rdfs:label "Учреждения, созданные муниципальным образованием (муниципальные учреждения)" ;
+  rdfs:label "Учреждения, созданные МО (муниципальные учреждения)" ;
   v-s:title "Учреждения, созданные муниципальным образованием (муниципальные учреждения" ;
   v-s:registrationNumber "75400" ;
   v-s:hasParentLink d:OKOPF_70000 ;
@@ -869,21 +869,21 @@ d:OKOPF_75400
 .
 d:OKOPF_75401
   a v-s:ClassifierLegalForm;
-  rdfs:label "Муниципальные автономные учреждения" ;
+  rdfs:label "МАУ" ;
   v-s:title "Муниципальные автономные учреждения" ;
   v-s:registrationNumber "75401" ;
   v-s:hasParentLink d:OKOPF_75400 ;
 .
 d:OKOPF_75403
   a v-s:ClassifierLegalForm;
-  rdfs:label "Муниципальные бюджетные учреждения" ;
+  rdfs:label "МБУ" ;
   v-s:title "Муниципальные бюджетные учреждения" ;
   v-s:registrationNumber "75403" ;
   v-s:hasParentLink d:OKOPF_75400 ;
 .
 d:OKOPF_75404
   a v-s:ClassifierLegalForm;
-  rdfs:label "Муниципальные казенные учреждения" ;
+  rdfs:label "МКУ" ;
   v-s:title "Муниципальные казенные учреждения" ;
   v-s:registrationNumber "75404" ;
   v-s:hasParentLink d:OKOPF_75400 ;
