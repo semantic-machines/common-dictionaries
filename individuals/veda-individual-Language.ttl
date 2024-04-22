@@ -1,0 +1,85 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+
+<http://semantic-machines.com/veda/veda-individual-Language>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Справочник Язык"@ru ;
+  rdfs:label "Veda ontology. Language"@en ;
+  v-s:loadPriority 10 ;
+.
+
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:Language
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Язык"@ru ;
+  rdfs:label "Languages"@en ;
+.
+v-s:hasLanguage
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "Язык"@ru ;
+  rdfs:label "Language"@en ;
+  rdfs:range v-s:Language ;
+  rdfs:domain v-s:LanguageProficiency ;
+.
+
+
+# ------------------------------------------------------------ ИНДИВИДЫ ---
+
+d:c01nmtkr3ebxw7q4tyszc6ty0sskvy5y
+  rdf:type v-s:Language;
+  rdfs:label "Китайский язык"@ru ;
+  rdfs:label "Chinese language"@en ;
+.
+d:oowl237pcpdjjefm7ycpdge6jgf55ue6
+  rdf:type v-s:Language;
+  rdfs:label "Английский язык"@ru ;
+  rdfs:label "English language"@en ;
+.
+d:u4q6a2gubmo8ium7o3coggxwtm3rwx1h	
+  rdf:type v-s:Language;
+  rdfs:label "Хинди"@ru ;
+  rdfs:label "Hindi"@en ;
+.
+d:e1vf28kazy827z88hpg3gouz9c92k0zo	
+  rdf:type v-s:Language;
+  rdfs:label "Испанский язык"@ru ;
+  rdfs:label "Spanish language"@en ;
+.
+d:p08p7xeameeyq8f0ixs7bjelja7too2o	
+  rdf:type v-s:Language;
+  rdfs:label "Арабский язык"@ru ;
+  rdfs:label "Arabic language"@en ;
+.
+d:fl62tt14iyvyr01k2ceal7mf6fz7uii0
+  rdf:type v-s:Language;
+  rdfs:label "Русский язык"@ru ;
+  rdfs:label "Russian languagee"@en ;
+.
+d:exjy07f1skiubipa6uvg3r48hff8oodc
+  rdf:type v-s:Language;
+  rdfs:label "Бенгальский язык"@ru ;
+  rdfs:label "Bengali language"@en ;
+.
+d:v49mkqmm9u37n4oibu11c5lkvrxu4kxc
+  rdf:type v-s:Language;
+  rdfs:label "Португальский язык"@ru ;
+  rdfs:label "Portuguese language"@en ;
+.
+d:ch03u4s9vmo5h2xu0r2y2jwnuovwf4b8		
+  rdf:type v-s:Language;
+  rdfs:label "Индонезийский язык"@ru ;
+  rdfs:label "Indonesian language"@en ;
+.
+d:y80jy8a6f1k4ssb8a1r17ymoxsv71xvx
+  rdf:type v-s:Language;
+  rdfs:label "Французский язык"@ru ;
+  rdfs:label "French language"@en ;
+.
+
+
+

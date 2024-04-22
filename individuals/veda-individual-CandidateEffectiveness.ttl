@@ -28,7 +28,7 @@ v-s:hasCandidateEffectiveness
 .
 # --- В связи с вводом класса возникает предикат v-s:hasCandidateEffectiveness
 # --- Он описан в классе v-s:PersonnelReserve
-
+ 
 
 # ------------------------------------------------------------ ИНДИВИДЫ ---
 

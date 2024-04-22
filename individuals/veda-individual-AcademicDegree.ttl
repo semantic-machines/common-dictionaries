@@ -1,0 +1,52 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+
+<http://semantic-machines.com/veda/veda-individual-AcademicDegreen>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Veda. Справочник Ученая степень"@ru ;
+  rdfs:label "Veda ontology. Academic Degree"@en ;
+  v-s:loadPriority 10 ;
+.
+
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:AcademicDegree
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Ученая степень"@ru ;
+  rdfs:label "Academic Degree"@en ;
+.
+v-s:hasAcademicDegree
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "Ученая степень"@ru ;
+  rdfs:label "Academic Degree"@en ;
+  rdfs:range v-s:AcademicDegree ;
+  rdfs:domain v-s:EducationLevel ;
+.
+
+
+# ------------------------------------------------------------ ИНДИВИДЫ ---
+
+d:tzwog5utx8lgcn1umdehr7cm3hkpc6ig	
+  rdf:type v-s:AcademicDegree;
+  rdfs:label "Бакалавр"@ru ;
+  rdfs:label "Bachelor"@en ;
+.
+d:upv0lz61szzfdj0an58ozplxwwxjr4pw	
+  rdf:type v-s:AcademicDegree ;
+  rdfs:label "Магистр"@ru ;
+  rdfs:label "Master"@en ;
+.
+d:cvhp0m257zu5e6fgt6sldt8ean309oio
+  rdf:type v-s:AcademicDegree;
+  rdfs:label "Кандидат наук"@ru ;
+  rdfs:label "Candidate of Sciences"@en ;
+.
+d:aa69mmxgc8v9x92ggackuopf834emysn	
+  rdf:type v-s:AcademicDegree;
+  rdfs:label "Доктор наук"@ru ;
+  rdfs:label "Doctor of Science"@en ;
+.
