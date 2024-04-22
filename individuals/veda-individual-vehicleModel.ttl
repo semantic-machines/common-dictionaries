@@ -1361,3 +1361,8 @@ d:acxs7l4szxjp3okm6s8zcvcges
   rdfs:comment "СЛДжи" ;
   rdfs:comment "СЛГ" ;
 .
+d:qtlmg964f143jfmmpxo8nwqmmb	
+    a v-s:VehicleModel;
+  rdfs:label "ФАТОН"@ru ;
+  rdfs:label "FATON"@en ;
+.
