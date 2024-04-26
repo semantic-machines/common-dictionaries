@@ -24,7 +24,7 @@ v-s:hasLanguage
   rdfs:label "Язык"@ru ;
   rdfs:label "Language"@en ;
   rdfs:range v-s:Language ;
-  rdfs:domain v-s:LanguageProficiency ;
+  rdfs:domain v-s:LanguageExperience ;
 .
 
 

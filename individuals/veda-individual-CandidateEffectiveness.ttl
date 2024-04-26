@@ -24,7 +24,7 @@ v-s:hasCandidateEffectiveness
   rdfs:label "Уровень эффективности кандидата"@ru ;
   rdfs:label "Candidate Effectiveness"@en ;
   rdfs:range v-s:CandidateEffectiveness ;
-  rdfs:domain v-s:ProcessPersonnelReserveForm ;
+  rdfs:domain v-s:PersonnelReserveForm ;
 .
 # --- В связи с вводом класса возникает предикат v-s:hasCandidateEffectiveness
 # --- Он описан в классе v-s:PersonnelReserve

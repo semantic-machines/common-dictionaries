@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix d: <http://semantic-machines.com/veda/veda-data/> .
 
-<http://semantic-machines.com/veda/veda-individual-LanguageLevel
+<http://semantic-machines.com/veda/veda-individual-LanguageLevel>
   rdfs:label "Онтология Veda. Справочник Уровень языка"@ru ;
   rdfs:label "Veda ontology. Language Level"@en ;
   v-s:loadPriority 10 ;
@@ -16,14 +16,14 @@ v-s:LanguageLevel
   rdf:type owl:Class ;
   rdfs:subClassOf v-s:UserThing ;
   rdfs:label "Уровень языка"@ru ;
-  rdfs:label "Candidate Effectiveness"@en ;
+  rdfs:label "Language Level"@en ;
 .
 v-s:hasLanguageLevel
   rdf:type owl:ObjectProperty ;
   rdfs:label "Уровень языка"@ru ;
-  rdfs:label "Educational Institution"@en ;
+  rdfs:label "Language Level"@en ;
   rdfs:range v-s:LanguageLevel ;
-  rdfs:domain v-s:LanguageProficiency ;
+  rdfs:domain v-s:LanguageExperience ;
 .
 
 
@@ -44,12 +44,12 @@ d:lphnklo72dxe0koy5bu6occi7ql1pgj9
   rdfs:label "B1"@ru ;
   rdfs:label "B1"@en ;
 .
-d:lphnklo72dxe0koy5bu6occi7ql1pgj9
+d:w6sfjky020ejy0fwtm3lx1ela0lhmu16
   rdf:type v-s:LanguageLevel;
   rdfs:label "B2"@ru ;
   rdfs:label "B2"@en ;
 .
-d:mi164k987mog3j5tz1e80ojsejzquy14	
+d:qiklms33s4bga5aryi69qos0sfrelvzf
   rdf:type v-s:LanguageLevel ;
   rdfs:label "C1"@ru ;
   rdfs:label "C1"@en ;

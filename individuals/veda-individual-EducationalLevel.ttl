@@ -5,43 +5,43 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix d: <http://semantic-machines.com/veda/veda-data/> .
 
-<http://semantic-machines.com/veda/veda-individual-EducationalInstitution>
+<http://semantic-machines.com/veda/veda-individual-EducationalLevel>
   rdf:type owl:Ontology ;
   rdfs:label "Онтология Veda. Справочник Уровень образования"@ru ;
-  rdfs:label "Veda ontology. Educational Institution"@en ;
+  rdfs:label "Veda ontology. Educational Level"@en ;
   v-s:loadPriority 10 ;
 .
 
 # ------------------------------------------------------------ КЛАССЫ --
-v-s:EducationalInstitution
+v-s:EducationLevel
   rdf:type owl:Class ;
   rdfs:subClassOf v-s:UserThing ;
   rdfs:label "Уровень образования"@ru ;
-  rdfs:label "Candidate Effectiveness"@en ;
+  rdfs:label "Educational Level"@en ;
 .
-v-s:hasCandidateEffectiveness
+v-s:hasEducationLevel
   rdf:type owl:ObjectProperty ;
   rdfs:label "Уровень образования"@ru ;
-  rdfs:label "Educational Institution"@en ;
-  rdfs:range v-s:EducationalInstitution ;
-  rdfs:domain v-s:EducationLevel ;
+  rdfs:label "Educational Level"@en ;
+  rdfs:range v-s:EducationLevel ;
+  rdfs:domain v-s:EducationExperience ;
 .
 
 
 # ------------------------------------------------------------ ИНДИВИДЫ ---
 
 d:klrzb8mn8otgz64zyls5p0772mfiuvfg
-  rdf:type v-s:EducationalInstitution;
+  rdf:type v-s:EducationLevel;
   rdfs:label "Без уровня"@ru ;
   rdfs:label "without a level"@en ;
 .
 d:qh4s17qm9adrou9d4624fmzxip47vwuc	
-  rdf:type v-s:EducationalInstitution ;
+  rdf:type v-s:EducationLevel ;
   rdfs:label "Среднее профессиональное"@ru ;
   rdfs:label "secondary professional education"@en ;
 .
 d:nqun6vkwvoya1aep6x4a1wiiwfwhlhkz
-  rdf:type v-s:EducationalInstitution;
+  rdf:type v-s:EducationLevel;
   rdfs:label "Высшее"@ru ;
   rdfs:label "higher"@en ;
 .
