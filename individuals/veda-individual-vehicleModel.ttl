@@ -1361,3 +1361,9 @@ d:acxs7l4szxjp3okm6s8zcvcges
   rdfs:comment "СЛДжи" ;
   rdfs:comment "СЛГ" ;
 .
+d:n11nhr157u6o2sm6lkvkuof1ut
+    a v-s:VehicleModel;
+  rdfs:label "Kramer"@ru ;
+  rdfs:label "Kramer"@en ;
+  rdfs:comment "Крамер" ;
+.
