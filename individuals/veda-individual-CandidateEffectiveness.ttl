@@ -21,7 +21,7 @@ v-s:CandidateEffectiveness
 .
 v-s:hasCandidateEffectiveness
   rdf:type owl:ObjectProperty ;
-  rdfs:label "Уровень эффективности кандидата"@ru ;
+  rdfs:label "Уровень эффективности/потенциал кандидата"@ru ;
   rdfs:label "Candidate Effectiveness"@en ;
   rdfs:range v-s:CandidateEffectiveness ;
   rdfs:domain v-s:PersonnelReserveForm ;

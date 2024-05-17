@@ -44,4 +44,4 @@ d:nqun6vkwvoya1aep6x4a1wiiwfwhlhkz
   rdf:type v-s:EducationLevel;
   rdfs:label "Высшее"@ru ;
   rdfs:label "higher"@en ;
-.
+. 
