@@ -19,13 +19,7 @@ v-s:EducationLevel
   rdfs:label "Уровень образования"@ru ;
   rdfs:label "Educational Level"@en ;
 .
-v-s:hasEducationLevel
-  rdf:type owl:ObjectProperty ;
-  rdfs:label "Уровень образования"@ru ;
-  rdfs:label "Educational Level"@en ;
-  rdfs:range v-s:EducationLevel ;
-  rdfs:domain v-s:EducationExperience ;
-.
+
 
 
 # ------------------------------------------------------------ ИНДИВИДЫ ---

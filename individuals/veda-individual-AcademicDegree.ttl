@@ -19,13 +19,7 @@ v-s:AcademicDegree
   rdfs:label "Ученая степень"@ru ;
   rdfs:label "Academic Degree"@en ;
 .
-v-s:hasAcademicDegree
-  rdf:type owl:ObjectProperty ;
-  rdfs:label "Ученая степень"@ru ;
-  rdfs:label "Academic Degree"@en ;
-  rdfs:range v-s:AcademicDegree ;
-  rdfs:domain v-s:EducationLevel ;
-.
+
 
 
 # ------------------------------------------------------------ ИНДИВИДЫ ---

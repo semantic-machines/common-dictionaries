@@ -18,13 +18,7 @@ v-s:LanguageLevel
   rdfs:label "Уровень языка"@ru ;
   rdfs:label "Language Level"@en ;
 .
-v-s:hasLanguageLevel
-  rdf:type owl:ObjectProperty ;
-  rdfs:label "Уровень языка"@ru ;
-  rdfs:label "Language Level"@en ;
-  rdfs:range v-s:LanguageLevel ;
-  rdfs:domain v-s:LanguageExperience ;
-.
+
 
 
 # ------------------------------------------------------------ ИНДИВИДЫ ---

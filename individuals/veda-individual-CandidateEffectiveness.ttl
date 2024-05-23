@@ -19,13 +19,7 @@ v-s:CandidateEffectiveness
   rdfs:label "Уровень эффективности кандидата"@ru ;
   rdfs:label "Candidate Effectiveness"@en ;
 .
-v-s:hasCandidateEffectiveness
-  rdf:type owl:ObjectProperty ;
-  rdfs:label "Уровень эффективности/потенциал кандидата"@ru ;
-  rdfs:label "Candidate Effectiveness"@en ;
-  rdfs:range v-s:CandidateEffectiveness ;
-  rdfs:domain v-s:PersonnelReserveForm ;
-.
+
 # --- В связи с вводом класса возникает предикат v-s:hasCandidateEffectiveness
 # --- Он описан в классе v-s:PersonnelReserve
  
