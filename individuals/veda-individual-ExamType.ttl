@@ -149,8 +149,9 @@ d:vlcjwcbsh0alsipv9mlfxywh7g
 d:gqsqh9v99vdtdszllqk40x5led
     a v-s:ExamType;
     v-s:origin "admin";
-    rdfs:label "Проверка знаний по Пож тех мини - ПТМ"@ru;
-    rdfs:label "Fire Technical Knowledge Test"@en;
+    rdfs:label "Обучение по ДПП в области пожарной безопасности"@ru;
+    rdfs:label "Training in additional professional programs in the field of fire safety"@en;
+    rdfs:comment "Проверка знаний по Пож тех мини - ПТМ";
     v-s:hasRequiredFieldsForProfession  v-s:hasFireTechnicalMinimumCertificate;
 .
 #---------------------------------------------------------------------
