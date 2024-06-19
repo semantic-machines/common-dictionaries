@@ -211,6 +211,7 @@ d:aoyj96mwnpw0ltuwq02f9slz4a
   v-s:transportOrganization d:org_RU3444204474;
   v-s:transportOrganization d:org_RU1001087648;
   v-s:transportOrganization d:org_KZ200540012181;
+  v-s:transportOrganization d:org_RU6318159428;
 .
 d:293b8861b53e4467864b7d8cd3a5f4fb
   a v-s:DeliveryMethod;
