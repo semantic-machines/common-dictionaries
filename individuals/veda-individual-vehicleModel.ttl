@@ -1367,3 +1367,9 @@ d:n11nhr157u6o2sm6lkvkuof1ut
   rdfs:label "Kramer"@en ;
   rdfs:comment "Крамер" ;
 .
+d:cn4f6wc7bp8od46u1xqed46u13
+    a v-s:VehicleModel;
+  rdfs:label "Jaecoo"@ru ;
+  rdfs:label "Jaecoo"@en ;
+  rdfs:comment "Джейку́" ;
+.
