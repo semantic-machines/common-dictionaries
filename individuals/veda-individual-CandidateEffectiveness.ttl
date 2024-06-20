@@ -26,63 +26,88 @@ v-s:CandidateEffectiveness
 
 # ------------------------------------------------------------ ИНДИВИДЫ ---
 
-d:lxx3xdkf0hwyq22i9d6atqpf75dtdzps
-  rdf:type v-s:CandidateEffectiveness;
-  rdfs:label "Высокий потенциал - недостаточная эффективность"@ru ;
-  rdfs:label "High potential - insufficient efficiency"@en ;
-.
-d:x1dmtycaclxnce3pl52co4dzu1ayr92a
-  rdf:type v-s:CandidateEffectiveness ;
-  rdfs:label "Высокий потенциал - устойчивый результат"@ru ;
-  rdfs:label "High potential is a sustainable result"@en ;
-.
-d:tz2howy0t7g1t337d1zjjoxrotmv1jlm
-  rdf:type v-s:CandidateEffectiveness;
-  rdfs:label "Высокий потенциал - хорошая эффективность"@ru ;
-  rdfs:label "High potential - good efficiency"@en ;
-.
-d:if473eqeozg9v8criz8k5ehk46r5fgz8
-  rdf:type v-s:CandidateEffectiveness ;
-  rdfs:label "Высокий потенциал - высокая эффективность"@ru ;
-  rdfs:label "High potential - high efficiency"@en ;
-.
-d:d6cvf4xdvo713l25crsrg1r7omtaiaxf
-  rdf:type v-s:CandidateEffectiveness;
-  rdfs:label "Хороший уровень потенциала - недостаточная эффективность"@ru ;
-  rdfs:label "A good level of potential is insufficient efficiency"@en ;
-.
-d:jjr7etuk8sbrsc29xme0x2gr8x68oalg
-  rdf:type v-s:CandidateEffectiveness ;
-  rdfs:label "Хороший уровень потенциала - устойчивый результат"@ru ;
-  rdfs:label "A good level of potential is a sustainable result"@en ;
-.
-d:vp1abeti10xknvdiwuzjity0sahtyod3
-  rdf:type v-s:CandidateEffectiveness;
-  rdfs:label "Хороший уровень потенциала - хорошая эффективность"@ru ;
-  rdfs:label "A good level of potential means good efficiency"@en ;
-.
-d:hscp98bj431kzrg16eolzab0ur4nwx67
-  rdf:type v-s:CandidateEffectiveness ;
-  rdfs:label "Хороший уровень потенциала - высокая эффективность"@ru ;
-  rdfs:label "Good level of potential - high efficiency"@en ;
-.
 d:kwcsk2npz23j5c0kyp4sbkfwwvbq7s8t
   rdf:type v-s:CandidateEffectiveness;
   rdfs:label "Потенциал соответствует занимаемой должности - недостаточная эффективность"@ru ;
   rdfs:label "The potential corresponds to the position held - insufficient efficiency"@en ;
+  v-s:rate "1"^^xsd:decimal;
+  rdfs:comment "1"^^xsd:string;
 .
+
 d:njvm5r9nx25rqfjpo6vo88elzfl6wncm
   rdf:type v-s:CandidateEffectiveness ;
   rdfs:label "Потенциал соответствует занимаемой должности - устойчивый результат"@ru ;
   rdfs:label "The potential corresponds to the position held - a sustainable result"@en ;
+  v-s:rate "2"^^xsd:decimal;
+  rdfs:comment "2"^^xsd:string;
 .
 d:fw7tevisputmz8qtksdnmetacie7rjo6
   rdf:type v-s:CandidateEffectiveness;
   rdfs:label "Потенциал соответствует занимаемой должности - хорошая эффективность"@ru ;
   rdfs:label "The potential corresponds to the position held - good efficiency"@en ;
+  v-s:rate "3"^^xsd:decimal;
+  rdfs:comment "3"^^xsd:string;
 .
 d:shzc2px04ro9xb9x22jlqsuzmu3i9t0m
   rdf:type v-s:CandidateEffectiveness ;
   rdfs:label "Потенциал соответствует занимаемой должности - высокая эффективность"@ru ;
   rdfs:label "The potential corresponds to the position held - high efficiency"@en ;
+  v-s:rate "4"^^xsd:decimal;
+  rdfs:comment "4"^^xsd:string;
+.
+d:d6cvf4xdvo713l25crsrg1r7omtaiaxf
+  rdf:type v-s:CandidateEffectiveness;
+  rdfs:label "Хороший уровень потенциала - недостаточная эффективность"@ru ;
+  rdfs:label "A good level of potential is insufficient efficiency"@en ;
+  v-s:rate "5"^^xsd:decimal;
+  rdfs:comment "5"^^xsd:string;
+.
+d:jjr7etuk8sbrsc29xme0x2gr8x68oalg
+  rdf:type v-s:CandidateEffectiveness ;
+  rdfs:label "Хороший уровень потенциала - устойчивый результат"@ru ;
+  rdfs:label "A good level of potential is a sustainable result"@en ;
+  v-s:rate "6"^^xsd:decimal;
+  rdfs:comment "6"^^xsd:string;
+.
+d:vp1abeti10xknvdiwuzjity0sahtyod3
+  rdf:type v-s:CandidateEffectiveness;
+  rdfs:label "Хороший уровень потенциала - хорошая эффективность"@ru ;
+  rdfs:label "A good level of potential means good efficiency"@en ;
+  v-s:rate "7"^^xsd:decimal;
+  rdfs:comment "7"^^xsd:string;
+.
+d:hscp98bj431kzrg16eolzab0ur4nwx67
+  rdf:type v-s:CandidateEffectiveness ;
+  rdfs:label "Хороший уровень потенциала - высокая эффективность"@ru ;
+  rdfs:label "Good level of potential - high efficiency"@en ;
+  v-s:rate "8"^^xsd:decimal;
+  rdfs:comment "8"^^xsd:string;
+.
+d:lxx3xdkf0hwyq22i9d6atqpf75dtdzps
+  rdf:type v-s:CandidateEffectiveness;
+  rdfs:label "Высокий потенциал - недостаточная эффективность"@ru ;
+  rdfs:label "High potential - insufficient efficiency"@en ;
+    v-s:rate "9"^^xsd:decimal;
+  rdfs:comment "9"^^xsd:string;
+.
+d:x1dmtycaclxnce3pl52co4dzu1ayr92a
+  rdf:type v-s:CandidateEffectiveness ;
+  rdfs:label "Высокий потенциал - устойчивый результат"@ru ;
+  rdfs:label "High potential is a sustainable result"@en ;
+  v-s:rate "10"^^xsd:decimal;
+  rdfs:comment "10"^^xsd:string;
+.
+d:tz2howy0t7g1t337d1zjjoxrotmv1jlm
+  rdf:type v-s:CandidateEffectiveness;
+  rdfs:label "Высокий потенциал - хорошая эффективность"@ru ;
+  rdfs:label "High potential - good efficiency"@en ;
+    v-s:rate "11"^^xsd:decimal;
+  rdfs:comment "11"^^xsd:string;
+.
+d:if473eqeozg9v8criz8k5ehk46r5fgz8
+  rdf:type v-s:CandidateEffectiveness ;
+  rdfs:label "Высокий потенциал - высокая эффективность"@ru ;
+  rdfs:label "High potential - high efficiency"@en ;
+  v-s:rate "12"^^xsd:decimal;
+  rdfs:comment "12"^^xsd:string;
 .
