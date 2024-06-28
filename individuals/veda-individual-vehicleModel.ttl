@@ -1373,3 +1373,9 @@ d:cn4f6wc7bp8od46u1xqed46u13
   rdfs:label "Jaecoo"@en ;
   rdfs:comment "Джейку́" ;
 .
+d:z9s7nrsgt7o5qz50ig5yh6l144
+    a v-s:VehicleModel;
+  rdfs:label "27123С"@ru ;
+  rdfs:label "27123С"@en ;
+  rdfs:comment "27123С" ;
+.
