@@ -1350,9 +1350,9 @@ d:fmq63rhnf13fdxotj9c8f12rf7
 .
 d:kedis6bqv0fx46hrhq32eg25wz
     a v-s:VehicleModel;
-  rdfs:label "SOLLERS ARGO"@ru ;
-  rdfs:label "SOLLERS ARGO"@en ;
-  rdfs:comment "Солерс Арго" ;
+  rdfs:label "SOLLERS"@ru ;
+  rdfs:label "SOLLERS"@en ;
+  rdfs:comment "Солерс соллерс" ;
 .
 d:acxs7l4szxjp3okm6s8zcvcges
     a v-s:VehicleModel;
