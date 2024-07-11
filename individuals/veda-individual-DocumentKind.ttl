@@ -385,6 +385,14 @@ d:c526a7045dd340c793a43c09ab1b8885
   rdfs:label "Request"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:eeqxjm50oglpqwxihkffaqsiaolg2jo4
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Заявка на создание ШД"^^xsd:string;
+  rdfs:label " Заявка на создание ШД"@ru;
+  rdfs:label "Application for the creation of a SD"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
 d:87aa1229b50f42668a45d153930d1b07
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
