@@ -1796,6 +1796,13 @@ d:77d4cbd58cf34321a82e7281e8347542
   rdfs:label "Декларация на товары"@ru ;
   v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
 .
+d:aeytek1htrc231c7ku1a7ro2kr338sjr
+  a v-s:DocumentKind;
+  v-s:registrationNumber "01_4"^^xsd:string;
+  v-s:shortLabel "Статистическая форма учета"^^xsd:string;
+  rdfs:label "Статистическая форма учета"@ru ;
+  v-s:hasParentLink d:3e65a31d4d9340dc8861a452be25e04e;
+.
 d:bc986e1208e1460281c0446b7e0ac2e8
   a v-s:DocumentKind;
   v-s:registrationNumber "02_4"^^xsd:string;
