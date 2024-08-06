@@ -1379,3 +1379,9 @@ d:z9s7nrsgt7o5qz50ig5yh6l144
   rdfs:label "27123С"@en ;
   rdfs:comment "27123С" ;
 .
+d:xchk2dv2akssi9ovlgojwxklzy
+    a v-s:VehicleModel;
+  rdfs:label "MANITOU"@ru ;
+  rdfs:label "MANITOU"@en ;
+  rdfs:comment "Манитоу" ;
+.
