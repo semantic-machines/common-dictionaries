@@ -1385,3 +1385,9 @@ d:xchk2dv2akssi9ovlgojwxklzy
   rdfs:label "MANITOU"@en ;
   rdfs:comment "Манитоу" ;
 .
+d:syn6wtkkq8908idno4ov2sq125
+    a v-s:VehicleModel;
+  rdfs:label "ANT"@ru ;
+  rdfs:label "ANT"@en ;
+  rdfs:comment "Ант" ;
+.
