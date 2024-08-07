@@ -1391,3 +1391,9 @@ d:syn6wtkkq8908idno4ov2sq125
   rdfs:label "ANT"@en ;
   rdfs:comment "Ант" ;
 .
+d:f0e8q13r9bm5oomuct4r1ejlp8
+    a v-s:VehicleModel;
+  rdfs:label "Погрузчик"@ru ;
+  rdfs:label "Погрузчик"@en ;
+  rdfs:comment "Погрузчик" ;
+.
