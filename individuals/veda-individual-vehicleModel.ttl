@@ -1394,7 +1394,7 @@ d:f0e8q13r9bm5oomuct4r1ejlp8
 .
 d:ahfkjhfkahfkah2131h42k1h43
     a v-s:VehicleModel;
-  rdfs:label "ТАНК"@ru ;
+  rdfs:label "ТАNК"@ru ;
   rdfs:label "TANK"@en ;
   rdfs:comment "танк" ;
 .
