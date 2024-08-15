@@ -1373,12 +1373,7 @@ d:cn4f6wc7bp8od46u1xqed46u13
   rdfs:label "Jaecoo"@en ;
   rdfs:comment "Джейку́" ;
 .
-d:z9s7nrsgt7o5qz50ig5yh6l144
-    a v-s:VehicleModel;
-  rdfs:label "27123С"@ru ;
-  rdfs:label "27123С"@en ;
-  rdfs:comment "27123С" ;
-.
+
 d:xchk2dv2akssi9ovlgojwxklzy
     a v-s:VehicleModel;
   rdfs:label "MANITOU"@ru ;
@@ -1396,4 +1391,17 @@ d:f0e8q13r9bm5oomuct4r1ejlp8
   rdfs:label "Погрузчик"@ru ;
   rdfs:label "Погрузчик"@en ;
   rdfs:comment "Погрузчик" ;
+.
+d:ahfkjhfkahfkah2131h42k1h43
+    a v-s:VehicleModel;
+  rdfs:label "ТАНК"@ru ;
+  rdfs:label "TANK"@en ;
+  rdfs:comment "танк" ;
+.
+d:z9s7nrsgt7o5qz50ig5yh6l144
+    a v-s:VehicleModel;
+  rdfs:label "27123С"@ru ;
+  rdfs:label "27123С"@en ;
+  rdfs:comment "27123С" ;
+  v-s:deleted true;
 .
