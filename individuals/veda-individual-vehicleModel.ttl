@@ -1404,6 +1404,12 @@ d:ohfb1ig7cllr0bt9dzp49fuv57
   rdfs:label "EXEED"@en ;
   rdfs:comment "EXEED" ;
 .
+d:cegon0ycihof60zzzjhj0yz0ea
+    a v-s:VehicleModel;
+  rdfs:label "JETOUR"@ru ;
+  rdfs:label "JETOUR"@en ;
+  rdfs:comment "Джетур" ;
+.
 d:z9s7nrsgt7o5qz50ig5yh6l144
     a v-s:VehicleModel;
   rdfs:label "27123С"@ru ;
