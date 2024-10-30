@@ -1398,6 +1398,12 @@ d:ahfkjhfkahfkah2131h42k1h43
   rdfs:label "TANK"@en ;
   rdfs:comment "танк" ;
 .
+d:ohfb1ig7cllr0bt9dzp49fuv57
+    a v-s:VehicleModel;
+  rdfs:label "EXEED"@ru ;
+  rdfs:label "EXEED"@en ;
+  rdfs:comment "EXEED" ;
+.
 d:z9s7nrsgt7o5qz50ig5yh6l144
     a v-s:VehicleModel;
   rdfs:label "27123С"@ru ;
