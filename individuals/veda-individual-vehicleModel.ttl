@@ -1416,6 +1416,12 @@ d:a6q3jzidab9umqljwvdlpm9eelz
   rdfs:label "OTING"@en ;
   rdfs:comment "Отинг" ;
 .
+d:a9ytqrqgwh7jt2jesodpfuvinhg
+    a v-s:VehicleModel;
+  rdfs:label "OMODA"@ru ;
+  rdfs:label "OMODA"@en ;
+  rdfs:comment "Омода" ;
+.
 d:z9s7nrsgt7o5qz50ig5yh6l144
     a v-s:VehicleModel;
   rdfs:label "27123С"@ru ;
