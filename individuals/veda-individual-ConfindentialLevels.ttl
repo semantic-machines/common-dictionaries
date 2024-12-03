@@ -1,0 +1,45 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v-s: <http://semantic-machines.com/veda/veda-schema/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix v-ui: <http://semantic-machines.com/veda/veda-ui/> .
+@prefix d: <http://semantic-machines.com/veda/veda-data/> .
+
+<http://semantic-machines.com/veda/veda-individual-ConfindentialLevels>
+  rdf:type owl:Ontology ;
+  rdfs:label "Онтология Веды. Записи справочника Уровень конфиденциальности"@ru ;
+  rdfs:label "Veda ontology. individual - ConfindentialLevels"@en ;
+  v-s:loadPriority 10 ;
+.
+
+# Для автоматической раскраски статусов в шаблонах можно использовать следующие значения свойства v-s:tag
+# default = серый | primary = синий | success = зеленый | info = голубой | warning = оранжевый | danger = красный
+
+# ------------------------------------------------------------ КЛАССЫ --
+v-s:ConfindentialLevel
+  rdf:type owl:Class ;
+  rdfs:subClassOf v-s:UserThing ;
+  rdfs:label "Гриф"@ru ;
+  rdfs:label "Confidential level"@en ;
+.
+# ------------------------------------------------------------ СВОЙСТВА --
+v-s:hasConfidentialLevel
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "Гриф"@ru ;
+  rdfs:label "Confidential level"@en ;
+  rdfs:range v-s:ConfindentialLevel ;
+.
+# ------------------------------------------------------------ ИНДИВИДЫ --
+v-s:ConfidentialLevelTradeSecret
+  rdf:type v-s:ConfindentialLevel ; 
+  rdfs:label "Коммерческая тайна"@ru ;
+  rdfs:label "Trade secret"@en ;
+  v-s:tag "warning" ;
+.
+v-s:ConfidentialLevelConfidentialInformation
+  rdf:type v-s:ConfindentialLevel ;
+  rdfs:label "Конфиденциальная информация"@ru ;
+  rdfs:label "Confidential information"@en ;
+  v-s:tag "warning" ;
+.
