@@ -73,3 +73,10 @@ d:currency_aed
     rdfs:label "UAE Dirham"@en;
     v-s:registrationNumber "784"^^xsd:string;
 .
+d:currency_try
+    a v-s:Currency;
+    v-s:shortLabel "TRY";
+    rdfs:label "Турецкая лира"@ru;
+    rdfs:label "Turkish lira"@en;
+    v-s:registrationNumber "949"^^xsd:string;
+.
