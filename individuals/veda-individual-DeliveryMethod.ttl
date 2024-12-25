@@ -340,4 +340,5 @@ d:qvkl6wtv1ag0swnzg42y7buywp
   rdfs:label "Личный кабинет"@ru;
   rdfs:label "Private office"@en;
   v-s:transportOrganization d:org_RU7702235133 ;
+  v-s:transportOrganization d:org_RU7708503727;
 .
