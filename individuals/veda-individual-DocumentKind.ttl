@@ -3291,3 +3291,11 @@ d:7pe6avq64rs6m0857y0t96dd2q
   rdfs:label "Правило"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:di84b6va5y9wlzmyo6k4q2zenr
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Запрос на изготовление штампа/печати/факсимиле"^^xsd:string;
+  rdfs:label " Запрос на изготовление штампа/печати/факсимиле"@ru;
+  rdfs:label "Request for the creation of a stamp/print/facsimile"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
