@@ -4,7 +4,11 @@ export const post = function (individual, template, container, mode, extra) {
   template = $(template);
   container = $(container);
 
-  template.addClass('label-' + individual['v-s:tag']);
+  if (individual.hasValue('v-s:tag')) {
+    template.addClass('label-' + individual['v-s:tag']);
+  } else {
+    template.addClass('label-tiled');
+  }
 };
 
 export const html = `

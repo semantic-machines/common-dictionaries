@@ -27,7 +27,7 @@ v-s:CandidateEffectiveness
 
 d:kwcsk2npz23j5c0kyp4sbkfwwvbq7s8t
   rdf:type v-s:CandidateEffectiveness ;
-  rdfs:label "Потенциал соответствует занимаемой должности - недостаточная эффективность "@ru ;
+  rdfs:label "Потенциал соответствует занимаемой должности - Новый в роли "@ru ;
   rdfs:label "The potential corresponds to the position held - insufficient efficiency"@en ;
   v-s:registrationNumber "01"^^xsd:string;
 .
@@ -52,7 +52,7 @@ d:shzc2px04ro9xb9x22jlqsuzmu3i9t0m
 .
 d:d6cvf4xdvo713l25crsrg1r7omtaiaxf
   rdf:type v-s:CandidateEffectiveness;
-  rdfs:label "Хороший уровень потенциала - недостаточная эффективность"@ru ;
+  rdfs:label "Хороший уровень потенциала - Новый в роли"@ru ;
   rdfs:label "A good level of potential is insufficient efficiency"@en ;
   v-s:registrationNumber "05"^^xsd:string;
 
@@ -77,7 +77,7 @@ d:hscp98bj431kzrg16eolzab0ur4nwx67
 .
 d:lxx3xdkf0hwyq22i9d6atqpf75dtdzps
   rdf:type v-s:CandidateEffectiveness;
-  rdfs:label "Высокий потенциал - недостаточная эффективность"@ru ;
+  rdfs:label "Высокий потенциал - Новый в роли"@ru ;
   rdfs:label "High potential - insufficient efficiency"@en ;
   v-s:registrationNumber "09"^^xsd:string;
 .

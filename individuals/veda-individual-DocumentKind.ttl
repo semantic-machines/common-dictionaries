@@ -393,6 +393,13 @@ d:eeqxjm50oglpqwxihkffaqsiaolg2jo4
   rdfs:label "Application for the creation of a SD"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:gx5wbkwlj4hv2q7jtf9xo585i03
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Запрос генплана"^^xsd:string;
+  rdfs:label "Запрос генплана"^^xsd:string;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
 d:87aa1229b50f42668a45d153930d1b07
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;

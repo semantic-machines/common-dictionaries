@@ -1393,6 +1393,17 @@ d:Country_UZB
   v-s:registrationNumber "860" ;
   v-s:countryCallingCode "998";
 .
+d:Country_VEN
+  a v-s:ClassifierCountry;
+  v-s:title "VEN" ;
+  v-s:shortLabel "VE" ;
+  rdfs:label "Венесуэла"@ru ;
+  rdfs:label "Venezuela"@en ;
+  v-s:description "Республика Венесуэла"@ru ;
+  v-s:description "The Republic of Venezuela"@en ;
+  v-s:registrationNumber "862" ;
+  v-s:countryCallingCode "58";
+.
 d:Country_ABH
   a v-s:ClassifierCountry;
   v-s:title "ABH" ;
