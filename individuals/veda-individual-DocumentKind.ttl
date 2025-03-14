@@ -202,7 +202,7 @@ d:44e3c8b14e4a401eaee81b483a5b166b
 .
 d:cp9gn8af1lhukkooikpn0ap7berbpnkp
   a v-s:DocumentKind;
-  v-s:registrationNumber "42"^^xsd:string;
+  v-s:registrationNumber "43"^^xsd:string;
   v-s:shortLabel "График"^^xsd:string;
   rdfs:label "График"@ru;
   rdfs:label "Schedule"@en;
@@ -211,7 +211,7 @@ d:cp9gn8af1lhukkooikpn0ap7berbpnkp
 .
 d:4eeacd016d5141f08656cbd1107e99b6
   a v-s:DocumentKind;
-  v-s:registrationNumber "43"^^xsd:string;
+  v-s:registrationNumber "44"^^xsd:string;
   v-s:shortLabel "График"^^xsd:string;
   rdfs:label "График"@ru;
   rdfs:label "Schedule"@en;
@@ -442,7 +442,7 @@ d:2684bf172503479abc5a2613ced7013b
 .
 d:pyapvcjflmjndopjeaq2qqqi85mgxcme
   a v-s:DocumentKind;
-  v-s:registrationNumber "26"^^xsd:string;
+  v-s:registrationNumber "27"^^xsd:string;
   v-s:shortLabel "Инструкция"^^xsd:string;
   rdfs:label "Инструкция"@ru;
   rdfs:label "Instruction"@en;
@@ -593,7 +593,7 @@ d:254dac9807e44e3eb8be705f7fc190b0
 .
 d:84zk0wqm5xzo2v5xy2m6tku02ccn6jrj
   a v-s:DocumentKind;
-  v-s:registrationNumber "35"^^xsd:string;
+  v-s:registrationNumber "36"^^xsd:string;
   v-s:shortLabel "Метод"^^xsd:string;
   rdfs:label "Метод"@ru;
   rdfs:label "Methods"@en;
@@ -602,7 +602,7 @@ d:84zk0wqm5xzo2v5xy2m6tku02ccn6jrj
 .
 d:653a839fec394a75bc060cd49404963f
   a v-s:DocumentKind;
-  v-s:registrationNumber "36"^^xsd:string;
+  v-s:registrationNumber "37"^^xsd:string;
   v-s:shortLabel " Метод / Методика / Методология"^^xsd:string;
   rdfs:label "Метод / Методика / Методология"@ru;
   rdfs:label "Methods"@en;
@@ -788,7 +788,7 @@ d:cb9cf2f497654f1cb9b2e84e77b54213
 .
 d:nek5fti7f7xrk5iunrsqm6rrzby38mc3
   a v-s:DocumentKind;
-  v-s:registrationNumber "38"^^xsd:string;
+  v-s:registrationNumber "39"^^xsd:string;
   v-s:shortLabel "План"^^xsd:string;
   rdfs:label "План"@ru;
   rdfs:label "Plan"@en;
@@ -849,9 +849,19 @@ d:e7232eb0ffbf4ee088ea7ceb484c6b8a
   v-s:hasParentLink d:ljv3ocyv0ctvm9lpweuipjlzjgfkaoa8 ;
   v-s:definition "Документ, устанавливающий общие намерения и направление деятельности Компании в отдельных областях, официально сформулированные высшим руководством (в области качества, экологии, информационной безопасности и т.д.)"^^xsd:string;
 .
-d:moj0nwg5jp3bvh7v4yh40jy9yef4dlzl
+d:lrvwt4kewnxn0rq2qd89julzn1o4y3q6
   a v-s:DocumentKind;
   v-s:registrationNumber "05"^^xsd:string;
+  v-s:shortLabel "Политика в ограниченной сфере деятельности"^^xsd:string;
+  rdfs:label "Политика в ограниченной сфере деятельности"@ru;
+  rdfs:label "Policies in the limited scope of activities"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+  v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
+  v-s:hasParentLink d:ljv3ocyv0ctvm9lpweuipjlzjgfkaoa8 ;
+.
+d:moj0nwg5jp3bvh7v4yh40jy9yef4dlzl
+  a v-s:DocumentKind;
+  v-s:registrationNumber "06"^^xsd:string;
   v-s:shortLabel "Положение"^^xsd:string;
   rdfs:label "Положение"@ru;
   rdfs:label "Regulation"@en;
@@ -860,7 +870,7 @@ d:moj0nwg5jp3bvh7v4yh40jy9yef4dlzl
 .
 d:28c2f3899c174412a33c5512ac1fa10b
   a v-s:DocumentKind;
-  v-s:registrationNumber "06"^^xsd:string;
+  v-s:registrationNumber "07"^^xsd:string;
   v-s:shortLabel "Положение"^^xsd:string;
   rdfs:label "Положение"@ru;
   rdfs:label "Regulation"@en;
@@ -879,7 +889,7 @@ d:96ef6f2d013a41de8da1ac5073e77eca
 .
 d:dfb84c5733cc48a6a3bad3e65b6e10b7
   a v-s:DocumentKind;
-  v-s:registrationNumber "11"^^xsd:string;
+  v-s:registrationNumber "12"^^xsd:string;
   v-s:shortLabel "Процесс / Порядок / Процедура"^^xsd:string;
   rdfs:label "Процесс / Порядок / Процедура"@ru;
   rdfs:label "Order"@en;
@@ -996,7 +1006,7 @@ d:3f5a24984a7c422380eeaaa6d964e0f0
 .
 d:34ec539caad74a6cb634e700854e0a0d
   a v-s:DocumentKind;
-  v-s:registrationNumber "12"^^xsd:string;
+  v-s:registrationNumber "13"^^xsd:string;
   v-s:shortLabel "Программа обучения"^^xsd:string;
   rdfs:label "Программа обучения"@ru;
   rdfs:label "Program"@en;
@@ -1165,7 +1175,7 @@ d:61358f23e9c24100b257dc899d0c3bdd
 .
 d:ea3b4eae755c460788c7b02159c423b0
   a v-s:DocumentKind;
-  v-s:registrationNumber "08"^^xsd:string;
+  v-s:registrationNumber "09"^^xsd:string;
   v-s:shortLabel "Руководство"^^xsd:string;
   rdfs:label "Руководство"@ru;
   rdfs:label "Manual"@en;
@@ -1267,7 +1277,7 @@ d:e409c3e10a9a4f53a2eb6e18bb32f704
 .
 d:332c11a413bb4e1b9e5ffaed12bc5ea7
   a v-s:DocumentKind;
-  v-s:registrationNumber "44"^^xsd:string;
+  v-s:registrationNumber "45"^^xsd:string;
   v-s:shortLabel "Схема / Блок-схема"^^xsd:string;
   rdfs:label "Схема / Блок-схема"@ru;
   rdfs:label "Scheme"@en;
@@ -1304,7 +1314,7 @@ d:48e4e6b371bf43839daff550138a263a
 .
 d:ghorn9vceajrth4nony3hq6k24wkenyv
   a v-s:DocumentKind;
-  v-s:registrationNumber "22"^^xsd:string;
+  v-s:registrationNumber "23"^^xsd:string;
   v-s:shortLabel "Требование"^^xsd:string;
   rdfs:label "Требование"@ru;
   rdfs:label "Requirement"@en;
@@ -1477,7 +1487,7 @@ d:agbxssnddkd2rnk4lfofwhi7
 .
 d:id9fvum63d7t73lp6kos6brc
   a v-s:DocumentKind;
-  v-s:registrationNumber "33"^^xsd:string;
+  v-s:registrationNumber "34"^^xsd:string;
   v-s:shortLabel "Технологическая карта"^^xsd:string;
   rdfs:label "Технологическая карта"@ru;
   rdfs:label "Technological card"@en;
@@ -1505,7 +1515,7 @@ d:a1jg010jy473r5k9t8y2zx51
 .
 d:fl4fzamgqfnhgu8a2xnljiii
   a v-s:DocumentKind;
-  v-s:registrationNumber "34"^^xsd:string;
+  v-s:registrationNumber "35"^^xsd:string;
   v-s:shortLabel "План (проект) производства работ"^^xsd:string;
   rdfs:label "План (проект) производства работ"@ru;
   rdfs:label "Work plan (project)"@en;
@@ -1630,7 +1640,7 @@ d:a7c3b20d5dc243c9ad078947ede1bb18
 .
 d:ydbcxe5yqbemjuinlk1p3fc6qb
   a v-s:DocumentKind;
-  v-s:registrationNumber "23"^^xsd:string;
+  v-s:registrationNumber "24"^^xsd:string;
   v-s:shortLabel "Техническое требование"^^xsd:string;
   rdfs:label "Техническое требование"@ru;
   rdfs:label "Technical requirement"@en;
@@ -1639,7 +1649,7 @@ d:ydbcxe5yqbemjuinlk1p3fc6qb
 .
 d:1x4s7glda7j2w75dylhct4kv5a
   a v-s:DocumentKind;
-  v-s:registrationNumber "25"^^xsd:string;
+  v-s:registrationNumber "26"^^xsd:string;
   v-s:shortLabel "Целевые показатели (технологические)"^^xsd:string;
   rdfs:label "Целевые показатели (технологические)"@ru;
   rdfs:label "Target indicators (technological)"@en;
@@ -1938,7 +1948,7 @@ d:6869e29efeb24915b43992e210b530aa
 d:cqpb4iujcip4xy16cpnt0f0512pzf1qo
   a v-s:DocumentKind;
   v-s:shortLabel "Регламент"^^xsd:string;
-  v-s:registrationNumber "09"^^xsd:string;
+  v-s:registrationNumber "10"^^xsd:string;
   rdfs:label "Регламент"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:definition "Документ, определяющий последовательность действий для осуществления технологического процесса производства какого-либо вида продукции Компании, а также требования к оборудованию, материалам и обслуживающему персоналу"^^xsd:string;
@@ -1946,7 +1956,7 @@ d:cqpb4iujcip4xy16cpnt0f0512pzf1qo
 d:ae1c31e5a-5ac7-60b9-5f9a-9170c5c011b4
   a v-s:DocumentKind;
   v-s:shortLabel "Регламент"^^xsd:string;
-  v-s:registrationNumber "10"^^xsd:string;
+  v-s:registrationNumber "11"^^xsd:string;
   rdfs:label "Регламент"@ru ;
   v-s:hasParentLink d:cqpb4iujcip4xy16cpnt0f0512pzf1qo ;
   v-s:definition "Документ, определяющий последовательность действий для осуществления технологического процесса производства какого-либо вида продукции Компании, а также требования к оборудованию, материалам и обслуживающему персоналу"^^xsd:string;
@@ -1954,7 +1964,7 @@ d:ae1c31e5a-5ac7-60b9-5f9a-9170c5c011b4
 d:b0wkqg7rv3u1s7km4nfnoivc03uipir2
   a v-s:DocumentKind;
   v-s:shortLabel "Стандарт"^^xsd:string;
-  v-s:registrationNumber "15"^^xsd:string;
+  v-s:registrationNumber "16"^^xsd:string;
   rdfs:label "Стандарт"@ru ;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:definition "Документ, в котором в целях добровольного многократного использования устанавливаются характеристики продукции, правила осуществления и характеристики процессов проектирования (включая изыскания), производства, строительства, монтажа, наладки, эксплуатации, хранения, перевозки, реализации и утилизации, выполнения работ или оказания услуг. Стандарт также может содержать правила и методы исследований (испытаний) и измерений, правила отбора образцов, требования к терминологии, символике, упаковке, маркировке или этикеткам и правилам их нанесения"^^xsd:string;
@@ -1962,7 +1972,7 @@ d:b0wkqg7rv3u1s7km4nfnoivc03uipir2
 d:a238df72c-7862-1e47-0ad3-0288d70561fb
   a v-s:DocumentKind;
   v-s:shortLabel "Стандарт"^^xsd:string;
-  v-s:registrationNumber "16"^^xsd:string;
+  v-s:registrationNumber "17"^^xsd:string;
   rdfs:label "Стандарт"@ru ;
   v-s:hasParentLink d:6869e29efeb24915b43992e210b530aa ;
   v-s:hasParentLink d:b0wkqg7rv3u1s7km4nfnoivc03uipir2 ;
@@ -1996,7 +2006,7 @@ d:c25b475f506d47eea1847ea8861ac747
 d:xcx6a5kaz8vb6vm6b77u8pq8
   a v-s:DocumentKind;
   v-s:shortLabel "Технологический регламент"^^xsd:string;
-  v-s:registrationNumber "13"^^xsd:string;
+  v-s:registrationNumber "14"^^xsd:string;
   rdfs:label "Технологический регламент"@ru ;
   v-s:hasParentLink d:cqpb4iujcip4xy16cpnt0f0512pzf1qo;
   v-s:definition "Основной технологический документ по описанию характеристик производственного объекта, исходного сырья, готовой продукции, вспомогательных материалов, технологической схемы, параметров технологического процесса производства, условий безопасной эксплуатации производства, охраны окружающей среды и промышленной санитарии в соответствии с действующими нормативными документами Российской Федерации."^^xsd:string;
@@ -2386,7 +2396,7 @@ d:p54x8miwaokje0ui46ypg1xmxq
 .
 d:xtus5yk9okfiwmjeqgh855jbt03k22i6
   a v-s:DocumentKind;
-  v-s:registrationNumber "20"^^xsd:string;
+  v-s:registrationNumber "21"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
   rdfs:label "Спецификация"@ru ;
   v-s:definition "Документ, точно, полностью и в поддающейся проверке форме определяет требования, устройство, поведение или другие особенности системы, компонента, продукта, результата или услуги, а также процедуры, способные определить, были ли выполнены эти условия."^^xsd:string;
@@ -2394,7 +2404,7 @@ d:xtus5yk9okfiwmjeqgh855jbt03k22i6
 .
 d:008cae75474845fea02f19f446ed0940
   a v-s:DocumentKind;
-  v-s:registrationNumber "21"^^xsd:string;
+  v-s:registrationNumber "22"^^xsd:string;
   v-s:shortLabel ""^^xsd:string;
   rdfs:label "Спецификация"@ru ;
   v-s:definition "Документ, точно, полностью и в поддающейся проверке форме определяет требования, устройство, поведение или другие особенности системы, компонента, продукта, результата или услуги, а также процедуры, способные определить, были ли выполнены эти условия."^^xsd:string;
@@ -2532,7 +2542,7 @@ d:2re747f77ef54cfd666aa3220046eef0
 .
 d:xkjh1dnrx1vy365qnejogfm8
   a v-s:DocumentKind;
-  v-s:registrationNumber "17"^^xsd:string;
+  v-s:registrationNumber "18"^^xsd:string;
   v-s:shortLabel "Стандарт техобслуживания (СТО)"^^xsd:string;
   rdfs:label "Стандарт техобслуживания (СТО)"@ru;
   rdfs:label "Company standard for maintenance"@en;
@@ -2542,7 +2552,7 @@ d:xkjh1dnrx1vy365qnejogfm8
 .
 d:o6yo0cr2sxi6182v5ie10c9oci
   a v-s:DocumentKind;
-  v-s:registrationNumber "18"^^xsd:string;
+  v-s:registrationNumber "19"^^xsd:string;
   v-s:shortLabel "Стандарт на производство готовой продукции"^^xsd:string;
   rdfs:label "Стандарт на производство готовой продукции"@ru;
   rdfs:label "Company standard for finished products"@en;
@@ -2552,7 +2562,7 @@ d:o6yo0cr2sxi6182v5ie10c9oci
 .
 d:eqg019et7c743phg4omwiti0wr
   a v-s:DocumentKind;
-  v-s:registrationNumber "19"^^xsd:string;
+  v-s:registrationNumber "20"^^xsd:string;
   v-s:shortLabel "Стандарт безопасности"^^xsd:string;
   rdfs:label "Стандарт безопасности"@ru;
   rdfs:label "Company safety standard"@en;
@@ -2570,7 +2580,7 @@ d:s5pk1zh991llj78d6wbfdoqw
 .
 d:22crh74kccpl3gnwlt3tewqftl
   a v-s:DocumentKind;
-  v-s:registrationNumber "27"^^xsd:string;
+  v-s:registrationNumber "28"^^xsd:string;
   v-s:shortLabel "Инструкция предприятия"^^xsd:string;
   rdfs:label "Инструкция предприятия"@ru;
   rdfs:label "Company Instruction"@en;
@@ -2579,7 +2589,7 @@ d:22crh74kccpl3gnwlt3tewqftl
 .
 d:a6mdl9yodbw9k7jpo3ijxjqs3
   a v-s:DocumentKind;
-  v-s:registrationNumber "32"^^xsd:string;
+  v-s:registrationNumber "33"^^xsd:string;
   v-s:shortLabel "Стандартная операционная процедура (SOP)"^^xsd:string;
   rdfs:label "Стандартная операционная процедура (SOP)"@ru;
   rdfs:label "Standard Operating Procedure (SOP)"@en;
@@ -2589,7 +2599,7 @@ d:a6mdl9yodbw9k7jpo3ijxjqs3
 .
 d:1ti3wc7son7tlb0xqhmnbt19h0
   a v-s:DocumentKind;
-  v-s:registrationNumber "28"^^xsd:string;
+  v-s:registrationNumber "29"^^xsd:string;
   v-s:shortLabel "Должностная инструкция"^^xsd:string;
   rdfs:label "Должностная инструкция"@ru;
   rdfs:label "Duty Instruction"@en;
@@ -2599,7 +2609,7 @@ d:1ti3wc7son7tlb0xqhmnbt19h0
 .
 d:bjnkll1vkbv2h9gh6vvanx0nrg
   a v-s:DocumentKind;
-  v-s:registrationNumber "07"^^xsd:string;
+  v-s:registrationNumber "08"^^xsd:string;
   v-s:shortLabel "Положение о структурном подразделении"^^xsd:string;
   rdfs:label "Положение о структурном подразделении"@ru;
   rdfs:label "Regulations on the structural subdivision"@en;
@@ -2609,7 +2619,7 @@ d:bjnkll1vkbv2h9gh6vvanx0nrg
 .
 d:w8944nrcvqekod1swwkqsnya
   a v-s:DocumentKind;
-  v-s:registrationNumber "40"^^xsd:string;
+  v-s:registrationNumber "41"^^xsd:string;
   v-s:shortLabel "Стандартный пакет технического обслуживания"^^xsd:string;
   rdfs:label "Стандартный пакет технического обслуживания"@ru;
   rdfs:label "Standard maintenance package"@en;
@@ -2632,7 +2642,7 @@ d:mwr236feznyw6jg43b8mlbmu9q
 .
 d:a9ldyzcsvwbn4i62n5k6vz8kee2
   a v-s:DocumentKind;
-  v-s:registrationNumber "29"^^xsd:string;
+  v-s:registrationNumber "30"^^xsd:string;
   v-s:shortLabel "Производственная инструкция"^^xsd:string;
   rdfs:label "Производственная инструкция"@ru;
   rdfs:label "Production instruction"@en;
@@ -2642,7 +2652,7 @@ d:a9ldyzcsvwbn4i62n5k6vz8kee2
 .
 d:nv6chn05h4z1kkvuoah082m42l
   a v-s:DocumentKind;
-  v-s:registrationNumber "30"^^xsd:string;
+  v-s:registrationNumber "31"^^xsd:string;
   v-s:shortLabel "Инструкция по охране труда"^^xsd:string;
   rdfs:label "Инструкция по охране труда"@ru;
   rdfs:label "HSE Instruction"@en;
@@ -2651,7 +2661,7 @@ d:nv6chn05h4z1kkvuoah082m42l
 .
 d:nmhvqeiw5iw7hkkcmvwte9z2xb
   a v-s:DocumentKind;
-  v-s:registrationNumber "31"^^xsd:string;
+  v-s:registrationNumber "32"^^xsd:string;
   v-s:shortLabel "Инструкция по пожарной безопасности"^^xsd:string;
   rdfs:label "Инструкция по пожарной безопасности"@ru;
   rdfs:label "Fire safety instruction"@en;
@@ -2667,7 +2677,7 @@ d:xhk5rtbp7b91fs20jjhgoepd5a
 .
 d:v54vcp9va20zksxtcbc7gzas2j
   a v-s:DocumentKind;
-  v-s:registrationNumber "39"^^xsd:string;
+  v-s:registrationNumber "40"^^xsd:string;
   v-s:shortLabel "План / Программа мероприятий / работ"^^xsd:string;
   rdfs:label "План / Программа мероприятий / работ"@ru;
   rdfs:label "Plan"@en;
@@ -2676,7 +2686,7 @@ d:v54vcp9va20zksxtcbc7gzas2j
 .
 d:r5caikwryqmskf3sod9d7zm1sx
   a v-s:DocumentKind;
-  v-s:registrationNumber "41"^^xsd:string;
+  v-s:registrationNumber "42"^^xsd:string;
   v-s:shortLabel "План по качеству"^^xsd:string;
   rdfs:label "План по качеству"@ru;
   rdfs:label "Plan"@en;
@@ -2757,7 +2767,7 @@ d:mqzlxqrejhhbod4ra42nq8cf
 .
 d:2ca024d3lkjb0rlj184tgwrpcq
   a v-s:DocumentKind;
-  v-s:registrationNumber "24"^^xsd:string;
+  v-s:registrationNumber "25"^^xsd:string;
   v-s:shortLabel "Норма"^^xsd:string;
   rdfs:label "Норма"@ru;
   rdfs:label "Rates"@en;
@@ -2927,7 +2937,7 @@ d:fqtq6vjbcq3nkdspwvrhdgn3
 .
 d:k9kr50oh4hp7vpywws6hapoi
   a v-s:DocumentKind;
-  v-s:registrationNumber "14"^^xsd:string;
+  v-s:registrationNumber "15"^^xsd:string;
   v-s:shortLabel "Технологический режим"^^xsd:string;
   rdfs:label "Технологический режим"@ru ;
   v-s:definition "Технологический режим"^^xsd:string;
@@ -2946,7 +2956,7 @@ d:p2haovg1x2rjcwvsxlxf2uv2
 .
 d:jl99a2aau286kog8ko5jf7ms
   a v-s:DocumentKind;
-  v-s:registrationNumber "45"^^xsd:string;
+  v-s:registrationNumber "46"^^xsd:string;
   v-s:shortLabel "Карта лабораторного / технологического контроля"^^xsd:string;
   rdfs:label "Карта лабораторного / технологического контроля"@ru ;
   v-s:hasParentLink d:fqtq6vjbcq3nkdspwvrhdgn3 ;
@@ -3212,7 +3222,7 @@ d:4497b0977e8f411c9351a6eea04ce0a4
 #-----------------------------------------------
 d:byrtofyhdn8fy4cf744dngzna8
   a v-s:DocumentKind;
-  v-s:registrationNumber "37"^^xsd:string;
+  v-s:registrationNumber "38"^^xsd:string;
   v-s:shortLabel "KPI"^^xsd:string;
   rdfs:label "KPI (по премированию)"@ru ;
   rdfs:label "KPI (по премированию)"@en ;

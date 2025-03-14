@@ -247,7 +247,7 @@ d:0f07e678350d42cfac8c668d73ca2e11
 
 d:325941d0e1b247af8e311af6fdb941fd
   a v-s:VehicleCategory;
-  rdfs:label "Мопед, легкий квадрицикл"@ru ;
+  rdfs:label "Мопед, легкий квадроцикл"@ru ;
   rdfs:label "Moped, light quad bike"@en ;
   v-s:description "до 50 см3"@ru ;
   v-s:description "less than 50 sm3"@en ;
