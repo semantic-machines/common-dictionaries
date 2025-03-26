@@ -3316,3 +3316,11 @@ d:di84b6va5y9wlzmyo6k4q2zenr
   rdfs:label "Request for the creation of a stamp/print/facsimile"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:a1405vsi6s3gnr5yu70wk6tgevs
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Заявка в УКК"^^xsd:string;
+  rdfs:label " Заявка в УКК"@ru;
+  rdfs:label "Request to Corporate Communication"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
