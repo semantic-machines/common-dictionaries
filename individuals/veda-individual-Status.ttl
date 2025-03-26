@@ -495,7 +495,9 @@ v-s:StatusRework
 .
 
 
-#-------------------------------статусы для визуального отображения-----------
+#-------------------------------статусы для hasVisualStatus-----------
+
+#организация
 v-s:StatusLiquidationForView
   rdf:type v-s:Status ;
   rdfs:label "В процессе ликвидации"@ru ;
@@ -518,5 +520,25 @@ v-s:StatusBankruptcyForView
   rdf:type v-s:Status ;
   rdfs:label "Банкротство"@ru ;
   rdfs:label "Bankruptcy"@en ;
+  v-s:tag "danger" ;
+.
+
+#персона
+v-s:StatusWorking
+  rdf:type v-s:Status ;
+  rdfs:label "Работает"@ru ;
+  rdfs:label "Working"@en ;
+  v-s:tag "success" ;
+.
+v-s:StatusTemporarilyAbsent
+  rdf:type v-s:Status ;
+  rdfs:label "Временно отсутствует"@ru ;
+  rdfs:label "Temporarily absent"@en ;
+  v-s:tag "warning" ;
+.
+v-s:StatusDismissed
+  rdf:type v-s:Status ;
+  rdfs:label "Уволен"@ru ;
+  rdfs:label "Dismissed"@en ;
   v-s:tag "danger" ;
 .
