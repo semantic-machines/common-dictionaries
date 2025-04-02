@@ -542,3 +542,17 @@ v-s:StatusDismissed
   rdfs:label "Dismissed"@en ;
   v-s:tag "danger" ;
 .
+
+#бланки
+v-s:StatusActualForView
+  rdf:type v-s:Status ;
+  rdfs:label "Актуален"@ru ;
+  rdfs:label "Actual"@en ;
+  v-s:tag "success" ;
+.
+v-s:StatusNotActualForView
+  rdf:type v-s:Status ;
+  rdfs:label "Не актуален"@ru ;
+  rdfs:label "Not actual"@en ;
+  v-s:tag "danger" ;
+.
