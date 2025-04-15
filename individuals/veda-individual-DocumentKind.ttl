@@ -3324,3 +3324,11 @@ d:a1405vsi6s3gnr5yu70wk6tgevs
   rdfs:label "Request to Corporate Communication"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:fzjxfgrzpr34jos7h7tb5eavr9
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Входной контроль ТМЦ"^^xsd:string;
+  rdfs:label " Входной контроль ТМЦ"@ru;
+  rdfs:label "Incoming inspection of materials"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
