@@ -556,3 +556,17 @@ v-s:StatusNotActualForView
   rdfs:label "Not actual"@en ;
   v-s:tag "danger" ;
 .
+
+#доверенности
+v-s:StatusInactiveForView
+  rdf:type v-s:Status ;
+  rdfs:label "Недействующий"@ru ;
+  rdfs:label "Inactive"@en ;
+  v-s:tag "danger" ;
+.
+v-s:StatusProjectForView
+  rdf:type v-s:Status ;
+  rdfs:label "Проект"@ru ;
+  rdfs:label "Project"@en ;
+  v-s:tag "warning" ;
+.
