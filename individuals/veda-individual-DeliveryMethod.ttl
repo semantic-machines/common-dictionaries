@@ -280,6 +280,7 @@ d:ce7763692dbe4aad97d1ea8408ce8352
   rdfs:label "Курьер (нарочный)"@ru;
   rdfs:label "Courier"@en;
   v-s:transportOrganization d:org_RU111111111111 ;
+  v-s:transportOrganization d:org_RU1121003135 ;
 .
 
 #------------------------
@@ -289,6 +290,7 @@ d:c4477673ec7946efa0403f80a9eb9bbc
   rdfs:label "Ячейка в канцелярии"@ru;
   rdfs:label "Office cell"@en;
   v-s:transportOrganization d:org_RU111111111111 ;
+  v-s:transportOrganization d:org_RU1121003135 ;
   v-s:transportOrganization d:org_TR7190041528 ;
 .
 d:a534c8d79a8c4f8f8bc13d567c8c0237
@@ -296,6 +298,7 @@ d:a534c8d79a8c4f8f8bc13d567c8c0237
   rdfs:label "Портал корпоративный"@ru;
   rdfs:label "Portal"@en;
   v-s:transportOrganization d:org_RU111111111111;
+  v-s:transportOrganization d:org_RU1121003135;
 .
 d:kevr71iez7ed3rsq09gh53103u
   a v-s:DeliveryMethod;
@@ -308,12 +311,14 @@ d:aac2cc4dad9a47eaa623a6bb4dd61537
   rdfs:label "Система документооборота"@ru;
   rdfs:label "Document management system"@en;
   v-s:transportOrganization d:org_RU111111111111;
+  v-s:transportOrganization d:org_RU1121003135;
 .
 d:b9d2da6785ee42b2bcb054fd8295c539
   a v-s:DeliveryMethod;
   rdfs:label "Телефон"@ru;
   rdfs:label "Phone"@en;
   v-s:transportOrganization d:org_RU111111111111;
+  v-s:transportOrganization d:org_RU1121003135;
 .
 d:727
   a v-s:DeliveryMethod;
@@ -321,12 +326,14 @@ d:727
   rdfs:label "Personally"@en;
   v-s:transportOrganization d:org_RU000000000000 ;
   v-s:transportOrganization d:org_RU111111111111 ;
+  v-s:transportOrganization d:org_RU1121003135 ;
 .
 d:692
   a v-s:DeliveryMethod;
   rdfs:label "Факс"@ru;
   rdfs:label "Fax"@en;
   v-s:transportOrganization d:org_RU111111111111;
+  v-s:transportOrganization d:org_RU1121003135;
 .
 d:683
   a v-s:DeliveryMethod;
@@ -334,6 +341,7 @@ d:683
   rdfs:label "E-mail"@en;
   v-s:transportOrganization d:org_RU000000000000 ;
   v-s:transportOrganization d:org_RU111111111111;
+  v-s:transportOrganization d:org_RU1121003135;
 .
 d:qvkl6wtv1ag0swnzg42y7buywp
   a v-s:DeliveryMethod;
