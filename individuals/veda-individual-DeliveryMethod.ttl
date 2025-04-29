@@ -350,3 +350,9 @@ d:qvkl6wtv1ag0swnzg42y7buywp
   v-s:transportOrganization d:org_RU7702235133 ;
   v-s:transportOrganization d:org_RU7708503727;
 .
+d:lp857bszalzacncyh4o3i4rdd5
+  a v-s:DeliveryMethod;
+  rdfs:label "ЭДО: СБИС"@ru;
+  rdfs:label "EDI: SBIS"@en;
+  v-s:transportOrganization d:org_RU7605016030;
+.
