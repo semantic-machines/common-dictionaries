@@ -1537,6 +1537,14 @@ d:dv1voj8fy7biwmdeyrbt0l8dsb
   rdfs:label "Folder"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:tzad079ziic7wm1dsujy4vxtgo
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Заявка на подбор"^^xsd:string;
+  rdfs:label "Заявка на подбор"@ru;
+  rdfs:label "Application for selection"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
 
 #-----------------------------------------------------
 d:c3b38c81e1594593932b9872a3257948
