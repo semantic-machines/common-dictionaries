@@ -2744,6 +2744,15 @@ d:uqocbblmycyot69lvvv44m9c28
   v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
   v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2;
 .
+d:hewxy8gvs7877rfld83qma8q24
+  a v-s:DocumentKind;
+  v-s:shortLabel "Комплект документации"^^xsd:string;
+  rdfs:label "Комплект документации"@ru;
+  rdfs:label "Set of working drawings"@en;
+  v-s:hasParentLink d:in6sbni64f41euzkalz7tcky;
+  v-s:hasParentLink d:8a7dde743f844ae0bf773fd3c245c5f7;
+  v-s:hasParentLink d:zh95m47jqjtl4dtq68h4zsm2;
+.
 d:kqyyu62f90hy89wh188664bxwl
   a v-s:DocumentKind;
   v-s:shortLabel "Раздел проектной документации"^^xsd:string;
