@@ -93,3 +93,7 @@ d:r25yz73h74x27lr23yrstoh2n
   a v-s:ReasonForPowerOfAttorney;
   rdfs:label "Иные полномочия"^^xsd:string;
 .
+d:94e2id9x96qpsh2i5f7hyjvvy
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Предоставление стат. отчетности в гос/муниципальные органы"^^xsd:string;
+.
