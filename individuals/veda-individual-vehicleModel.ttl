@@ -1428,6 +1428,12 @@ d:lr9amlbdhalgk6n4u9njlsy6g0
   rdfs:label "XCITE"@en ;
   rdfs:comment "XCITE Иксайт" ;
 .
+d:zm035xj2l33om3n2hkdopynjyv
+    a v-s:VehicleModel;
+  rdfs:label "Jiefang"@ru ;
+  rdfs:label "Jiefang"@en ;
+  rdfs:comment "Jiefang Цзефан" ;
+.
 d:z9s7nrsgt7o5qz50ig5yh6l144
     a v-s:VehicleModel;
   rdfs:label "27123С"@ru ;
