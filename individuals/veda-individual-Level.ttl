@@ -38,7 +38,7 @@ d:7h5vnyf7y6f4oj3mtugww3c5djzxxx05
   rdf:type v-s:Level ;
   rdfs:label "Плановый"@ru ;
   rdfs:label "Planned"@en ;
-  v-s:tag "planned" ;
+  v-s:tag "info" ;
 .
 d:13545e8b279170bf558caf04382077d3
   rdf:type v-s:Level ;
