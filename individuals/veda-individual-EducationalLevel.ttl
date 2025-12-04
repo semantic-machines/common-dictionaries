@@ -27,71 +27,72 @@ v-s:EducationLevel
 d:klrzb8mn8otgz64zyls5p0772mfiuvfg
   rdf:type v-s:EducationLevel;
   rdfs:label "Основное общееобразование"@ru ;
-  rdfs:label ""@en ;
+  rdfs:label "Basic general education"@en ;
 .
 d:qh4s17qm9adrou9d4624fmzxip47vwuc	
   rdf:type v-s:EducationLevel ;
   rdfs:label "Среднее общееобразование"@ru ;
-  rdfs:label ""@en ;
+  rdfs:label "Secondary general education"@en ;
 .
 d:nqun6vkwvoya1aep6x4a1wiiwfwhlhkz
   rdf:type v-s:EducationLevel;
   rdfs:label "Среднее профессиональное образование"@ru ;
-  rdfs:label ""@en ;
+  rdfs:label "Secondary vocational education"@en ;
 . 
 d:kzz96vahvb0j8qvz5qzl9ce2o22azr6l
   rdf:type v-s:EducationLevel;
-  rdfs:label "Неполное высшее образование"@en ;
+  rdfs:label "Неполное высшее образование"@ru ;
+  rdfs:label "Incomplete higher education"@en ;
 .
 d:zj6j4ow2k8nwmbary5a59ppv0frx0mn2
   rdf:type v-s:EducationLevel ;
   rdfs:label "Высшее образование- бакалавриат"@ru ;
-  rdfs:label ""@en ;
+  rdfs:label "Higher education- Bachelor's degree"@en ;
 .
 d:tigw8hfi6tgamrya3typr2x7k37v7l34
   rdf:type v-s:EducationLevel;
   rdfs:label "Высшее образование- специалитет магистратура"@ru ;
-  rdfs:label ""@en ;
+  rdfs:label "Higher education- Specialist's degree"@en ;
 . 
 d:skjfrp08jawbxkj8lpezvyjc85jygtpx
   rdf:type v-s:EducationLevel;
   rdfs:label "Высшее образование- подготовка кадров высшей квалификации"@ru ;
-  rdfs:label "  "@en ;
+  rdfs:label "Higher education- Preparation of high-level personnel"@en ;
 .
 d:tnfxg2j5r0o3fbtfjwm5k2nwctikbkot
   rdf:type v-s:EducationLevel ;
   rdfs:label "Дополнительное к высшему образованию"@ru ;
-  rdfs:label "  "@en ;
+  rdfs:label "Additional to higher education"@en ;
 .
 d:xo0h4m2zqtpbjrtvnwa7yqzdyu1pccbw
   rdf:type v-s:EducationLevel;
   rdfs:label "Бизнес тренинги"@ru ;
-  rdfs:label ""@en ;
+  rdfs:label "Business trainings"@en ;
 . 
 d:ccj84nj8965nq5vi25q0cwmmirjqqu3h
   rdf:type v-s:EducationLevel;
   rdfs:label "Дополнительное профессиональное образование"@ru ;
-  rdfs:label "  "@en ;
+  rdfs:label "Additional professional education"@en ;
 .
 d:pu63tabvzyi9yho32udrjm42dnr2hxhj
   rdf:type v-s:EducationLevel ;
   rdfs:label "Учеба в профессионально-техническом училище"@ru ;
-  rdfs:label "  "@en ;
+  rdfs:label "Studying at a vocational school"@en ;
 .
 d:m4704qasde91cor72nfd080ba962xryo
   rdf:type v-s:EducationLevel;
   rdfs:label "Учеба в среднем профессиональном учебном заведении"@ru ;
-  rdfs:label ""@en ;
+  rdfs:label "Studies at a secondary vocational educational institution"@en ;
 . 
 d:m0as91pp3ka8txpxxkzplr296pi3q1ki
   rdf:type v-s:EducationLevel;
   rdfs:label "Учеба в высшем учебном заведении"@ru ;
-  rdfs:label "  "@en ;
+  rdfs:label "Studies at a higher educational institution"@en ;
 .
 d:zum04vpykvvd64grbzi7i010emij94qu
   rdf:type v-s:EducationLevel ;
   rdfs:label "Профессиональное обучение"@ru ;
-  rdfs:label "  "@en ;
+  rdfs:label "Professional training"@en ;
 .
 
 
