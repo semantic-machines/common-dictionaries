@@ -28,51 +28,71 @@ v-s:Level
 
 
 # ------------------------------------------------------------ ИНДИВИДЫ --
-d:8f90m8yfjy40r7qnl6njgfx9d0uny4l5
+#--------1
+d:913b746aded06653b193ab11d9ce531c
   rdf:type v-s:Level ;
-  rdfs:label "Критический"@ru ;
-  rdfs:label "Business critical"@en ;
-  v-s:tag "warning" ;
+  rdfs:label "Отсутствует"@ru ;
+  rdfs:label "Undefined"@en ;
+  v-s:tag "default" ;  
+  v-s:priority 1 ;
+.
+
+#--------2
+d:9a4ac66ccae37aac073c7674f7ab1ec8
+  rdf:type v-s:Level ;
+  rdfs:label "Низкий"@ru ;
+  rdfs:label "Low"@en ;
+  v-s:tag "success" ;  
+  v-s:priority 2 ;
+.
+
+#--------3
+d:15e1d21a6bf8fdc94b693fadd960f71e
+  rdf:type v-s:Level ;
+  rdfs:label "Средний"@ru ;
+  rdfs:label "Moderate"@en ;
+  v-s:tag "primary" ;
+  v-s:priority 3 ;
 .
 d:7h5vnyf7y6f4oj3mtugww3c5djzxxx05
   rdf:type v-s:Level ;
   rdfs:label "Плановый"@ru ;
   rdfs:label "Planned"@en ;
   v-s:tag "info" ;
+  v-s:priority 3 ;
 .
+
+#--------4
 d:13545e8b279170bf558caf04382077d3
   rdf:type v-s:Level ;
   rdfs:label "Высокий"@ru ;
   rdfs:label "High"@en ;
   v-s:tag "warning" ;
+  v-s:priority 4 ;
 .
-d:15e1d21a6bf8fdc94b693fadd960f71e
+
+#--------5
+d:8f90m8yfjy40r7qnl6njgfx9d0uny4l5
   rdf:type v-s:Level ;
-  rdfs:label "Средний"@ru ;
-  rdfs:label "Moderate"@en ;
-  v-s:tag "primary" ;  
-.
-d:9a4ac66ccae37aac073c7674f7ab1ec8
-  rdf:type v-s:Level ;
-  rdfs:label "Низкий"@ru ;
-  rdfs:label "Low"@en ;
-  v-s:tag "success" ;  
-.
-d:913b746aded06653b193ab11d9ce531c
-  rdf:type v-s:Level ;
-  rdfs:label "Отсутствует"@ru ;
-  rdfs:label "Undefined"@en ;
-  v-s:tag "default" ;  
-.
-d:25341f858eaa42ecbd1b6dd7656f9745
-  rdf:type v-s:Level ;
-  rdfs:label "Фатальный"@ru ;
-  rdfs:label "Fatal"@en ;
-  v-s:tag "danger" ;  
+  rdfs:label "Критический"@ru ;
+  rdfs:label "Business critical"@en ;
+  v-s:tag "warning" ;
+  v-s:priority 5 ;
 .
 d:qvk5x9bdh3yaeattnkjk4dw2t0
   rdf:type v-s:Level ;
   rdfs:label "Аварийный"@ru ;
   rdfs:label "Emergency"@en ;
   v-s:tag "danger" ;  
+  v-s:priority 5 ;
 .
+
+#--------6
+d:25341f858eaa42ecbd1b6dd7656f9745
+  rdf:type v-s:Level ;
+  rdfs:label "Фатальный"@ru ;
+  rdfs:label "Fatal"@en ;
+  v-s:tag "danger" ;
+  v-s:priority 6 ;
+.
+
