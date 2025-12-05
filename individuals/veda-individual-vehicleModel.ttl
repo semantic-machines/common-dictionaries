@@ -1434,6 +1434,12 @@ d:zm035xj2l33om3n2hkdopynjyv
   rdfs:label "Jiefang"@en ;
   rdfs:comment "Jiefang Цзефан" ;
 .
+d:fev9a58vc20zkp8gh8o0rvsjwh
+    a v-s:VehicleModel;
+  rdfs:label "baic"@ru ;
+  rdfs:label "baic"@en ;
+  rdfs:comment "баик" ;
+.
 d:z9s7nrsgt7o5qz50ig5yh6l144
     a v-s:VehicleModel;
   rdfs:label "27123С"@ru ;
