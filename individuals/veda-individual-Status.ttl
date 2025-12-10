@@ -232,6 +232,24 @@ v-s:StatusInvestigationInitiated
   rdfs:label "Investigation Initiated"@en ;
   v-s:tag "default" ;
 .
+v-s:StatusInvestigationRejected
+  rdf:type v-s:Status ;
+  rdfs:label "Расследование отклонено"@ru ;
+  rdfs:label "Investigation rejected"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusInvestigationExecuting
+  rdf:type v-s:Status ;
+  rdfs:label "Расследование на исполнении"@ru ;
+  rdfs:label "Investigation executing"@en ;
+  v-s:tag "default" ;
+.
+v-s:StatusDetermingRootCause
+  rdf:type v-s:Status ;
+  rdfs:label "Определение первопричин"@ru ;
+  rdfs:label "Determing root causes"@en ;
+  v-s:tag "default" ;
+.
 v-s:StatusInvestigation
   rdf:type v-s:Status ;
   rdfs:label "Расследование"@ru ;
