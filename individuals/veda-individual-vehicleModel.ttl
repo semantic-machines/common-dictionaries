@@ -1447,3 +1447,9 @@ d:z9s7nrsgt7o5qz50ig5yh6l144
   rdfs:comment "27123С" ;
   v-s:deleted true;
 .
+d:k3p9q7r5t2m8n4v6w1z3x5c7b9
+    a v-s:VehicleModel;
+  rdfs:label "Sany"@ru ;
+  rdfs:label "Sany"@en ;
+  rdfs:comment "Сани" ;
+.
