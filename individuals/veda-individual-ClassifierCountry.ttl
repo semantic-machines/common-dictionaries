@@ -1448,3 +1448,14 @@ d:Country_BIH
   v-s:registrationNumber "070" ;
   v-s:countryCallingCode "387";
 .
+d:Country_BH
+  a v-s:ClassifierCountry;
+  v-s:title "BH" ;
+  v-s:shortLabel "BH" ;
+  rdfs:label "Бахрейн"@ru ;
+  rdfs:label "Bahrain"@en ;
+  v-s:description "Королевство Бахрейн"@ru ;
+  v-s:description "Kingdom of Bahrain"@en ;
+  v-s:registrationNumber "048" ;
+  v-s:countryCallingCode "973";
+.
