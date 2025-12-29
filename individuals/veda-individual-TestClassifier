@@ -30,6 +30,10 @@ v-s:hasTestClassifier
 
 # ------------------------------------------------------------ ИНДИВИДЫ ---
 
-
+d:gd7tyc7qq0hglch5jowlw0g9yx
+  rdf:type v-s:TestClassifier ;
+  rdfs:label "Оценка Хоган"@ru ;
+  rdfs:label "Hogan Assessment"@en ;
+.
 
 
