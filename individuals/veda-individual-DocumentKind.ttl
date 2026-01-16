@@ -400,6 +400,13 @@ d:gx5wbkwlj4hv2q7jtf9xo585i03
   rdfs:label "Запрос генплана"^^xsd:string;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:tvirqk872aolympa31eqcf3a7r
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Постановление ППО СЛПК"^^xsd:string;
+  rdfs:label "Постановление ППО СЛПК"^^xsd:string;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
 d:87aa1229b50f42668a45d153930d1b07
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
