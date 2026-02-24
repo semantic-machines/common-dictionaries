@@ -3356,3 +3356,39 @@ d:fzjxfgrzpr34jos7h7tb5eavr9
   rdfs:label "Incoming inspection of materials"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:b1a3j2w2ejgvkjs8guuz86p4lv
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Чертеж/Спецификация"^^xsd:string;
+  rdfs:label "Чертеж/Спецификация"@ru ;
+  v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
+  v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
+  v-s:hasParentLink d:n4nj7nyj8prliu2bkgwdlgai ;
+.
+d:ln06ytcpf8kw3uq08ubusz79qz
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Техническое задание на инвестиционное мероприятие"^^xsd:string;
+  rdfs:label "Техническое задание на инвестиционное мероприятие"@ru ;
+  v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
+  v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
+  v-s:hasParentLink d:n4nj7nyj8prliu2bkgwdlgai ;
+.
+d:qowgx78184b6jeee2axu68nwm7
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Техническое задание на ПИР"^^xsd:string;
+  rdfs:label "Техническое задание на ПИР"@ru ;
+  v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
+  v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
+  v-s:hasParentLink d:n4nj7nyj8prliu2bkgwdlgai ;
+.
+d:d61yvtbj4oq1ixmr6gx03ii0v3
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Иное"^^xsd:string;
+  rdfs:label "Иное"@ru ;
+  v-s:hasParentLink d:xunth1d2vsshftwnadlfp8bk;
+  v-s:hasParentLink d:in6sbni64f41euzkalz7tcky ;
+  v-s:hasParentLink d:n4nj7nyj8prliu2bkgwdlgai ;
+.
