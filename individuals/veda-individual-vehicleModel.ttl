@@ -1453,3 +1453,9 @@ d:k3p9q7r5t2m8n4v6w1z3x5c7b9
   rdfs:label "Sany"@en ;
   rdfs:comment "Сани" ;
 .
+d:jltx3r8w465u8jjb89lgxmbu0k
+    a v-s:VehicleModel;
+  rdfs:label "Бульдозер"@ru ;
+  rdfs:label "Bulldozer"@en ;
+  rdfs:comment "Bulldozer Бульдозер" ;
+.
