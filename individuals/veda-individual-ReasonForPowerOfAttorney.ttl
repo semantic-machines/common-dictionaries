@@ -97,3 +97,7 @@ d:94e2id9x96qpsh2i5f7hyjvvy
   a v-s:ReasonForPowerOfAttorney;
   rdfs:label "Предоставление стат. отчетности в гос/муниципальные органы"^^xsd:string;
 .
+d:twzte2apsa6x6rlx4eoulcjbe4
+  a v-s:ReasonForPowerOfAttorney;
+  rdfs:label "Получение НЭП (для ЭТРАН)"^^xsd:string;
+.
