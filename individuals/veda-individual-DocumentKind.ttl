@@ -393,6 +393,22 @@ d:eeqxjm50oglpqwxihkffaqsiaolg2jo4
   rdfs:label "Application for the creation of a SD"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:a950vd09yojrc06ead85gch0ii9
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Заявка на обучение по охране труда (внешнее обучение)"^^xsd:string;
+  rdfs:label "Заявка на обучение по охране труда (внешнее обучение)"@ru;
+  rdfs:label "Application for training on occupational safety (external training)"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
+d:fbbghf6qqodqbs1tdvlos19fe5
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Замечания от внешних складов"^^xsd:string;
+  rdfs:label "Замечания от внешних складов"@ru;
+  rdfs:label "Comments from external warehouses"@en;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
 d:gx5wbkwlj4hv2q7jtf9xo585i03
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
