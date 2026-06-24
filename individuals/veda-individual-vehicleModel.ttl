@@ -1459,3 +1459,9 @@ d:jltx3r8w465u8jjb89lgxmbu0k
   rdfs:label "Bulldozer"@en ;
   rdfs:comment "Bulldozer Бульдозер" ;
 .
+d:ub5h5ikz21mhfe06vmmzpvwxu5
+    a v-s:VehicleModel;
+  rdfs:label "Rox"@ru ;
+  rdfs:label "Rox"@en ;
+  rdfs:comment "Рокс" ;
+.
