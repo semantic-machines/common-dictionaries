@@ -1465,3 +1465,9 @@ d:ub5h5ikz21mhfe06vmmzpvwxu5
   rdfs:label "Rox"@en ;
   rdfs:comment "Рокс" ;
 .
+d:e4yunqsk5i8sdru2jj5kduyqvo
+    a v-s:VehicleModel;
+  rdfs:label "Belgee"@ru ;
+  rdfs:label "Belgee"@en ;
+  rdfs:comment "Belgee Белге Белджи" ;
+.
