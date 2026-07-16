@@ -1459,3 +1459,14 @@ d:Country_BH
   v-s:registrationNumber "048" ;
   v-s:countryCallingCode "973";
 .
+d:Country_JOR
+  a v-s:ClassifierCountry;
+  v-s:title "JOR" ;
+  v-s:shortLabel "JO" ;
+  rdfs:label "Иордания"@ru ;
+  rdfs:label "Jordan"@en ;
+  v-s:description "Иорданское Хашимитское Королевство"@ru ;
+  v-s:description "Hashemite Kingdom of Jordan"@en ;
+  v-s:registrationNumber "400" ;
+  v-s:countryCallingCode "962";
+.
