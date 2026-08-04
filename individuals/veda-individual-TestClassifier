@@ -36,4 +36,9 @@ d:gd7tyc7qq0hglch5jowlw0g9yx
   rdfs:label "Hogan Assessment"@en ;
 .
 
+d:a4ovqh6f9qno7b99tjakcq0v9hf
+  rdf:type v-s:TestClassifier ;
+  rdfs:label "Оценка PPA"@ru ;
+  rdfs:label "PPA Assessment"@en ;
+.
 
