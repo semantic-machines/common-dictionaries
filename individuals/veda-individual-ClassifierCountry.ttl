@@ -1470,3 +1470,14 @@ d:Country_JOR
   v-s:registrationNumber "400" ;
   v-s:countryCallingCode "962";
 .
+d:Country_CAF
+  a v-s:ClassifierCountry;
+  v-s:title "CAF" ;
+  v-s:shortLabel "CF" ;
+  rdfs:label "ЦАР"@ru ;
+  rdfs:label "Central African Republic"@en ;
+  v-s:description "Центрально-Африканская Республика"@ru ;
+  v-s:description "The Central African Republic"@en ;
+  v-s:registrationNumber "140" ;
+  v-s:countryCallingCode "236";
+.
