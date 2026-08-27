@@ -63,12 +63,14 @@ d:5pv9f4vtc3fbq37bbzouapdq7r9
 .
 d:a8jhfsoo4yhn2g0lr9s7fezy9ow 
   a v-s:PPEType;
+  v-s:tag "selectable";
   rdfs:label "Перчатки (рукавицы)"@ru ;
   rdfs:label "gloves (mittens)"@en ;
   v-s:hasParentLink d:ywb5pdsj0szrwa31wipakpdl80l ;
 .
 d:pdttpg0vc8dxw5ydutk73vm3hzj 
   a v-s:PPEType;
+  v-s:tag "selectable";
   rdfs:label "Костюм, очки и щиток для работы с водой высокого давления"@ru ;
   rdfs:label "High pressure water suit, goggles and visor"@en ;
   v-s:hasParentLink d:ywb5pdsj0szrwa31wipakpdl80l ;
@@ -77,6 +79,7 @@ d:pdttpg0vc8dxw5ydutk73vm3hzj
 # ------------------------------------------------------------ альпинистское снаряжение
 d:eskog9b0ud6wfpktxfhtrqempvp
   a v-s:PPEType;
+  v-s:tag "selectable";
   rdfs:label "Альпинистское снаряжение"@ru ;
   rdfs:label "Climbing equipment"@en ;
 .

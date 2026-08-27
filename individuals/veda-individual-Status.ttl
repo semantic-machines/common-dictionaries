@@ -232,6 +232,12 @@ v-s:StatusInvestigationInitiated
   rdfs:label "Investigation Initiated"@en ;
   v-s:tag "default" ;
 .
+v-s:StatusDowntimeRegistered
+  rdf:type v-s:Status ;
+  rdfs:label "Зарегистрирован останов"@ru ;
+  rdfs:label "Downtime registered"@en ;
+  v-s:tag "default" ;
+.
 v-s:StatusInvestigationRejected
   rdf:type v-s:Status ;
   rdfs:label "Расследование отклонено"@ru ;
