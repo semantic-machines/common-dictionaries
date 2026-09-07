@@ -337,3 +337,13 @@ d:p4mr293v3afqt21ubjfl2ct0w9
   rdfs:label "Получатель"@ru ;
   rdfs:label "Recipient"@en ;
 .
+d:um07ogvz54f1esfh6d8a78gmsm
+  a v-s:RoleInContract;
+  rdfs:label "Цедент"@ru ;
+  rdfs:label "Cedent"@en ;
+.
+d:a4j9w24uzmfhq6109qcuba9pm7o
+  a v-s:RoleInContract;
+  rdfs:label "Цессионарий"@ru ;
+  rdfs:label "Cessionarium"@en ;
+.
