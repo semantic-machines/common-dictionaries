@@ -47,7 +47,7 @@ d:87a2d20a6ad344a595b39a73fce79480
 d:wapmb5hlt2g4aryb8z1qrtkgybujd7ss
   a v-s:Sector;
   v-s:hasParentLink d:446e220001e145428bcf3ab471edb0c2;
-  rdfs:label "Безопасноть движения на ж/д транспорте"^^xsd:string;
+  rdfs:label "Безопасность движения на ж/д транспорте"^^xsd:string;
   v-s:registrationNumber "160.040.060.090"^^xsd:string;
 .
 d:5fc9a814661846bfa6eb569584c5e094
