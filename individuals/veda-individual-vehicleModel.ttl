@@ -1471,3 +1471,9 @@ d:e4yunqsk5i8sdru2jj5kduyqvo
   rdfs:label "Belgee"@en ;
   rdfs:comment "Belgee Белге Белджи" ;
 .
+d:b6homl0kdlrvdmaol98nl4bysw
+    a v-s:VehicleModel;
+  rdfs:label "Evolute"@ru ;
+  rdfs:label "Evolute"@en ;
+  rdfs:comment "Эволют" ;
+.
