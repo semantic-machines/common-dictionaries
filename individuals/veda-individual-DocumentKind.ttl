@@ -396,9 +396,9 @@ d:eeqxjm50oglpqwxihkffaqsiaolg2jo4
 d:a950vd09yojrc06ead85gch0ii9
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Заявка на обучение по охране труда (внешнее обучение)"^^xsd:string;
-  rdfs:label "Заявка на обучение по охране труда (внешнее обучение)"@ru;
-  rdfs:label "Application for training on occupational safety (external training)"@en;
+  v-s:shortLabel "Заявка на обучение по ОТ, ПБ, пром. безопасности (внешнее обучение)"^^xsd:string;
+  rdfs:label "Заявка на обучение по ОТ, ПБ, пром. безопасности (внешнее обучение)"@ru;
+  rdfs:label "Application for training on occupational safety, industrial safety and industrial security (external training)"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
 d:fbbghf6qqodqbs1tdvlos19fe5
