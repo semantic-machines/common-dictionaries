@@ -409,6 +409,13 @@ d:fbbghf6qqodqbs1tdvlos19fe5
   rdfs:label "Comments from external warehouses"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+d:b7n24i7sh53jmtil58jcte4v31
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Заявка аварийной потребности"^^xsd:string;
+  rdfs:label "Заявка аварийной потребности"@ru;
+  rdfs:label "Emergency need request"@en;
+.
 d:gx5wbkwlj4hv2q7jtf9xo585i03
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
