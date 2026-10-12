@@ -412,9 +412,9 @@ d:fbbghf6qqodqbs1tdvlos19fe5
 d:b7n24i7sh53jmtil58jcte4v31
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
-  v-s:shortLabel "Акт аварийной потребности поставки МТР"^^xsd:string;
-  rdfs:label "Акт аварийной потребности поставки МТР"@ru;
-  rdfs:label "Emergency requirement report for the supply of MTR"@en;
+  v-s:shortLabel "Акт аварийной потребности"^^xsd:string;
+  rdfs:label "Акт аварийной потребности"@ru;
+  rdfs:label "Emergency requirement report"@en;
 .
 d:gx5wbkwlj4hv2q7jtf9xo585i03
   a v-s:DocumentKind;
