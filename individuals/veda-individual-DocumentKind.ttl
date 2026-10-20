@@ -2031,6 +2031,13 @@ d:2b7f2af51d1340d8ad48a29898102b72
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
   v-s:hasParentLink d:s4xf96dcdjfmmd87tcc86oed;
 .
+d:a6vzk4s1t9tocuomja506omaybo
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Претензия"^^xsd:string;
+  rdfs:label "Претензионное уведомление"@ru ;
+  v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
+.
 d:c25b475f506d47eea1847ea8861ac747
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
