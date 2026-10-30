@@ -1256,6 +1256,31 @@ d:a6cbfff5b2e84cc0ad0eec98aaedf6b3
   rdfs:label "Consent"@en;
   v-s:hasParentLink d:391696576b33490bb7fb3744cbcbccf6;
 .
+#---- Согласия на обработку персональных данных
+d:jw6z5f46nz7bzt9kvdm8vclevw
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Согласие на обработку персональных данных"^^xsd:string;
+  rdfs:label "Согласие на обработку персональных данных"@ru ;
+  rdfs:label "Consent to personal data processing"@en ;
+  v-s:hasParentLink d:a6cbfff5b2e84cc0ad0eec98aaedf6b3;
+.
+d:eddh0a706b7q5a8dep0ugktws2
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Согласие на обработку биометрических персональных данных"^^xsd:string;
+  rdfs:label "Согласие на обработку биометрических персональных данных"@ru ;
+  rdfs:label "Consent to biometric personal data processing"@en ;
+  v-s:hasParentLink d:a6cbfff5b2e84cc0ad0eec98aaedf6b3;
+.
+d:ufl3exgyoahig37156x7tpybsa
+  a v-s:DocumentKind;
+  v-s:registrationNumber "0"^^xsd:string;
+  v-s:shortLabel "Согласие на передачу персональных данных третьим лицам"^^xsd:string;
+  rdfs:label "Согласие на передачу персональных данных третьим лицам"@ru ;
+  rdfs:label "Consent to transfer of personal data to third parties"@en ;
+  v-s:hasParentLink d:a6cbfff5b2e84cc0ad0eec98aaedf6b3;
+.
 d:5ff0c8dc02a146cb8c182f4391857c71
   a v-s:DocumentKind;
   v-s:registrationNumber "0"^^xsd:string;
