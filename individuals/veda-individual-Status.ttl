@@ -510,7 +510,20 @@ v-s:StatusRework
   v-s:tag "warning" ;
 .
 
+#-------------------------------статусы для Заявки ИТ и Задания по заявке ИТ-----------
 
+v-s:StatusTesting
+  rdf:type v-s:Status ;
+  rdfs:label "Тестирование"@ru ;
+  rdfs:label "Testing"@en ;
+  v-s:tag "warning" ;
+.
+v-s:StatusReviewingSteeringCommittee
+  rdf:type v-s:Status ;
+  rdfs:label "Рассмотрение УК"@ru ;
+  rdfs:label "Reviewing SC"@en ;
+  v-s:tag "info" ;
+.
 #-------------------------------статусы для hasVisualStatus-----------
 
 #организация
