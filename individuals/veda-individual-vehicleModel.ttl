@@ -1477,3 +1477,9 @@ d:b6homl0kdlrvdmaol98nl4bysw
   rdfs:label "Evolute"@en ;
   rdfs:comment "Эволют" ;
 .
+d:etoqpqidpno0miwv3rtbb0wif2
+    a v-s:VehicleModel;
+  rdfs:label "ГАК"@ru ;
+  rdfs:label "GAC"@en ;
+  rdfs:comment "GAC ГАК" ;
+.
