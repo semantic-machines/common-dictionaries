@@ -210,19 +210,19 @@ v-s:StatusInvestigationCompleted
   rdf:type v-s:Status ;
   rdfs:label "Расследование завершено"@ru ;
   rdfs:label "Investigation completed"@en ;
-  v-s:tag "default" ;
+  v-s:tag "success" ;
 .
 v-s:StatusInvestigationInitiation
   rdf:type v-s:Status ;
   rdfs:label "Инициирование расследования"@ru ;
   rdfs:label "Initiation of Investigation"@en ;
-  v-s:tag "default" ;
+  v-s:tag "warning" ;
 .
 v-s:StatusInvestigationInitiated
   rdf:type v-s:Status ;
   rdfs:label "Расследование инициировано"@ru ;
   rdfs:label "Investigation Initiated"@en ;
-  v-s:tag "default" ;
+  v-s:tag "warning" ;
 .
 v-s:StatusDowntimeRegistered
   rdf:type v-s:Status ;
@@ -234,13 +234,13 @@ v-s:StatusInvestigationRejected
   rdf:type v-s:Status ;
   rdfs:label "Расследование отклонено"@ru ;
   rdfs:label "Investigation rejected"@en ;
-  v-s:tag "default" ;
+  v-s:tag "danger" ;
 .
 v-s:StatusInvestigationExecuting
   rdf:type v-s:Status ;
   rdfs:label "Расследование на исполнении"@ru ;
   rdfs:label "Investigation executing"@en ;
-  v-s:tag "default" ;
+  v-s:tag "warning" ;
 .
 v-s:StatusDetermingRootCause
   rdf:type v-s:Status ;
