@@ -1483,3 +1483,9 @@ d:etoqpqidpno0miwv3rtbb0wif2
   rdfs:label "GAC"@en ;
   rdfs:comment "GAC ГАК" ;
 .
+d:a8kmi8te04qz6snl49ubtjk6z1e
+    a v-s:VehicleModel;
+  rdfs:label "Kaiyi"@ru ;
+  rdfs:label "Kaiyi"@en ;
+  rdfs:comment "Кайи Кайя Кайа" ;
+.
